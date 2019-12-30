@@ -7,6 +7,9 @@ $light: #f8f8f0;
 	border: 0;
 	font-family: 'Roboto';
 }
+body {
+	background-color: $light;
+}
 .header {
 	width: 100%;
 	padding-top: 1rem;

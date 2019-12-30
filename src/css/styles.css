@@ -6,6 +6,10 @@
   font-family: 'Roboto';
 }
 
+body {
+  background-color: #f8f8f0;
+}
+
 .header {
   width: 100%;
   padding-top: 1rem;
