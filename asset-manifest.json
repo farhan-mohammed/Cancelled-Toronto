@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.fba5fc6f.chunk.css",
-    "main.js": "/static/js/main.45454c06.chunk.js",
-    "main.js.map": "/static/js/main.45454c06.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d406bc18.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d406bc18.js.map",
-    "static/js/2.1b3419e6.chunk.js": "/static/js/2.1b3419e6.chunk.js",
-    "static/js/2.1b3419e6.chunk.js.map": "/static/js/2.1b3419e6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.fa00e6edd78ca6f28e3ecb895480c169.js": "/precache-manifest.fa00e6edd78ca6f28e3ecb895480c169.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.fba5fc6f.chunk.css.map": "/static/css/main.fba5fc6f.chunk.css.map",
-    "static/js/2.1b3419e6.chunk.js.LICENSE": "/static/js/2.1b3419e6.chunk.js.LICENSE"
+    "main.css": "/Cancelled-Toronto/static/css/main.fba5fc6f.chunk.css",
+    "main.js": "/Cancelled-Toronto/static/js/main.45454c06.chunk.js",
+    "main.js.map": "/Cancelled-Toronto/static/js/main.45454c06.chunk.js.map",
+    "runtime-main.js": "/Cancelled-Toronto/static/js/runtime-main.c86df18d.js",
+    "runtime-main.js.map": "/Cancelled-Toronto/static/js/runtime-main.c86df18d.js.map",
+    "static/js/2.1b3419e6.chunk.js": "/Cancelled-Toronto/static/js/2.1b3419e6.chunk.js",
+    "static/js/2.1b3419e6.chunk.js.map": "/Cancelled-Toronto/static/js/2.1b3419e6.chunk.js.map",
+    "index.html": "/Cancelled-Toronto/index.html",
+    "precache-manifest.a44849d4d4845f7528841eaaa1b126dc.js": "/Cancelled-Toronto/precache-manifest.a44849d4d4845f7528841eaaa1b126dc.js",
+    "service-worker.js": "/Cancelled-Toronto/service-worker.js",
+    "static/css/main.fba5fc6f.chunk.css.map": "/Cancelled-Toronto/static/css/main.fba5fc6f.chunk.css.map",
+    "static/js/2.1b3419e6.chunk.js.LICENSE": "/Cancelled-Toronto/static/js/2.1b3419e6.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.d406bc18.js",
+    "static/js/runtime-main.c86df18d.js",
     "static/js/2.1b3419e6.chunk.js",
     "static/css/main.fba5fc6f.chunk.css",
     "static/js/main.45454c06.chunk.js"
