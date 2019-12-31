@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Cancelled-Toronto/static/css/main.fba5fc6f.chunk.css",
-    "main.js": "/Cancelled-Toronto/static/js/main.45454c06.chunk.js",
-    "main.js.map": "/Cancelled-Toronto/static/js/main.45454c06.chunk.js.map",
-    "runtime-main.js": "/Cancelled-Toronto/static/js/runtime-main.c86df18d.js",
-    "runtime-main.js.map": "/Cancelled-Toronto/static/js/runtime-main.c86df18d.js.map",
-    "static/js/2.1b3419e6.chunk.js": "/Cancelled-Toronto/static/js/2.1b3419e6.chunk.js",
-    "static/js/2.1b3419e6.chunk.js.map": "/Cancelled-Toronto/static/js/2.1b3419e6.chunk.js.map",
-    "index.html": "/Cancelled-Toronto/index.html",
-    "precache-manifest.a44849d4d4845f7528841eaaa1b126dc.js": "/Cancelled-Toronto/precache-manifest.a44849d4d4845f7528841eaaa1b126dc.js",
-    "service-worker.js": "/Cancelled-Toronto/service-worker.js",
-    "static/css/main.fba5fc6f.chunk.css.map": "/Cancelled-Toronto/static/css/main.fba5fc6f.chunk.css.map",
-    "static/js/2.1b3419e6.chunk.js.LICENSE": "/Cancelled-Toronto/static/js/2.1b3419e6.chunk.js.LICENSE"
+    "main.css": "//cancelledtoronto.ca/static/css/main.fba5fc6f.chunk.css",
+    "main.js": "//cancelledtoronto.ca/static/js/main.45454c06.chunk.js",
+    "main.js.map": "//cancelledtoronto.ca/static/js/main.45454c06.chunk.js.map",
+    "runtime-main.js": "//cancelledtoronto.ca/static/js/runtime-main.64fb9ebb.js",
+    "runtime-main.js.map": "//cancelledtoronto.ca/static/js/runtime-main.64fb9ebb.js.map",
+    "static/js/2.1b3419e6.chunk.js": "//cancelledtoronto.ca/static/js/2.1b3419e6.chunk.js",
+    "static/js/2.1b3419e6.chunk.js.map": "//cancelledtoronto.ca/static/js/2.1b3419e6.chunk.js.map",
+    "index.html": "//cancelledtoronto.ca/index.html",
+    "precache-manifest.a6d9efd4c4a535aa8c1cd715e508263a.js": "//cancelledtoronto.ca/precache-manifest.a6d9efd4c4a535aa8c1cd715e508263a.js",
+    "service-worker.js": "//cancelledtoronto.ca/service-worker.js",
+    "static/css/main.fba5fc6f.chunk.css.map": "//cancelledtoronto.ca/static/css/main.fba5fc6f.chunk.css.map",
+    "static/js/2.1b3419e6.chunk.js.LICENSE": "//cancelledtoronto.ca/static/js/2.1b3419e6.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.c86df18d.js",
+    "static/js/runtime-main.64fb9ebb.js",
     "static/js/2.1b3419e6.chunk.js",
     "static/css/main.fba5fc6f.chunk.css",
     "static/js/main.45454c06.chunk.js"
