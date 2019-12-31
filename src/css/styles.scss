@@ -7,6 +7,10 @@ $light: #f8f8f0;
 	border: 0;
 	font-family: 'Roboto';
 }
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
 body {
 	background-color: $light;
 }

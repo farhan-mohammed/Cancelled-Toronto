@@ -6,6 +6,11 @@
   font-family: 'Roboto';
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 body {
   background-color: #f8f8f0;
 }
