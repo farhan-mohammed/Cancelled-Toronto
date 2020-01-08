@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import Template from './template';
+import image from './images/1990.jpg';
 export default class Year1990 extends Component {
 	renderView() {
-		return <div>IMAGE TIME BOYS</div>;
+		return (
+			<div className="body__img-con">
+				<img src={image} className="body__img" />
+			</div>
+		);
 	}
 	renderText() {
 		return (
-			<div>
-				<h1>Let's Move</h1>
-				<p>
+			<div className="body__text-con">
+				<h1 className="body__text-h1">Let's Move</h1>
+				<p className="body__text-p">
 					A natural evolution of the TTC’s Network 2011 plan, the 1990 Let’s Move transit plan by the Liberal
 					provincial government incorporated key elements of Network 2011 including a busway on Eglinton
 					Avenue West between Mississauga and Eglinton West Station and “conditional support” for a Sheppard
@@ -22,7 +27,7 @@ export default class Year1990 extends Component {
 					served.<sup>3</sup> The combined plan along with GO Transit and TTC streetcar projects was to cost
 					over $5 billion dollars and support plans for Toronto’s bid for the 1996 Olympics.<sup>4</sup>
 				</p>
-				<p>
+				<p className="body__text-p">
 					The plan was well-received by municipal officials within Metro Toronto and seen as a breakthrough in
 					their fight for transit funding for projects. However, the plan, announced in April 1990, was soon
 					back to the drawing board following the Liberal provincial government’s defeat in the September 1990
@@ -34,6 +39,30 @@ export default class Year1990 extends Component {
 					setbacks, the projects within the plan were mostly left untouched in the eventual provincial NDP’s
 					transit plans, which further refined details including phasing and funding.
 				</p>
+				<h1 className="body__text-h1">Footnotes</h1>
+				<ol className="footnotes__list">
+					<li className="footnotes__item">
+						Byers, Jim. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1.
+					</li>
+					<li className="footnotes__item">
+						Byers, Jim. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1;
+						Howell, Peter. “'Finch Loop' Proposed as Subway Expansion.” Toronto Star, March 6, 1990, sec.
+						A1.
+					</li>
+					<li className="footnotes__item">
+						Byers, Jim. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1.
+					</li>
+					<li className="footnotes__item">
+						Byers, Jim. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1.
+					</li>
+					<li className="footnotes__item">
+						Howell, Peter. “NDP Puts Transit Expansion on Hold.” Toronto Star, October 3, 1990, sec. A3.
+					</li>
+					<li className="footnotes__item">
+						Howell, Peter. “Ambitious Transit Plans Face Delay, TTC Warns.” Toronto Star, September 19,
+						1990, sec. A2.
+					</li>
+				</ol>
 			</div>
 		);
 	}

@@ -1,11 +1,20 @@
 $dark: #2b2b2b;
-$light: #f8f8f0;
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+$light: #fffffa;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: 'Roboto';
+	font-family: 'Open Sans';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto Slab';
 }
 a {
 	color: inherit;
@@ -21,33 +30,59 @@ body {
 		font-size: 2.5rem;
 		font-weight: 800;
 		line-height: 100%;
+		font-family: 'Roboto Slab';
 	}
 	&-subtitle {
 		font-size: 2rem;
 		font-weight: 500;
 		line-height: 100%;
 		margin-bottom: 1rem;
+		font-family: 'Roboto Slab';
+	}
+	&-bar {
+		box-sizing: border-box;
+		padding: 3px 1em;
+		border-radius: 5px;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		background-color: $dark;
+		color: $light;
 	}
 	&-nav {
-		padding: 4px;
-		background-color: #2b2b2b;
-		color: $light;
 		width: 100%;
+		justify-content: space-around;
+		flex: 1;
 		list-style: none;
 		display: flex;
 		flex-direction: row;
 		&_li {
-			&:first-child {
-				flex: 2;
+			border-color: $light;
+
+			display: inline-block;
+			vertical-align: middle;
+			transform: perspective(1px) translateZ(0);
+			box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+			position: relative;
+			overflow: hidden;
+			&:before {
+				content: "";
+				position: absolute;
+				z-index: -1;
+				left: 51%;
+				right: 51%;
+				bottom: 0;
+				background: $light;
+				height: 2px;
+				transition-property: left, right;
+				transition-duration: 0.1s;
+				transition-timing-function: ease-out;
 			}
-			&:last-child {
-				flex: 1.5;
-				padding: 0 2px;
-			}
-			flex: 1;
-			text-align: center;
-			& + li {
-				border-left: 1px solid $light;
+			&:hover:before,
+			&:focus:before,
+			&:active:before {
+				left: 0;
+				right: 0;
 			}
 		}
 	}
@@ -71,8 +106,8 @@ body {
 	}
 }
 .container {
-	background-color: #f8f8f0;
-	color: #2b2b2b;
+	background-color: $light;
+	color: $dark;
 }
 .container {
 	min-height: 100vh;
@@ -80,19 +115,35 @@ body {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-}
-@media (min-width: 768px) {
-	.container {
+	//Tier 1
+	// Anything smaller the content will be stretched to sides, aka mobile view.
+
+	//Tier 2
+	// If the screen size is more than 768px, the content will be capped to 750px
+	@media (min-width: 768px) {
 		width: 750px;
 	}
-}
-@media (min-width: 992px) {
-	.container {
+
+	// Tier 3
+	// If the screen size is more than 992px, the content will be capped to 970px
+	@media (min-width: 992px) {
 		width: 970px;
 	}
-}
-@media (min-width: 1200px) {
-	.container {
+
+	// Tier 4
+	// If the screen size is more than 1200px, the content will be capped to 1200px
+	@media (min-width: 1200px) {
 		width: 1170px;
+	}
+}
+
+@import "body";
+
+text {
+	&_upper {
+		text-transform: uppercase;
+	}
+	&_bold {
+		font-weight: 900;
 	}
 }
