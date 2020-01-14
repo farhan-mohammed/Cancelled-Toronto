@@ -3,7 +3,7 @@ import Template from './template';
 import imgD from './images/1980D.jpg';
 import imgC from './images/1980C.jpg';
 import imgB from './images/1980B.jpg';
-import image from './images/1980.jpg';
+import image from './images/1980.png';
 export default class Year1980 extends Component {
 	constructor(props) {
 		super(props);
@@ -219,11 +219,12 @@ export default class Year1980 extends Component {
 				</ol>
 			);
 		}
+		const breakMark = '';
 		return (
 			<div className="body__text-con">
-				<h1 className="body__text-h1">Network 2011</h1>
-				<h2 className="body__text-h2">Evolved into Let’s Move (1990)</h2>
-				<div className="body_divide" style={{ marginTop: 0 }}>
+				<h1 className="body__text-h1 body__text-h11980">Network 2011 (1985)</h1>
+				<h2 className="body__text-h2">Cancelled, evolved to Let’s Move (1990)</h2>
+				{/* <div className="body_divide" style={{ marginTop: 0 }}>
 					<div className="x1980Special">
 						<div className="x1980Specialcon">
 							<p className="x1980Specialmaintext">
@@ -232,7 +233,10 @@ export default class Year1980 extends Component {
 								transit lines: a subway along Sheppard Avenue from Downsview in the west to Scarborough
 								City Centre in the east, a new rapid transit corridor on Eglinton Avenue West initially
 								composed of express buses linking Mississauga to Eglinton West Station, and a downtown
-								subway between approximately the intersection of Front Street and Spadina Avenue and
+								subway between 
+								
+								<p className=""
+								approximately the intersection of Front Street and Spadina Avenue and
 								Pape Station.<sup>1</sup>
 								Furthermore, an extension of the Spadina line from Wilson Station to the Downsview Area
 								<div className="x1980Specialhah">
@@ -260,7 +264,7 @@ export default class Year1980 extends Component {
 										central business districts within the city.
 									</div>
 								</div>
-								recommended alignments were combined to create Network 2011, which utilised the findings
+								the findings of the three studies to recommended alignments were combined to create Network 2011, which utilised the findings
 								of the three studies to recommend suggested phases in constructing the plan according to
 								Metro Toronto planning objectives. The Metro Toronto official plan of the time
 								(Metroplan) called for the creation of a multi-centred urban structure within Metro
@@ -275,10 +279,124 @@ export default class Year1980 extends Component {
 							</p>
 						</div>
 					</div>
+				</div> */}
+				<div className="mediumshow">
+					<p className="body__text-p">
+						<div className="column2 Sec1980adjust1">
+							<div>
+								Network 2011 was a 1985 plan by the Toronto Transit Com-mission for transit expansion,
+								named for the target completion date of 2011. The plan focused on three new rapid
+								transit lines: a subway along Sheppard Avenue from Downsview in the west to Scarborough
+								City Centre in the east, a new rapid transit corridor on Eglinton Avenue West initially
+								composed of express buses linking Mississauga to Eglinton West Station, and a
+							</div>
+							<div className="column2spacer" />
+							<div>
+								the study were then broken down into three more detailed studies offering further
+								analysis of the ridership and feasibility of each of the corridors: the Sheppard/Finch
+								Rapid Transit Study, the Downtown Rapid Transit Study, and the Eglinton West Rapid
+								Transit Study.<sup>6</sup> The outcomes of these studies and the recommended alignments
+								were combined to create Network 2011, which utilised the findings of the three studies
+							</div>
+						</div>
+						<div className="flexrow flex">
+							<div>
+								downtown subway between approximately the intersection of Front Street and Spadina
+								Avenue and Pape Station.<sup>1</sup> Furthermore, an extension of the Spadina line from
+								Wilson Station to the Downsview Area would allow for transfers between the
+								Yonge-University-Spadina line and the future Sheppard subway.<sup>2</sup> All-in-all,
+								the plan would cost $2.7 billion, 25 per cent paid for by the Metro Toronto government
+								and 75 per cent from the provincial government.<sup>3</sup>
+								<br />
+								<br />Planning for what became of Network 2011
+							</div>
+							<div className="blurb x1980Specialblurb">
+								Network 2011 at its core was a transit plan that was planned to achieve the planning
+								goals of Metro-politan Toronto and their objective of creating multiple central business
+								districts within the city.
+							</div>
+							<div>
+								to recommended alignments were combined to create Network 2011, which utilised the
+								findings of the three studies to recommend suggested phases in constructing the plan
+								according to Metro Toronto planning objectives. The Metro Toronto official plan of the
+								time (Metroplan) called for the creation of a multi-centred urban structure within Metro
+								Toronto, with the development of nodes which would act as major employment and activity
+								centres besides downtown Toronto to encourage decentralisation.<sup>7</sup> As a result,
+								the proposed Sheppard subway, which would
+							</div>
+						</div>
+						<div className="column2">
+							<div>
+								began in 1982, with the release of the Accelerated Rapid Transit Study undertaken by
+								Metro Toronto and the TTC.<sup>4</sup> The report, which studied four corridors for
+								future rapid transit expansion including Eglinton, “Central Radial” (a route downtown
+								via existing rail corridors), Sheppard, and the Finch hydro corridor, identified
+								potential station, yard, and routing locations, as well as potential costs and impacts
+								on the surrounding community and environment.<sup>5</sup> The findings of
+							</div>
+							<div className="column2spacer" />
+							<div>
+								connect two of the identified nodes, Scarborough City Centre and North York Centre, was
+								identified as the priority of the Network 2011 plan.<sup>8</sup> A downtown subway that
+								would aim to relieve the Yonge subway line would follow, followed by rapid transit on
+								Eglinton West, which Network 2011 recommended to be implemented initially as a partially
+								grade-separated busway that could eventually be upgraded to a subway.<sup>9</sup>
+							</div>
+						</div>
+					</p>
+				</div>
+				<div className="mediumhide">
+					<div>
+						Network 2011 was a 1985 plan by the Toronto Transit Com-mission for transit expansion, named for
+						the target completion date of 2011. The plan focused on three new rapid transit lines: a subway
+						along Sheppard Avenue from Downsview in the west to Scarborough City Centre in the east, a new
+						rapid transit corridor on Eglinton Avenue West initially composed of express buses linking
+						Mississauga to Eglinton West Station, and a downtown subway between approximately the
+						intersection of Front Street and Spadina Avenue and Pape Station.<sup>1</sup> Furthermore, an
+						extension of the Spadina line from Wilson Station to the Downsview Area would allow for
+						transfers between the Yonge-University-Spadina line and the future Sheppard subway.<sup>2</sup>{' '}
+						All-in-all, the plan would cost $2.7 billion, 25 per cent paid for by the Metro Toronto
+						government and 75 per cent from the provincial government.<sup>3</sup>
+					</div>
+					<div className="blurb x1980Specialblurb">
+						Network 2011 at its core was a transit plan that was planned to achieve the planning goals of
+						Metro-politan Toronto and their objective of creating multiple central business districts within
+						the city.
+					</div>
+					<div>
+						<p>
+							Planning for what became of Network 2011 began in 1982, with the release of the Accelerated
+							Rapid Transit Study undertaken by Metro Toronto and the TTC.<sup>4</sup> The report, which
+							studied four corridors for future rapid transit expansion including Eglinton, “Central
+							Radial” (a route downtown via existing rail corridors), Sheppard, and the Finch hydro
+							corridor, identified potential station, yard, and routing locations, as well as potential
+							costs and impacts on the surrounding community and environment.<sup>5</sup> The findings of
+							the study were then broken down into three more detailed studies offering further analysis
+							of the ridership and feasibility of each of the corridors: the Sheppard/Finch Rapid Transit
+							Study, the Downtown Rapid Transit Study, and the Eglinton West Rapid Transit Study.<sup>6</sup>{' '}
+							The outcomes of these studies and the recommended alignments were combined to create Network
+							2011, which utilised the findings of the three studies to recommended alignments were
+							combined to create Network 2011, which utilised the findings of the three studies to
+							recommend suggested phases in constructing the plan according to Metro Toronto planning
+							objectives.
+						</p>
+						<p>
+							<br />
+							The Metro Toronto official plan of the time (Metroplan) called for the creation of a
+							multi-centred urban structure within Metro Toronto, with the development of nodes which
+							would act as major employment and activity centres besides downtown Toronto to encourage
+							decentralisation.<sup>7</sup> As a result, the proposed Sheppard subway, which would connect
+							two of the identified nodes, Scarborough City Centre and North York Centre, was identified
+							as the priority of the Network 2011 plan.<sup>8</sup> A downtown subway that would aim to
+							relieve the Yonge subway line would follow, followed by rapid transit on Eglinton West,
+							which Network 2011 recommended to be implemented initially as a partially grade-separated
+							busway that could eventually be upgraded to a subway.<sup>9</sup>
+						</p>
+					</div>
 				</div>
 				<div className="body_divide body_divideVL">
 					<img src={imgB} alt="" />
-					<p className="body__text-p">
+					<div className="body__img-p italy" style={{ marginTop: '1em' }}>
 						The routing of the proposed downtown subway was a key concern of the Downtown Rapid Transit
 						Study, a precursor document of Network 2011. The main concern for the downtown subway was to
 						relieve pressure off the Yonge subway line, which would otherwise exceed design capacity if
@@ -287,9 +405,9 @@ export default class Year1980 extends Component {
 						of alignments created a “J” or “U” shape.<sup>11</sup> In the end, a routing along
 						Pape-Eastern-Railway Corridor-Front was recommended, with the western terminus located at
 						approximately Front Street and Spadina Avenue.<sup>12</sup>
-					</p>
+					</div>
 				</div>
-				<p className="body__text-p">
+				<p className="body__text-p column2easy">
 					Approved by Metro Toronto Council by 1986, the plan was to be implemented in phases according to the
 					Network 2011 plan, with council deciding on a subway on Sheppard Avenue from Yonge Street to
 					Victoria Park Avenue as the priority, much to the dismay of municipal officials in Etobicoke, York,
@@ -301,8 +419,37 @@ export default class Year1980 extends Component {
 					their transportation plans centred around the then proposed Highway 407, and who saw Network 2011 as
 					competition for such funding.<sup>15</sup>
 				</p>
-
-				<div className="body_divide body_divideHR">
+				<div className="imgLefttextRigtBelow">
+					<div className="imgLefttextRigtBelow-row_top">
+						<div className="imgLefttextRigtBelow_img">
+							<img src={imgC} alt="" />
+						</div>
+						<div className="imgLefttextRigtBelow_text imgLefttextRigtBelow_text-right">
+							<h1>
+								North York Centre<span className="mediumshow">, Left</span>{' '}
+							</h1>
+							<p className="italy">
+								The planned Sheppard subway, when fully built, was planned to connect two emerging
+								central business districts, North York Centre and Scarborough City Centre. Pictured to
+								the left is North York Centre, with the intersection and western terminus of the first
+								phase of the subway, Sheppard Avenue and Yonge Street, at the top right.<sup>20</sup>
+							</p>
+						</div>
+					</div>
+					<div className="imgLefttextRigtBelow_text imgLefttextRigtBelow_text-bottom italy">
+						Rapid transit expansion in the Network 2011 plan was to be phased over a 26-year timeframe,
+						beginning with a Sheppard subway between Yonge Street to Victoria Park Avenue to be constructed
+						between 1989-1994.<sup>16</sup> Then, a downtown subway between Pape Station on the
+						Bloor-Danforth Line in the east to approximately the intersection of Spadina Avenue and Front
+						Street in the west would be constructed in the years of 1994-1999.<sup>17</sup> Then, between
+						1999-2004, rapid transit on Eglinton Avenue West would be constructed, initially as a partially
+						grade-separated busway, with the possibility of converting it to a subway later.<sup>18</sup>{' '}
+						Finally, between 2004-2010, the Sheppard subway would be extended on both ends from Yonge Street
+						to Dufferin Street in the west, and from Victoria Park Avenue to Scarborough City Centre in the
+						east.<sup>19</sup>
+					</div>
+				</div>
+				{/* <div className="body_divide body_divideHR">
 					<div className="body_divideHR_text">
 						<p className="body__text-p">
 							Rapid transit expansion in the Network 2011 plan was to be phased over a 26-year timeframe,
@@ -330,8 +477,8 @@ export default class Year1980 extends Component {
 							Yonge Street, at the top right.<sup>20</sup>
 						</p>
 					</div>
-				</div>
-				<div className="body_divide body_divideHL">
+				</div> */}
+				{/* <div className="body_divide body_divideHL">
 					<div className="body_divideHL_img body_divideHL_img19801">
 						<img src={imgD} alt="" />
 					</div>
@@ -348,8 +495,30 @@ export default class Year1980 extends Component {
 							commuting.<sup>23</sup>
 						</p>
 					</div>
+				</div> */}
+				<div className="imgLefttextRigtBelow">
+					<div className="imgLefttextRigtBelow-row_top">
+						<div className="imgLefttextRigtBelow_img">
+							<img src={imgD} alt="" />
+						</div>
+						<div className="imgLefttextRigtBelow_text imgLefttextRigtBelow_text-right">
+							<h1>
+								Scarborough City Centre<span className="mediumshow">, Left</span>{' '}
+							</h1>
+						</div>
+					</div>
+					<div className="imgLefttextRigtBelow_text imgLefttextRigtBelow_text-bottom italy">
+						Scarborough City Centre, planned eventual terminus of the Sheppard subway and emerging central
+						business district.<sup>21</sup> Planning in Metro Toronto at the time de-emphasised growth in
+						the downtown, taking action such as restricting office development to protect adjacent
+						communities and reduce the pressure of redevelopment for historic structures within them.<sup>22</sup>{' '}
+						New central business districts such as Scarborough City Centre were intended to receive the
+						majority of new office developments, something planners hoped would decrease the pressure of
+						large amounts of commuters headed downtown in the peak direction by encouraging reverse
+						commuting.<sup>23</sup>
+					</div>
 				</div>
-				<p className="body__text-p">
+				<p className="body__text-p column2easy">
 					Ultimately, difficulties in funding the plan quickly derailed the timelines proposed in the plan.
 					The then-Liberal provincial government – who was not involved in the development of the Network 2011
 					plan, baulked at the $75 million a year from the province necessary for a full build-out and decided
@@ -364,8 +533,8 @@ export default class Year1980 extends Component {
 					Also retained was plans for rapid transit on Eglinton in the form of a busway to Peel Region but a
 					downtown subway and a complete Sheppard subway from Downsview to Scarborough City Centre were
 					dropped.<sup>28</sup>
-				</p>
-				<p className="body__text-p">
+					<br />
+					<br />
 					Although much of what Network 2011 proposed was never built in the timeframes proposed, elements of
 					the plan were highly influential to the plans of subsequent provincial and municipal governments and
 					remain so. The Sheppard subway, a key element of the Network 2011 plan was funded several years

@@ -76,24 +76,34 @@
 			}
 		}
 	}
+
 	&__text {
 		&-con {
 		}
 		&-p {
 			font-family: "Open Sans";
+			@include min-width-mixin('large') {
+				margin: 0 100px;
+				margin-bottom: 1em;
+			}
+
 			margin-bottom: 1em;
 		}
 		&-h1 {
 			margin-bottom: .25em;
+			&1980 {
+				margin-bottom: 0;
+				line-height: 100%;
+			}
+		}
+		&-h2 {
+			margin-bottom: .5em;
 		}
 	}
 }
 .footnotes {
 	&__list {
 		margin-left: 1em;
-	}
-	&__item {
-		margin-bottom: 1em;
 	}
 }
 .blurb {
@@ -102,11 +112,9 @@
 }
 .x1980Special {
 	&blurb {
-		text-align: justify;
-		margin: 1.5em;
-		margin-right: .5em;
-		margin-left: 1.3em;
-		flex: 1;
+		margin: 0.97em .95em;
+		margin-left: 1.2em;
+		flex: 0.7 !important;
 	}
 	&hah {
 		width: 100%;
@@ -115,5 +123,27 @@
 		}
 		display: flex;
 		flex-direction: row;
+	}
+}
+.Sec1980 {
+	&adjust1 {
+		max-height: 9.5em;
+	}
+}
+.large {
+	@include max-width-mixin('large') {
+		display: none;
+	}
+}
+.medium {
+	&hide {
+		@include min-width-mixin('medium') {
+			display: none;
+		}
+	}
+	&show {
+		@include max-width-mixin('medium') {
+			display: none;
+		}
 	}
 }

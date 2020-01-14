@@ -1,7 +1,29 @@
+$breakpoints: ('small': 768px, 'medium': 992px, 'large': 1200px) !default;
+@mixin min-width-mixin($breakpoint) {
+	// If the key exists in the map
+	@if map-has-key($breakpoints, $breakpoint) {
+		// Prints a media query based on the value
+		@media (min-width: map-get($breakpoints, $breakpoint)) {
+			@content;
+		}
+	}
+}
+@mixin max-width-mixin($breakpoint) {
+	// If the key exists in the map
+	@if map-has-key($breakpoints, $breakpoint) {
+		// Prints a media query based on the value
+		@media (max-width: map-get($breakpoints, $breakpoint)) {
+			@content;
+		}
+	}
+}
+
 $dark: #2b2b2b;
 $light: #fffffa;
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -14,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Roboto Slab';
+	font-family: 'Open Sans';
 }
 a {
 	color: inherit;
@@ -30,19 +52,18 @@ body {
 		font-size: 2.5rem;
 		font-weight: 800;
 		line-height: 100%;
-		font-family: 'Roboto Slab';
+		font-family: 'Open Sans';
 	}
 	&-subtitle {
 		font-size: 2rem;
 		font-weight: 500;
 		line-height: 100%;
 		margin-bottom: 1rem;
-		font-family: 'Roboto Slab';
+		font-family: 'Open Sans';
 	}
 	&-bar {
 		box-sizing: border-box;
 		padding: 3px 1em;
-		border-radius: 5px;
 		display: flex;
 		flex-direction: row;
 		width: 100%;
@@ -109,6 +130,7 @@ body {
 	background-color: $light;
 	color: $dark;
 }
+
 .container {
 	min-height: 100vh;
 	padding-right: 15px;
@@ -120,19 +142,18 @@ body {
 
 	//Tier 2
 	// If the screen size is more than 768px, the content will be capped to 750px
-	@media (min-width: 768px) {
+	@include min-width-mixin('small') {
 		width: 750px;
 	}
-
 	// Tier 3
 	// If the screen size is more than 992px, the content will be capped to 970px
-	@media (min-width: 992px) {
+	@include min-width-mixin('medium') {
 		width: 970px;
 	}
 
 	// Tier 4
 	// If the screen size is more than 1200px, the content will be capped to 1200px
-	@media (min-width: 1200px) {
+	@include min-width-mixin('large') {
 		width: 1170px;
 	}
 }
@@ -147,3 +168,4 @@ text {
 		font-weight: 900;
 	}
 }
+@import "default";
