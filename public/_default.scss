@@ -1,5 +1,8 @@
 .column {
 	&2 {
+		& > h2 {
+			font-size: 1.25em;
+		}
 		&easy {
 			column-count: 2;
 			@include max-width-mixin('medium') {
@@ -68,4 +71,7 @@ sup {
 	font-style: italic;
 	font-family: 'Gelasio';
 	font-weight: 300;
+	&bold {
+		font-size: 1.3em;
+	}
 }

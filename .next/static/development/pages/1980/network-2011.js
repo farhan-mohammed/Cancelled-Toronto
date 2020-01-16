@@ -86,66 +86,6 @@ function (_Component) {
         },
         __self: this
       }, __jsx("li", {
-        className: "header-nav_li hvr-underline-from-center",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/Pre1950s",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, "1950s"))), __jsx("li", {
-        className: "header-nav_li",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/1960s",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, "1960s"))), __jsx("li", {
-        className: "header-nav_li",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/1970s",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
-      }, "1970s"))), __jsx("li", {
         className: "header-nav_li",
         __source: {
           fileName: _jsxFileName,
@@ -225,27 +165,7 @@ function (_Component) {
           lineNumber: 45
         },
         __self: this
-      }, "2010s")))), __jsx("div", {
-        className: "header-bar-end",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }, "About the Site")))));
+      }, "2010s"))))));
     }
   }]);
 
@@ -11720,7 +11640,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*
 
   var Buffer;
   try {
-    Buffer = __webpack_require__(/*! buffer */ 3).Buffer;
+    Buffer = __webpack_require__(/*! buffer */ 5).Buffer;
   } catch (e) {
   }
 
@@ -15162,7 +15082,7 @@ if (typeof self === 'object') {
 } else {
   // Node.js or Web worker with no crypto support
   try {
-    var crypto = __webpack_require__(/*! crypto */ 4);
+    var crypto = __webpack_require__(/*! crypto */ 6);
     if (typeof crypto.randomBytes !== 'function')
       throw new Error('Not supported');
 
@@ -40186,7 +40106,7 @@ util.inherits = __webpack_require__(/*! inherits */ "./node_modules/inherits/inh
 /*</replacement>*/
 
 /*<replacement>*/
-var debugUtil = __webpack_require__(/*! util */ 1);
+var debugUtil = __webpack_require__(/*! util */ 3);
 var debug = void 0;
 if (debugUtil && debugUtil.debuglog) {
   debug = debugUtil.debuglog('stream');
@@ -42075,7 +41995,7 @@ Writable.prototype._destroy = function (err, cb) {
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Buffer = __webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer;
-var util = __webpack_require__(/*! util */ 2);
+var util = __webpack_require__(/*! util */ 4);
 
 function copyBuffer(src, target, offset) {
   src.copy(target, offset);
@@ -49538,7 +49458,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!***********************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F1980%2Fnetwork-2011&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5C1980%5Cnetwork-2011.js ***!
   \***********************************************************************************************************************************************************************************/
@@ -49550,29 +49470,29 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F1980%2
 
 /***/ }),
 
-/***/ 1:
-/*!**********************!*\
-  !*** util (ignored) ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 2:
-/*!**********************!*\
-  !*** util (ignored) ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
 /***/ 3:
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 4:
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 5:
 /*!************************!*\
   !*** buffer (ignored) ***!
   \************************/
@@ -49583,7 +49503,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F1980%2
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!************************!*\
   !*** crypto (ignored) ***!
   \************************/
@@ -49605,5 +49525,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=network-2011.js.map

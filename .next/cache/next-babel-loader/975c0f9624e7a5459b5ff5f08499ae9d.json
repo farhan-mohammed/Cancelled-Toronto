@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { Component } from 'react';\nimport '../components/wrapper/mainSite';\nimport mainSite from '../components/wrapper/mainSite';\nexport default class App extends Component {\n  render() {\n    return __jsx(\"mainSite\", null, __jsx(\"div\", null, \"App\"));\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

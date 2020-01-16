@@ -349,6 +349,10 @@ body {
   }
 }
 
+.footer-h1 {
+  margin-top: 1em;
+}
+
 text_upper {
   text-transform: uppercase;
 }
@@ -361,6 +365,10 @@ text_bold {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.column2 > h2 {
+  font-size: 1.25em;
 }
 
 .column2easy {
@@ -471,5 +479,9 @@ sup {
   font-style: italic;
   font-family: 'Gelasio';
   font-weight: 300;
+}
+
+.italybold {
+  font-size: 1.3em;
 }
 /*# sourceMappingURL=styles.css.map */

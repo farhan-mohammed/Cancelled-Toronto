@@ -10,7 +10,7 @@ export default class Header extends Component {
 				<nav className="header-bar">
 					<div className="header-bar-start">Cancelled Projects of the:</div>
 					<ul className="header-nav">
-						<li className="header-nav_li hvr-underline-from-center">
+						{/* <li className="header-nav_li hvr-underline-from-center">
 							<Link href="/Pre1950s">
 								<a>1950s</a>
 							</Link>
@@ -24,7 +24,7 @@ export default class Header extends Component {
 							<Link href="/1970s">
 								<a>1970s</a>
 							</Link>
-						</li>
+						</li> */}
 						<li className="header-nav_li">
 							<Link href="/1980s">
 								<a>1980s</a>
@@ -46,11 +46,11 @@ export default class Header extends Component {
 							</Link>
 						</li>
 					</ul>
-					<div className="header-bar-end">
+					{/* <div className="header-bar-end">
 						<Link href="/">
 							<a>About the Site</a>
 						</Link>
-					</div>
+					</div> */}
 				</nav>
 			</div>
 		);
