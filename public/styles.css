@@ -570,6 +570,7 @@ sup {
 
 .homepage-list {
   margin-top: 1em;
+  margin-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
