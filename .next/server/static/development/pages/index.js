@@ -196,19 +196,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         lineNumber: 30
       },
       __self: this
-    }, name)))), __jsx("li", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34
-      },
-      __self: this
-    }, "item 2"), __jsx("li", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35
-      },
-      __self: this
-    }, "item 3")))));
+    }, name))))))));
   }
 
   render() {
@@ -216,55 +204,55 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "header",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 39
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 40
       },
       __self: this
     }, __jsx("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 41
       },
       __self: this
     }, __jsx("div", {
       className: "header-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 42
       },
       __self: this
     }, "Cancelled Toronto:"), __jsx("div", {
       className: "header-subtitle",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 43
       },
       __self: this
     }, "Transit Projects"))), __jsx("nav", {
       className: "header-bar",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 46
       },
       __self: this
     }, __jsx("div", {
       className: "header-bar-start",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 47
       },
       __self: this
     }, "Cancelled Projects of the:"), __jsx("ul", {
       className: "header-nav",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 48
       },
       __self: this
     }, this.renderList())));
@@ -2184,32 +2172,32 @@ const ImageList = [{
   href: '/2010/relief-line',
   title: 'Relief Line (2016)',
   subtitle: 'Cancelled, replaced with Ontario Line',
-  img: '/images/homepage/image1.png'
+  img: '/images/Image1.png'
 }, {
   href: '/2010/metrolinx-toronto-transit-plan',
   title: 'Metrolinx/Toronto Transit Plan (2011)',
   subtitle: 'Cancelled',
-  img: 'images/homepage/image2.png'
+  img: '/images/Image2.png'
 }, {
   href: '/2000/transit-city',
   title: 'Transit City (2017)',
   subtitle: 'Cancelled, partially under construction',
-  img: 'images/homepage/image3.png'
+  img: '/images/Image3.png'
 }, {
   href: '/1990/rapid-transit-expansion-program',
-  title: 'Rapid Transit Expansion Program (1993)',
+  title: 'RTEP (1993)',
   subtitle: 'Cancelled, partially built',
-  img: 'images/homepage/image4.png'
+  img: '/images/Image4.png'
 }, {
   href: '/1990/lets-move',
   title: "Let's Move (1990)",
-  subtitle: 'Cancelled, repalced with Rapid Transit Expansion Program',
-  img: 'images/homepage/image5.png'
+  subtitle: 'Cancelled, replaced with Rapid Transit Expansion Program',
+  img: '/images/Image5.png'
 }, {
   href: '/1980/network-2011',
   title: 'Network 2011 (1985)',
   subtitle: 'Cancelled, replaced with Let`s Move',
-  img: 'images/homepage/image6.png'
+  img: '/images/Image6.png'
 }];
 class App extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   constructor(...args) {

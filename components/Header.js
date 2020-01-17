@@ -31,8 +31,6 @@ export default class Header extends Component {
 							</a>
 						</Link>
 					))}
-					<li>item 2</li>
-					<li>item 3</li>
 				</ul>
 			</li>
 		));

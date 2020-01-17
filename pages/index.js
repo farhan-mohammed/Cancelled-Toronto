@@ -7,37 +7,37 @@ const ImageList = [
 		href: '/2010/relief-line',
 		title: 'Relief Line (2016)',
 		subtitle: 'Cancelled, replaced with Ontario Line',
-		img: '/images/homepage/image1.png'
+		img: '/images/Image1.png'
 	},
 	{
 		href: '/2010/metrolinx-toronto-transit-plan',
 		title: 'Metrolinx/Toronto Transit Plan (2011)',
 		subtitle: 'Cancelled',
-		img: 'images/homepage/image2.png'
+		img: '/images/Image2.png'
 	},
 	{
 		href: '/2000/transit-city',
 		title: 'Transit City (2017)',
 		subtitle: 'Cancelled, partially under construction',
-		img: 'images/homepage/image3.png'
+		img: '/images/Image3.png'
 	},
 	{
 		href: '/1990/rapid-transit-expansion-program',
 		title: 'Rapid Transit Expansion Program (1993)',
 		subtitle: 'Cancelled, partially built',
-		img: 'images/homepage/image4.png'
+		img: '/images/Image4.png'
 	},
 	{
 		href: '/1990/lets-move',
 		title: "Let's Move (1990)",
-		subtitle: 'Cancelled, repalced with Rapid Transit Expansion Program',
-		img: 'images/homepage/image5.png'
+		subtitle: 'Cancelled, replaced with RTEP',
+		img: '/images/Image5.png'
 	},
 	{
 		href: '/1980/network-2011',
 		title: 'Network 2011 (1985)',
 		subtitle: 'Cancelled, replaced with Let`s Move',
-		img: 'images/homepage/image6.png'
+		img: '/images/Image6.png'
 	}
 ];
 export default class App extends Component {
