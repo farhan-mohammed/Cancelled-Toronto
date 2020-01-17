@@ -1,12 +1,50 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-
+const NavList = [
+	{ decade: '1980', files: [ { name: 'Network 2011', link: 'network-2011' } ] },
+	{
+		decade: '1990',
+		files: [
+			{ name: "Let's Move", link: 'lets-move' },
+			{ name: 'Rapit Transit Expansion Program', link: 'rapid-transit-expansion-program' }
+		]
+	},
+	{ decade: '2000', files: [ { name: 'Transit City', link: 'transit-city' } ] },
+	{
+		decade: '2010',
+		files: [
+			{ name: 'Metrolinx/Toronto Transit Plan', link: 'metrolinx-toronto-transit-plan' },
+			{ name: 'Relief Line', link: 'relief-line' }
+		]
+	}
+];
 export default class Header extends Component {
+	renderList = () =>
+		NavList.map(({ decade, files }) => (
+			<li className="header-nav_li  hnv-li" key={decade}>
+				<span>{decade}</span>
+				<ul className=" hnv-li-ul">
+					{files.map(({ name, link }) => (
+						<Link href={`/${decade}/${link}`} key={link}>
+							<a>
+								<li className="hnv-li hnv-li-ul-li">{name}</li>
+							</a>
+						</Link>
+					))}
+					<li>item 2</li>
+					<li>item 3</li>
+				</ul>
+			</li>
+		));
 	render() {
 		return (
 			<div className="header">
-				<div className="header-title">Cancelled Toronto:</div>
-				<div className="header-subtitle">Transit Projects</div>
+				<Link href="/">
+					<a>
+						<div className="header-title">Cancelled Toronto:</div>
+						<div className="header-subtitle">Transit Projects</div>
+					</a>
+				</Link>
 				<nav className="header-bar">
 					<div className="header-bar-start">Cancelled Projects of the:</div>
 					<ul className="header-nav">
@@ -25,26 +63,7 @@ export default class Header extends Component {
 								<a>1970s</a>
 							</Link>
 						</li> */}
-						<li className="header-nav_li">
-							<Link href="/1980s">
-								<a>1980s</a>
-							</Link>
-						</li>
-						<li className="header-nav_li">
-							<Link href="/1990s">
-								<a>1990s</a>
-							</Link>
-						</li>
-						<li className="header-nav_li">
-							<Link href="/2000s">
-								<a>2000s</a>
-							</Link>
-						</li>
-						<li className="header-nav_li">
-							<Link href="/2010s">
-								<a>2010s</a>
-							</Link>
-						</li>
+						{this.renderList()}
 					</ul>
 					{/* <div className="header-bar-end">
 						<Link href="/">

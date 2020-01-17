@@ -75,3 +75,46 @@ sup {
 		font-size: 1.3em;
 	}
 }
+.homepage {
+	&-list {
+		margin-top: 1em;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: space-around;
+		align-items: stretch;
+		box-sizing: border-box;
+	}
+	&-item {
+		width: 45%;
+		margin: 1em;
+		display: flex;
+		flex-direction: column;
+		&__img {
+			width: 100%;
+			height: auto;
+			&-con {
+				flex: 0;
+				width: 100%;
+			}
+		}
+		&__text {
+			flex: 1;
+			width: 100%;
+			padding: 0.5em;
+			box-sizing: border-box;
+			color: $light;
+			background-color: $dark;
+			&-title {
+				font-weight: 800;
+			}
+			&-subtitle {
+			}
+		}
+	}
+}
+a {
+	color: inherit; /* blue colors for links too */
+	text-decoration: inherit; /* no underline */
+}

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -103,139 +103,171 @@ module.exports =
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Header; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+
 var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\Header.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+const NavList = [{
+  decade: '1980',
+  files: [{
+    name: 'Network 2011',
+    link: 'network-2011'
+  }]
+}, {
+  decade: '1990',
+  files: [{
+    name: "Let's Move",
+    link: 'lets-move'
+  }, {
+    name: 'Rapit Transit Expansion Program',
+    link: 'rapid-transit-expansion-program'
+  }]
+}, {
+  decade: '2000',
+  files: [{
+    name: 'Transit City',
+    link: 'transit-city'
+  }]
+}, {
+  decade: '2010',
+  files: [{
+    name: 'Metrolinx/Toronto Transit Plan',
+    link: 'metrolinx-toronto-transit-plan'
+  }, {
+    name: 'Relief Line',
+    link: 'relief-line'
+  }]
+}];
+class Header extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+  constructor(...args) {
+    super(...args);
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "renderList", () => NavList.map(({
+      decade,
+      files
+    }) => __jsx("li", {
+      className: "header-nav_li  hnv-li",
+      key: decade,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, __jsx("span", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, decade), __jsx("ul", {
+      className: " hnv-li-ul",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, files.map(({
+      name,
+      link
+    }) => __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: `/${decade}/${link}`,
+      key: link,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, __jsx("a", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, __jsx("li", {
+      className: "hnv-li hnv-li-ul-li",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    }, name)))), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, "item 2"), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, "item 3")))));
+  }
+
   render() {
     return __jsx("div", {
       className: "header",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 7
+        lineNumber: 41
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, __jsx("a", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
       },
       __self: this
     }, __jsx("div", {
       className: "header-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8
+        lineNumber: 44
       },
       __self: this
     }, "Cancelled Toronto:"), __jsx("div", {
       className: "header-subtitle",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9
+        lineNumber: 45
       },
       __self: this
-    }, "Transit Projects"), __jsx("nav", {
+    }, "Transit Projects"))), __jsx("nav", {
       className: "header-bar",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 48
       },
       __self: this
     }, __jsx("div", {
       className: "header-bar-start",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 49
       },
       __self: this
     }, "Cancelled Projects of the:"), __jsx("ul", {
       className: "header-nav",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 50
       },
       __self: this
-    }, __jsx("li", {
-      className: "header-nav_li",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/1980s",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 30
-      },
-      __self: this
-    }, "1980s"))), __jsx("li", {
-      className: "header-nav_li",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/1990s",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35
-      },
-      __self: this
-    }, "1990s"))), __jsx("li", {
-      className: "header-nav_li",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 38
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/2000s",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40
-      },
-      __self: this
-    }, "2000s"))), __jsx("li", {
-      className: "header-nav_li",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/2010s",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 44
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 45
-      },
-      __self: this
-    }, "2010s"))))));
+    }, this.renderList())));
   }
 
 }
@@ -3230,7 +3262,7 @@ class Year1980 extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 
 /***/ }),
 
-/***/ 5:
+/***/ 8:
 /*!******************************************!*\
   !*** multi ./pages/1980/network-2011.js ***!
   \******************************************/

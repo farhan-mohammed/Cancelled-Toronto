@@ -153,25 +153,16 @@ export default class RapidTransit extends Component {
 				<div className="body_divide body_divideVL">
 					<img src={'/images/RTEPB.jpg'} alt="" />
 					<div className="body__img-p italy" style={{ marginTop: '1em' }}>
-						The environmental assessment of the Eglinton West subway identified four new stations and an
-						interchange with the existing Spadina line at Eglinton West station, which was planned to be
-						renamed Allen Station. The Terminus would be located adjacent to a new central business
-						district, dubbed York City Centre. That project died shortly afterwards the Eglinton West subway
-						was cancelled in 1995.<sup>8</sup>
-					</div>
-				</div>
-				<div className="body_divide body_divideVL">
-					<img src={'/images/RTEPC.jpg'} alt="" />
-					<div className="body__img-p italy" style={{ marginTop: '1em' }}>
 						The environmental assessment of the Sheppard subway identified four new stations and an
 						interchange with the existing Yonge lines at Sheppard Station, which was eventually renamed
 						Sheppard-Yonge Station. That project was eventually completed in 2002.<sup>9</sup>
 					</div>
 				</div>
+
 				<div className="imgLefttextRigtBelow">
 					<div className="imgLefttextRigtBelow-row_top">
 						<div className="imgLefttextRigtBelow_img">
-							<img src={'/images/RTEPD.jpg'} alt="" />
+							<img src={'/images/RTEPC.jpg'} alt="" />
 						</div>
 						<div className="imgLefttextRigtBelow_text imgLefttextRigtBelow_text-right">
 							<h1>
@@ -184,6 +175,18 @@ export default class RapidTransit extends Component {
 								continue without straining the transportation infrastructure in the area.<sup>10</sup>
 							</p>
 						</div>
+					</div>
+					<div className="imgLefttextRigtBelow_text imgLefttextRigtBelow_text-bottom italy">
+						Rapid transit expansion in the Network 2011 plan was to be phased over a 26-year timeframe,
+						beginning with a Sheppard subway between Yonge Street to Victoria Park Avenue to be constructed
+						between 1989-1994.<sup>16</sup> Then, a downtown subway between Pape Station on the
+						Bloor-Danforth Line in the east to approximately the intersection of Spadina Avenue and Front
+						Street in the west would be constructed in the years of 1994-1999.<sup>17</sup> Then, between
+						1999-2004, rapid transit on Eglinton Avenue West would be constructed, initially as a partially
+						grade-separated busway, with the possibility of converting it to a subway later.<sup>18</sup>{' '}
+						Finally, between 2004-2010, the Sheppard subway would be extended on both ends from Yonge Street
+						to Dufferin Street in the west, and from Victoria Park Avenue to Scarborough City Centre in the
+						east.<sup>19</sup>
 					</div>
 				</div>
 				<p className="body__text-p column2easy">
@@ -222,7 +225,7 @@ export default class RapidTransit extends Component {
 					</div>
 				</div>
 				<div className="body_divide body_divideVL">
-					<img src={'/images/RTEPD.jpg'} alt="" />
+					<img src={'/images/RTEPE.jpg'} alt="" />
 					<div className="body__img-p italy" style={{ marginTop: '1em' }}>
 						The environmental assessment of the Spadina subway extension to York University proposed three
 						new stations following an entirely new alignment compared to the Let’s Move extension plan.<sup>19</sup>{' '}

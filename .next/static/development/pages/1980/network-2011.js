@@ -14,30 +14,141 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
+
+
 
 
 
 
 
 var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\Header.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
+var NavList = [{
+  decade: '1980',
+  files: [{
+    name: 'Network 2011',
+    link: 'network-2011'
+  }]
+}, {
+  decade: '1990',
+  files: [{
+    name: "Let's Move",
+    link: 'lets-move'
+  }, {
+    name: 'Rapit Transit Expansion Program',
+    link: 'rapid-transit-expansion-program'
+  }]
+}, {
+  decade: '2000',
+  files: [{
+    name: 'Transit City',
+    link: 'transit-city'
+  }]
+}, {
+  decade: '2010',
+  files: [{
+    name: 'Metrolinx/Toronto Transit Plan',
+    link: 'metrolinx-toronto-transit-plan'
+  }, {
+    name: 'Relief Line',
+    link: 'relief-line'
+  }]
+}];
 
 var Header =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Header, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Header, _Component);
 
   function Header() {
+    var _getPrototypeOf2;
+
+    var _this;
+
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Header);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Header).apply(this, arguments));
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Header)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "renderList", function () {
+      return NavList.map(function (_ref) {
+        var decade = _ref.decade,
+            files = _ref.files;
+        return __jsx("li", {
+          className: "header-nav_li  hnv-li",
+          key: decade,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 24
+          },
+          __self: this
+        }, __jsx("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 25
+          },
+          __self: this
+        }, decade), __jsx("ul", {
+          className: " hnv-li-ul",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26
+          },
+          __self: this
+        }, files.map(function (_ref2) {
+          var name = _ref2.name,
+              link = _ref2.link;
+          return __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+            href: "/".concat(decade, "/").concat(link),
+            key: link,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 28
+            },
+            __self: this
+          }, __jsx("a", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 29
+            },
+            __self: this
+          }, __jsx("li", {
+            className: "hnv-li hnv-li-ul-li",
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 30
+            },
+            __self: this
+          }, name)));
+        }), __jsx("li", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 34
+          },
+          __self: this
+        }, "item 2"), __jsx("li", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 35
+          },
+          __self: this
+        }, "item 3")));
+      });
+    });
+
+    return _this;
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Header, [{
@@ -47,130 +158,63 @@ function (_Component) {
         className: "header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
+          lineNumber: 41
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
+      }, __jsx("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
         },
         __self: this
       }, __jsx("div", {
         className: "header-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 44
         },
         __self: this
       }, "Cancelled Toronto:"), __jsx("div", {
         className: "header-subtitle",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 45
         },
         __self: this
-      }, "Transit Projects"), __jsx("nav", {
+      }, "Transit Projects"))), __jsx("nav", {
         className: "header-bar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 48
         },
         __self: this
       }, __jsx("div", {
         className: "header-bar-start",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 49
         },
         __self: this
       }, "Cancelled Projects of the:"), __jsx("ul", {
         className: "header-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 50
         },
         __self: this
-      }, __jsx("li", {
-        className: "header-nav_li",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/1980s",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      }, "1980s"))), __jsx("li", {
-        className: "header-nav_li",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/1990s",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        },
-        __self: this
-      }, "1990s"))), __jsx("li", {
-        className: "header-nav_li",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/2000s",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }, "2000s"))), __jsx("li", {
-        className: "header-nav_li",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/2010s",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, "2010s"))))));
+      }, this.renderList())));
     }
   }]);
 
   return Header;
-}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
 
 
 
@@ -11640,7 +11684,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*
 
   var Buffer;
   try {
-    Buffer = __webpack_require__(/*! buffer */ 5).Buffer;
+    Buffer = __webpack_require__(/*! buffer */ 8).Buffer;
   } catch (e) {
   }
 
@@ -15082,7 +15126,7 @@ if (typeof self === 'object') {
 } else {
   // Node.js or Web worker with no crypto support
   try {
-    var crypto = __webpack_require__(/*! crypto */ 6);
+    var crypto = __webpack_require__(/*! crypto */ 9);
     if (typeof crypto.randomBytes !== 'function')
       throw new Error('Not supported');
 
@@ -40106,7 +40150,7 @@ util.inherits = __webpack_require__(/*! inherits */ "./node_modules/inherits/inh
 /*</replacement>*/
 
 /*<replacement>*/
-var debugUtil = __webpack_require__(/*! util */ 3);
+var debugUtil = __webpack_require__(/*! util */ 6);
 var debug = void 0;
 if (debugUtil && debugUtil.debuglog) {
   debug = debugUtil.debuglog('stream');
@@ -41995,7 +42039,7 @@ Writable.prototype._destroy = function (err, cb) {
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Buffer = __webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer;
-var util = __webpack_require__(/*! util */ 4);
+var util = __webpack_require__(/*! util */ 7);
 
 function copyBuffer(src, target, offset) {
   src.copy(target, offset);
@@ -49458,7 +49502,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 5:
 /*!***********************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F1980%2Fnetwork-2011&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5C1980%5Cnetwork-2011.js ***!
   \***********************************************************************************************************************************************************************************/
@@ -49470,7 +49514,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F1980%2
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/
@@ -49481,7 +49525,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F1980%2
 
 /***/ }),
 
-/***/ 4:
+/***/ 7:
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/
@@ -49492,7 +49536,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F1980%2
 
 /***/ }),
 
-/***/ 5:
+/***/ 8:
 /*!************************!*\
   !*** buffer (ignored) ***!
   \************************/
@@ -49503,7 +49547,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F1980%2
 
 /***/ }),
 
-/***/ 6:
+/***/ 9:
 /*!************************!*\
   !*** crypto (ignored) ***!
   \************************/
@@ -49525,5 +49569,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=network-2011.js.map

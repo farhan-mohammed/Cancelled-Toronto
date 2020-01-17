@@ -4,11 +4,31 @@
     "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
   ],
   "pages": {
+    "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/1980/network-2011": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/1990/lets-move": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/1990/rapid-transit-expansion-program": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/2000/transit-city": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/2010/metrolinx-toronto-transit-plan": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/2010/relief-line": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -24,6 +44,14 @@
     "/_polyfills": [
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

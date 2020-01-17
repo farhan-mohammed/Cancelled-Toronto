@@ -52,9 +52,11 @@ body {
 		font-size: 2.5rem;
 		font-weight: 800;
 		line-height: 100%;
+		width: 100%;
 		font-family: 'Open Sans';
 	}
 	&-subtitle {
+		width: 100%;
 		font-size: 2rem;
 		font-weight: 500;
 		line-height: 100%;
@@ -72,12 +74,14 @@ body {
 	}
 	&-nav {
 		width: 100%;
-		justify-content: space-around;
+		justify-content: stretch;
 		flex: 1;
 		list-style: none;
 		display: flex;
 		flex-direction: row;
 		&_li {
+			flex: 1;
+			text-align: center;
 			border-color: $light;
 
 			display: inline-block;
@@ -85,26 +89,6 @@ body {
 			transform: perspective(1px) translateZ(0);
 			box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 			position: relative;
-			overflow: hidden;
-			&:before {
-				content: "";
-				position: absolute;
-				z-index: -1;
-				left: 51%;
-				right: 51%;
-				bottom: 0;
-				background: $light;
-				height: 2px;
-				transition-property: left, right;
-				transition-duration: 0.1s;
-				transition-timing-function: ease-out;
-			}
-			&:hover:before,
-			&:focus:before,
-			&:active:before {
-				left: 0;
-				right: 0;
-			}
 		}
 	}
 }
