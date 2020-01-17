@@ -36,7 +36,7 @@ const ImageList = [
 	{
 		href: '/1980/network-2011',
 		title: 'Network 2011 (1985)',
-		subtitle: 'Cancelled, replaced with Let`s Move',
+		subtitle: "Cancelled, replaced with Let's Move",
 		img: '/images/Image6.png'
 	}
 ];

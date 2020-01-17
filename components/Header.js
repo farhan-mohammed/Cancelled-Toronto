@@ -22,7 +22,7 @@ export default class Header extends Component {
 	renderList = () =>
 		NavList.map(({ decade, files }) => (
 			<li className="header-nav_li  hnv-li" key={decade}>
-				<span>{decade}</span>
+				<span>{`${decade}s`}</span>
 				<ul className=" hnv-li-ul">
 					{files.map(({ name, link }) => (
 						<Link href={`/${decade}/${link}`} key={link}>
