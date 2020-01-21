@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import WebsiteLayout from '../../components/wrapper/mainSite';
-
 export default class RapidTransit extends Component {
 	renderView() {
 		return (

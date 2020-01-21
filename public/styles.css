@@ -352,12 +352,6 @@ body::-webkit-scrollbar-thumb {
   margin-top: 1em;
 }
 
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
 /* Dropdown button */
 .dropdown .dropbtn {
   font-size: 16px;
@@ -635,5 +629,53 @@ a {
   /* blue colors for links too */
   text-decoration: inherit;
   /* no underline */
+}
+
+@media (min-width: 1200px) {
+  .RFpadding {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .RFpadding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .RFpadding {
+    padding: 0;
+  }
+}
+
+.RFsec1 {
+  position: relative;
+}
+
+.RFsec1son {
+  margin-left: 170px;
+}
+
+@media (max-width: 992px) {
+  .RFsec1son {
+    margin-left: 0px;
+  }
+}
+
+.RFSpecialblurb {
+  margin: 0.90em .95em;
+  margin-left: 1.2em;
+  width: 250px;
+  position: absolute;
+  left: -125px;
+  top: 0;
 }
 /*# sourceMappingURL=styles.css.map */

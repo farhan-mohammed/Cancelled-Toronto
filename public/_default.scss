@@ -119,3 +119,36 @@ a {
 	color: inherit; /* blue colors for links too */
 	text-decoration: inherit; /* no underline */
 }
+.RF {
+	&padding {
+		@include min-width-mixin('large') {
+			padding: 0 100px;
+		}
+		@include max-width-mixin('large') {
+			display: flex;
+			flex-direction: column;
+			padding: 0 25%;
+		}
+		@include max-width-mixin('medium') {
+			padding: 0;
+		}
+	}
+	&sec1 {
+		position: relative;
+		&son {
+			margin-left: 170px;
+			@include max-width-mixin('medium') {
+				margin-left: 0px;
+			}
+		}
+	}
+	&Specialblurb {
+		margin: 0.90em .95em;
+
+		margin-left: 1.2em;
+		width: 250px;
+		position: absolute;
+		left: -125px;
+		top: 0;
+	}
+}

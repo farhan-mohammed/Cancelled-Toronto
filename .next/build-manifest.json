@@ -4,7 +4,7 @@
     "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
   ],
   "pages": {
-    "/": [
+    "/1980/network-2011": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -24,10 +24,6 @@
     "/_polyfills": [
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
-    ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }

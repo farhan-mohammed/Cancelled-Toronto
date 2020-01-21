@@ -1,20 +1,51 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 const NavList = [
-	{ decade: '1980', files: [ { name: 'Network 2011', link: 'network-2011' } ] },
+	{
+		decade: '1980',
+		files: [
+			{
+				name: 'Network 2011',
+				// link: '/'
+				link: 'network-2011'
+			}
+		]
+	},
 	{
 		decade: '1990',
 		files: [
 			{ name: "Let's Move", link: 'lets-move' },
-			{ name: 'Rapit Transit Expansion Program', link: 'rapid-transit-expansion-program' }
+			{
+				name: 'Rapid Transit Expansion Program',
+				// link: '/'
+				link: 'rapid-transit-expansion-program'
+			}
 		]
 	},
-	{ decade: '2000', files: [ { name: 'Transit City', link: 'transit-city' } ] },
+	{
+		decade: '2000',
+		files: [
+			{
+				name: 'Transit City',
+				// link: '/'
+				link: 'transit-city'
+			}
+		]
+	},
 	{
 		decade: '2010',
 		files: [
-			{ name: 'Metrolinx/Toronto Transit Plan', link: 'metrolinx-toronto-transit-plan' },
-			{ name: 'Relief Line', link: 'relief-line' }
+			{
+				name: 'Metrolinx/Toronto Transit Plan',
+				// link: '/'
+
+				link: 'metrolinx-toronto-transit-plan'
+			},
+			{
+				name: 'Relief Line',
+				// link: '/'
+				link: 'relief-line'
+			}
 		]
 	}
 ];
