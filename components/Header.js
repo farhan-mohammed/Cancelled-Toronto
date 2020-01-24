@@ -16,8 +16,8 @@ const NavList = [
 		files: [
 			{ name: "Let's Move", link: 'lets-move' },
 			{
-				name: 'Rapid Transit Expansion Program',
-				link: '/'
+				name: 'Rapid Transit Expansion Program'
+				// link: '/'
 				// link: 'rapid-transit-expansion-program'
 			}
 		]
@@ -66,20 +66,34 @@ export default class Header extends Component {
 			</li>
 		));
 	render() {
+		const activeClass = `HamBurg ${this.props.activeHam ? 'change' : ''}`;
 		return (
 			<div className="header">
-				<Link href="/">
-					<a>
-						<div className="header-pic_wide">
-							<img className="header-pic_widepng" src="/images/header/wide.png" />
+				<div className="header-top">
+					<div className="header-top-pic">
+						<Link href="/">
+							<a>
+								{/* <div className="header-pic_wide">
+									<img className="header-pic_widepng" src="/images/header/wide.png" />
+								</div> */}
+								<div className="header-pic_narrow">
+									<img className="header-pic_narrowpng" src="/images/header/narrow.png" />
+								</div>
+							</a>
+						</Link>
+					</div>
+					<div className="header-top-ham" onClick={this.props.toggleHamburger}>
+						<div className={activeClass}>
+							<div className="HamBurgbar1" />
+							<div className="HamBurgbar2" />
+							<div className="HamBurgbar3" />
 						</div>
-						<div className="header-pic_narrow">
-							<img className="header-pic_narrowpng" src="/images/header/narrow.png" />
-						</div>
-					</a>
-				</Link>
+					</div>
+				</div>
 				<nav className="header-bar">
-					<div className="header-bar-start">Cancelled Projects of the:</div>
+					<div className="header-bar-start">
+						Cancelled Projects<div className="header-bar-starttxt"> of the</div>:
+					</div>
 					<ul className="header-nav">
 						{/* <li className="header-nav_li hvr-underline-from-center">
 							<Link href="/Pre1950s">

@@ -1,0 +1,35 @@
+.sideMenu {
+	// @media (min-width: ($header-change)) {
+	// 	display: none;
+	// }
+	height: 100vh;
+	transition: right $hamburger-transitionSpeed;
+	width: 400px;
+	@media (max-width: 400px) {
+		width: 100vw;
+	}
+	position: fixed;
+	top: 0;
+	right: 100%;
+	color: white;
+	background-color: $dark;
+	&Open {
+		right: calc(100vw - 400px);
+
+		@media (max-width: 400px) {
+			right: 0;
+		}
+	}
+	&-con {
+		box-sizing: border-box;
+		padding: 20px;
+		width: 100%;
+		min-height: 100%;
+		overflow-y: auto;
+		&_close {
+			position: absolute;
+			right: 20px;
+			top: 20px;
+		}
+	}
+}

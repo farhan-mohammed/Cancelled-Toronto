@@ -44,8 +44,8 @@ a {
 }
 body {
 	background-color: $light;
+	overflow-x: hidden;
 }
-@import "header";
 .body {
 	width: 100%;
 	&-content {
@@ -96,8 +96,6 @@ body {
 	}
 }
 
-@import "body";
-
 text {
 	&_upper {
 		text-transform: uppercase;
@@ -106,5 +104,9 @@ text {
 		font-weight: 900;
 	}
 }
+
+@import "header";
+@import "body";
+
 @import "default";
 @import "homepage";
