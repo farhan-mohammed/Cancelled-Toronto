@@ -6,8 +6,8 @@ const NavList = [
 		files: [
 			{
 				name: 'Network 2011',
-				// link: '/'
-				link: 'network-2011'
+				link: '/'
+				// link: 'network-2011'
 			}
 		]
 	},
@@ -17,8 +17,8 @@ const NavList = [
 			{ name: "Let's Move", link: 'lets-move' },
 			{
 				name: 'Rapid Transit Expansion Program',
-				// link: '/'
-				link: 'rapid-transit-expansion-program'
+				link: '/'
+				// link: 'rapid-transit-expansion-program'
 			}
 		]
 	},
@@ -27,8 +27,8 @@ const NavList = [
 		files: [
 			{
 				name: 'Transit City',
-				// link: '/'
-				link: 'transit-city'
+				link: '/'
+				// link: 'transit-city'
 			}
 		]
 	},
@@ -37,14 +37,14 @@ const NavList = [
 		files: [
 			{
 				name: 'Metrolinx/Toronto Transit Plan',
-				// link: '/'
+				link: '/'
 
-				link: 'metrolinx-toronto-transit-plan'
+				// link: 'metrolinx-toronto-transit-plan'
 			},
 			{
 				name: 'Relief Line',
-				// link: '/'
-				link: 'relief-line'
+				link: '/'
+				// link: 'relief-line'
 			}
 		]
 	}
@@ -70,8 +70,12 @@ export default class Header extends Component {
 			<div className="header">
 				<Link href="/">
 					<a>
-						<div className="header-title">Cancelled Toronto:</div>
-						<div className="header-subtitle">Transit Projects</div>
+						<div className="header-pic_wide">
+							<img className="header-pic_widepng" src="/images/header/wide.png" />
+						</div>
+						<div className="header-pic_narrow">
+							<img className="header-pic_narrowpng" src="/images/header/narrow.png" />
+						</div>
 					</a>
 				</Link>
 				<nav className="header-bar">
