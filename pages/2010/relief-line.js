@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import WebsiteLayout from '../../components/wrapper/mainSite';
-const images = ['/images/2010-RF_1.png', '/images/2010-RF_2.png', '/images/2010-RF_3.jpg', '/images/2010-RF_4.jpg'];
+const images = [ '/images/2010-RF_1.png', '/images/2010-RF_2.png', '/images/2010-RF_3.jpg', '/images/2010-RF_4.jpg' ];
 import ImgTextRightBelow from '../../components/templates/imgTextRightBelow';
 import TwoColumn from '../../components/content/TwoColumn';
 export default class ReliefLine extends Component {
@@ -170,7 +170,7 @@ export default class ReliefLine extends Component {
 		);
 		return (
 			<div className="body__text-con">
-				<h1 className="body__text-h1 body__text-h11980">Relief Line (2016)</h1>
+				<h1 className="body__text-h1">Relief Line (2016)</h1>
 				<h2 className="body__text-h2">Cancelled in 2019, replaced with Ontario Line</h2>
 				<div className="mediumshow">
 					<div className="body__text-p">
@@ -367,9 +367,9 @@ export default class ReliefLine extends Component {
 				</div>
 				<ImgTextRightBelow
 					img={images[2]}
-					title={<span>Moss Park and Regent Park Communities</span>}
+					title={() => <span>Moss Park and Regent Park Communities</span>}
 					text={{
-						right: (
+						right: () => (
 							<span>
 								A Relief Line corridor on Queen Street was recommended over one on King Street, one
 								which would intersect with the heart of the Financial District and was forecasted to
@@ -377,15 +377,15 @@ export default class ReliefLine extends Component {
 								improving social equity for historically disadvantaged neighbourhoods including Moss
 								Park and Regent Park.
 							</span>
-						),
+						)
 					}}
 				/>
-				<TwoColumn text={paraOne()}></TwoColumn>
+				<TwoColumn text={paraOne} />
 				<ImgTextRightBelow
 					img={images[3]}
-					title={<span>Yonge Line Crowding</span>}
+					title={() => <span>Yonge Line Crowding</span>}
 					text={{
-						right: (
+						right: () => (
 							<span>
 								The Relief Line was planned to divert ridership away from the over-capacity Yonge
 								subway, which on an average weekday rush-hour carries 28,000 to 30,000 people per hour
@@ -394,7 +394,7 @@ export default class ReliefLine extends Component {
 								ridership from the Yonge subway because of its northern extension from Pape Station to
 								the future Science Centre Station on Eglinton Avenue.<sup>35</sup>
 							</span>
-						),
+						)
 					}}
 				/>
 				<h1 className="body__text-h1">Footnotes</h1>

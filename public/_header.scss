@@ -140,3 +140,33 @@ $header-change: 850px;
 		transform: rotate(45deg) translate(-8px, -8px);
 	}
 }
+.hnv {
+	&-li {
+		@include subway-font;
+		&-ul {
+			display: none;
+			position: absolute;
+			top: 100%;
+			width: 100%;
+			z-index: 100;
+			left: 0;
+			&-li {
+				background-color: $dark;
+				color: $light;
+				padding: 10px 10px;
+				letter-spacing: 2px;
+				margin-bottom: 2px;
+				font-size: 0.75em;
+
+				box-sizing: border-box;
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+		&:hover &-ul,
+		&-ul:hover {
+			display: unset;
+		}
+	}
+}

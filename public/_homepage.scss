@@ -29,12 +29,12 @@
 		&__text {
 			flex: 1;
 			width: 100%;
-			padding: 0.5em;
+			padding: 15px;
 			box-sizing: border-box;
 			color: $light;
 			background-color: $dark;
 			&-title {
-				font-weight: 800;
+				@include subway-font;
 			}
 			&-subtitle {
 			}

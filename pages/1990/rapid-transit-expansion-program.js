@@ -170,7 +170,7 @@ export default class RapidTransit extends Component {
 			<div className="body__text-con">
 				<h1 className="body__text-h1 body__text-h11980">Rapid Transit Expansion Program (1993)</h1>
 				<h2 className="body__text-h2">Cancelled in 1995, partially built</h2>
-				<TwoColumn text={paraOne}></TwoColumn>
+				<TwoColumn text={paraOne} />
 				<ImgTextBelow
 					img="/images/RTEPA.jpg"
 					text={() => (
@@ -194,6 +194,7 @@ export default class RapidTransit extends Component {
 					)}
 				/>
 				<ImgTextRightBelow
+					img="/images/RTEPC.jpg"
 					title={() => (
 						<h1>
 							North York Centre<span className="mediumshow">, Left</span>{' '}
@@ -222,7 +223,7 @@ export default class RapidTransit extends Component {
 								in the west, and from Victoria Park Avenue to Scarborough City Centre in the east.
 								<sup>19</sup>
 							</span>
-						),
+						)
 					}}
 				/>
 				<TwoColumn text={paraTwo} />

@@ -58,8 +58,9 @@ sup {
 		}
 		&-right {
 			flex: 0.4;
-			& > h1 {
-				font-size: 1.25em;
+			&_h1 {
+				@include subway-font;
+				font-size: 20px;
 				margin-bottom: .75em;
 			}
 		}
@@ -112,4 +113,7 @@ a {
 		left: -125px;
 		top: 0;
 	}
+}
+.subway-font {
+	@include subway-font;
 }

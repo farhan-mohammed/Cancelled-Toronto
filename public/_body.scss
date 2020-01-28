@@ -120,7 +120,8 @@ body {
 			margin-bottom: 1em;
 		}
 		&-h1 {
-			margin-bottom: .25em;
+			margin: 0;
+			@include subway-font;
 			&1980 {
 				margin-bottom: 0;
 				line-height: 100%;
@@ -228,33 +229,7 @@ body {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
-.hnv {
-	&-li {
-		&-ul {
-			display: none;
-			position: absolute;
-			top: 100%;
-			width: 100%;
-			z-index: 100;
-			left: 0;
-			&-li {
-				background-color: $dark;
-				color: $light;
-				padding: 5px;
-				margin: 1px;
-				font-size: 0.75em;
-				box-sizing: border-box;
-				&:hover {
-					cursor: pointer;
-				}
-			}
-		}
-		&:hover &-ul,
-		&-ul:hover {
-			display: unset;
-		}
-	}
-}
+
 $hamburger-transitionSpeed: 0.5s;
 .outer-container {
 	position: relative;

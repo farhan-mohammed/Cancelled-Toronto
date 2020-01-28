@@ -6,8 +6,8 @@ const NavList = [
 		files: [
 			{
 				name: 'Network 2011',
-				link: '/'
-				// link: 'network-2011'
+				// link: '/'
+				link: 'network-2011'
 			}
 		]
 	},
@@ -16,9 +16,9 @@ const NavList = [
 		files: [
 			{ name: "Let's Move", link: 'lets-move' },
 			{
-				name: 'Rapid Transit Expansion Program'
+				name: 'Rapid Transit Expansion Program',
 				// link: '/'
-				// link: 'rapid-transit-expansion-program'
+				link: 'rapid-transit-expansion-program'
 			}
 		]
 	},
@@ -27,8 +27,8 @@ const NavList = [
 		files: [
 			{
 				name: 'Transit City',
-				link: '/'
-				// link: 'transit-city'
+				// link: '/'
+				link: 'transit-city'
 			}
 		]
 	},
@@ -37,14 +37,14 @@ const NavList = [
 		files: [
 			{
 				name: 'Metrolinx/Toronto Transit Plan',
-				link: '/'
+				// link: '/'
 
-				// link: 'metrolinx-toronto-transit-plan'
+				link: 'metrolinx-toronto-transit-plan'
 			},
 			{
 				name: 'Relief Line',
-				link: '/'
-				// link: 'relief-line'
+				// link: '/'
+				link: 'relief-line'
 			}
 		]
 	}
@@ -91,9 +91,9 @@ export default class Header extends Component {
 					</div>
 				</div>
 				<nav className="header-bar">
-					<div className="header-bar-start">
-						Cancelled Projects<div className="header-bar-starttxt"> of the</div>:
-					</div>
+					{/* <div className="header-bar-start">
+						Cancelled Plans<div className="header-bar-starttxt"> of the</div>:
+					</div> */}
 					<ul className="header-nav">
 						{/* <li className="header-nav_li hvr-underline-from-center">
 							<Link href="/Pre1950s">

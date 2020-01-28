@@ -8,6 +8,11 @@ $breakpoints: ('small': 768px, 'medium': 992px, 'large': 1200px) !default;
 		}
 	}
 }
+@mixin subway-font {
+	font-family: 'toronto_subway_bold';
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
 @mixin max-width-mixin($breakpoint) {
 	// If the key exists in the map
 	@if map-has-key($breakpoints, $breakpoint) {
@@ -17,7 +22,13 @@ $breakpoints: ('small': 768px, 'medium': 992px, 'large': 1200px) !default;
 		}
 	}
 }
-
+@font-face {
+	font-family: 'toronto_subway_bold';
+	src: url('toronto_subway_bold-webfont.woff2') format('woff2'),
+		url('toronto_subway_bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 $dark: #2b2b2b;
 $light: #fffffa;
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
