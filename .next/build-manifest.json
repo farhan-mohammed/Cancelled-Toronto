@@ -1,17 +1,6 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_d6a88dbe3071bd165157.js",
-    "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
-  ],
+  "devFiles": [],
   "pages": {
-    "/1980/network-2011": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/1990/rapid-transit-expansion-program": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js",
