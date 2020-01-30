@@ -140,32 +140,33 @@ export default class ReliefLine extends Component {
 				subway infrastructure a prerequisite for projects such as extending the Yonge subway northwards to
 				Richmond Hill.<sup>25</sup> After the election of a new Progressive Conservative provincial government,
 				existing transit proposals in Toronto were studied, resulting in key changes proposed to the Relief
-				Line.<sup>26</sup> <br/> <br/>The new line, designated the Ontario Line, would roughly follow the same corridor as
-				the Relief Line but with extensions to the north-east towards the Eglinton LRT’s Science Centre Station
-				and south-west towards Exhibition GO Station.<sup>27</sup> A different alignment would be utilised, with
-				the Ontario Line running from Exhibition GO Station and following the rail corridor eastwards before
-				turning northwards on Bathurst Street, then westwards onto Queen Street.<sup>28</sup> From there, the
-				line would run through the downtown core with interchanges to the existing Yonge-University line before
-				veering south from Queen Street at approximately Parliament Street towards the West Don Lands
-				neighbourhood before curving east to follow the rail corridor to Pape Avenue.<sup>29</sup> Then, the
-				subway would follow Pape Avenue to Millwood Road, where it would cross the Don Valley and follow Don
-				Mills Road through the dense neighbourhoods of Thorncliffe Park and Flemingdon Park to the currently
-				under construction Science Centre Station, with a total of 15 stations along the entire line and only
-				follow approximately three kilometres of the Relief Line’s route.<sup>30</sup> Additionally, smaller,
-				lighter, and automated trains that could run in smaller headways would be used instead of TTC subway
-				rolling stock, making the proposed line independent of the existing TTC subway system.<sup>31</sup>{' '}
-				<br/> <br/>Cost- and time-savings were touted by building above-ground in several areas including a crossing over
-				the Don River, as well as following the Lakeshore East and Stouffville lines rail corridor instead of
-				tunnelling underground.<sup>32</sup> The line would cost an estimated $10.9 billion and utilise a
-				private-public partnership procurement model.<sup>33</sup> <br/> <br/>Expected to open in 2027, the Ontario Line
-				was the centrepiece of the new government’s transit plan, and a precondition for the government’s other
-				transit projects including the extension of the Yonge subway to Richmond Hill, a three stop extension of
-				the Bloor-Danforth line through Scarborough, and an extension of the under-construction Eglinton LRT to
-				Pearson Airport, all of which would add additional riders to a strained Yonge subway without the Ontario
-				Line.<sup>34</sup> Although the Relief Line was effectively cancelled with the April 2018 announcement,
-				the Ontario Line is expected to fulfill many of the same objectives: providing relief to the
-				over-capacity Yonge subway, promoting social equity by bringing rapid transit to underserviced
-				neighbourhoods, and bringing connectivity with a variety of other transit initiatives.
+				Line.<sup>26</sup> <br /> <br />The new line, designated the Ontario Line, would roughly follow the same
+				corridor as the Relief Line but with extensions to the north-east towards the Eglinton LRT’s Science
+				Centre Station and south-west towards Exhibition GO Station.<sup>27</sup> A different alignment would be
+				utilised, with the Ontario Line running from Exhibition GO Station and following the rail corridor
+				eastwards before turning northwards on Bathurst Street, then westwards onto Queen Street.<sup>28</sup>{' '}
+				From there, the line would run through the downtown core with interchanges to the existing
+				Yonge-University line before veering south from Queen Street at approximately Parliament Street towards
+				the West Don Lands neighbourhood before curving east to follow the rail corridor to Pape Avenue.<sup>29</sup>{' '}
+				Then, the subway would follow Pape Avenue to Millwood Road, where it would cross the Don Valley and
+				follow Don Mills Road through the dense neighbourhoods of Thorncliffe Park and Flemingdon Park to the
+				currently under construction Science Centre Station, with a total of 15 stations along the entire line
+				and only follow approximately three kilometres of the Relief Line’s route.<sup>30</sup> Additionally,
+				smaller, lighter, and automated trains that could run in smaller headways would be used instead of TTC
+				subway rolling stock, making the proposed line independent of the existing TTC subway system.<sup>31</sup>{' '}
+				<br /> <br />Cost- and time-savings were touted by building above-ground in several areas including a
+				crossing over the Don River, as well as following the Lakeshore East and Stouffville lines rail corridor
+				instead of tunnelling underground.<sup>32</sup> The line would cost an estimated $10.9 billion and
+				utilise a private-public partnership procurement model.<sup>33</sup> <br /> <br />Expected to open in
+				2027, the Ontario Line was the centrepiece of the new government’s transit plan, and a precondition for
+				the government’s other transit projects including the extension of the Yonge subway to Richmond Hill, a
+				three stop extension of the Bloor-Danforth line through Scarborough, and an extension of the
+				under-construction Eglinton LRT to Pearson Airport, all of which would add additional riders to a
+				strained Yonge subway without the Ontario Line.<sup>34</sup> Although the Relief Line was effectively
+				cancelled with the April 2018 announcement, the Ontario Line is expected to fulfill many of the same
+				objectives: providing relief to the over-capacity Yonge subway, promoting social equity by bringing
+				rapid transit to underserviced neighbourhoods, and bringing connectivity with a variety of other transit
+				initiatives.
 			</p>
 		);
 		return (
@@ -210,34 +211,36 @@ export default class ReliefLine extends Component {
 								build rapid transit in Toronto.
 							</div>
 							<div>
-								the Bloor-Danforth line, south-west through  downtown with connections with the Yonge
-								and University subways, and north-west towards an undetermined station along the western
-								section of the Bloor-Danforth line.<sup>8</sup> <br/> <br/>Planned to be implemented within 25
-								years, plans for the line were accelerated as support from municipal and transit
-								officials grew, and as capacity issues along the existing Yonge subway which the
+								the Bloor-Danforth line, south-west through downtown with connections with the Yonge and
+								University subways, and north-west towards an undetermined station along the western
+								section of the Bloor-Danforth line.<sup>8</sup> <br /> <br />Planned to be implemented
+								within 25 years, plans for the line were accelerated as support from municipal and
+								transit officials grew, and as capacity issues along the existing Yonge subway which the
 								proposed line would help relieve worsened.<sup>9</sup> Updates to the regional
 								transportation plan were undertaken in 2013 which reprioritized the core section of the
 							</div>
 						</div>
 						<div className="column2">
 							<div>
-								Street instead.<sup>4</sup> <br/> <br/>More recently in 1985, the Downtown Rapid Transit Study as
-								part of Network 2011 studied a subway from Pape Station in the north-east to
-								approximately the intersection of Front Street and Spadina Avenue utilising the
-								rail-corridors and Front Street as the alignment.<sup>5</sup> The planned project,
-								poised to provide relief to the already overburdened Yonge subway line, was eventually
-								cancelled as other projects took priority.<sup>6</sup> The approved 2016 Relief Line
-								proposal shared many similarities with the one presented in Network 2011, but ran
+								Street instead.<sup>4</sup> <br /> <br />More recently in 1985, the Downtown Rapid
+								Transit Study as part of Network 2011 studied a subway from Pape Station in the
+								north-east to approximately the intersection of Front Street and Spadina Avenue
+								utilising the rail-corridors and Front Street as the alignment.<sup>5</sup> The planned
+								project, poised to provide relief to the already overburdened Yonge subway line, was
+								eventually cancelled as other projects took priority.<sup>6</sup> The approved 2016
+								Relief Line proposal shared many similarities with the one presented in Network 2011,
+								but ran
 							</div>
 							<div className="column2spacer" />
 							<div>
 								project running from a station along the University subway to a station along the
-								Bloor-Danforth line to be completed within 15 years.<sup>10</sup><br/> <br/>The proposed subway,
-								dubbed the Downtown Relief Line because of its projected effect on providing relief to
-								capacity strains on existing subway infrastructure, underwent studies for potential
-								alignments starting in 2012 with the TTC’s Downtown Rapid Transit Expansion Study, with
-								further refinement in 2014 with the start of the Relief Line Project Assessment
-								undertaken by the City of Toronto and the TTC.<sup>11</sup>
+								Bloor-Danforth line to be completed within 15 years.<sup>10</sup>
+								<br /> <br />The proposed subway, dubbed the Downtown Relief Line because of its
+								projected effect on providing relief to capacity strains on existing subway
+								infrastructure, underwent studies for potential alignments starting in 2012 with the
+								TTC’s Downtown Rapid Transit Expansion Study, with further refinement in 2014 with the
+								start of the Relief Line Project Assessment undertaken by the City of Toronto and the
+								TTC.<sup>11</sup>
 							</div>
 						</div>
 					</div>
@@ -254,9 +257,10 @@ export default class ReliefLine extends Component {
 						with tracks connecting to surface streetcar routes at Trinity Park in the west and Pape Street
 						in the east.<sup>3</sup> Planned to be completed after the Yonge subway approved in the same
 						referendum, planners shifted their focus on an east-west route on Bloor Street instead.
-						<sup>4</sup> <br/> <br/>More recently in 1985, the Downtown Rapid Transit Study as part of Network 2011
-						studied a subway from Pape Station in the north-east to approximately the intersection of Front
-						Street and Spadina Avenue utilising the rail-corridors and Front Street as the alignment.
+						<sup>4</sup> <br /> <br />More recently in 1985, the Downtown Rapid Transit Study as part of
+						Network 2011 studied a subway from Pape Station in the north-east to approximately the
+						intersection of Front Street and Spadina Avenue utilising the rail-corridors and Front Street as
+						the alignment.
 						<sup>5</sup> The planned project, poised to provide relief to the already overburdened Yonge
 						subway line, was eventually cancelled as other projects took priority.<sup>6</sup> The approved
 						2016 Relief Line proposal shared many similarities with the one presented in Network 2011, but
@@ -274,16 +278,17 @@ export default class ReliefLine extends Component {
 						running from an unnamed station along the Danforth section of the Bloor-Danforth line,
 						south-west through the downtown with connections with the Yonge and University subways, and
 						north-west towards an unnamed station along the western section of the Bloor-Danforth line.
-						<sup>8</sup> <br/> <br/>Planned to be implemented within 25 years, plans for the line were accelerated as
-						support from municipal and transit officials grew, and as capacity issues along the existing
-						Yonge subway which the proposed line would help relieve worsened.<sup>9</sup> Updates to the
-						regional transportation plan were undertaken in 2013 which reprioritized the core section of the
-						project running from a station along the University subway to a station along the Bloor-Danforth
-						line to be completed within 15 years.<sup>10</sup> <br/> <br/>The proposed subway, dubbed the Downtown
-						Relief Line because of its projected effect on providing relief to capacity strains on existing
-						subway infrastructure, underwent studies for potential alignments starting in 2012 with the
-						TTC’s Downtown Rapid Transit Expansion Study, with further refinement in 2014 with the start of
-						the Relief Line Project Assessment undertaken by the City of Toronto and the TTC.<sup>11</sup>
+						<sup>8</sup> <br /> <br />Planned to be implemented within 25 years, plans for the line were
+						accelerated as support from municipal and transit officials grew, and as capacity issues along
+						the existing Yonge subway which the proposed line would help relieve worsened.<sup>9</sup>{' '}
+						Updates to the regional transportation plan were undertaken in 2013 which reprioritized the core
+						section of the project running from a station along the University subway to a station along the
+						Bloor-Danforth line to be completed within 15 years.<sup>10</sup> <br /> <br />The proposed
+						subway, dubbed the Downtown Relief Line because of its projected effect on providing relief to
+						capacity strains on existing subway infrastructure, underwent studies for potential alignments
+						starting in 2012 with the TTC’s Downtown Rapid Transit Expansion Study, with further refinement
+						in 2014 with the start of the Relief Line Project Assessment undertaken by the City of Toronto
+						and the TTC.<sup>11</sup>
 					</div>
 				</div>
 				<div className="body__img-con">
@@ -297,8 +302,8 @@ export default class ReliefLine extends Component {
 						from Pape Station to downtown Toronto using Pape Avenue and Queen or Richmond Streets was chosen
 						because of its positive effects on several aspects considered: serving a wide range of
 						destinations, connectivity with other transit initiatives, promotion of social equity, and
-						lowest potential cost.<sup>13</sup> <br/> <br/>An alignment within the corridor was selected and approved
-						by
+						lowest potential cost.<sup>13</sup> <br /> <br />An alignment within the corridor was selected
+						and approved by
 						<div className="RFsec1 mediumshow">
 							<div className="blurb RFSpecialblurb mediumshow">
 								Network 2011 at its core was a transit plan that was planned to achieve the planning
@@ -321,13 +326,13 @@ export default class ReliefLine extends Component {
 							lines at the existing Osgoode, Queen, and Pape Stations, stations with connections to future
 							SmartTrack and GO Regional Express Rail services were{' '}
 						</span>
-						planned at stations at Broadview Avenue and Gerrard Street.<sup>15</sup> <br/> <br/>In addition to the
-						downtown portion of the Relief Line project, a northern extension from Pape Station began
-						planning in 2017 with a partnership between Metrolinx and the TTC towards developing an initial
-						business case for the project, dubbed the Relief Line North<sup>16</sup> Corridors studied in
-						the initial phases of planning included options on Bayview Avenue, Leslie Street, Don Mills
-						Road, and Victoria Park Avenue, with proposed connections to the upcoming Eglinton LRT, the
-						Sheppard subway, the proposed Sheppard East LRT, and the Yonge{' '}
+						planned at stations at Broadview Avenue and Gerrard Street.<sup>15</sup> <br /> <br />In
+						addition to the downtown portion of the Relief Line project, a northern extension from Pape
+						Station began planning in 2017 with a partnership between Metrolinx and the TTC towards
+						developing an initial business case for the project, dubbed the Relief Line North<sup>16</sup>{' '}
+						Corridors studied in the initial phases of planning included options on Bayview Avenue, Leslie
+						Street, Don Mills Road, and Victoria Park Avenue, with proposed connections to the upcoming
+						Eglinton LRT, the Sheppard subway, the proposed Sheppard East LRT, and the Yonge{' '}
 						<span className="mediumhide">
 							subway depending on the corridor chosen.<sup>17</sup>
 						</span>
@@ -397,7 +402,7 @@ export default class ReliefLine extends Component {
 						)
 					}}
 				/>
-				<h1 className="body__text-h1">Footnotes</h1>
+				<h1 className="body__text-h1 footnotes-h1">Footnotes</h1>
 				{this.renderFootnotes()}
 			</div>
 		);

@@ -34,6 +34,7 @@ sup {
 }
 .imgLefttextRigtBelow {
 	margin-bottom: 1em;
+	padding: 15px 0;
 	@include max-width-mixin('medium') {
 		margin-bottom: 1em;
 	}
@@ -44,7 +45,7 @@ sup {
 		}
 	}
 	&_img {
-		flex: 1.25;
+		flex: 1.15;
 		@include max-width-mixin('medium') {
 			margin: 1em 0;
 		}
@@ -54,10 +55,10 @@ sup {
 	}
 	&_text {
 		@include min-width-mixin('medium') {
-			padding: 0.5em;
+			padding: 0 0.5em;
 		}
 		&-right {
-			flex: 0.4;
+			flex: 0.5;
 			&_h1 {
 				@include subway-font;
 				font-size: 20px;

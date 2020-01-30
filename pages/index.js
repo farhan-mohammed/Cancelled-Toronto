@@ -36,7 +36,7 @@ const ImageList = [
 		href: '/',
 		// href: '/1990/lets-move',
 		title: "Let's Move (1990)",
-		subtitle: 'Cancelled, replaced with RTEP',
+		subtitle: 'Cancelled, replaced with Rapid Transit Expansion Program',
 		img: '/images/Image5.png'
 	},
 	{

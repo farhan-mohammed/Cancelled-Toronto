@@ -37,12 +37,16 @@ body {
 		width: 100%;
 		&-con {
 			width: 100%;
+			&:first-child {
+				margin: 20px 0;
+			}
 		}
 	}
 	// A section where image and text are placed together
 	&_divide {
 		margin: 1em 0;
 		display: flex;
+		padding: 15px 0;
 		//Horizontal
 		&H {
 			// No code here please
@@ -128,6 +132,7 @@ body {
 			}
 		}
 		&-h2 {
+			font-weight: 400;
 			margin-bottom: .5em;
 		}
 	}
@@ -135,6 +140,9 @@ body {
 .footnotes {
 	&__list {
 		margin-left: 1em;
+	}
+	&-h1 {
+		margin-bottom: 5px;
 	}
 }
 .blurb {

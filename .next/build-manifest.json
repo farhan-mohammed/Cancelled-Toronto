@@ -8,7 +8,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/2010/relief-line": [
+    "/2010/metrolinx-toronto-transit-plan": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -26,6 +26,10 @@
       "static/runtime/polyfills.js.map"
     ],
     "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

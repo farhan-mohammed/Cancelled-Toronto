@@ -300,7 +300,7 @@ export default class RapidTransit extends Component {
 						the Spadina line with stops at York University opening in 2017.
 					</div>
 				</div>
-				<h1 className="body__text-h1">Footnotes</h1>
+				<h1 className="body__text-h1 footnotes-h1">Footnotes</h1>
 				{footnotes()}
 			</div>
 		);

@@ -6,7 +6,7 @@ export default class ImgTextRightBelow extends Component {
 			<div className="imgLefttextRigtBelow">
 				<div className="imgLefttextRigtBelow-row_top">
 					<div className="imgLefttextRigtBelow_img">
-						<img src={/*this.props.img || ''*/ '/images/test.png'} alt="" />
+						<img src={this.props.img || '' /*'/images/test.png'*/} alt="" />
 					</div>
 					<div className="imgLefttextRigtBelow_text imgLefttextRigtBelow_text-right">
 						<h1 className="imgLefttextRigtBelow_text-right_h1">{this.props.title() || ''}</h1>

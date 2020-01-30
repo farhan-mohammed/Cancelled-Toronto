@@ -28,7 +28,7 @@ export default class Year1980 extends Component {
 		);
 	};
 	renderView() {
-		return <ImgAll img="/images/1980.png"></ImgAll>;
+		return <ImgAll img="/images/1980.png" />;
 	}
 	renderText1() {
 		return (
@@ -369,7 +369,7 @@ export default class Year1980 extends Component {
 							as competition for such funding.<sup>15</sup>
 						</span>
 					)}
-				></TwoColumn>
+				/>
 				<ImgTextRightBelow
 					img="/images/1980C.jpg"
 					title={() => (
@@ -400,9 +400,9 @@ export default class Year1980 extends Component {
 								in the west, and from Victoria Park Avenue to Scarborough City Centre in the east.
 								<sup>19</sup>
 							</span>
-						),
+						)
 					}}
-				></ImgTextRightBelow>
+				/>
 				<ImgTextRightBelow
 					img="/images/1980D.jpg"
 					title={() => (
@@ -411,7 +411,7 @@ export default class Year1980 extends Component {
 						</h1>
 					)}
 					text={{
-						right: () => <span></span>,
+						right: () => <span />,
 						below: () => (
 							<span>
 								Scarborough City Centre, planned eventual terminus of the Sheppard subway and emerging
@@ -424,9 +424,9 @@ export default class Year1980 extends Component {
 								would decrease the pressure of large amounts of commuters headed downtown in the peak
 								direction by encouraging reverse commuting.<sup>23</sup>
 							</span>
-						),
+						)
 					}}
-				></ImgTextRightBelow>
+				/>
 				<TwoColumn
 					text={() => (
 						<span>
@@ -458,7 +458,7 @@ export default class Year1980 extends Component {
 						</span>
 					)}
 				/>
-				<h1 className="body__text-h1">Footnotes</h1>
+				<h1 className="body__text-h1 footnotes-h1">Footnotes</h1>
 				{footnotes()}
 			</div>
 		);

@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\2010\\metrolinx-toronto-transit-plan.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -444,6 +444,318 @@ function (_Component2) {
   }]);
 
   return SideMenu;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+
+
+/***/ }),
+
+/***/ "./components/content/TwoColumn.js":
+/*!*****************************************!*\
+  !*** ./components/content/TwoColumn.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\content\\TwoColumn.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
+
+var TwoColumn =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(TwoColumn, _React$Component);
+
+  function TwoColumn() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, TwoColumn);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(TwoColumn).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(TwoColumn, [{
+    key: "render",
+    value: function render() {
+      return __jsx("div", {
+        className: "body__text-p column2easy",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 4
+        },
+        __self: this
+      }, this.props.text());
+    }
+  }]);
+
+  return TwoColumn;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (TwoColumn);
+
+/***/ }),
+
+/***/ "./components/templates/ImgAll.js":
+/*!****************************************!*\
+  !*** ./components/templates/ImgAll.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ImgAll; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\templates\\ImgAll.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
+
+var ImgAll =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ImgAll, _Component);
+
+  function ImgAll() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ImgAll);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ImgAll).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ImgAll, [{
+    key: "render",
+    value: function render() {
+      return __jsx("div", {
+        className: "body__img-con",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6
+        },
+        __self: this
+      }, __jsx("img", {
+        src: this.props.img,
+        alt: "",
+        className: "body__img",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        },
+        __self: this
+      }));
+    }
+  }]);
+
+  return ImgAll;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+
+
+/***/ }),
+
+/***/ "./components/templates/imgTextBelow.js":
+/*!**********************************************!*\
+  !*** ./components/templates/imgTextBelow.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ImgTextBelow; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\templates\\imgTextBelow.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
+
+var ImgTextBelow =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ImgTextBelow, _Component);
+
+  function ImgTextBelow(props) {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ImgTextBelow);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ImgTextBelow).call(this, props));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ImgTextBelow, [{
+    key: "render",
+    value: function render() {
+      return __jsx("div", {
+        className: "body_divide body_divideVL",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }, __jsx("img", {
+        src: this.props.img
+        /*'/images/test.png'*/
+        ,
+        alt: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }), __jsx("div", {
+        className: "body__img-p italy",
+        style: {
+          marginTop: '1em'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }, this.props.text()));
+    }
+  }]);
+
+  return ImgTextBelow;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+
+
+/***/ }),
+
+/***/ "./components/templates/imgTextRightBelow.js":
+/*!***************************************************!*\
+  !*** ./components/templates/imgTextRightBelow.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ImgTextRightBelow; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\templates\\imgTextRightBelow.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
+
+var ImgTextRightBelow =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ImgTextRightBelow, _Component);
+
+  function ImgTextRightBelow() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ImgTextRightBelow);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ImgTextRightBelow).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ImgTextRightBelow, [{
+    key: "render",
+    value: function render() {
+      return __jsx("div", {
+        className: "imgLefttextRigtBelow",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "imgLefttextRigtBelow-row_top",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "imgLefttextRigtBelow_img",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        },
+        __self: this
+      }, __jsx("img", {
+        src: this.props.img || ''
+        /*'/images/test.png'*/
+        ,
+        alt: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      })), __jsx("div", {
+        className: "imgLefttextRigtBelow_text imgLefttextRigtBelow_text-right",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }, __jsx("h1", {
+        className: "imgLefttextRigtBelow_text-right_h1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, this.props.title() || ''), __jsx("p", {
+        className: "italy",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, typeof this.props.text.right === 'function' ? this.props.text.right() : ''))), __jsx("div", {
+        className: "imgLefttextRigtBelow_text imgLefttextRigtBelow_text-bottom italy",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, typeof this.props.text.bottom === 'function' ? this.props.text.bottom() : ''));
+    }
+  }]);
+
+  return ImgTextRightBelow;
 }(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
 
@@ -5733,21 +6045,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5Cindex.js!./":
-/*!**********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5Cindex.js ***!
-  \**********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F2010%2Fmetrolinx-toronto-transit-plan&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5C2010%5Cmetrolinx-toronto-transit-plan.js!./":
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F2010%2Fmetrolinx-toronto-transit-plan&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5C2010%5Cmetrolinx-toronto-transit-plan.js ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/2010/metrolinx-toronto-transit-plan", function() {
+      var mod = __webpack_require__(/*! ./pages/2010/metrolinx-toronto-transit-plan.js */ "./pages/2010/metrolinx-toronto-transit-plan.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./pages/2010/metrolinx-toronto-transit-plan.js */ "./pages/2010/metrolinx-toronto-transit-plan.js", function() {
+          if(!next.router.components["/2010/metrolinx-toronto-transit-plan"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/2010/metrolinx-toronto-transit-plan.js */ "./pages/2010/metrolinx-toronto-transit-plan.js")
+          next.router.update("/2010/metrolinx-toronto-transit-plan", updatedPage)
         })
       }
       return mod
@@ -9831,16 +10143,16 @@ try {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/2010/metrolinx-toronto-transit-plan.js":
+/*!******************************************************!*\
+  !*** ./pages/2010/metrolinx-toronto-transit-plan.js ***!
+  \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return App; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MetroLinxTTP; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
@@ -9850,9 +10162,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_wrapper_mainSite__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/wrapper/mainSite */ "./components/wrapper/mainSite.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _components_wrapper_mainSite__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/wrapper/mainSite */ "./components/wrapper/mainSite.js");
+/* harmony import */ var _components_templates_imgTextBelow__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/templates/imgTextBelow */ "./components/templates/imgTextBelow.js");
+/* harmony import */ var _components_content_TwoColumn__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/content/TwoColumn */ "./components/content/TwoColumn.js");
+/* harmony import */ var _components_templates_ImgAll__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/templates/ImgAll */ "./components/templates/ImgAll.js");
+/* harmony import */ var _components_templates_imgTextRightBelow__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/templates/imgTextRightBelow */ "./components/templates/imgTextRightBelow.js");
 
 
 
@@ -9860,171 +10174,455 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\pages\\2010\\metrolinx-toronto-transit-plan.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
 
 
-var ImageList = [{
-  href: '/',
-  // href: '/2010/relief-line',
-  title: 'Relief Line (2016)',
-  subtitle: 'Cancelled, replaced with Ontario Line',
-  img: '/images/Image1.png'
-}, {
-  href: '/',
-  // href: '/2010/metrolinx-toronto-transit-plan',
-  title: 'Metrolinx/Toronto Transit Plan (2011)',
-  subtitle: 'Cancelled',
-  img: '/images/Image2.png'
-}, {
-  href: '/',
-  // href: '/2000/transit-city',
-  title: 'Transit City (2017)',
-  subtitle: 'Cancelled, partially under construction',
-  img: '/images/Image3.png'
-}, {
-  href: '/',
-  // href: '/1990/rapid-transit-expansion-program',
-  title: 'Rapid Transit Expansion Program (1993)',
-  subtitle: 'Cancelled, partially built',
-  img: '/images/Image4.png'
-}, {
-  href: '/',
-  // href: '/1990/lets-move',
-  title: "Let's Move (1990)",
-  subtitle: 'Cancelled, replaced with Rapid Transit Expansion Program',
-  img: '/images/Image5.png'
-}, {
-  href: '/',
-  // href: '/1980/network-2011',
-  title: 'Network 2011 (1985)',
-  subtitle: "Cancelled, replaced with Let's Move",
-  img: '/images/Image6.png'
-}];
 
-var App =
+
+
+var MetroLinxTTP =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(App, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(MetroLinxTTP, _Component);
 
-  function App() {
+  function MetroLinxTTP() {
     var _getPrototypeOf2;
 
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, App);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, MetroLinxTTP);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(App)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MetroLinxTTP)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "renderList", function () {
-      return ImageList.map(function (item) {
-        return __jsx("div", {
-          key: item.href,
-          className: "homepage-item",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 54
-          },
-          __self: this
-        }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-          href: item.href,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 55
-          },
-          __self: this
-        }, __jsx("a", {
-          className: "homepage-item-con",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 56
-          },
-          __self: this
-        }, __jsx("div", {
-          className: "homepage-item__img-con",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 57
-          },
-          __self: this
-        }, __jsx("img", {
-          className: "homepage-item__img",
-          src: item.img,
-          alt: "",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 58
-          },
-          __self: this
-        })), __jsx("div", {
-          className: "homepage-item__text",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 60
-          },
-          __self: this
-        }, __jsx("div", {
-          className: "homepage-item__text-title",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 61
-          },
-          __self: this
-        }, item.title), __jsx("div", {
-          className: "homepage-item__text-subtitle",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 62
-          },
-          __self: this
-        }, item.subtitle)))));
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "renderView", function () {
+      return __jsx(_components_templates_ImgAll__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        img: "/images/metro1.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
       });
     });
 
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(App, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(MetroLinxTTP, [{
+    key: "renderText",
+    value: function renderText() {
+      var renderFootnotes = function renderFootnotes() {
+        var footnotes = ["Kristin, Rushowy, and Kalinowski Tess. “Sheppard Not a Priority - Yet: Despite Ford's Comments, Transit Plan Won't Be Set until the New Year.” Toronto Star, December 22, 2010, sec. GT2.", "Tess, Kalinowski, and Rider David. “'War on the Car Is over': Ford Scraps Transit City: Move Could Leave Toronto on Hook for Millions in Penalties, Wasted Work.” Toronto Star, December 2, 2010, sec. A1.", "David, Rider. “Eglinton Rail Back on Table in Ford's New Transit Plan: Signs Point to Compromise with Metrolinx, TTC That Would Save LRT Line.” Toronto Star, January 4, 2011, sec. A1.", 'Rider. “Eglinton Rail Back on Table.” sec. A1; Tess, Kalinowski. “Ford Pitches Private-Public Partnership for Subway: Metrolinx Would Still Build Eglinton Light Rail, at Least to Kennedy Station.” Toronto Star, February 17, 2011, sec. A3.', 'Rider. “Eglinton Rail Back on Table.” sec. A1', 'Rider. “Eglinton Rail Back on Table.” sec. A1', 'Eric Sehr. Scarborough Town Centre (DSC_0387), 2013, colour digital, Flickr, Toronto, accessed January 21, 2020, https://www.flickr.com/photos/ericvery/9417961445/. Creative Commons License (CC BY-NC-ND 2.0), https://creativecommons.org/licenses/by-nc-nd/2.0/', 'Kalinowski. “Ford Pitches Private-Public Partnership for Subway.” sec. A3.', "Tess, Kalinowski. “It's Full Steam Ahead for Eglinton LRT: Province and City Agree to Underground Rail Plan.” Toronto Star, April 1, 2011, sec. GT3.", "Robert, Benzies, and Kalinowski Tess. “$12.4 Billion TTC Deal 'Close': Queen's Park, City Agree to Extend Sheppard Subway, Build Underground Eglinton Light Rail Line.” Toronto Star, March 31, 2011, sec. GT1.", "Kalinowski. “It's Full Steam Ahead for Eglinton LRT” sec. GT3.", ' Wyliepoon. IMG_4538, 2009, colour digital, Flickr, Toronto, accessed January 21, 2020, https://www.flickr.com/photos/wyliepoon/4077118456/. Creative Commons License (CC BY-NC-ND 2.0), https://creativecommons.org/licenses/by-nc-nd/2.0/', "James, Royson. “Caution: Road Tolls Ahead: Ford's Transit Guru Predicts Drivers Will Pay the Price for Subway Expansion.” Toronto Star, May 28, 2011, sec. A1.", 'Paul, Moloney. “Sheppard Subway Cost Soars.” Toronto Star, June 25, 2011, sec. GT4.', "Elizabeth, Church. “TTC Chief Fired as Province Runs out of Patience.” The Globe and Mail. February 22, 2012, sec. A1; Tess, Kalinowski. “Ford Plots to Oust TTC Chief: Shakeup Likely as General Manager's Opposition to Sheppard Subway Extension Puts Job at Risk.” Toronto Star, July 22, 2011, sec. A1.", 'Tess, Kalinowski. “New Eglinton LRT Plan Could Be a Step Closer.” Toronto Star, January 24, 2012, sec. GT1.', "Daniel, Dale, and David Rider. “Ford's TTC Plans Lack Support: More Councillors Back Vision of Transit Chair Karen Stintz.” Toronto Star, January 28, 2012, sec. GT2.", "Dale, and Rider. “Ford's TTC Plans Lack Support.” sec. GT2.", "Tess, Kalinowski, and Dale Daniel. “Ford Trounced in Transit Vote: Mayor Calls Council Defeat 'Irrelevant' as Stintz Wins Vote to Restore Above-Ground LRT Plan.” Toronto Star, February 9, 2012, sec. A1.", 'James, Royson. “Ford Fumbles as City Staff Pan Subway.” Toronto Star, March 1, 2012, sec. A1.', "James, Royson. “Ford's Last Subway Lifeline.” Toronto Star, March 17, 2012, sec. GT2; James, Royson. “Ford Refuses to Accept Subway Loss: Council Votes 24-19 for Light Rail, but Combative Mayor Wants to Turn down Province's $8.4B Cheque.” Toronto Star, March 23, 2012, sec. A1.", 'James, Royson. “Ford Refuses to Accept Subway Loss.” sec. A1.', 'Tess, Kalinowski, Dale Daniel, and Benzie Robert. “Detailed LRT Plan Few Months Away: Metrolinx Ponders Scheduling and Cash, Ford Eyes Referendum.” Toronto Star, March 24, 2012, sec. GT2; Tess, Kalinowski. “Ford Fails to Delay LRT Master Plan.” Toronto Star, November 2, 2012, sec. GT3; Tess, Kalinowski. “Province Takes Lead on LRT Project: TTC Differs on Timeline for Eglinton Line Work.” Toronto Star, May 31, 2012, sec. GT2.', " Tess, Kalinowski. “Metrolinx to Build Sheppard LRT First: Finch Will Follow, with All Four of Toronto's Light Rail Lines Expected to Be Done by 2020.” Toronto Star, April 25, 2012, sec. GT1.", "Rhianna, Jackson-Kelso, and Bensadoun Emerald. “How Ford's TTC Overhaul Compares to Toronto City Plans.” Toronto Star, April 11, 2019, sec. GT10."];
+        return __jsx("ol", {
+          className: "footnotes__list",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 40
+          },
+          __self: this
+        }, footnotes.map(function (text) {
+          return __jsx("li", {
+            className: "footnotes__item",
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 41
+            },
+            __self: this
+          }, text);
+        }));
+      };
+
+      return __jsx("div", {
+        className: "body__text-con",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, __jsx("h1", {
+        className: "body__text-h1 body__text-h11980",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }, "Metrolinx/Toronto Transit Plan (2011)"), __jsx("h2", {
+        className: "body__text-h2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, "Cancelled in 2012"), __jsx(_components_templates_imgTextRightBelow__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        img: "/images/metro2.jpg",
+        title: function title() {
+          return __jsx("span", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 55
+            },
+            __self: this
+          }, "Scarborough City Centre");
+        },
+        text: {
+          right: function right() {
+            return __jsx("span", {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 58
+              },
+              __self: this
+            }, "Development of Scarborough City Centre had increased significantly since a Sheppard subway to Scarborough City Centre was first proposed in 1985 through Network 2011. Although office development plateaued after the 1990s as metropolitan-level planning trends focused on \u201Crecentralization\u201D towards the downtown core, significant growth in high-density residential in the area has increased the population significantly.", __jsx("sup", {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 64
+              },
+              __self: this
+            }, "7"));
+          }
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }), __jsx(_components_content_TwoColumn__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        text: function text() {
+          return __jsx("span", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 71
+            },
+            __self: this
+          }, "Developments in negotiations peaked in mid-February 2011, with the City of Toronto pitching to Metrolinx an agreement to shift all Transit City funding towards a fully underground Eglinton LRT between approximately Black Creek Drive to Kennedy Station, while the city would work on extending the Sheppard subway east and westwards utilising private-public partnerships.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 76
+            },
+            __self: this
+          }, "8"), " An agreement was finally made in April of 2011 in the form of a $12.4 billion transit plan similar to the City of Toronto\u2019s earlier proposal, with the approximately $8.2 billion in provincial funding towards Transit City projects transferred towards building a fully-underground Eglinton LRT running from Black Creek Drive to Kennedy Station, where it would then approach the surface and follow the route of a refurbished Scarborough rapid transit line.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 81
+            },
+            __self: this
+          }, "9"), " ", __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 81
+            },
+            __self: this
+          }), " ", __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 81
+            },
+            __self: this
+          }), "Meanwhile, $4.2 billion would be spent on extensions east and westwards to the Sheppard subway to Downsview Station in the east and Scarborough Centre Station in the west, set to open in 2019.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 83
+            },
+            __self: this
+          }, "10"), " Remaining provincial funds leftover from the $8.2 billion planned to be spent on the Eglinton LRT would also be diverted to completing the Sheppard subway extensions, anticipated to be up to $650 million.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 86
+            },
+            __self: this
+          }, "11"));
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }), __jsx(_components_templates_imgTextRightBelow__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        img: "/images/metro3.jpg",
+        title: function title() {
+          return __jsx("span", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 92
+            },
+            __self: this
+          }, "Sheppard subway");
+        },
+        text: {
+          right: function right() {
+            return __jsx("span", {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 95
+              },
+              __self: this
+            }, "The focal point of the Metrolinx/Toronto Transit Plan was extensions of the Sheppard subway both east and westwards, similarly to the original Sheppard subway as proposed in Network 2011. The subway was planned to utilise significant private investment, mainly from developers, but the plan fell through as further analysis found a funding pitfall of over $1 billion.", __jsx("sup", {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 100
+              },
+              __self: this
+            }, "12"));
+          }
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90
+        },
+        __self: this
+      }), __jsx(_components_content_TwoColumn__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        text: function text() {
+          return __jsx("span", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 107
+            },
+            __self: this
+          }, "Almost immediately, concerns over the city\u2019s proposal to raise funds necessary for the Sheppard subway extensions were raised. While Rob Ford maintained that the extensions could be built using funds from private-public partnerships, it quickly became apparent that other revenue tools would be necessary to raise funds for the project, with Gordon Chong, head of the TTC\u2019s investment division suggesting road tolls, congestion charges, and development fees.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 113
+            },
+            __self: this
+          }, "13"), " By June 2011, further study into the project found the estimated cost would be $500 million more than originally pegged at, now totalling $4.7 billion.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 115
+            },
+            __self: this
+          }, "14"), __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 116
+            },
+            __self: this
+          }), __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 117
+            },
+            __self: this
+          }), "Opposition to the project from within the TTC and the city also developed, beginning with TTC chief general manager Gary Webster who refused to support the Sheppard subway extensions, much to the ire of mayor Rob Ford, whose allies on the TTC board later fired Gary Webster.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 121
+            },
+            __self: this
+          }, "15"), " Then, following a series of victories in cancelling proposed budget cuts, Toronto city councillors led by TTC chair Karen Stintz began calling for a compromise transit plan, one that would see the original plan for an Eglinton LRT running underground between Keele Street and Laird Drive only, with a surface right-of-way for the rest of the route.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 125
+            },
+            __self: this
+          }, "16"), " ", __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 125
+            },
+            __self: this
+          }), " ", __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 125
+            },
+            __self: this
+          }), "In a new transit plan spearheaded by Karen Stintz, the savings from the Eglinton LRT would be utilised to extend the Sheppard subway eastwards two stations to Victoria Park Avenue, with remaining funds spent on some sort of rapid transit on Finch Avenue West.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 128
+            },
+            __self: this
+          }, "17"), " Costs saved from avoiding tunnelling were estimated to be as much as $1.5 billion.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 129
+            },
+            __self: this
+          }, "18"), " ", __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 129
+            },
+            __self: this
+          }), " ", __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 129
+            },
+            __self: this
+          }), "Her plan, debated in council in early February of 2012, restored the original Transit City plans for the Finch West and Eglinton LRTs, while pausing plans for a Sheppard subway in anticipation of recommendations from an expert panel on whether surface light rail or underground subway technology would be more effective.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 134
+            },
+            __self: this
+          }, "19"), " Soon after, city staff concluded that Rob Ford\u2019s plan to almost exclusively utilise private investment towards extensions of the Sheppard subway were unviable, with a funding gap of almost $1 billion on the section between Don Mills Station and Scarborough Centre Station alone.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 137
+            },
+            __self: this
+          }, "20"));
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105
+        },
+        __self: this
+      }), __jsx(_components_templates_imgTextBelow__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        img: "/images/metro4.png",
+        text: function text() {
+          return __jsx("span", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 144
+            },
+            __self: this
+          }, "As funding issues for the Sheppard subway continued to arise, city council voted to restore original plans for provincially-funded light rail lines on Sheppard, Finch, and Eglinton Avenues.");
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141
+        },
+        __self: this
+      }), __jsx(_components_content_TwoColumn__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        text: function text() {
+          return __jsx("span", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 153
+            },
+            __self: this
+          }, "Finally, with the release of the report in mid-March of 2012 showing that light rail technology would be more effective, council voted 24-19 to restore the previous funded plan for light rail on Sheppard East, Finch West, and Eglinton Avenues, much to the dismay of the mayor.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 157
+            },
+            __self: this
+          }, "21"), "Appealing to the province, which would have wholly funded the $8.4 billion light rail plan, Rob Ford urged the province not to fund the plan, which was denied.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 158
+            },
+            __self: this
+          }, "22"), __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 159
+            },
+            __self: this
+          }), " ", __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 159
+            },
+            __self: this
+          }), "Attempts to revive the subway-focused plan through a city-wide referendum were unsuccessful, as were efforts to delay the light rail plan, which\u2019s development was transferred from the TTC to the province through Metrolinx.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 161
+            },
+            __self: this
+          }, "23"), "Construction on light rail would begin on Sheppard Avenue East in 2014 and Finch Avenue West in 2015, which along with the then already under-construction Eglinton LRT would see completion in 2020.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 163
+            },
+            __self: this
+          }, "24"), "In the end, the Sheppard East LRT was further delayed, deferred, and eventually replaced with proposals for a future extension of the Sheppard subway in 2019, while the Finch West LRT began preparatory construction in 2019, with a completion date set for 2023.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 166
+            },
+            __self: this
+          }, "25"), __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 167
+            },
+            __self: this
+          }), __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 168
+            },
+            __self: this
+          }), "The saga for which the Metrolinx/Toronto Transit Plan was created was ultimately a blip from the province\u2019s original plan for a watered-down Transit City proposal. Although certain elements of the Metrolinx/Toronto Transit Plan from 2011 survive today through the current Progressive Conservative administration\u2019s plan for an eventual extension of the Sheppard subway eastwards, such a project is neither funded or a priority. Meanwhile, Rob Ford\u2019s vision for a fully-underground Eglinton LRT was never realized, with current construction on a mixed-grade LRT planned for completion in fall of 2021. Despite so, the Metrolinx/Toronto Transit Plan represented the culmination of previous transit plans such as the Rapid Transit Expansion Program and Network 2011, which foresaw the construction of a complete Sheppard subway as well as grade-separated rapid transit on Eglinton Avenue West.", __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 179
+            },
+            __self: this
+          }));
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 151
+        },
+        __self: this
+      }), __jsx("h1", {
+        className: "body__text-h1 footnotes-h1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 183
+        },
+        __self: this
+      }, "Footnotes"), renderFootnotes());
+    }
+  }, {
     key: "render",
     value: function render() {
       return __jsx(_components_wrapper_mainSite__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 190
         },
         __self: this
       }, __jsx("div", {
-        className: "homepage-list",
+        className: "body-con",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 191
         },
         __self: this
-      }, this.renderList()));
+      }, __jsx("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 192
+        },
+        __self: this
+      }, this.renderView()), __jsx("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 193
+        },
+        __self: this
+      }, this.renderText())));
     }
   }]);
 
-  return App;
+  return MetroLinxTTP;
 }(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
 
 
 
 /***/ }),
 
-/***/ 1:
-/*!**************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5Cindex.js ***!
-  \**************************************************************************************************************************************************/
+/***/ 2:
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F2010%2Fmetrolinx-toronto-transit-plan&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5C2010%5Cmetrolinx-toronto-transit-plan.js ***!
+  \***********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F2010%2Fmetrolinx-toronto-transit-plan&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5C2010%5Cmetrolinx-toronto-transit-plan.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F2010%2Fmetrolinx-toronto-transit-plan&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5C2010%5Cmetrolinx-toronto-transit-plan.js!./");
 
 
 /***/ }),
@@ -10040,5 +10638,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=metrolinx-toronto-transit-plan.js.map

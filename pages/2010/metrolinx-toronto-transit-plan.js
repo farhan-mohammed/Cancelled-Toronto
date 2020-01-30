@@ -51,7 +51,7 @@ export default class MetroLinxTTP extends Component {
 				}
 
 				<ImgTextRightBelow
-					img="/images/metro2.png"
+					img="/images/metro2.jpg"
 					title={() => <span>Scarborough City Centre</span>}
 					text={{
 						right: () => (
@@ -78,9 +78,9 @@ export default class MetroLinxTTP extends Component {
 							approximately $8.2 billion in provincial funding towards Transit City projects transferred
 							towards building a fully-underground Eglinton LRT running from Black Creek Drive to Kennedy
 							Station, where it would then approach the surface and follow the route of a refurbished
-							Scarborough rapid transit line.<sup>9</sup> <br/> <br/>Meanwhile, $4.2 billion would be spent on
-							extensions east and westwards to the Sheppard subway to Downsview Station in the east and
-							Scarborough Centre Station in the west, set to open in 2019.<sup>10</sup> Remaining
+							Scarborough rapid transit line.<sup>9</sup> <br /> <br />Meanwhile, $4.2 billion would be
+							spent on extensions east and westwards to the Sheppard subway to Downsview Station in the
+							east and Scarborough Centre Station in the west, set to open in 2019.<sup>10</sup> Remaining
 							provincial funds leftover from the $8.2 billion planned to be spent on the Eglinton LRT
 							would also be diverted to completing the Sheppard subway extensions, anticipated to be up to
 							$650 million.<sup>11</sup>
@@ -88,7 +88,7 @@ export default class MetroLinxTTP extends Component {
 					)}
 				/>
 				<ImgTextRightBelow
-					img="/images/metro3.png"
+					img="/images/metro3.jpg"
 					title={() => <span>Sheppard subway</span>}
 					text={{
 						right: () => (
@@ -122,14 +122,15 @@ export default class MetroLinxTTP extends Component {
 							budget cuts, Toronto city councillors led by TTC chair Karen Stintz began calling for a
 							compromise transit plan, one that would see the original plan for an Eglinton LRT running
 							underground between Keele Street and Laird Drive only, with a surface right-of-way for the
-							rest of the route.<sup>16</sup> <br/> <br/>In a new transit plan spearheaded by Karen Stintz, the
-							savings from the Eglinton LRT would be utilised to extend the Sheppard subway eastwards two
-							stations to Victoria Park Avenue, with remaining funds spent on some sort of rapid transit
-							on Finch Avenue West.<sup>17</sup> Costs saved from avoiding tunnelling were estimated to be
-							as much as $1.5 billion.<sup>18</sup> <br/> <br/>Her plan, debated in council in early February of
-							2012, restored the original Transit City plans for the Finch West and Eglinton LRTs, while
-							pausing plans for a Sheppard subway in anticipation of recommendations from an expert panel
-							on whether surface light rail or underground subway technology would be more effective.
+							rest of the route.<sup>16</sup> <br /> <br />In a new transit plan spearheaded by Karen
+							Stintz, the savings from the Eglinton LRT would be utilised to extend the Sheppard subway
+							eastwards two stations to Victoria Park Avenue, with remaining funds spent on some sort of
+							rapid transit on Finch Avenue West.<sup>17</sup> Costs saved from avoiding tunnelling were
+							estimated to be as much as $1.5 billion.<sup>18</sup> <br /> <br />Her plan, debated in
+							council in early February of 2012, restored the original Transit City plans for the Finch
+							West and Eglinton LRTs, while pausing plans for a Sheppard subway in anticipation of
+							recommendations from an expert panel on whether surface light rail or underground subway
+							technology would be more effective.
 							<sup>19</sup> Soon after, city staff concluded that Rob Ford’s plan to almost exclusively
 							utilise private investment towards extensions of the Sheppard subway were unviable, with a
 							funding gap of almost $1 billion on the section between Don Mills Station and Scarborough
@@ -138,12 +139,12 @@ export default class MetroLinxTTP extends Component {
 					)}
 				/>
 				<ImgTextBelow
-					img=""
+					img="/images/metro4.png"
 					text={() => (
 						<span>
 							As funding issues for the Sheppard subway continued to arise, city council voted to restore
 							original plans for provincially-funded light rail lines on Sheppard, Finch, and Eglinton
-							Avenues.{' '}
+							Avenues.
 						</span>
 					)}
 				/>
@@ -154,13 +155,13 @@ export default class MetroLinxTTP extends Component {
 							technology would be more effective, council voted 24-19 to restore the previous funded plan
 							for light rail on Sheppard East, Finch West, and Eglinton Avenues, much to the dismay of the
 							mayor.<sup>21</sup>Appealing to the province, which would have wholly funded the $8.4
-							billion light rail plan, Rob Ford urged the province not to fund the plan, which was denied.<sup>22</sup><br/> <br/>Attempts
-							to revive the subway-focused plan through a city-wide referendum were unsuccessful, as were
-							efforts to delay the light rail plan, which’s development was transferred from the TTC to
-							the province through Metrolinx.<sup>23</sup>Construction on light rail would begin on
-							Sheppard Avenue East in 2014 and Finch Avenue West in 2015, which along with the then
-							already under-construction Eglinton LRT would see completion in 2020.<sup>24</sup>In the
-							end, the Sheppard East LRT was further delayed, deferred, and eventually replaced with
+							billion light rail plan, Rob Ford urged the province not to fund the plan, which was denied.<sup>22</sup>
+							<br /> <br />Attempts to revive the subway-focused plan through a city-wide referendum were
+							unsuccessful, as were efforts to delay the light rail plan, which’s development was
+							transferred from the TTC to the province through Metrolinx.<sup>23</sup>Construction on
+							light rail would begin on Sheppard Avenue East in 2014 and Finch Avenue West in 2015, which
+							along with the then already under-construction Eglinton LRT would see completion in 2020.<sup>24</sup>In
+							the end, the Sheppard East LRT was further delayed, deferred, and eventually replaced with
 							proposals for a future extension of the Sheppard subway in 2019, while the Finch West LRT
 							began preparatory construction in 2019, with a completion date set for 2023.<sup>25</sup>
 							<br />
@@ -179,7 +180,7 @@ export default class MetroLinxTTP extends Component {
 						</span>
 					)}
 				/>
-				<h1 className="body__text-h1">Footnotes</h1>
+				<h1 className="body__text-h1 footnotes-h1">Footnotes</h1>
 				{renderFootnotes()}
 			</div>
 		);
