@@ -11,6 +11,11 @@
 		box-sizing: border-box;
 	}
 	&-item {
+		&-con {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+		}
 		width: 45%;
 		@include max-width-mixin('small') {
 			width: 100%;

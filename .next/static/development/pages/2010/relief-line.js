@@ -32,42 +32,6 @@ var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\comp
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
-var NavList = [{
-  decade: '1980',
-  files: [{
-    name: 'Network 2011',
-    // link: '/'
-    link: 'network-2011'
-  }]
-}, {
-  decade: '1990',
-  files: [{
-    name: "Let's Move",
-    link: 'lets-move'
-  }, {
-    name: 'Rapid Transit Expansion Program',
-    // link: '/'
-    link: 'rapid-transit-expansion-program'
-  }]
-}, {
-  decade: '2000',
-  files: [{
-    name: 'Transit City',
-    // link: '/'
-    link: 'transit-city'
-  }]
-}, {
-  decade: '2010',
-  files: [{
-    name: 'Metrolinx/Toronto Transit Plan',
-    // link: '/'
-    link: 'metrolinx-toronto-transit-plan'
-  }, {
-    name: 'Relief Line',
-    // link: '/'
-    link: 'relief-line'
-  }]
-}];
 
 var Header =
 /*#__PURE__*/
@@ -88,7 +52,7 @@ function (_Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Header)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "renderList", function () {
-      return NavList.map(function (_ref) {
+      return _this.props.NavList.map(function (_ref) {
         var decade = _ref.decade,
             files = _ref.files;
         return __jsx("li", {
@@ -96,20 +60,20 @@ function (_Component) {
           key: decade,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 55
+            lineNumber: 7
           },
           __self: this
         }, __jsx("span", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 56
+            lineNumber: 8
           },
           __self: this
         }, "".concat(decade, "s")), __jsx("ul", {
           className: " hnv-li-ul",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 57
+            lineNumber: 9
           },
           __self: this
         }, files.map(function (_ref2) {
@@ -120,20 +84,20 @@ function (_Component) {
             key: link,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 59
+              lineNumber: 11
             },
             __self: this
           }, __jsx("a", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 60
+              lineNumber: 12
             },
             __self: this
           }, __jsx("li", {
             className: "hnv-li hnv-li-ul-li",
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 61
+              lineNumber: 13
             },
             __self: this
           }, name)));
@@ -152,41 +116,41 @@ function (_Component) {
         className: "header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 23
         },
         __self: this
       }, __jsx("div", {
         className: "header-top",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 24
         },
         __self: this
       }, __jsx("div", {
         className: "header-top-pic",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 25
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 26
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 27
         },
         __self: this
       }, __jsx("div", {
         className: "header-pic_narrow",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 31
         },
         __self: this
       }, __jsx("img", {
@@ -194,7 +158,7 @@ function (_Component) {
         src: "/images/header/narrow.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 32
         },
         __self: this
       }))))), __jsx("div", {
@@ -202,49 +166,49 @@ function (_Component) {
         onClick: this.props.toggleHamburger,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 37
         },
         __self: this
       }, __jsx("div", {
         className: activeClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 38
         },
         __self: this
       }, __jsx("div", {
         className: "HamBurgbar1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 39
         },
         __self: this
       }), __jsx("div", {
         className: "HamBurgbar2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 40
         },
         __self: this
       }), __jsx("div", {
         className: "HamBurgbar3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 41
         },
         __self: this
       })))), __jsx("nav", {
         className: "header-bar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 45
         },
         __self: this
       }, __jsx("ul", {
         className: "header-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 49
         },
         __self: this
       }, this.renderList())));
@@ -275,6 +239,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
 
 
 
@@ -284,10 +250,135 @@ var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\comp
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
-var SideMenu =
+
+var SideMenuItem =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(SideMenu, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(SideMenuItem, _Component);
+
+  function SideMenuItem(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, SideMenuItem);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(SideMenuItem).call(this, props));
+    _this.state = {
+      clicked: false
+    };
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(SideMenuItem, [{
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var childClick = {};
+
+      if (!this.state.clicked) {
+        childClick = {
+          padding: '0',
+          height: '0'
+        };
+      }
+
+      return __jsx("div", {
+        className: "SMI_con",
+        onClick: function onClick() {
+          return _this2.setState({
+            clicked: !_this2.state.clicked
+          });
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "SMI_tcon",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "SMI_decade",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "".concat(this.props.item.decade, "S")), __jsx("div", {
+        className: "SMI_decade",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, __jsx("img", {
+        className: "sideMenu_iconarrow",
+        src: "/images/icons/".concat(this.state.clicked ? 'up' : 'down', ".png"),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }))), __jsx("div", {
+        className: "SMI_scon",
+        style: childClick,
+        onClick: this.props.toggleHamburger,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, this.props.item.files.map(function (item) {
+        return __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+          href: "/".concat(_this2.props.item.decade, "/").concat(item.link),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26
+          },
+          __self: this
+        }, __jsx("a", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 27
+          },
+          __self: this
+        }, __jsx("div", {
+          className: "SMI_scon-list",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28
+          },
+          __self: this
+        }, __jsx("div", {
+          className: "SMI_scon-list-year",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 29
+          },
+          __self: this
+        }, item.year), __jsx("div", {
+          className: "SMI_scon-list-name",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 30
+          },
+          __self: this
+        }, item.name))));
+      })));
+    }
+  }]);
+
+  return SideMenuItem;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+var SideMenu =
+/*#__PURE__*/
+function (_Component2) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(SideMenu, _Component2);
 
   function SideMenu(props) {
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, SideMenu);
@@ -298,30 +389,57 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(SideMenu, [{
     key: "render",
     value: function render() {
+      var _this3 = this;
+
       var triggeredClass = "sideMenu ".concat(this.props.open ? 'sideMenuOpen' : '');
       return __jsx("div", {
         className: triggeredClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 47
         },
         __self: this
       }, __jsx("div", {
         className: "sideMenu-con",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 48
         },
         __self: this
       }, __jsx("div", {
-        className: "sideMenu-con_close",
+        className: "sideMenu_row sideMenu_X",
         onClick: this.props.toggleHamburger,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 49
         },
         __self: this
-      }, "close")));
+      }, __jsx("img", {
+        className: "sideMenu_icon",
+        src: "/images/icons/x.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      })), this.props.NavList.map(function (item) {
+        return __jsx("div", {
+          className: "sideMenu_row",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 53
+          },
+          __self: this
+        }, __jsx(SideMenuItem, {
+          toggleHamburger: _this3.props.toggleHamburger,
+          item: item,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 54
+          },
+          __self: this
+        }));
+      })));
     }
   }]);
 
@@ -535,6 +653,48 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
 
+var NavList = [{
+  decade: '1980',
+  files: [{
+    year: '1985',
+    name: 'Network 2011',
+    // link: '/'
+    link: 'network-2011'
+  }]
+}, {
+  decade: '1990',
+  files: [{
+    year: '1990',
+    name: "Let's Move",
+    link: 'lets-move'
+  }, {
+    year: '1993',
+    name: 'Rapid Transit Expansion Program',
+    // link: '/'
+    link: 'rapid-transit-expansion-program'
+  }]
+}, {
+  decade: '2000',
+  files: [{
+    year: '2007',
+    name: 'Transit City',
+    // link: '/'
+    link: 'transit-city'
+  }]
+}, {
+  decade: '2010',
+  files: [{
+    year: '2011',
+    name: 'Metrolinx / Toronto Transit Plan',
+    // link: '/'
+    link: 'metrolinx-toronto-transit-plan'
+  }, {
+    year: '2016',
+    name: 'Relief Line',
+    // link: '/'
+    link: 'relief-line'
+  }]
+}];
 
 var mainSite =
 /*#__PURE__*/
@@ -568,13 +728,13 @@ function (_Component) {
         className: containerWrapper,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 76
         },
         __self: this
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 77
         },
         __self: this
       }, __jsx("link", {
@@ -583,7 +743,7 @@ function (_Component) {
         href: "/images/thumb.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 78
         },
         __self: this
       }), __jsx("link", {
@@ -591,29 +751,31 @@ function (_Component) {
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 79
         },
         __self: this
       }), __jsx("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 80
         },
         __self: this
       }, "Cancelled Toronto")), __jsx(_Header_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        NavList: NavList,
         toggleHamburger: this.toggleHamburger,
         activeHam: this.state.hamburger,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 82
         },
         __self: this
       }), __jsx(_SideMenu__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        NavList: NavList,
         toggleHamburger: this.toggleHamburger,
         open: this.state.hamburger,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 83
         },
         __self: this
       }), this.props.children);
@@ -10183,7 +10345,19 @@ function (_Component) {
             lineNumber: 143
           },
           __self: this
-        }, "26"), " The new line, designated the Ontario Line, would roughly follow the same corridor as the Relief Line but with extensions to the north-east towards the Eglinton LRT\u2019s Science Centre Station and south-west towards Exhibition GO Station.", __jsx("sup", {
+        }, "26"), " ", __jsx("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 143
+          },
+          __self: this
+        }), " ", __jsx("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 143
+          },
+          __self: this
+        }), "The new line, designated the Ontario Line, would roughly follow the same corridor as the Relief Line but with extensions to the north-east towards the Eglinton LRT\u2019s Science Centre Station and south-west towards Exhibition GO Station.", __jsx("sup", {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 145
@@ -10213,7 +10387,19 @@ function (_Component) {
             lineNumber: 156
           },
           __self: this
-        }, "31"), ' ', "Cost- and time-savings were touted by building above-ground in several areas including a crossing over the Don River, as well as following the Lakeshore East and Stouffville lines rail corridor instead of tunnelling underground.", __jsx("sup", {
+        }, "31"), ' ', __jsx("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 157
+          },
+          __self: this
+        }), " ", __jsx("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 157
+          },
+          __self: this
+        }), "Cost- and time-savings were touted by building above-ground in several areas including a crossing over the Don River, as well as following the Lakeshore East and Stouffville lines rail corridor instead of tunnelling underground.", __jsx("sup", {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 159
@@ -10225,7 +10411,19 @@ function (_Component) {
             lineNumber: 160
           },
           __self: this
-        }, "33"), " Expected to open in 2027, the Ontario Line was the centrepiece of the new government\u2019s transit plan, and a precondition for the government\u2019s other transit projects including the extension of the Yonge subway to Richmond Hill, a three stop extension of the Bloor-Danforth line through Scarborough, and an extension of the under-construction Eglinton LRT to Pearson Airport, all of which would add additional riders to a strained Yonge subway without the Ontario Line.", __jsx("sup", {
+        }, "33"), " ", __jsx("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 160
+          },
+          __self: this
+        }), " ", __jsx("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 160
+          },
+          __self: this
+        }), "Expected to open in 2027, the Ontario Line was the centrepiece of the new government\u2019s transit plan, and a precondition for the government\u2019s other transit projects including the extension of the Yonge subway to Richmond Hill, a three stop extension of the Bloor-Danforth line through Scarborough, and an extension of the under-construction Eglinton LRT to Pearson Airport, all of which would add additional riders to a strained Yonge subway without the Ontario Line.", __jsx("sup", {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 165
@@ -10319,7 +10517,7 @@ function (_Component) {
           lineNumber: 191
         },
         __self: this
-      }), "The revival of planning for a downtown subway began with the 2008 publication of Metrolinx\u2019s regional transportation plan, the Big Move, which foresaw the need for a \u201CU\u201D shaped subway running from an unnamed station along the Danforth section of")), __jsx("div", {
+      }), "The revival of planning for a downtown subway began with the 2008 publication of Metrolinx\u2019s regional transportation plan, the Big Move, which foresaw the need for a \u201CU\u201D shaped subway running from an undetermined station along the Danforth section of")), __jsx("div", {
         className: "flexrow flex",
         __source: {
           fileName: _jsxFileName,
@@ -10357,13 +10555,25 @@ function (_Component) {
           lineNumber: 212
         },
         __self: this
-      }, "the Bloor-Danforth line, south-west through the downtown with connections with the Yonge and University subways, and north-west towards an unnamed station along the western section of the Bloor-Danforth line.", __jsx("sup", {
+      }, "the Bloor-Danforth line, south-west through  downtown with connections with the Yonge and University subways, and north-west towards an undetermined station along the western section of the Bloor-Danforth line.", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 215
         },
         __self: this
-      }, "8"), " Planned to be implemented within 25 years, plans for the line were accelerated as support from municipal and transit officials grew, and as capacity issues along the existing Yonge subway which the proposed line would help relieve worsened.", __jsx("sup", {
+      }, "8"), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 215
+        },
+        __self: this
+      }), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 215
+        },
+        __self: this
+      }), "Planned to be implemented within 25 years, plans for the line were accelerated as support from municipal and transit officials grew, and as capacity issues along the existing Yonge subway which the proposed line would help relieve worsened.", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 218
@@ -10388,7 +10598,19 @@ function (_Component) {
           lineNumber: 224
         },
         __self: this
-      }, "4"), " More recently in 1985, the Downtown Rapid Transit Study as part of Network 2011 studied a subway from Pape Station in the north-east to approximately the intersection of Front Street and Spadina Avenue utilising the rail-corridors and Front Street as the alignment.", __jsx("sup", {
+      }, "4"), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 224
+        },
+        __self: this
+      }), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 224
+        },
+        __self: this
+      }), "More recently in 1985, the Downtown Rapid Transit Study as part of Network 2011 studied a subway from Pape Station in the north-east to approximately the intersection of Front Street and Spadina Avenue utilising the rail-corridors and Front Street as the alignment.", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 227
@@ -10419,7 +10641,19 @@ function (_Component) {
           lineNumber: 235
         },
         __self: this
-      }, "10"), "The proposed subway, dubbed the Downtown Relief Line because of its projected effect on providing relief to capacity strains on existing subway infrastructure, underwent studies for potential alignments starting in 2012 with the TTC\u2019s Downtown Rapid Transit Expansion Study, with further refinement in 2014 with the start of the Relief Line Project Assessment undertaken by the City of Toronto and the TTC.", __jsx("sup", {
+      }, "10"), __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 235
+        },
+        __self: this
+      }), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 235
+        },
+        __self: this
+      }), "The proposed subway, dubbed the Downtown Relief Line because of its projected effect on providing relief to capacity strains on existing subway infrastructure, underwent studies for potential alignments starting in 2012 with the TTC\u2019s Downtown Rapid Transit Expansion Study, with further refinement in 2014 with the start of the Relief Line Project Assessment undertaken by the City of Toronto and the TTC.", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 240
@@ -10462,7 +10696,19 @@ function (_Component) {
           lineNumber: 257
         },
         __self: this
-      }, "4"), " More recently in 1985, the Downtown Rapid Transit Study as part of Network 2011 studied a subway from Pape Station in the north-east to approximately the intersection of Front Street and Spadina Avenue utilising the rail-corridors and Front Street as the alignment.", __jsx("sup", {
+      }, "4"), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 257
+        },
+        __self: this
+      }), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 257
+        },
+        __self: this
+      }), "More recently in 1985, the Downtown Rapid Transit Study as part of Network 2011 studied a subway from Pape Station in the north-east to approximately the intersection of Front Street and Spadina Avenue utilising the rail-corridors and Front Street as the alignment.", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 260
@@ -10499,7 +10745,19 @@ function (_Component) {
           lineNumber: 277
         },
         __self: this
-      }, "8"), " Planned to be implemented within 25 years, plans for the line were accelerated as support from municipal and transit officials grew, and as capacity issues along the existing Yonge subway which the proposed line would help relieve worsened.", __jsx("sup", {
+      }, "8"), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 277
+        },
+        __self: this
+      }), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 277
+        },
+        __self: this
+      }), "Planned to be implemented within 25 years, plans for the line were accelerated as support from municipal and transit officials grew, and as capacity issues along the existing Yonge subway which the proposed line would help relieve worsened.", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 279
@@ -10511,7 +10769,19 @@ function (_Component) {
           lineNumber: 282
         },
         __self: this
-      }, "10"), " The proposed subway, dubbed the Downtown Relief Line because of its projected effect on providing relief to capacity strains on existing subway infrastructure, underwent studies for potential alignments starting in 2012 with the TTC\u2019s Downtown Rapid Transit Expansion Study, with further refinement in 2014 with the start of the Relief Line Project Assessment undertaken by the City of Toronto and the TTC.", __jsx("sup", {
+      }, "10"), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 282
+        },
+        __self: this
+      }), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 282
+        },
+        __self: this
+      }), "The proposed subway, dubbed the Downtown Relief Line because of its projected effect on providing relief to capacity strains on existing subway infrastructure, underwent studies for potential alignments starting in 2012 with the TTC\u2019s Downtown Rapid Transit Expansion Study, with further refinement in 2014 with the start of the Relief Line Project Assessment undertaken by the City of Toronto and the TTC.", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 286
@@ -10558,7 +10828,19 @@ function (_Component) {
           lineNumber: 300
         },
         __self: this
-      }, "13"), " An alignment within the corridor was selected and approved by", __jsx("div", {
+      }, "13"), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 300
+        },
+        __self: this
+      }), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 300
+        },
+        __self: this
+      }), "An alignment within the corridor was selected and approved by", __jsx("div", {
         className: "RFsec1 mediumshow",
         __source: {
           fileName: _jsxFileName,
@@ -10604,7 +10886,19 @@ function (_Component) {
           lineNumber: 324
         },
         __self: this
-      }, "15"), " In addition to the downtown portion of the Relief Line project, a northern extension from Pape Station began planning in 2017 with a partnership between Metrolinx and the TTC towards developing an initial business case for the project, dubbed the Relief Line North", __jsx("sup", {
+      }, "15"), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 324
+        },
+        __self: this
+      }), " ", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 324
+        },
+        __self: this
+      }), "In addition to the downtown portion of the Relief Line project, a northern extension from Pape Station began planning in 2017 with a partnership between Metrolinx and the TTC towards developing an initial business case for the project, dubbed the Relief Line North", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 327
@@ -10825,7 +11119,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 10:
 /*!*********************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F2010%2Frelief-line&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5C2010%5Crelief-line.js ***!
   \*********************************************************************************************************************************************************************************/
@@ -10848,5 +11142,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[10,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=relief-line.js.map

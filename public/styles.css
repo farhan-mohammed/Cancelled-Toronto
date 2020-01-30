@@ -72,21 +72,21 @@ body {
   margin-left: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .container {
     width: 750px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
   .container {
-    width: 970px;
+    width: 800px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .container {
-    width: 1170px;
+    width: 1050px;
   }
 }
 
@@ -144,13 +144,14 @@ text_bold {
 .header-pic_narrow {
   max-width: 200px;
   min-width: 40px;
-  height: auto;
-  width: 40vw;
+  height: 20vh;
+  min-height: 100px;
+  width: auto;
 }
 
 .header-pic_narrowpng {
-  height: auto;
-  width: 100%;
+  height: 100%;
+  width: auto;
 }
 
 .header-title {
@@ -291,6 +292,7 @@ text_bold {
   font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-size: 20px;
 }
 
 .hnv-li-ul {
@@ -308,7 +310,7 @@ text_bold {
   padding: 10px 10px;
   letter-spacing: 2px;
   margin-bottom: 2px;
-  font-size: 0.75em;
+  font-size: 16px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -455,7 +457,7 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 1em;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .body__text-p {
     margin: 0 100px;
     margin-bottom: 1em;
@@ -516,19 +518,19 @@ body::-webkit-scrollbar-thumb {
   max-height: 9.5em;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .large {
     display: none;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
   .mediumhide {
     display: none;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .mediumshow {
     display: none;
   }
@@ -641,12 +643,118 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   min-height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .sideMenu-con_close {
   position: absolute;
   right: 20px;
   top: 20px;
+}
+
+.sideMenu_icon {
+  width: 25px;
+  height: 25px;
+}
+
+.sideMenu_iconarrow {
+  width: 25px;
+  height: 18px;
+}
+
+.sideMenu_row {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sideMenu_X {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+.SMI_tcon {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SMI_decade {
+  font-family: 'toronto_subway_bold';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.SMI_scon {
+  -webkit-transition: padding .5s height .5s;
+  transition: padding .5s height .5s;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  left: -20px;
+  width: calc(100% + 40px);
+  padding: 0 30px;
+  background-color: #3f3f3f;
+  overflow: hidden;
+}
+
+.SMI_scon-list {
+  font-family: 'toronto_subway_bold';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.SMI_scon-list-year {
+  padding: 5px 0;
+  margin-right: 15px;
+  letter-spacing: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: 'toronto_subway_bold';
+}
+
+.SMI_scon-list-name {
+  font-family: 'toronto_subway_bold';
 }
 
 .column2 {
@@ -664,7 +772,7 @@ body::-webkit-scrollbar-thumb {
           column-count: 2;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .column2easy {
     -webkit-column-count: 1;
             column-count: 1;
@@ -709,7 +817,7 @@ sup {
   margin-bottom: 1em;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .imgLefttextRigtBelow {
     margin-bottom: 1em;
   }
@@ -721,7 +829,7 @@ sup {
   display: flex;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .imgLefttextRigtBelow-row_top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -736,7 +844,7 @@ sup {
           flex: 1.25;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .imgLefttextRigtBelow_img {
     margin: 1em 0;
   }
@@ -746,7 +854,7 @@ sup {
   width: 100%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
   .imgLefttextRigtBelow_text {
     padding: 0.5em;
   }
@@ -783,13 +891,13 @@ a {
   /* no underline */
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .RFpadding {
     padding: 0 100px;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .RFpadding {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -802,7 +910,7 @@ a {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .RFpadding {
     padding: 0;
   }
@@ -816,7 +924,7 @@ a {
   margin-left: 170px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .RFsec1son {
     margin-left: 0px;
   }
@@ -871,7 +979,18 @@ a {
           flex-direction: column;
 }
 
-@media (max-width: 768px) {
+.homepage-item-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+@media (max-width: 850px) {
   .homepage-item {
     width: 100%;
   }
@@ -905,5 +1024,9 @@ a {
   font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+span {
+  font-family: inherit;
 }
 /*# sourceMappingURL=styles.css.map */

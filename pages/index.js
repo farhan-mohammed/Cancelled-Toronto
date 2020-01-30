@@ -53,7 +53,7 @@ export default class App extends Component {
 			return (
 				<div key={item.href} className="homepage-item">
 					<Link href={item.href}>
-						<a>
+						<a className="homepage-item-con">
 							<div className="homepage-item__img-con">
 								<img className="homepage-item__img" src={item.img} alt="" />
 							</div>

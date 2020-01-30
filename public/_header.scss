@@ -38,14 +38,15 @@ $header-change: 850px;
 		&_narrow {
 			max-width: 200px;
 			min-width: 40px;
-			height: auto;
-			width: 40vw;
+			height: 20vh;
+			min-height: 100px;
+			width: auto;
 			// @media (min-width: 2000px) {
 			// 	display: none;
 			// }
 			&png {
-				height: auto;
-				width: 100%;
+				height: 100%;
+				width: auto;
 			}
 		}
 	}
@@ -143,6 +144,7 @@ $header-change: 850px;
 .hnv {
 	&-li {
 		@include subway-font;
+		font-size: 20px;
 		&-ul {
 			display: none;
 			position: absolute;
@@ -156,7 +158,7 @@ $header-change: 850px;
 				padding: 10px 10px;
 				letter-spacing: 2px;
 				margin-bottom: 2px;
-				font-size: 0.75em;
+				font-size: 16px;
 
 				box-sizing: border-box;
 				&:hover {
