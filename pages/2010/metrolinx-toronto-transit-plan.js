@@ -44,8 +44,8 @@ export default class MetroLinxTTP extends Component {
 		};
 		return (
 			<div className="body__text-con">
-				<h1 className="body__text-h1 body__text-h11980">Network 2011 (1985)</h1>
-				<h2 className="body__text-h2">Cancelled, evolved to Let’s Move (1990)</h2>
+				<h1 className="body__text-h1 body__text-h11980">Metrolinx/Toronto Transit Plan (2011)</h1>
+				<h2 className="body__text-h2">Cancelled in 2012</h2>
 				{
 					// The two column shit
 				}
