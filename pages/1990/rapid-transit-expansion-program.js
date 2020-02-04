@@ -114,18 +114,18 @@ export default class RapidTransit extends Component {
 				subway between Yonge Street and Don Mills Road, a subway on Eglinton Avenue West from Eglinton West
 				Station in the east to a new “York City Centre” located at Black Creek Drive in the west, and eventually
 				to Pearson Airport, an extended Spadina subway reaching York University, and an extension to the
-				Scarborough rapid transit line.<sup>1</sup> This first phase of the plan would cost $2.5 billion and
+				Scarborough rapid transit line.<sup>1</sup><br/><br/> This first phase of the plan would cost $2.5 billion and
 				create 50,000 jobs, with $1.5 billion from the province, $500 million from Metro Toronto, and $500
 				million from the private sector.<sup>2</sup> The plan, released at the end of the early 1990s recession,
 				was seen as both a jobs creator and a way to rebuild ridership on the TTC subway system, which had
-				fallen over 15 per cent between 1988 to 1993.<sup>3</sup>
+				fallen over 15 per cent between 1988 to 1993.<sup>3</sup><br/><br/>
 				At the core of the NDP’s new plan was many of the same projects found in both the Let’s Move and Network
 				2011 plans: A Sheppard subway was made a priority in this plan, with provincial funding to match, unlike
 				the previous conditional support for the line under the previous Liberal provincial government.
 				<sup>4</sup> On Eglinton, plans for a busway were upgraded to a subway, pleasing municipal officials in
 				the surrounding area and especially those from the then City of York, where the first phase of the
 				future subway line was to terminate in a new central business district dubbed “York City Centre”.
-				<sup>5</sup> Meanwhile, plans for a subway loop connecting the Yonge and Spadina subways were retained
+				<sup>5</sup><br/><br/> Meanwhile, plans for a subway loop connecting the Yonge and Spadina subways were retained
 				but expanded to include proposed stations at York University and with a more northerly alignment on
 				Steeles Avenue rather than through the Finch hydro corridor as originally proposed.<sup>6</sup>{' '}
 				Similarly, plans for extensions to the Bloor-Danforth subway and Scarborough rapid transit lines were
@@ -143,7 +143,7 @@ export default class RapidTransit extends Component {
 				Investment into these projects by the provincial government, Metro Toronto, and the private sector were
 				to be funnelled through a new crown corporation, the Ontario Transportation Corporation, which with a
 				budget separate from the province’s revenues enabled the provincial government to proceed with projects
-				without directly increasing Ontario’s deficit.<sup>11</sup> Following the recession, the provincial
+				without directly increasing Ontario’s deficit.<sup>11</sup><br/><br/> Following the recession, the provincial
 				government’s deficit at the time – a record $10 billion was worrying for many and a key issue in the
 				following 1995 provincial elections.<sup>12</sup> Likewise, municipal officials in Metro Toronto were
 				concerned with the cost associated with the four subway projects proposed and their effect on municipal
@@ -278,7 +278,7 @@ export default class RapidTransit extends Component {
 						with construction starting on the former two projects by late summer of 1994.<sup>20</sup> By
 						early 1995, excavation had already progressed for tail tracks on the Eglinton West subway and
 						procurement of tunnel boring machines had been underway for the Sheppard subway, then projected
-						to begin tunnelling in mid-1996.<sup>21</sup> However, the election of a new Progressive
+						to begin tunnelling in mid-1996.<sup>21</sup><br/><br/> However, the election of a new Progressive
 						Conservative provincial government running under an austerity platform quickly put an end to
 						three of the four projects, with the Eglinton West subway deferred after their election in June
 						of 1995, funding cut for the Scarborough RT and Spadina extensions, leaving only the Sheppard
