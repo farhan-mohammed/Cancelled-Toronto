@@ -1,4 +1,8 @@
-$breakpoints: ('small': 850px, 'medium': 1000px, 'large': 1300px) !default;
+$breakpoints: (
+	'small': 850px,
+	'medium': 1000px,
+	'large': 1300px,
+) !default;
 @mixin min-width-mixin($breakpoint) {
 	// If the key exists in the map
 	@if map-has-key($breakpoints, $breakpoint) {
@@ -116,11 +120,12 @@ text {
 	}
 }
 
-@import "header";
-@import "body";
+@import 'header';
 
-@import "default";
-@import "homepage";
+@import 'body';
+@import 'webcontent';
+@import 'default';
+@import 'homepage';
 
 span {
 	font-family: inherit;

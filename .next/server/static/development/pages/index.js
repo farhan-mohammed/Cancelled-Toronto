@@ -109,7 +109,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\Header.js";
+var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/Header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -290,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\SideMenu.js";
+var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/SideMenu.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -346,6 +346,7 @@ class SideMenuItem extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this
     }, __jsx("img", {
       className: "sideMenu_iconarrow",
+      s: true,
       src: `/images/icons/${this.state.clicked ? 'up' : 'down'}.png`,
       __source: {
         fileName: _jsxFileName,
@@ -358,41 +359,41 @@ class SideMenuItem extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       onClick: this.props.toggleHamburger,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 25
       },
       __self: this
     }, this.props.item.files.map(item => __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: `/${this.props.item.decade}/${item.link}`,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 27
       },
       __self: this
-    }, __jsx("div", {
-      className: "SMI_scon-list",
+    }, __jsx("a", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 28
       },
       __self: this
     }, __jsx("div", {
-      className: "SMI_scon-list-year",
+      className: "SMI_scon-list",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 29
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "SMI_scon-list-year",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
       },
       __self: this
     }, item.year), __jsx("div", {
       className: "SMI_scon-list-name",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30
+        lineNumber: 31
       },
       __self: this
     }, item.name)))))));
@@ -411,14 +412,14 @@ class SideMenu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: triggeredClass,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 48
       },
       __self: this
     }, __jsx("div", {
       className: "sideMenu-con",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 49
       },
       __self: this
     }, __jsx("div", {
@@ -426,7 +427,7 @@ class SideMenu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       onClick: this.props.toggleHamburger,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 50
       },
       __self: this
     }, __jsx("img", {
@@ -434,14 +435,14 @@ class SideMenu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       src: `/images/icons/x.png`,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 51
       },
       __self: this
     })), this.props.NavList.map(item => __jsx("div", {
       className: "sideMenu_row",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 54
       },
       __self: this
     }, __jsx(SideMenuItem, {
@@ -449,7 +450,7 @@ class SideMenu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       item: item,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 55
       },
       __self: this
     })))));
@@ -477,7 +478,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SideMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SideMenu */ "./components/SideMenu.js");
 /* harmony import */ var _Header_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Header.js */ "./components/Header.js");
 
-var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\wrapper\\mainSite.js";
+var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/wrapper/mainSite.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -2441,7 +2442,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\pages\\index.js";
+var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -2582,7 +2583,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Farhan Mohammed\Desktop\Cancelled-Toronto\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /home/farhanhm12/repos/Cancelled-Toronto/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
