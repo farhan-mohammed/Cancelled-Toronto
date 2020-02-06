@@ -57,7 +57,11 @@ export default class WebColumn extends Component {
 		} else if (item.type == 'main-subtitle') {
 			return <div className="WC-item_mst">{typeof item.title == 'function' ? item.title() : item.title}</div>;
 		} else if (item.type == 'quote') {
-			return <div className="WC-item_quote">{item.text()}</div>;
+			return (
+				<div className="WC-item_quote-con">
+					<p className="WC-item_quote">{item.text()}</p>
+				</div>
+			);
 		} else if (item.type == 'column2') {
 			return (
 				<div className="WC-item_col2">

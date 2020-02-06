@@ -676,33 +676,40 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         }, typeof item.title == 'function' ? item.title() : item.title);
       } else if (item.type == 'quote') {
         return __jsx("div", {
+          className: "WC-item_quote-con",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 61
+          },
+          __self: this
+        }, __jsx("p", {
           className: "WC-item_quote",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 60
+            lineNumber: 62
           },
           __self: this
-        }, item.text());
+        }, item.text()));
       } else if (item.type == 'column2') {
         return __jsx("div", {
           className: "WC-item_col2",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 63
+            lineNumber: 67
           },
           __self: this
         }, __jsx("div", {
           className: "WC-item_col2-left",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 64
+            lineNumber: 68
           },
           __self: this
         }, item.left.map(son => this.renderItem(son))), __jsx("div", {
           className: "WC-item_col2-right",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65
+            lineNumber: 69
           },
           __self: this
         }, item.right.map(son => this.renderItem(son))));
@@ -714,7 +721,7 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         className: "WC-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 75
         },
         __self: this
       }, this.renderItem(item)));
@@ -725,7 +732,7 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         className: "WC-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 78
         },
         __self: this
       }, this.renderItem(item)));
@@ -737,21 +744,21 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "WC",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78
+        lineNumber: 82
       },
       __self: this
     }, __jsx("div", {
       className: "WC-left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79
+        lineNumber: 83
       },
       __self: this
     }, this.renderLeft()), __jsx("div", {
       className: "WC-right",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 80
+        lineNumber: 84
       },
       __self: this
     }, this.renderRight()));
