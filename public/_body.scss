@@ -177,12 +177,12 @@ body {
 .medium {
 	&hide {
 		@include min-width-mixin('medium') {
-			display: none;
+			display: none !important;
 		}
 	}
 	&show {
 		@include max-width-mixin('medium') {
-			display: none;
+			display: none !important;
 		}
 	}
 }

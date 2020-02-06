@@ -536,13 +536,13 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 1000px) {
   .mediumhide {
-    display: none;
+    display: none !important;
   }
 }
 
 @media (max-width: 1000px) {
   .mediumshow {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -765,6 +765,105 @@ body::-webkit-scrollbar-thumb {
 
 .SMI_scon-list-name {
   font-family: 'toronto_subway_bold';
+}
+
+.RTEPD1col2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .RTEPD1col2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.RTEPD1col2img {
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .RTEPD1col2img {
+    width: 100%;
+  }
+}
+
+.RTEPD1col2img_title {
+  font-family: 'toronto_subway_bold';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: .75em 0;
+  text-align: center;
+}
+
+.RTEPD1col2img > img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.RTEPD1col2text {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .RTEPD1col2text {
+    width: 392px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .RTEPD1col2text {
+    width: 100%;
+  }
+}
+
+.RTEPD1col2text_img {
+  display: inline-block;
+  float: right;
+  width: 392px;
+  text-align: left;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (min-width: 1300px) {
+  .RTEPD1col2text_img {
+    width: 500px;
+  }
+}
+
+.RTEPD1col2text_img_title {
+  font-family: 'toronto_subway_bold';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: .75em 0;
+}
+
+.RTEPD1col2text_img > img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .column2 {

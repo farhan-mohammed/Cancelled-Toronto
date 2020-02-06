@@ -196,9 +196,9 @@ export default class RapidTransit extends Component {
 				<ImgTextRightBelow
 					img="/images/RTEPC.jpg"
 					title={() => (
-						<h1>
+						<span>
 							North York Centre<span className="mediumshow">, Left</span>{' '}
-						</h1>
+						</span>
 					)}
 					text={{
 						right: () => (
@@ -208,22 +208,22 @@ export default class RapidTransit extends Component {
 								area was already strained, and a subway was necessary to ensure development could
 								continue without straining the transportation infrastructure in the area.<sup>10</sup>
 							</p>
-						),
-						bottom: () => (
-							<span>
-								Rapid transit expansion in the Network 2011 plan was to be phased over a 26-year
-								timeframe, beginning with a Sheppard subway between Yonge Street to Victoria Park Avenue
-								to be constructed between 1989-1994.<sup>16</sup> Then, a downtown subway between Pape
-								Station on the Bloor-Danforth Line in the east to approximately the intersection of
-								Spadina Avenue and Front Street in the west would be constructed in the years of
-								1994-1999.<sup>17</sup> Then, between 1999-2004, rapid transit on Eglinton Avenue West
-								would be constructed, initially as a partially grade-separated busway, with the
-								possibility of converting it to a subway later.<sup>18</sup> Finally, between 2004-2010,
-								the Sheppard subway would be extended on both ends from Yonge Street to Dufferin Street
-								in the west, and from Victoria Park Avenue to Scarborough City Centre in the east.
-								<sup>19</sup>
-							</span>
 						)
+						// bottom: () => (
+						// 	<span>
+						// 		Rapid transit expansion in the Network 2011 plan was to be phased over a 26-year
+						// 		timeframe, beginning with a Sheppard subway between Yonge Street to Victoria Park Avenue
+						// 		to be constructed between 1989-1994.<sup>16</sup> Then, a downtown subway between Pape
+						// 		Station on the Bloor-Danforth Line in the east to approximately the intersection of
+						// 		Spadina Avenue and Front Street in the west would be constructed in the years of
+						// 		1994-1999.<sup>17</sup> Then, between 1999-2004, rapid transit on Eglinton Avenue West
+						// 		would be constructed, initially as a partially grade-separated busway, with the
+						// 		possibility of converting it to a subway later.<sup>18</sup> Finally, between 2004-2010,
+						// 		the Sheppard subway would be extended on both ends from Yonge Street to Dufferin Street
+						// 		in the west, and from Victoria Park Avenue to Scarborough City Centre in the east.
+						// 		<sup>19</sup>
+						// 	</span>
+						// )
 					}}
 				/>
 				<TwoColumn text={paraTwo} />
@@ -256,14 +256,14 @@ export default class RapidTransit extends Component {
 					)}
 				/>
 
-				<div className="column2">
-					<div style={{ flex: '1.75' }}>
+				<div className="RTEPD1col2">
+					<div className=" mediumhide RTEPD1col2img">
 						<img
 							src="/images/RTEPF.jpg"
-							style={{ width: '80%', margin: '0 auto', display: 'block' }}
+							// src="/images/test.png"
 							alt=""
 						/>
-						<h2>Sheppard Subway Under Construction, Above</h2>
+						<div className="RTEPD1col2img_title">Sheppard Subway Under Construction, Above</div>
 						<div className="italy">
 							The Sheppard subway was the only project spared cancellation by the Progressive Conservative
 							provincial government, which deferred the other projects. Here, construction on the Sheppard
@@ -271,8 +271,23 @@ export default class RapidTransit extends Component {
 							<sup>24</sup>
 						</div>
 					</div>
-					<div className="column2spacer" />
-					<div>
+					<div className=" mediumhide column2spacer" />
+					<div className="RTEPD1col2text">
+						<div className=" mediumshow RTEPD1col2text_img">
+							<img
+								// src="/images/RTEPF.jpg"
+								src="/images/test.png"
+								alt=""
+							/>
+							<div className="RTEPD1col2text_img_title">Sheppard Subway Construction</div>
+							<div className="italy">
+								The Sheppard subway was the only project spared cancellation by the Progressive
+								Conservative provincial government, which deferred the other projects. Here,
+								construction on the Sheppard subway progresses at the intersection of Sheppard Avenue
+								and Leslie Street in 1998.
+								<sup>24</sup>
+							</div>
+						</div>
 						Ultimately, none of the proposals were enacted and by 1994, environmental assessments on the
 						Eglinton West, Sheppard, Scarborough RT extension, and Spadina loop projects had been completed,
 						with construction starting on the former two projects by late summer of 1994.<sup>20</sup> By
