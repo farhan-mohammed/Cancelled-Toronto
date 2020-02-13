@@ -4861,7 +4861,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/farhanhm12/repos/Cancelled-Toronto/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/farhanhm12/d1/Cancelled-Toronto/.next");
       return error;
     }
   };

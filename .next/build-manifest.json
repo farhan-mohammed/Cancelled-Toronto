@@ -4,14 +4,7 @@
     "static/development/dll/dll_4b8bef20edde04f98d3f.js.map"
   ],
   "pages": {
-<<<<<<< HEAD
-=======
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
->>>>>>> 57345b57f90716f5776d17de3b655c46a086de6d
-    "/1990/rapid-transit-expansion-program": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -27,13 +20,14 @@
     "/_polyfills": [
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
-<<<<<<< HEAD
-=======
     ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
->>>>>>> 57345b57f90716f5776d17de3b655c46a086de6d
+    ],
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

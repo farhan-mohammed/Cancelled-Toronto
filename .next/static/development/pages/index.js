@@ -28,7 +28,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/Header.js";
+var _jsxFileName = "/home/farhanhm12/d1/Cancelled-Toronto/components/Header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -246,7 +246,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/SideMenu.js";
+var _jsxFileName = "/home/farhanhm12/d1/Cancelled-Toronto/components/SideMenu.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
@@ -481,7 +481,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/wrapper/mainSite.js";
+var _jsxFileName = "/home/farhanhm12/d1/Cancelled-Toronto/components/wrapper/mainSite.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -5734,10 +5734,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Frepos%2FCancelled-Toronto%2Fpages%2Findex.js!./":
-/*!********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Frepos%2FCancelled-Toronto%2Fpages%2Findex.js ***!
-  \********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Fd1%2FCancelled-Toronto%2Fpages%2Findex.js!./":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Fd1%2FCancelled-Toronto%2Fpages%2Findex.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9861,7 +9861,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/pages/index.js";
+var _jsxFileName = "/home/farhanhm12/d1/Cancelled-Toronto/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -9882,7 +9882,7 @@ var ImageList = [{
 }, {
   href: '/',
   // href: '/2000/transit-city',
-  title: 'Transit City (2017)',
+  title: 'Transit City (2007)',
   subtitle: 'Cancelled, partially under construction',
   img: '/images/Image3.png'
 }, {
@@ -10018,14 +10018,14 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 0:
-/*!************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Frepos%2FCancelled-Toronto%2Fpages%2Findex.js ***!
-  \************************************************************************************************************************************/
+/***/ 1:
+/*!*********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Fd1%2FCancelled-Toronto%2Fpages%2Findex.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Frepos%2FCancelled-Toronto%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Frepos%2FCancelled-Toronto%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Fd1%2FCancelled-Toronto%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Ffarhanhm12%2Fd1%2FCancelled-Toronto%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -10041,5 +10041,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

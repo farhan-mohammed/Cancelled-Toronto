@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/Header.js";
+var _jsxFileName = "/home/farhanhm12/d1/Cancelled-Toronto/components/Header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -290,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/SideMenu.js";
+var _jsxFileName = "/home/farhanhm12/d1/Cancelled-Toronto/components/SideMenu.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -478,7 +478,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SideMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SideMenu */ "./components/SideMenu.js");
 /* harmony import */ var _Header_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Header.js */ "./components/Header.js");
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/wrapper/mainSite.js";
+var _jsxFileName = "/home/farhanhm12/d1/Cancelled-Toronto/components/wrapper/mainSite.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -2442,7 +2442,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/pages/index.js";
+var _jsxFileName = "/home/farhanhm12/d1/Cancelled-Toronto/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -2463,7 +2463,7 @@ const ImageList = [{
 }, {
   href: '/',
   // href: '/2000/transit-city',
-  title: 'Transit City (2017)',
+  title: 'Transit City (2007)',
   subtitle: 'Cancelled, partially under construction',
   img: '/images/Image3.png'
 }, {
@@ -2576,14 +2576,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/farhanhm12/repos/Cancelled-Toronto/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /home/farhanhm12/d1/Cancelled-Toronto/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
