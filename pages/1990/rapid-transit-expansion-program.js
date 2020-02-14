@@ -213,7 +213,6 @@ export default class RapidTransit extends Component {
 								area was already strained, and a subway was necessary to ensure development could
 								continue without straining the transportation infrastructure in the area.<sup>10</sup>
 							</p>
-<<<<<<< HEAD
 						)
 						// bottom: () => (
 						// 	<span>
@@ -230,24 +229,6 @@ export default class RapidTransit extends Component {
 						// 		<sup>19</sup>
 						// 	</span>
 						// )
-=======
-						),
-						bottom: () => (
-							<span>
-								Rapid transit expansion in the Network 2011 plan was to be phased over a 26-year
-								timeframe, beginning with a Sheppard subway between Yonge Street to Victoria Park Avenue
-								to be constructed between 1989-1994.<sup>16</sup> Then, a downtown subway between Pape
-								Station on the Bloor-Danforth Line in the east to approximately the intersection of
-								Spadina Avenue and Front Street in the west would be constructed in the years of
-								1994-1999.<sup>17</sup> Then, between 1999-2004, rapid transit on Eglinton Avenue West
-								would be constructed, initially as a partially grade-separated busway, with the
-								possibility of converting it to a subway later.<sup>18</sup> Finally, between 2004-2010,
-								the Sheppard subway would be extended on both ends from Yonge Street to Dufferin Street
-								in the west, and from Victoria Park Avenue to Scarborough City Centre in the east.
-								<sup>19</sup>
-							</span>
-						),
->>>>>>> 57345b57f90716f5776d17de3b655c46a086de6d
 					}}
 				/>
 				<TwoColumn text={paraTwo} />
@@ -354,8 +335,15 @@ export default class RapidTransit extends Component {
 						{ type: 'main-title', title: 'Rapid Transit Expansion Program (1993)' },
 						{
 							type: 'main-subtitle',
-							title: 'Cancelled in 1995, partially built',
-						},
+							title: () => (
+								<span>
+									Cancelled in 1995<span className="mediumhide">, </span>
+									<span className="mediumshow">
+										<br />
+									</span>partially built
+								</span>
+							)
+						}
 					]}
 					right={[
 						{
@@ -366,7 +354,7 @@ export default class RapidTransit extends Component {
 									subway, a Sheppard Subway, an extenstion of the Scarborough Rapid Transit Line, and
 									an expansion of the Spadina line to York University
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -380,7 +368,7 @@ export default class RapidTransit extends Component {
 									Pearson Airport, an extended Spadina subway reaching York University, and an
 									extension to the Scarborough rapid transit line.<sup>1</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -393,15 +381,15 @@ export default class RapidTransit extends Component {
 									both a jobs creator and a way to rebuild ridership on the TTC subway system, which
 									had fallen over 15 per cent between 1988 to 1993.<sup>3</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
 					left={[
 						{
 							type: 'content-title',
-							title: 'North York Centre',
+							title: 'North York Centre'
 						},
 						{
 							type: 'quote',
@@ -413,14 +401,14 @@ export default class RapidTransit extends Component {
 									continue without straining the transportation infrastructure in the area.
 									<sup>10</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 					right={[
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEPC.jpg',
+							src: 'RTEPC.jpg'
 						},
 						{
 							type: 'para',
@@ -432,7 +420,7 @@ export default class RapidTransit extends Component {
 									continue without straining the transportation infrastructure in the area.
 									<sup>10</sup>
 								</div>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -451,15 +439,21 @@ export default class RapidTransit extends Component {
 									Scarborough City Centre in the east.
 									<sup>19</sup>
 								</div>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
-					left={[
+					oneColumn={true}
+					center={[
 						{
 							type: 'content-title',
-							title: 'Eglinton west',
+							title: 'Eglinton west'
+						},
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'RTEPA.jpg'
 						},
 						{
 							type: 'quote',
@@ -471,22 +465,21 @@ export default class RapidTransit extends Component {
 									adjacent to a new central business district, dubbed York City Centre. That project
 									died shortly afterwards the Eglinton West subway was cancelled in 1995.<sup>8</sup>
 								</div>
-							),
-						},
-					]}
-					right={[
-						{
-							type: 'img',
-							// /images/ already saved
-							src: 'RTEPA.jpg',
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
-					left={[
+					oneColumn={true}
+					center={[
 						{
 							type: 'content-title',
-							title: 'Sheppard',
+							title: 'Sheppard'
+						},
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'RTEPB.jpg'
 						},
 						{
 							type: 'quote',
@@ -497,22 +490,21 @@ export default class RapidTransit extends Component {
 									eventually renamed Sheppard-Yonge Station. That project was eventually completed in
 									2002.<sup>9</sup>
 								</div>
-							),
-						},
-					]}
-					right={[
-						{
-							type: 'img',
-							// /images/ already saved
-							src: 'RTEPB.jpg',
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
-					left={[
+					oneColumn={true}
+					center={[
 						{
 							type: 'content-title',
-							title: 'Younge-spadina loop',
+							title: 'Yonge-spadina loop'
+						},
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'RTEPE.jpg'
 						},
 						{
 							type: 'quote',
@@ -527,19 +519,153 @@ export default class RapidTransit extends Component {
 									later cancelled. An extension of the Spadina subway with a slightly different
 									alignment was completed in 2017.
 								</div>
-							),
+							)
+						}
+					]}
+				/>
+				<WebColumn
+					oneColumn={true}
+					center={[
+						{
+							type: 'content-title',
+							title: 'Scarborough rapid transit extention'
 						},
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'RTEPD.jpg'
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									The environmental assessment of the Scarborough rapid transit line extension
+									identified four new station locations approximately following the route of Highland
+									Creek.<sup>18</sup> Three stops would be initially built at the intersection of
+									Progress Avenue and Markham Road, the intersection of Milner Avenue and Progress
+									Avenue, and at approximately the intersection of Sheppard Avenue and Markham Road. A
+									station would be built in the future on Bellamy Station adjacent to Highland Creek.
+									Metro Toronto council was unsupportive of the project.
+								</span>
+							)
+						}
+					]}
+				/>
+				{/* <WebColumn
+					left={[
+						{
+							type: 'content-title',
+							title: 'Eglinton west'
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<div>
+									The environmental assessment of the Eglinton West subway identified four new
+									stations and an interchange with the existing Spadina line at Eglinton West station,
+									which was planned to be renamed Allen Station. The Terminus would be located
+									adjacent to a new central business district, dubbed York City Centre. That project
+									died shortly afterwards the Eglinton West subway was cancelled in 1995.<sup>8</sup>
+								</div>
+							)
+						}
 					]}
 					right={[
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEPE.jpg',
-						},
+							src: 'RTEPA.jpg'
+						}
 					]}
 				/>
 				<WebColumn
+					left={[
+						{
+							type: 'content-title',
+							title: 'Sheppard'
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<div>
+									The environmental assessment of the Sheppard subway identified four new stations and
+									an interchange with the existing Yonge lines at Sheppard Station, which was
+									eventually renamed Sheppard-Yonge Station. That project was eventually completed in
+									2002.<sup>9</sup>
+								</div>
+							)
+						}
+					]}
+					right={[
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'RTEPB.jpg'
+						}
+					]}
+				/>
+				<WebColumn
+					left={[
+						{
+							type: 'content-title',
+							title: 'Yonge-spadina loop'
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<div>
+									The environmental assessment of the Spadina subway extension to York University
+									proposed three new stations following an entirely new alignment compared to the
+									Let’s Move extension plan.
+									<sup>19</sup> Stations were proposed at the C.N.R. subdivision at Finch Avenue West,
+									near the intersection of Finch Avenue West and Kelle Street, and a station
+									terminating at York University. Council was unsupportive of this plan, and it was
+									later cancelled. An extension of the Spadina subway with a slightly different
+									alignment was completed in 2017.
+								</div>
+							)
+						}
+					]}
+					right={[
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'RTEPE.jpg'
+						}
+					]}
+				/>
+				<WebColumn
+					left={[
+						{
+							type: 'content-title',
+							title: 'Scarborough rapid transit extention'
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									The environmental assessment of the Scarborough rapid transit line extension
+									identified four new station locations approximately following the route of Highland
+									Creek.<sup>18</sup> Three stops would be initially built at the intersection of
+									Progress Avenue and Markham Road, the intersection of Milner Avenue and Progress
+									Avenue, and at approximately the intersection of Sheppard Avenue and Markham Road. A
+									station would be built in the future on Bellamy Station adjacent to Highland Creek.
+									Metro Toronto council was unsupportive of the project.
+								</span>
+							)
+						}
+					]}
+					right={[
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'RTEPD.jpg'
+						}
+					]}
+				/> */}
+				<WebColumn
 					left={[]}
+					rightOnly={true}
 					right={[
 						{
 							type: 'para',
@@ -551,7 +677,7 @@ export default class RapidTransit extends Component {
 									revenues enabled the provincial government to proceed with projects without directly
 									increasing Ontario’s deficit.<sup>11</sup>
 								</div>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -569,15 +695,15 @@ export default class RapidTransit extends Component {
 									threatening to cut their share of funding for other municipal projects if only two
 									of the four projects were approved.<sup>14</sup>
 								</div>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
 					left={[
 						{
 							type: 'content-title',
-							title: 'Sheppard subway under construction',
+							title: 'Sheppard subway under construction'
 						},
 						{
 							type: 'quote',
@@ -589,8 +715,8 @@ export default class RapidTransit extends Component {
 									Avenue and Leslie Street in 1998.
 									<sup>24</sup>
 								</div>
-							),
-						},
+							)
+						}
 					]}
 					right={[
 						{
@@ -609,52 +735,75 @@ export default class RapidTransit extends Component {
 											Sheppard subway, then projected to begin tunnelling in mid-1996.
 											<sup>21</sup>
 										</div>
-									),
-								},
+									)
+								}
 							],
 							left: [
 								{
 									type: 'img',
 									// /images/ already saved
-									src: 'RTEPF.jpg',
-								},
-							],
-						},
+									src: 'RTEPF.jpg'
+								}
+							]
+						}
 					]}
 				/>
 				<WebColumn
 					left={[]}
+					rightOnly={true}
 					right={[
 						{
 							type: 'para',
-							text: () => <div>However, the election of a new Progressive Conservative provincial government running
-							under an austerity platform quickly put an end to three of the four projects, with the Eglinton
-							West subway deferred after their election in June of 1995, funding cut for the Scarborough RT
-							and Spadina extensions, leaving only the Sheppard subway left untouched.<sup>22</sup>{' '}
-							Construction was halted on the Eglinton West subway and work to revert the street was quickly
-							undertaken.<sup>23</sup> The poor financial status of both the province and Metro Toronto (later
-							reorganized as the City of Toronto by the provincial government) kept the three unbuilt projects
-							deferred for more than a decade before similar plans were explored by later provincial and
-							municipal governments.</div>,
+							text: () => (
+								<div>
+									However, the election of a new Progressive Conservative provincial government
+									running under an austerity platform quickly put an end to three of the four
+									projects, with the Eglinton West subway deferred after their election in June of
+									1995, funding cut for the Scarborough RT and Spadina extensions, leaving only the
+									Sheppard subway left untouched.<sup>22</sup> Construction was halted on the Eglinton
+									West subway and work to revert the street was quickly undertaken.<sup>23</sup> The
+									poor financial status of both the province and Metro Toronto (later reorganized as
+									the City of Toronto by the provincial government) kept the three unbuilt projects
+									deferred for more than a decade before similar plans were explored by later
+									provincial and municipal governments.
+								</div>
+							)
 						},
 						{
 							type: 'para',
-							text: () => <div>The Rapid Transit Expansion Program was a crucial point in transit planning for Toronto
-							at its time. Not only did it refine and build upon plans studied for almost a decade, beginning
-							with Network 2011, but it also provided the necessary funding for construction. Although never
-							fully realized, the basis of the planning undertaken through this plan formed the first major
-							extension to the TTC subway system for over two decades, with the Sheppard subway between Yonge
-							Street and Don Mills Road opening in 2003. Meanwhile, key elements of the plan including a
-							subway on Eglinton Avenue West and extensions to the Spadina line to York University have been
-							revisited by later governments, with the Eglinton Crosstown LRT opening in 2021 to have a
-							similar routing and station placement as the planned Eglinton West subway, while an extension of
-							the Spadina line with stops at York University opening in 2017.</div>,
-						},
+							text: () => (
+								<div>
+									The Rapid Transit Expansion Program was a crucial point in transit planning for
+									Toronto at its time. Not only did it refine and build upon plans studied for almost
+									a decade, beginning with Network 2011, but it also provided the necessary funding
+									for construction. Although never fully realized, the basis of the planning
+									undertaken through this plan formed the first major extension to the TTC subway
+									system for over two decades, with the Sheppard subway between Yonge Street and Don
+									Mills Road opening in 2003. Meanwhile, key elements of the plan including a subway
+									on Eglinton Avenue West and extensions to the Spadina line to York University have
+									been revisited by later governments, with the Eglinton Crosstown LRT opening in 2021
+									to have a similar routing and station placement as the planned Eglinton West subway,
+									while an extension of the Spadina line with stops at York University opening in
+									2017.
+								</div>
+							)
+						}
 					]}
 				/>
-
-<h1 className="body__text-h1 footnotes-h1">Footnotes</h1>
-				{this.footnotes()}
+				<WebColumn
+					left={[
+						{
+							type: 'content-title',
+							title: 'footnotes'
+						}
+					]}
+					right={[
+						{
+							type: 'para',
+							text: this.footnotes
+						}
+					]}
+				/>
 			</div>
 		);
 	};

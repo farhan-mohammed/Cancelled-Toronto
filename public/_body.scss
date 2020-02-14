@@ -35,10 +35,17 @@ body {
 	}
 	&__img {
 		width: 100%;
+		@include max-height-mixin('small') {
+			width: 90%;
+		}
 		&-con {
 			width: 100%;
+			text-align: center;
 			&:first-child {
 				margin: 20px 0;
+				@include max-height-mixin('small') {
+					margin: 2px 0;
+				}
 			}
 		}
 	}
@@ -140,6 +147,7 @@ body {
 .footnotes {
 	&__list {
 		margin-left: 1em;
+		padding-right: 8px;
 	}
 	&-h1 {
 		margin-bottom: 5px;

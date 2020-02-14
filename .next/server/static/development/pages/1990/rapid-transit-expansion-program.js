@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/Header.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\Header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -290,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/SideMenu.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\SideMenu.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -471,7 +471,7 @@ class SideMenu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/content/TwoColumn.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\content\\TwoColumn.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -505,7 +505,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ImgAll; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/templates/ImgAll.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\templates\\ImgAll.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 class ImgAll extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
@@ -547,7 +547,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/templates/WebColumn.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\templates\\WebColumn.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
@@ -623,7 +623,8 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           __self: this
         }, __jsx("img", {
           className: "WC-item_img",
-          src: `/images/${item.src}`,
+          src: `/images/${item.src}` // '/images/test.png'
+          ,
           alt: "",
           __source: {
             fileName: _jsxFileName,
@@ -636,14 +637,14 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           className: "WC-item_para-con",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 49
+            lineNumber: 55
           },
           __self: this
         }, __jsx("p", {
           className: "WC-item_para",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 50
+            lineNumber: 56
           },
           __self: this
         }, item.text()));
@@ -652,7 +653,7 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           className: "WC-item_ct",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 54
+            lineNumber: 60
           },
           __self: this
         }, typeof item.title == 'function' ? item.title() : item.title);
@@ -661,7 +662,7 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           className: "WC-item_mt",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 56
+            lineNumber: 62
           },
           __self: this
         }, typeof item.title == 'function' ? item.title() : item.title);
@@ -670,7 +671,7 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           className: "WC-item_mst",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 58
+            lineNumber: 64
           },
           __self: this
         }, typeof item.title == 'function' ? item.title() : item.title);
@@ -679,14 +680,14 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           className: "WC-item_quote-con",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 61
+            lineNumber: 67
           },
           __self: this
         }, __jsx("p", {
           className: "WC-item_quote",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 62
+            lineNumber: 68
           },
           __self: this
         }, item.text()));
@@ -695,24 +696,33 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           className: "WC-item_col2",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 67
+            lineNumber: 73
           },
           __self: this
         }, __jsx("div", {
           className: "WC-item_col2-left",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 68
+            lineNumber: 74
           },
           __self: this
         }, item.left.map(son => this.renderItem(son))), __jsx("div", {
           className: "WC-item_col2-right",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 69
+            lineNumber: 75
           },
           __self: this
         }, item.right.map(son => this.renderItem(son))));
+      } else if (item.type == 'empty') {
+        return __jsx("div", {
+          className: "WC-item_empty",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 79
+          },
+          __self: this
+        });
       }
     });
 
@@ -721,7 +731,7 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         className: "WC-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 83
         },
         __self: this
       }, this.renderItem(item)));
@@ -732,7 +742,18 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         className: "WC-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 86
+        },
+        __self: this
+      }, this.renderItem(item)));
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "renderCenter", () => {
+      return this.props.center.map(item => __jsx("div", {
+        className: "WC-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
         },
         __self: this
       }, this.renderItem(item)));
@@ -740,25 +761,45 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   }
 
   render() {
+    const WC = `${this.props.oneColumn ? 'WC-center' : ''} WC ${this.props.rightOnly ? 'WC-rightOnly' : ''}`;
+
+    if (this.props.oneColumn) {
+      return __jsx("div", {
+        className: WC,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "WC-center",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96
+        },
+        __self: this
+      }, this.renderCenter()));
+    }
+
     return __jsx("div", {
-      className: "WC",
+      className: WC,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 82
+        lineNumber: 101
       },
       __self: this
     }, __jsx("div", {
       className: "WC-left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83
+        lineNumber: 102
       },
       __self: this
     }, this.renderLeft()), __jsx("div", {
       className: "WC-right",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 84
+        lineNumber: 103
       },
       __self: this
     }, this.renderRight()));
@@ -780,7 +821,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ImgTextBelow; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/templates/imgTextBelow.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\templates\\imgTextBelow.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 class ImgTextBelow extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
@@ -796,14 +837,23 @@ class ImgTextBelow extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 9
       },
       __self: this
-    }, __jsx("img", {
-      src: this.props.img
-      /*'/images/test.png'*/
-      ,
+    }, this.props.title ? __jsx("div", {
+      className: "WC-item_ct",
+      style: {
+        marginBottom: '10px'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, this.props.title) : '', __jsx("img", {
+      src: // this.props.img
+      '/images/test.png',
       alt: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 17
       },
       __self: this
     }), __jsx("div", {
@@ -813,7 +863,7 @@ class ImgTextBelow extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 24
       },
       __self: this
     }, this.props.text()));
@@ -835,7 +885,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ImgTextRightBelow; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/templates/imgTextRightBelow.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\templates\\imgTextRightBelow.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 class ImgTextRightBelow extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
@@ -862,9 +912,8 @@ class ImgTextRightBelow extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] 
       },
       __self: this
     }, __jsx("img", {
-      src: this.props.img || ''
-      /*'/images/test.png'*/
-      ,
+      src: // this.props.img
+      '/images/test.png',
       alt: "",
       __source: {
         fileName: _jsxFileName,
@@ -875,28 +924,28 @@ class ImgTextRightBelow extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] 
       className: "imgLefttextRigtBelow_text imgLefttextRigtBelow_text-right",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 18
       },
       __self: this
     }, __jsx("h1", {
       className: "imgLefttextRigtBelow_text-right_h1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 19
       },
       __self: this
     }, this.props.title() || ''), __jsx("p", {
       className: "italy",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 20
       },
       __self: this
     }, typeof this.props.text.right === 'function' ? this.props.text.right() : ''))), __jsx("div", {
       className: "imgLefttextRigtBelow_text imgLefttextRigtBelow_text-bottom italy",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 25
       },
       __self: this
     }, typeof this.props.text.bottom === 'function' ? this.props.text.bottom() : ''));
@@ -924,7 +973,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SideMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SideMenu */ "./components/SideMenu.js");
 /* harmony import */ var _Header_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Header.js */ "./components/Header.js");
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/components/wrapper/mainSite.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\components\\wrapper\\mainSite.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -2891,7 +2940,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_templates_ImgAll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/templates/ImgAll */ "./components/templates/ImgAll.js");
 /* harmony import */ var _components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/templates/WebColumn */ "./components/templates/WebColumn.js");
 
-var _jsxFileName = "/home/farhanhm12/repos/Cancelled-Toronto/pages/1990/rapid-transit-expansion-program.js";
+var _jsxFileName = "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\pages\\1990\\rapid-transit-expansion-program.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -3147,7 +3196,7 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         __self: this
       }), __jsx(_components_templates_imgTextRightBelow__WEBPACK_IMPORTED_MODULE_3__["default"], {
         img: "/images/RTEPC.jpg",
-        title: () => __jsx("h1", {
+        title: () => __jsx("span", {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 204
@@ -3175,38 +3224,22 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
               lineNumber: 214
             },
             __self: this
-          }, "10")),
-          bottom: () => __jsx("span", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 218
-            },
-            __self: this
-          }, "Rapid transit expansion in the Network 2011 plan was to be phased over a 26-year timeframe, beginning with a Sheppard subway between Yonge Street to Victoria Park Avenue to be constructed between 1989-1994.", __jsx("sup", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 221
-            },
-            __self: this
-          }, "16"), " Then, a downtown subway between Pape Station on the Bloor-Danforth Line in the east to approximately the intersection of Spadina Avenue and Front Street in the west would be constructed in the years of 1994-1999.", __jsx("sup", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 224
-            },
-            __self: this
-          }, "17"), " Then, between 1999-2004, rapid transit on Eglinton Avenue West would be constructed, initially as a partially grade-separated busway, with the possibility of converting it to a subway later.", __jsx("sup", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 226
-            },
-            __self: this
-          }, "18"), " Finally, between 2004-2010, the Sheppard subway would be extended on both ends from Yonge Street to Dufferin Street in the west, and from Victoria Park Avenue to Scarborough City Centre in the east.", __jsx("sup", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 229
-            },
-            __self: this
-          }, "19"))
+          }, "10")) // bottom: () => (
+          // 	<span>
+          // 		Rapid transit expansion in the Network 2011 plan was to be phased over a 26-year
+          // 		timeframe, beginning with a Sheppard subway between Yonge Street to Victoria Park Avenue
+          // 		to be constructed between 1989-1994.<sup>16</sup> Then, a downtown subway between Pape
+          // 		Station on the Bloor-Danforth Line in the east to approximately the intersection of
+          // 		Spadina Avenue and Front Street in the west would be constructed in the years of
+          // 		1994-1999.<sup>17</sup> Then, between 1999-2004, rapid transit on Eglinton Avenue West
+          // 		would be constructed, initially as a partially grade-separated busway, with the
+          // 		possibility of converting it to a subway later.<sup>18</sup> Finally, between 2004-2010,
+          // 		the Sheppard subway would be extended on both ends from Yonge Street to Dufferin Street
+          // 		in the west, and from Victoria Park Avenue to Scarborough City Centre in the east.
+          // 		<sup>19</sup>
+          // 	</span>
+          // )
+
         },
         __source: {
           fileName: _jsxFileName,
@@ -3261,35 +3294,30 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         },
         __self: this
       }), __jsx("div", {
-        className: "column2",
+        className: "RTEPD1col2",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 264
         },
         __self: this
       }, __jsx("div", {
-        style: {
-          flex: '1.75'
-        },
+        className: " mediumhide RTEPD1col2img",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 265
         },
         __self: this
       }, __jsx("img", {
-        src: "/images/RTEPF.jpg",
-        style: {
-          width: '80%',
-          margin: '0 auto',
-          display: 'block'
-        },
+        src: "/images/RTEPF.jpg" // src="/images/test.png"
+        ,
         alt: "",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 266
         },
         __self: this
-      }), __jsx("h2", {
+      }), __jsx("div", {
+        className: "RTEPD1col2img_title",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 271
@@ -3309,71 +3337,108 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         },
         __self: this
       }, "24"))), __jsx("div", {
-        className: "column2spacer",
+        className: " mediumhide column2spacer",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 279
         },
         __self: this
       }), __jsx("div", {
+        className: "RTEPD1col2text",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 280
         },
         __self: this
-      }, "Ultimately, none of the proposals were enacted and by 1994, environmental assessments on the Eglinton West, Sheppard, Scarborough RT extension, and Spadina loop projects had been completed, with construction starting on the former two projects by late summer of 1994.", __jsx("sup", {
+      }, __jsx("div", {
+        className: " mediumshow RTEPD1col2text_img",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 283
+          lineNumber: 281
         },
         __self: this
-      }, "20"), " By early 1995, excavation had already progressed for tail tracks on the Eglinton West subway and procurement of tunnel boring machines had been underway for the Sheppard subway, then projected to begin tunnelling in mid-1996.", __jsx("sup", {
+      }, __jsx("img", {
+        // src="/images/RTEPF.jpg"
+        src: "/images/test.png",
+        alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 286
+          lineNumber: 282
         },
         __self: this
-      }, "21"), __jsx("br", {
+      }), __jsx("div", {
+        className: "RTEPD1col2text_img_title",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 287
         },
         __self: this
-      }), __jsx("br", {
+      }, "Sheppard Subway Construction"), __jsx("div", {
+        className: "italy",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 288
         },
         __self: this
-      }), " However, the election of a new Progressive Conservative provincial government running under an austerity platform quickly put an end to three of the four projects, with the Eglinton West subway deferred after their election in June of 1995, funding cut for the Scarborough RT and Spadina extensions, leaving only the Sheppard subway left untouched.", __jsx("sup", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 291
-        },
-        __self: this
-      }, "22"), ' ', "Construction was halted on the Eglinton West subway and work to revert the street was quickly undertaken.", __jsx("sup", {
+      }, "The Sheppard subway was the only project spared cancellation by the Progressive Conservative provincial government, which deferred the other projects. Here, construction on the Sheppard subway progresses at the intersection of Sheppard Avenue and Leslie Street in 1998.", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 293
         },
         __self: this
-      }, "23"), " The poor financial status of both the province and Metro Toronto (later reorganized as the City of Toronto by the provincial government) kept the three unbuilt projects deferred for more than a decade before similar plans were explored by later provincial and municipal governments.", __jsx("br", {
+      }, "24"))), "Ultimately, none of the proposals were enacted and by 1994, environmental assessments on the Eglinton West, Sheppard, Scarborough RT extension, and Spadina loop projects had been completed, with construction starting on the former two projects by late summer of 1994.", __jsx("sup", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 297
+          lineNumber: 298
+        },
+        __self: this
+      }, "20"), " By early 1995, excavation had already progressed for tail tracks on the Eglinton West subway and procurement of tunnel boring machines had been underway for the Sheppard subway, then projected to begin tunnelling in mid-1996.", __jsx("sup", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 301
+        },
+        __self: this
+      }, "21"), __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 302
         },
         __self: this
       }), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 298
+          lineNumber: 303
+        },
+        __self: this
+      }), " However, the election of a new Progressive Conservative provincial government running under an austerity platform quickly put an end to three of the four projects, with the Eglinton West subway deferred after their election in June of 1995, funding cut for the Scarborough RT and Spadina extensions, leaving only the Sheppard subway left untouched.", __jsx("sup", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 306
+        },
+        __self: this
+      }, "22"), ' ', "Construction was halted on the Eglinton West subway and work to revert the street was quickly undertaken.", __jsx("sup", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 308
+        },
+        __self: this
+      }, "23"), " The poor financial status of both the province and Metro Toronto (later reorganized as the City of Toronto by the provincial government) kept the three unbuilt projects deferred for more than a decade before similar plans were explored by later provincial and municipal governments.", __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 312
+        },
+        __self: this
+      }), __jsx("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 313
         },
         __self: this
       }), " The Rapid Transit Expansion Program was a crucial point in transit planning for Toronto at its time. Not only did it refine and build upon plans studied for almost a decade, beginning with Network 2011, but it also provided the necessary funding for construction. Although never fully realized, the basis of the planning undertaken through this plan formed the first major extension to the TTC subway system for over two decades, with the Sheppard subway between Yonge Street and Don Mills Road opening in 2003. Meanwhile, key elements of the plan including a subway on Eglinton Avenue West and extensions to the Spadina line to York University have been revisited by later governments, with the Eglinton Crosstown LRT opening in 2021 to have a similar routing and station placement as the planned Eglinton West subway, while an extension of the Spadina line with stops at York University opening in 2017.")), __jsx("h1", {
         className: "body__text-h1 footnotes-h1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 310
+          lineNumber: 325
         },
         __self: this
       }, "Footnotes"), this.footnotes());
@@ -3384,7 +3449,7 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         className: "body__text-con",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 317
+          lineNumber: 332
         },
         __self: this
       }, __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -3393,14 +3458,40 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           title: 'Rapid Transit Expansion Program (1993)'
         }, {
           type: 'main-subtitle',
-          title: 'Cancelled in 1995, partially built'
+          title: () => __jsx("span", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 339
+            },
+            __self: this
+          }, "Cancelled in 1995", __jsx("span", {
+            className: "mediumhide",
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 340
+            },
+            __self: this
+          }, ", "), __jsx("span", {
+            className: "mediumshow",
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 341
+            },
+            __self: this
+          }, __jsx("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 342
+            },
+            __self: this
+          })), "partially built")
         }],
         right: [{
           type: 'quote',
           text: () => __jsx("span", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 330
+              lineNumber: 352
             },
             __self: this
           }, "The Rapid Transit Expansion Program put a focus on four projects: An Eglinton West subway, a Sheppard Subway, an extenstion of the Scarborough Rapid Transit Line, and an expansion of the Spadina line to York University")
@@ -3409,13 +3500,13 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           text: () => __jsx("span", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 340
+              lineNumber: 362
             },
             __self: this
           }, "The 1993 Rapid Transit Expansion Program was the culmination of the NDP provincial government\u2019s study of the previous Liberal government\u2019s Let\u2019s Move transit plan. The highlights for phase one \u2013 a Sheppard subway between Yonge Street and Don Mills Road, a subway on Eglinton Avenue West from Eglinton West Station in the east to a new \u201CYork City Centre\u201D located at Black Creek Drive in the west, and eventually to Pearson Airport, an extended Spadina subway reaching York University, and an extension to the Scarborough rapid transit line.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 347
+              lineNumber: 369
             },
             __self: this
           }, "1"))
@@ -3424,26 +3515,26 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           text: () => __jsx("span", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 354
+              lineNumber: 376
             },
             __self: this
           }, "This first phase of the plan would cost $2.5 billion and create 50,000 jobs, with $1.5 billion from the province, $500 million from Metro Toronto, and $500 million from the private sector.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 358
+              lineNumber: 380
             },
             __self: this
           }, "2"), " The plan, released at the end of the early 1990s recession, was seen as both a jobs creator and a way to rebuild ridership on the TTC subway system, which had fallen over 15 per cent between 1988 to 1993.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 360
+              lineNumber: 382
             },
             __self: this
           }, "3"))
         }],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 318
+          lineNumber: 333
         },
         __self: this
       }), __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -3455,13 +3546,13 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           text: () => __jsx("span", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 375
+              lineNumber: 397
             },
             __self: this
           }, "The Sheppard subway was crucial to the then-city of North York and Metropolitan Toronto\u2019s plan to build a downtown centered along Yonge Street. Road capacity in the area was already strained, and a subway was necessary to ensure development could continue without straining the transportation infrastructure in the area.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 380
+              lineNumber: 402
             },
             __self: this
           }, "10"))
@@ -3475,13 +3566,13 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 394
+              lineNumber: 416
             },
             __self: this
           }, "The Sheppard subway was crucial to the then-city of North York and Metropolitan Toronto\u2019s plan to build a downtown centered along Yonge Street. Road capacity in the area was already strained, and a subway was necessary to ensure development could continue without straining the transportation infrastructure in the area.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 399
+              lineNumber: 421
             },
             __self: this
           }, "10"))
@@ -3490,144 +3581,175 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 406
+              lineNumber: 428
             },
             __self: this
           }, "Rapid transit expansion in the Network 2011 plan was to be phased over a 26-year timeframe, beginning with a Sheppard subway between Yonge Street to Victoria Park Avenue to be constructed between 1989-1994.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 409
+              lineNumber: 431
             },
             __self: this
           }, "16"), " Then, a downtown subway between Pape Station on the Bloor-Danforth Line in the east to approximately the intersection of Spadina Avenue and Front Street in the west would be constructed in the years of 1994-1999.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 412
+              lineNumber: 434
             },
             __self: this
           }, "17"), " Then, between 1999-2004, rapid transit on Eglinton Avenue West would be constructed, initially as a partially grade-separated busway, with the possibility of converting it to a subway later.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 414
+              lineNumber: 436
             },
             __self: this
           }, "18"), ' ', "Finally, between 2004-2010, the Sheppard subway would be extended on both ends from Yonge Street to Dufferin Street in the west, and from Victoria Park Avenue to Scarborough City Centre in the east.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 418
+              lineNumber: 440
             },
             __self: this
           }, "19"))
         }],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 366
+          lineNumber: 388
         },
         __self: this
       }), __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        left: [{
+        oneColumn: true,
+        center: [{
           type: 'content-title',
           title: 'Eglinton west'
+        }, {
+          type: 'img',
+          // /images/ already saved
+          src: 'RTEPA.jpg'
         }, {
           type: 'quote',
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 433
+              lineNumber: 461
             },
             __self: this
           }, "The environmental assessment of the Eglinton West subway identified four new stations and an interchange with the existing Spadina line at Eglinton West station, which was planned to be renamed Allen Station. The Terminus would be located adjacent to a new central business district, dubbed York City Centre. That project died shortly afterwards the Eglinton West subway was cancelled in 1995.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 438
+              lineNumber: 466
             },
             __self: this
           }, "8"))
         }],
-        right: [{
-          type: 'img',
-          // /images/ already saved
-          src: 'RTEPA.jpg'
-        }],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 424
+          lineNumber: 446
         },
         __self: this
       }), __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        left: [{
+        oneColumn: true,
+        center: [{
           type: 'content-title',
           title: 'Sheppard'
+        }, {
+          type: 'img',
+          // /images/ already saved
+          src: 'RTEPB.jpg'
         }, {
           type: 'quote',
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 460
+              lineNumber: 487
             },
             __self: this
           }, "The environmental assessment of the Sheppard subway identified four new stations and an interchange with the existing Yonge lines at Sheppard Station, which was eventually renamed Sheppard-Yonge Station. That project was eventually completed in 2002.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 464
+              lineNumber: 491
             },
             __self: this
           }, "9"))
         }],
-        right: [{
-          type: 'img',
-          // /images/ already saved
-          src: 'RTEPB.jpg'
-        }],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 451
+          lineNumber: 472
         },
         __self: this
       }), __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        left: [{
+        oneColumn: true,
+        center: [{
           type: 'content-title',
-          title: 'Younge-spadina loop'
+          title: 'Yonge-spadina loop'
+        }, {
+          type: 'img',
+          // /images/ already saved
+          src: 'RTEPE.jpg'
         }, {
           type: 'quote',
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 486
+              lineNumber: 512
             },
             __self: this
           }, "The environmental assessment of the Spadina subway extension to York University proposed three new stations following an entirely new alignment compared to the Let\u2019s Move extension plan.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 490
+              lineNumber: 516
             },
             __self: this
           }, "19"), " Stations were proposed at the C.N.R. subdivision at Finch Avenue West, near the intersection of Finch Avenue West and Kelle Street, and a station terminating at York University. Council was unsupportive of this plan, and it was later cancelled. An extension of the Spadina subway with a slightly different alignment was completed in 2017.")
         }],
-        right: [{
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 497
+        },
+        __self: this
+      }), __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        oneColumn: true,
+        center: [{
+          type: 'content-title',
+          title: 'Scarborough rapid transit extention'
+        }, {
           type: 'img',
           // /images/ already saved
-          src: 'RTEPE.jpg'
+          src: 'RTEPD.jpg'
+        }, {
+          type: 'quote',
+          text: () => __jsx("span", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 541
+            },
+            __self: this
+          }, "The environmental assessment of the Scarborough rapid transit line extension identified four new station locations approximately following the route of Highland Creek.", __jsx("sup", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 544
+            },
+            __self: this
+          }, "18"), " Three stops would be initially built at the intersection of Progress Avenue and Markham Road, the intersection of Milner Avenue and Progress Avenue, and at approximately the intersection of Sheppard Avenue and Markham Road. A station would be built in the future on Bellamy Station adjacent to Highland Creek. Metro Toronto council was unsupportive of the project.")
         }],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 477
+          lineNumber: 526
         },
         __self: this
       }), __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
         left: [],
+        rightOnly: true,
         right: [{
           type: 'para',
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 513
+              lineNumber: 673
             },
             __self: this
           }, "Investment into these projects by the provincial government, Metro Toronto, and the private sector were to be funnelled through a new crown corporation, the Ontario Transportation Corporation, which with a budget separate from the province\u2019s revenues enabled the provincial government to proceed with projects without directly increasing Ontario\u2019s deficit.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 518
+              lineNumber: 678
             },
             __self: this
           }, "11"))
@@ -3636,32 +3758,32 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 525
+              lineNumber: 685
             },
             __self: this
           }, "Following the recession, the provincial government\u2019s deficit at the time \u2013 a record $10 billion was worrying for many and a key issue in the following 1995 provincial elections.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 528
+              lineNumber: 688
             },
             __self: this
           }, "12"), " Likewise, municipal officials in Metro Toronto were concerned with the cost associated with the four subway projects proposed and their effect on municipal finances, which would see cost-cutting on municipal programs to support the 25 per cent municipal funding necessary for the projects.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 531
+              lineNumber: 691
             },
             __self: this
           }, "13"), ' ', "Metro Toronto staff had earlier recommended Metro Toronto council to approve only the Eglinton West subway and Spadina extension to York University, leading to clashes between the province and Toronto municipal officials, with the province threatening to cut their share of funding for other municipal projects if only two of the four projects were approved.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 536
+              lineNumber: 696
             },
             __self: this
           }, "14"))
         }],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 507
+          lineNumber: 666
         },
         __self: this
       }), __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -3673,13 +3795,13 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 551
+              lineNumber: 711
             },
             __self: this
           }, "The Sheppard subway was the only project spared cancellation by the Progressive Conservative provincial government, which deferred the other projects. Here, construction on the Sheppard subway progresses at the intersection of Sheppard Avenue and Leslie Street in 1998.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 556
+              lineNumber: 716
             },
             __self: this
           }, "24"))
@@ -3691,19 +3813,19 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
             text: () => __jsx("div", {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 568
+                lineNumber: 728
               },
               __self: this
             }, "Ultimately, none of the proposals were enacted and by 1994, environmental assessments on the Eglinton West, Sheppard, Scarborough RT extension, and Spadina loop projects had been completed, with construction starting on the former two projects by late summer of 1994.", __jsx("sup", {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 572
+                lineNumber: 732
               },
               __self: this
             }, "20"), " By early 1995, excavation had already progressed for tail tracks on the Eglinton West subway and procurement of tunnel boring machines had been underway for the Sheppard subway, then projected to begin tunnelling in mid-1996.", __jsx("sup", {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 576
+                lineNumber: 736
               },
               __self: this
             }, "21"))
@@ -3716,29 +3838,30 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         }],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 542
+          lineNumber: 702
         },
         __self: this
       }), __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
         left: [],
+        rightOnly: true,
         right: [{
           type: 'para',
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 596
+              lineNumber: 758
             },
             __self: this
           }, "However, the election of a new Progressive Conservative provincial government running under an austerity platform quickly put an end to three of the four projects, with the Eglinton West subway deferred after their election in June of 1995, funding cut for the Scarborough RT and Spadina extensions, leaving only the Sheppard subway left untouched.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 599
+              lineNumber: 763
             },
             __self: this
-          }, "22"), ' ', "Construction was halted on the Eglinton West subway and work to revert the street was quickly undertaken.", __jsx("sup", {
+          }, "22"), " Construction was halted on the Eglinton West subway and work to revert the street was quickly undertaken.", __jsx("sup", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 601
+              lineNumber: 764
             },
             __self: this
           }, "23"), " The poor financial status of both the province and Metro Toronto (later reorganized as the City of Toronto by the provincial government) kept the three unbuilt projects deferred for more than a decade before similar plans were explored by later provincial and municipal governments.")
@@ -3747,24 +3870,31 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           text: () => __jsx("div", {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 608
+              lineNumber: 775
             },
             __self: this
           }, "The Rapid Transit Expansion Program was a crucial point in transit planning for Toronto at its time. Not only did it refine and build upon plans studied for almost a decade, beginning with Network 2011, but it also provided the necessary funding for construction. Although never fully realized, the basis of the planning undertaken through this plan formed the first major extension to the TTC subway system for over two decades, with the Sheppard subway between Yonge Street and Don Mills Road opening in 2003. Meanwhile, key elements of the plan including a subway on Eglinton Avenue West and extensions to the Spadina line to York University have been revisited by later governments, with the Eglinton Crosstown LRT opening in 2021 to have a similar routing and station placement as the planned Eglinton West subway, while an extension of the Spadina line with stops at York University opening in 2017.")
         }],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 591
+          lineNumber: 751
         },
         __self: this
-      }), __jsx("h1", {
-        className: "body__text-h1 footnotes-h1",
+      }), __jsx(_components_templates_WebColumn__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        left: [{
+          type: 'content-title',
+          title: 'footnotes'
+        }],
+        right: [{
+          type: 'para',
+          text: this.footnotes
+        }],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 622
+          lineNumber: 793
         },
         __self: this
-      }, "Footnotes"), this.footnotes());
+      }));
     });
   }
 
@@ -3962,26 +4092,26 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
     return __jsx(_components_wrapper_mainSite__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 629
+        lineNumber: 812
       },
       __self: this
     }, __jsx("div", {
       className: "body-con",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 630
+        lineNumber: 813
       },
       __self: this
     }, __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 631
+        lineNumber: 814
       },
       __self: this
     }, this.renderView()), __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 632
+        lineNumber: 815
       },
       __self: this
     }, this.renderText())));
@@ -3991,14 +4121,14 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*************************************************************!*\
   !*** multi ./pages/1990/rapid-transit-expansion-program.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/farhanhm12/repos/Cancelled-Toronto/pages/1990/rapid-transit-expansion-program.js */"./pages/1990/rapid-transit-expansion-program.js");
+module.exports = __webpack_require__(/*! C:\Users\Farhan Mohammed\Desktop\Cancelled-Toronto\pages\1990\rapid-transit-expansion-program.js */"./pages/1990/rapid-transit-expansion-program.js");
 
 
 /***/ }),

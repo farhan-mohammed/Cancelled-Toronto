@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { Component } from 'react';\nexport default class App extends Component {\n  render() {\n    return __jsx(\"div\", null, \"App\");\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

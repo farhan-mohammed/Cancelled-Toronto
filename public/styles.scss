@@ -1,8 +1,5 @@
-$breakpoints: (
-	'small': 850px,
-	'medium': 1000px,
-	'large': 1300px,
-) !default;
+$breakpoints: ('small': 850px, 'medium': 1000px, 'large': 1300px) !default;
+$breakpointsh: ('small':600px) !default;
 @mixin min-width-mixin($breakpoint) {
 	// If the key exists in the map
 	@if map-has-key($breakpoints, $breakpoint) {
@@ -26,6 +23,15 @@ $breakpoints: (
 		}
 	}
 }
+@mixin max-height-mixin($breakpoint) {
+	// If the key exists in the map
+	@if map-has-key($breakpointsh, $breakpoint) {
+		// Prints a media query based on the value
+		@media (max-height: map-get($breakpoints, $breakpoint)) {
+			@content;
+		}
+	}
+}
 @font-face {
 	font-family: 'toronto_subway_bold';
 	src: url('toronto_subway_bold-webfont.woff2') format('woff2'),
@@ -39,11 +45,13 @@ $light: #fffffa;
 @import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-family: 'Open Sans';
+	font-family: 'Noto Serif', serif;
 }
 h1,
 h2,
@@ -52,6 +60,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Open Sans';
+	font-family: 'Noto Serif', serif;
 }
 a {
 	color: inherit;
@@ -117,20 +126,12 @@ text {
 	}
 }
 
-<<<<<<< HEAD
 @import "header";
 @import "body";
 @import "special";
 @import "default";
 @import "homepage";
-=======
-@import 'header';
-
-@import 'body';
 @import 'webcontent';
-@import 'default';
-@import 'homepage';
->>>>>>> 57345b57f90716f5776d17de3b655c46a086de6d
 
 span {
 	font-family: inherit;

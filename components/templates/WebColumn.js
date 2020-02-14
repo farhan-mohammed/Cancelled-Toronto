@@ -1,47 +1,53 @@
 import React, { Component } from 'react';
 
 export default class WebColumn extends Component {
-	renderItem = item => {
+	renderItem = (item) => {
 		const boilerplate = {
 			stockArray: [
 				{
 					type: 'img',
 					// /images/ already saved
-					src: '',
+					src: ''
 				},
 				{
 					type: 'para',
-					text: () => <div></div>,
+					text: () => <div />
 				},
 				{
 					type: 'quote',
-					text: () => <div></div>,
+					text: () => <div />
 				},
 				// Titles text can be function or strings
 				{
 					type: 'content-title',
-					title: <div></div>,
+					title: <div />
 				},
 				{
 					type: 'main-title',
-					title: <div>can be function or title</div>,
+					title: <div>can be function or title</div>
 				},
 				{
 					type: 'main-subtitle',
-					title: <div>can be function or title</div>,
+					title: <div>can be function or title</div>
 				},
 				{
 					type: 'column2',
 					right: [],
-					left: [],
-				},
-			],
+					left: []
+				}
+			]
 		};
 		// Wide image
 		if (item.type == 'img') {
 			return (
 				<div className="WC-item_img-con">
-					<img className="WC-item_img" src={`/images/${item.src}`} alt=""></img>
+					<img
+						className="WC-item_img"
+						src={`/images/${item.src}`
+						// '/images/test.png'
+						}
+						alt=""
+					/>
 				</div>
 			);
 		} else if (item.type == 'para') {
@@ -65,21 +71,34 @@ export default class WebColumn extends Component {
 		} else if (item.type == 'column2') {
 			return (
 				<div className="WC-item_col2">
-					<div className="WC-item_col2-left">{item.left.map(son => this.renderItem(son))}</div>
-					<div className="WC-item_col2-right">{item.right.map(son => this.renderItem(son))}</div>
+					<div className="WC-item_col2-left">{item.left.map((son) => this.renderItem(son))}</div>
+					<div className="WC-item_col2-right">{item.right.map((son) => this.renderItem(son))}</div>
 				</div>
 			);
+		} else if (item.type == 'empty') {
+			return <div className="WC-item_empty" />;
 		}
 	};
 	renderRight = () => {
-		return this.props.right.map(item => <div className="WC-item">{this.renderItem(item)}</div>);
+		return this.props.right.map((item) => <div className="WC-item">{this.renderItem(item)}</div>);
 	};
 	renderLeft = () => {
-		return this.props.left.map(item => <div className="WC-item">{this.renderItem(item)}</div>);
+		return this.props.left.map((item) => <div className="WC-item">{this.renderItem(item)}</div>);
+	};
+	renderCenter = () => {
+		return this.props.center.map((item) => <div className="WC-item">{this.renderItem(item)}</div>);
 	};
 	render() {
+		const WC = `${this.props.oneColumn ? 'WC-center' : ''} WC ${this.props.rightOnly ? 'WC-rightOnly' : ''}`;
+		if (this.props.oneColumn) {
+			return (
+				<div className={WC}>
+					<div className="WC-center">{this.renderCenter()}</div>
+				</div>
+			);
+		}
 		return (
-			<div className="WC">
+			<div className={WC}>
 				<div className="WC-left">{this.renderLeft()}</div>
 				<div className="WC-right">{this.renderRight()}</div>
 			</div>

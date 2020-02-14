@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @font-face {
   font-family: 'toronto_subway_bold';
@@ -15,6 +16,7 @@
   padding: 0;
   border: 0;
   font-family: 'Open Sans';
+  font-family: 'Noto Serif', serif;
 }
 
 h1,
@@ -24,6 +26,7 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans';
+  font-family: 'Noto Serif', serif;
 }
 
 a {
@@ -103,6 +106,12 @@ text_bold {
   padding-top: 1rem;
 }
 
+@media (max-height: 850px) {
+  .header {
+    padding-top: 5px;
+  }
+}
+
 @media (max-width: 850px) {
   .header-top {
     display: -webkit-box;
@@ -147,6 +156,12 @@ text_bold {
   height: 20vh;
   min-height: 100px;
   width: auto;
+}
+
+@media (max-height: 850px) {
+  .header-pic_narrow {
+    height: 15vh;
+  }
 }
 
 .header-pic_narrowpng {
@@ -198,6 +213,16 @@ text_bold {
 @media (max-width: 850px) {
   .header-bar-start {
     display: none;
+  }
+}
+
+@media (max-height: 850px) {
+  .header-bar {
+    margin-top: 2px;
+    padding: 1px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 
@@ -295,6 +320,12 @@ text_bold {
   font-size: 20px;
 }
 
+@media (max-height: 850px) {
+  .hnv-li {
+    font-size: 15px;
+  }
+}
+
 .hnv-li-ul {
   display: none;
   position: absolute;
@@ -310,7 +341,7 @@ text_bold {
   padding: 10px 10px;
   letter-spacing: 2px;
   margin-bottom: 2px;
-  font-size: 16px;
+  font-size: 0.8em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -361,12 +392,25 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
 }
 
+@media (max-height: 850px) {
+  .body__img {
+    width: 90%;
+  }
+}
+
 .body__img-con {
   width: 100%;
+  text-align: center;
 }
 
 .body__img-con:first-child {
   margin: 20px 0;
+}
+
+@media (max-height: 850px) {
+  .body__img-con:first-child {
+    margin: 2px 0;
+  }
 }
 
 .body_divide {
@@ -488,6 +532,7 @@ body::-webkit-scrollbar-thumb {
 
 .footnotes__list {
   margin-left: 1em;
+  padding-right: 8px;
 }
 
 .footnotes-h1 {
@@ -767,11 +812,7 @@ body::-webkit-scrollbar-thumb {
   font-family: 'toronto_subway_bold';
 }
 
-<<<<<<< HEAD
 .RTEPD1col2 {
-=======
-.WC {
->>>>>>> 57345b57f90716f5776d17de3b655c46a086de6d
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -779,7 +820,6 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-<<<<<<< HEAD
   width: 100%;
 }
 
@@ -869,102 +909,6 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   margin: 0 auto;
   display: block;
-=======
-}
-
-.WC:not(:first-child) {
-  margin-top: 15px;
-}
-
-.WC-right {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0 8px;
-}
-
-.WC-left {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0 8px;
-}
-
-.WC-item {
-  width: 100%;
-}
-
-.WC-item:not(:first-child) {
-  margin-top: 10px;
-}
-
-.WC-item_img {
-  width: 100%;
-}
-
-.WC-item_img-con {
-  width: 100%;
-}
-
-.WC-item_para-con {
-  font-family: 'Open Sans';
-}
-
-.WC-item_ct {
-  font-family: 'toronto_subway_bold';
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 24px;
-  letter-spacing: 4px;
-}
-
-.WC-item_mt {
-  font-family: 'toronto_subway_bold';
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 36px;
-  letter-spacing: 4px;
-  width: 100%;
-  text-align: center;
-}
-
-.WC-item_mst {
-  font-family: 'toronto_subway_bold';
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 24px;
-  width: 100%;
-  text-align: center;
-}
-
-.WC-item_col2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.WC-item_col2-left {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.WC-item_col2-right {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-left: 7px;
->>>>>>> 57345b57f90716f5776d17de3b655c46a086de6d
 }
 
 .column2 {
@@ -1235,6 +1179,203 @@ a {
   font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.WC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 1000px) {
+  .WC {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.WC:not(:first-child) {
+  margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  .WC.WC-rightOnly {
+    margin-top: 0;
+  }
+}
+
+.WC-right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 8px;
+}
+
+.WC-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 8px;
+}
+
+@media (max-width: 1000px) {
+  .WC-left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 15px;
+  }
+}
+
+.WC-item {
+  width: 100%;
+}
+
+.WC-item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.WC-item_empty {
+  margin-top: -15px;
+}
+
+.WC-item_img {
+  width: 100%;
+}
+
+.WC-item_img-con {
+  width: 100%;
+}
+
+.WC-item_para-con {
+  font-family: 'Open Sans';
+  font-family: 'Noto Serif', serif;
+}
+
+.WC-item_ct {
+  font-family: 'toronto_subway_bold';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 5vh;
+  letter-spacing: 0.5px;
+}
+
+@media (max-height: 850px) {
+  .WC-item_ct {
+    font-size: 22.5px;
+  }
+}
+
+@media (min-height: 1000px) {
+  .WC-item_ct {
+    font-size: 35px;
+  }
+}
+
+.WC-item_mt {
+  font-family: 'toronto_subway_bold';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 5vh;
+  letter-spacing: 0.5px;
+  width: 100%;
+  font-weight: 800;
+}
+
+@media (max-height: 850px) {
+  .WC-item_mt {
+    font-size: 22.5px;
+  }
+}
+
+@media (min-height: 1000px) {
+  .WC-item_mt {
+    font-size: 35px;
+  }
+}
+
+.WC-item_mst {
+  font-family: 'toronto_subway_bold';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 4.5vh;
+  font-weight: 100;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+@media (max-height: 850px) {
+  .WC-item_mst {
+    font-size: 17.5px;
+  }
+}
+
+@media (min-height: 1000px) {
+  .WC-item_mst {
+    font-size: 25px;
+  }
+}
+
+.WC-item_quote-con {
+  font-style: italic;
+  font-family: 'Noto Serif', serif;
+}
+
+.WC-item_col2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 850px) {
+  .WC-item_col2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.WC-item_col2-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (max-width: 850px) {
+  .WC-item_col2-left {
+    margin-bottom: 15px;
+  }
+}
+
+.WC-item_col2-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 7px;
+}
+
+@media (max-width: 850px) {
+  .WC-item_col2-right {
+    padding: 0;
+  }
 }
 
 span {
