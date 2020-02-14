@@ -22,4 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /public
-.next/*
+/.next/*
+/.next/build-manifest.json
+/.next/build-manifest.json
+/.next/server
+/.next/static
