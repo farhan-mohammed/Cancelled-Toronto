@@ -35,13 +35,11 @@ export default class MetroLinxTTP extends Component {
 				'James, Royson. “Ford Refuses to Accept Subway Loss.” sec. A1.',
 				'Tess, Kalinowski, Dale Daniel, and Benzie Robert. “Detailed LRT Plan Few Months Away: Metrolinx Ponders Scheduling and Cash, Ford Eyes Referendum.” Toronto Star, March 24, 2012, sec. GT2; Tess, Kalinowski. “Ford Fails to Delay LRT Master Plan.” Toronto Star, November 2, 2012, sec. GT3; Tess, Kalinowski. “Province Takes Lead on LRT Project: TTC Differs on Timeline for Eglinton Line Work.” Toronto Star, May 31, 2012, sec. GT2.',
 				" Tess, Kalinowski. “Metrolinx to Build Sheppard LRT First: Finch Will Follow, with All Four of Toronto's Light Rail Lines Expected to Be Done by 2020.” Toronto Star, April 25, 2012, sec. GT1.",
-				"Rhianna, Jackson-Kelso, and Bensadoun Emerald. “How Ford's TTC Overhaul Compares to Toronto City Plans.” Toronto Star, April 11, 2019, sec. GT10.",
+				"Rhianna, Jackson-Kelso, and Bensadoun Emerald. “How Ford's TTC Overhaul Compares to Toronto City Plans.” Toronto Star, April 11, 2019, sec. GT10."
 			];
 			return (
 				<ol className="footnotes__list">
-					{footnotes.map(text => (
-						<li className="footnotes__item">{text}</li>
-					))}
+					{footnotes.map((text) => <li className="footnotes__item">{text}</li>)}
 				</ol>
 			);
 		};
@@ -50,7 +48,7 @@ export default class MetroLinxTTP extends Component {
 				<WebColumn
 					left={[
 						{ type: 'main-title', title: 'Metrolinx / Toronto Transit Plan (2011)' },
-						{ type: 'main-subtitle', title: 'Cancelled in 2012' },
+						{ type: 'main-subtitle', title: 'Cancelled in 2012' }
 					]}
 					right={[
 						{
@@ -62,7 +60,7 @@ export default class MetroLinxTTP extends Component {
 									Avenues with extensions of the Sheppard subway east and westwards and a fully
 									grade-separated LRT on Eglinton Avenue.
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -76,7 +74,7 @@ export default class MetroLinxTTP extends Component {
 									eastwards to Scarborough Centre Station and westwards to Downsview Station his
 									number one focus.<sup>1</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -93,8 +91,8 @@ export default class MetroLinxTTP extends Component {
 									the refurbishment and extension of the Scarborough rapid transit line from McCowan
 									Station to Sheppard Avenue.<sup>3</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
@@ -111,11 +109,11 @@ export default class MetroLinxTTP extends Component {
 									in high-density residential in the area has increased the population significantly.
 									<sup>7</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 					right={[
-						{ type: 'img', src: '' },
+						{ type: 'img', src: 'metro2.jpg' },
 						{
 							type: 'para',
 							text: () => (
@@ -133,7 +131,7 @@ export default class MetroLinxTTP extends Component {
 									lanes through the Finch hydro corridor as a replacement for the planned Finch West
 									LRT.<sup>6</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -151,7 +149,7 @@ export default class MetroLinxTTP extends Component {
 									where it would then approach the surface and follow the route of a refurbished
 									Scarborough rapid transit line.<sup>9</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -164,8 +162,8 @@ export default class MetroLinxTTP extends Component {
 									completing the Sheppard subway extensions, anticipated to be up to $650 million.
 									<sup>11</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
@@ -181,11 +179,11 @@ export default class MetroLinxTTP extends Component {
 									investment, mainly from developers, but the plan fell through as further analysis
 									found a funding pitfall of over $1 billion. <sup>12</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 					right={[
-						{ type: 'img', src: '' },
+						{ type: 'img', src: 'metro3.jpg' },
 						{
 							type: 'para',
 							text: () => (
@@ -199,7 +197,7 @@ export default class MetroLinxTTP extends Component {
 									study into the project found the estimated cost would be $500 million more than
 									originally pegged at, now totalling $4.7 billion.<sup>14</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -214,7 +212,7 @@ export default class MetroLinxTTP extends Component {
 									plan for an Eglinton LRT running underground between Keele Street and Laird Drive
 									only, with a surface right-of-way for the rest of the route.<sup>16</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -226,7 +224,7 @@ export default class MetroLinxTTP extends Component {
 									Avenue West.<sup>17</sup> Costs saved from avoiding tunnelling were estimated to be
 									as much as $1.5 billion.<sup>18</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -241,31 +239,38 @@ export default class MetroLinxTTP extends Component {
 									were unviable, with a funding gap of almost $1 billion on the section between Don
 									Mills Station and Scarborough Centre Station alone.<sup>20</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				{/* This ones supposed to be one column but i didnt pull, change it later */}
 				<WebColumn
-					left={[
-						{ type: 'content-title', title: 'City-council backed plan' },
+					oneColumn={true}
+					center={[
+						{
+							type: 'content-title',
+							title: 'City-council backed plan'
+						},
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'metro4.png'
+						},
 						{
 							type: 'quote',
 							text: () => (
-								<span>
+								<div>
 									As funding issues for the Sheppard subway continued to arise, city council voted to
 									restore original plans for provincially-funded light rail lines on Sheppard, Finch,
 									and Eglinton Avenues.{' '}
-								</span>
-							),
-						},
+								</div>
+							)
+						}
 					]}
-					right={[{ type: 'img', src: '' }]}
 				/>
 				<WebColumn
 					left={[]}
 					right={[
-						{ type: 'img', src: '' },
 						{
 							type: 'para',
 							text: () => (
@@ -277,7 +282,7 @@ export default class MetroLinxTTP extends Component {
 									wholly funded the $8.4 billion light rail plan, Rob Ford urged the province not to
 									fund the plan, which was denied.<sup>22</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -293,7 +298,7 @@ export default class MetroLinxTTP extends Component {
 									extension of the Sheppard subway in 2019, while the Finch West LRT began preparatory
 									construction in 2019, with a completion date set for 2023.<sup>25</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -311,13 +316,13 @@ export default class MetroLinxTTP extends Component {
 									Expansion Program and Network 2011, which foresaw the construction of a complete
 									Sheppard subway as well as grade-separated rapid transit on Eglinton Avenue West.
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
-					left={[{ type: 'main-title', title: 'footnotes' }]}
-					right={[{ type: 'para', text: renderFootnotes }]}
+					left={[ { type: 'main-title', title: 'footnotes' } ]}
+					right={[ { type: 'para', text: renderFootnotes } ]}
 				/>
 			</div>
 		);

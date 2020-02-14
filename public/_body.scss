@@ -148,6 +148,10 @@ body {
 	&__list {
 		margin-left: 1em;
 		padding-right: 8px;
+		width: 100%;
+	}
+	&__item {
+		width: 100%;
 	}
 	&-h1 {
 		margin-bottom: 5px;

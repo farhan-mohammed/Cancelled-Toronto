@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import WebsiteLayout from '../../components/wrapper/mainSite';
 import WebColumn from '../../components/templates/WebColumn';
 
-const images = ['/images/2010-RF_1.png', '/images/2010-RF_2.png', '/images/2010-RF_3.jpg', '/images/2010-RF_4.jpg'];
+const images = [ '/images/2010-RF_1.png', '/images/2010-RF_2.png', '/images/2010-RF_3.jpg', '/images/2010-RF_4.jpg' ];
 import ImgTextRightBelow from '../../components/templates/imgTextRightBelow';
 import TwoColumn from '../../components/content/TwoColumn';
 export default class ReliefLine extends Component {
@@ -49,14 +49,10 @@ export default class ReliefLine extends Component {
 			`Ibid.`,
 			`Ben, Spurr. “Over the Don and under Fort York: Building the 15-Kilometre Ontario Line Could Get Tricky, Engineering Experts Say.” Toronto Star, April 16, 2019, sec. GT1.`,
 			`Ben, Spurr. “Ontario Line Plan Shows New Downtown Route: Path Diverges Further from Relief Line Plans, Casting Doubt on Province's Completion Date.” Toronto Star, July 23, 2019, sec. A1.`,
-			`Ben, Spurr. “Ford Vows to Guarantee Funding for Ambitious Subway, LRT Expansion: Redrawing the Map.” Toronto Star, April 11, 2019, sec. A1.`,
+			`Ben, Spurr. “Ford Vows to Guarantee Funding for Ambitious Subway, LRT Expansion: Redrawing the Map.” Toronto Star, April 11, 2019, sec. A1.`
 		];
 		return (
-			<ol className="footnotes__list">
-				{footnotes.map(text => (
-					<li className="footnotes__item">{text}</li>
-				))}
-			</ol>
+			<ol className="footnotes__list">{footnotes.map((text) => <li className="footnotes__item">{text}</li>)}</ol>
 		);
 	}
 	renderBody = () => {
@@ -67,12 +63,12 @@ export default class ReliefLine extends Component {
 						{ type: 'main-title', title: 'Relief Line (2016)' },
 						{
 							type: 'main-subtitle',
-							title: 'Cancelled in 2019',
+							title: 'Cancelled in 2019'
 						},
 						{
 							type: 'main-subtitle',
-							title: 'Evolved into ontario line',
-						},
+							title: 'Evolved into ontario line'
+						}
 					]}
 					right={[
 						{
@@ -87,7 +83,7 @@ export default class ReliefLine extends Component {
 									would curve north on Carlaw Avenue before shifting onto Pape Street, finally
 									connecting with the Bloor-Danforth subway at Pape Station.
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -106,7 +102,7 @@ export default class ReliefLine extends Component {
 									approved in the same referendum, planners shifted their focus on an east-west route
 									on Bloor Street instead.<sup>4</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -122,15 +118,15 @@ export default class ReliefLine extends Component {
 									through the downtown, with eight station stops, three of those interchange stations.
 									<sup>7</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
 					left={[
 						{
 							type: 'content-title',
-							title: 'Approved Alignment',
+							title: 'Approved Alignment'
 						},
 						{
 							type: 'quote',
@@ -140,13 +136,13 @@ export default class ReliefLine extends Component {
 									Station in the north-east to Osgoode Station in the south-west, with eight stations
 									in total.
 								</span>
-							),
-						},
+							)
+						}
 					]}
 					right={[
 						{
 							type: 'img',
-							src: 'relief-line/2010-RF_2.png',
+							src: 'relief-line/2010-RF_2.png'
 						},
 						{
 							type: 'para',
@@ -159,7 +155,7 @@ export default class ReliefLine extends Component {
 									and University subways, and north-west towards an undetermined station along the
 									western section of the Bloor-Danforth line.<sup>8</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -173,7 +169,7 @@ export default class ReliefLine extends Component {
 									University subway to a station along the Bloor-Danforth line to be completed within
 									15 years.<sup>10</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -186,7 +182,7 @@ export default class ReliefLine extends Component {
 									Relief Line Project Assessment undertaken by the City of Toronto and the TTC.
 									<sup>11</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -200,7 +196,7 @@ export default class ReliefLine extends Component {
 									other transit initiatives, promotion of social equity, and lowest potential cost.
 									<sup>13</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -216,15 +212,15 @@ export default class ReliefLine extends Component {
 									Rail services were planned at stations at Broadview Avenue and Gerrard Street.
 									<sup>15</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
 					left={[
 						{
 							type: 'content-title',
-							title: 'Moss park and regent Park',
+							title: 'Moss park and regent Park'
 						},
 						{
 							type: 'quote',
@@ -236,13 +232,13 @@ export default class ReliefLine extends Component {
 									improving social equity for historically disadvantaged neighbourhoods including Moss
 									Park and Regent Park.<sup>16</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 					right={[
 						{
 							type: 'img',
-							src: 'relief-line/2010-RF_3.jpg',
+							src: 'relief-line/2010-RF_3.jpg'
 						},
 						{
 							type: 'para',
@@ -257,7 +253,7 @@ export default class ReliefLine extends Component {
 									the proposed Sheppard East LRT, and the Yonge subway depending on the corridor
 									chosen.<sup>18</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -273,7 +269,7 @@ export default class ReliefLine extends Component {
 									the time the project was cancelled in April of 2019, while the controversial $3.2
 									billion one-stop Scarborough subway extension was, or was nearing it.<sup>21</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -292,7 +288,7 @@ export default class ReliefLine extends Component {
 									recognized the political unpopularity of such tolls in seat-rich suburban
 									communities outside Toronto.<sup>24</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -306,15 +302,15 @@ export default class ReliefLine extends Component {
 									government, existing transit proposals in Toronto were studied, resulting in key
 									changes proposed to the Relief Line.<sup>26</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
 					left={[
 						{
 							type: 'content-title',
-							title: 'Yonge Line Crowding',
+							title: 'Yonge Line Crowding'
 						},
 						{
 							type: 'quote',
@@ -328,13 +324,13 @@ export default class ReliefLine extends Component {
 									from Pape Station to the future Science Centre Station on Eglinton Avenue.
 									<sup>27</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 					right={[
 						{
 							type: 'img',
-							src: 'relief-line/2010-RF_4.jpg',
+							src: 'relief-line/2010-RF_4.jpg'
 						},
 						{
 							type: 'para',
@@ -359,7 +355,7 @@ export default class ReliefLine extends Component {
 									rolling stock, making the proposed line independent of the existing TTC subway
 									system.<sup>32</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -371,7 +367,7 @@ export default class ReliefLine extends Component {
 									line would cost an estimated $10.9 billion and utilise a private-public partnership
 									procurement model.<sup>34</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -384,7 +380,7 @@ export default class ReliefLine extends Component {
 									under construction Eglinton LRT to Pearson Airport, all of which would add
 									additional riders to a strained Yonge subway without the Ontario Line.<sup>35</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -396,13 +392,13 @@ export default class ReliefLine extends Component {
 									transit to underserviced neighbourhoods, and bringing connectivity with a variety of
 									other transit initiatives.
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
-					left={[{ type: 'content-title', title: 'footnotes' }]}
-					right={[{ type: 'para', text: this.renderFootnotes }]}
+					left={[ { type: 'content-title', title: 'footnotes' } ]}
+					right={[ { type: 'para', text: this.renderFootnotes } ]}
 				/>
 			</div>
 		);

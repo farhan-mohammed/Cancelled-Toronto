@@ -77,6 +77,8 @@ export default class WebColumn extends Component {
 			);
 		} else if (item.type == 'empty') {
 			return <div className="WC-item_empty" />;
+		} else if (item.type == 'general') {
+			return <div className="WC-item_gereal">{item.render()}</div>;
 		}
 	};
 	renderRight = () => {

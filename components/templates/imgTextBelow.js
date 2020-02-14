@@ -16,8 +16,8 @@ export default class ImgTextBelow extends Component {
 				)}
 				<img
 					src={
-						// this.props.img
-						'/images/test.png'
+						this.props.img
+						// '/images/test.png'
 					}
 					alt=""
 				/>

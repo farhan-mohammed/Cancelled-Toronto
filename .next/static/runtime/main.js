@@ -4861,7 +4861,11 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Farhan Mohammed\\Desktop\\Cancelled-Toronto\\.next");
       return error;
+    }
+  };
+} // Remember some state related to hot module replacement.
 
 
 var isFirstCompilation = true;
@@ -5130,7 +5134,7 @@ function _tryApplyUpdates() {
   return _tryApplyUpdates.apply(this, arguments);
 }
 
-/***/ ),
+/***/ }),
 
 /***/ "./node_modules/next/dist/client/dev/error-overlay/source-map-support.js":
 /*!*******************************************************************************!*\

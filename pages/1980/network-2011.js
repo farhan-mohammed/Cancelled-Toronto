@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import 'next-images';
 import WebsiteLayout from '../../components/wrapper/mainSite';
 
 import ImgTextBelow from '../../components/templates/imgTextBelow';
@@ -13,7 +12,48 @@ export default class Year1980 extends Component {
 		super(props);
 		this.state = { toggled: false };
 	}
-
+	renderView() {
+		return (
+			<div className="body__img-con">
+				<img src="/images/1980.png" alt="" className="body__img" style={{ margin: '10px 0' }} />
+			</div>
+		);
+	}
+	renderFootnotes = () => {
+		const footnotes = [
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011. Toronto: Toronto Transit Commission, 1985; Mitchell Smith. “TTC Urges $2.7 Billion Expansion.” Toronto Star, October 1, 1985, sec. A19.`,
+			`Smith. “TTC Urges $2.7 Billion Expansion.” sec. A19.`,
+			`Michael Smith. “Province Considering New Subway TTC Says.” Toronto Star, April 5, 1987, sec. A3; Smith. “TTC Urges $2.7 Billion Expansion.” sec. A19.`,
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011. Toronto: Toronto Transit Commission, 1985.`,
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011.`,
+			`Ibid.`,
+			`Ibid, 14.`,
+			`Ibid, 26.`,
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Downtown Rapid Transit Study. Toronto: Toronto Transit Commission, 1985`,
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Downtown Rapid Transit Study, 52.`,
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 14.`,
+			`Ibid, 59, A.3.`,
+			`Mitchell Smith. “Tonks Makes Pitch to Keep Subway Plan Alive for Eglinton.” Toronto Star, June 24, 1986, sec. A6.`,
+			`Bob Mitchell. “Eglinton Transit Line Gets Top Billing in 2011.” Toronto Star. June 3, 1986, sec. W6.`,
+			`Mike Foster. “Metro's the Loser If Network 2011 Put Back on Shelf.” Toronto Star, February 17, 1987, sec. N4.`,
+			`David Cooper. Canada – Ontario – North York - Yonge St, 1979, black and white digital, Toronto Star photo archive, Toronto, accessed January 14, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0107105F&R=DC-TSPA_0107105F`,
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 56.`,
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011. 57.`,
+			`Ibid, 58.`,
+			`Ibid, 58.`,
+			`Alan Dunlop. Scar Town Centre, 1985, black and white digital, Toronto Star photo archive, Toronto, accessed January 7, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0107997F&R=DC-TSPA_0107997F`,
+			`W R Code. “The Strength of the Centre: Downtown Offices and Metropolitan Decentralization Policy in Toronto.” Environment and Planning A: Economy and Space 15, no. 10 (1983): 1361. https://doi.org/10.1068/a151361.`,
+			`Code. “The Strength of the Centre,” 1361-1362.  `,
+			`Michael Smith. “Ontario Likely to Derail Sheppard Subway, Officials Fear.” Toronto Star, December 26, 1987, sec. A8.`,
+			`Peter Howell. “TTC Fighting on Two Fronts Province, Toronto Give It Rough Ride.” Toronto Star, March 12, 1990, sec. A1.`,
+			`Howell. “TTC Fighting on Two Fronts Province, Toronto Give It Rough Ride.” sec. A1.`,
+			`Jim Byers. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1.`,
+			`Byers. “Huge Transit Expansion Announced for Metro.” sec. A1]`
+		];
+		return (
+			<ol className="footnotes__list">{footnotes.map((text) => <li className="footnotes__item">{text}</li>)}</ol>
+		);
+	};
 	renderText = () => {
 		return (
 			<div>
@@ -21,7 +61,7 @@ export default class Year1980 extends Component {
 					left={[
 						{ type: 'main-title', title: 'Network 2011 (1985)' },
 						{ type: 'main-subtitle', title: 'Cancelled' },
-						{ type: 'main-subtitle', title: `Evolved into Let's Move` },
+						{ type: 'main-subtitle', title: `Evolved into Let's Move` }
 					]}
 					right={[
 						{
@@ -32,7 +72,7 @@ export default class Year1980 extends Component {
 									goals of Metropolitan Toronto and their objective of creating multiple central
 									business districts within the city.
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -46,7 +86,7 @@ export default class Year1980 extends Component {
 									Station, and a downtown subway between approximately the intersection of Front
 									Street and Spadina Avenue and Pape Station.<sup>1</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -58,7 +98,7 @@ export default class Year1980 extends Component {
 									per cent paid for by the Metro Toronto government and 75 per cent from the
 									provincial government.<sup>3</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -72,7 +112,7 @@ export default class Year1980 extends Component {
 									routing locations, as well as potential costs and impacts on the surrounding
 									community and environment.<sup>5</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -90,8 +130,8 @@ export default class Year1980 extends Component {
 									employment and activity centres besides downtown Toronto to encourage
 									decentralisation.<sup>7</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				{
@@ -99,7 +139,7 @@ export default class Year1980 extends Component {
 					//Add title - Downtown Rapid Transit Study
 				}
 				<ImgTextBelow
-					img={''}
+					img={'/images/1980B.jpg'}
 					text={() => (
 						<span>
 							The routing of the proposed downtown subway was a key concern of the Downtown Rapid Transit
@@ -112,7 +152,7 @@ export default class Year1980 extends Component {
 							located at approximately Front Street and Spadina Avenue.<sup>10</sup>
 						</span>
 					)}
-				></ImgTextBelow>
+				/>
 				<WebColumn
 					left={[]}
 					right={[
@@ -127,7 +167,7 @@ export default class Year1980 extends Component {
 									which Network 2011 recommended to be implemented initially as a partially
 									grade-separated busway that could eventually be upgraded to a subway.<sup>12</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -142,8 +182,8 @@ export default class Year1980 extends Component {
 									Eglinton, rather than a light rail line or a subway, with the plan only specifying
 									that it could be replaced with a subway – eventually.<sup>14</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 				<WebColumn
@@ -158,11 +198,11 @@ export default class Year1980 extends Component {
 									is North York Centre, with the intersection and western terminus of the first phase
 									of the subway, Sheppard Avenue and Yonge Street, at the lower centre.<sup>16</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 					right={[
-						{ type: 'img', src: '' },
+						{ type: 'img', src: '1980C.jpg' },
 						{
 							type: 'quote',
 							text: () => (
@@ -179,8 +219,8 @@ export default class Year1980 extends Component {
 									Yonge Street to Dufferin Street in the west, and from Victoria Park Avenue to
 									Scarborough City Centre in the east.<sup>20</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 				/>
 
@@ -202,11 +242,11 @@ export default class Year1980 extends Component {
 									pressure of large amounts of commuters headed downtown in the peak direction by
 									encouraging reverse commuting<sup>23</sup>
 								</span>
-							),
-						},
+							)
+						}
 					]}
 					right={[
-						{ type: 'img', src: '' },
+						{ type: 'img', src: '1980D.jpg' },
 						{
 							type: 'para',
 							text: () => (
@@ -216,7 +256,7 @@ export default class Year1980 extends Component {
 									plans centred around the then proposed Highway 407, and who saw Network 2011 as
 									competition for such funding.<sup>15</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -230,7 +270,7 @@ export default class Year1980 extends Component {
 									downgraded funding priority of the Sheppard subway in favour of expanding GO Transit
 									services and extending the Spadina line towards York Region.<sup>25</sup>
 								</span>
-							),
+							)
 						},
 						{
 							type: 'para',
@@ -245,9 +285,13 @@ export default class Year1980 extends Component {
 									subway continue to be studied while rapid transit on Eglinton has taken the form of
 									light rail, currently under construction and planned for a 2021 opening.
 								</span>
-							),
-						},
+							)
+						}
 					]}
+				/>
+				<WebColumn
+					left={[ { type: 'content-title', title: 'footnotes' } ]}
+					right={[ { type: 'para', text: this.renderFootnotes } ]}
 				/>
 			</div>
 		);

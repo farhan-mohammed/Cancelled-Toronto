@@ -800,6 +800,15 @@ function (_Component) {
           },
           __self: this
         });
+      } else if (item.type == 'general') {
+        return __jsx("div", {
+          className: "WC-item_gereal",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 81
+          },
+          __self: this
+        }, item.render());
       }
     });
 
@@ -809,7 +818,7 @@ function (_Component) {
           className: "WC-item",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 83
+            lineNumber: 85
           },
           __self: this
         }, _this.renderItem(item));
@@ -822,7 +831,7 @@ function (_Component) {
           className: "WC-item",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 86
+            lineNumber: 88
           },
           __self: this
         }, _this.renderItem(item));
@@ -835,7 +844,7 @@ function (_Component) {
           className: "WC-item",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 89
+            lineNumber: 91
           },
           __self: this
         }, _this.renderItem(item));
@@ -855,14 +864,14 @@ function (_Component) {
           className: WC,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 95
+            lineNumber: 97
           },
           __self: this
         }, __jsx("div", {
           className: "WC-center",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 96
+            lineNumber: 98
           },
           __self: this
         }, this.renderCenter()));
@@ -872,21 +881,21 @@ function (_Component) {
         className: WC,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 103
         },
         __self: this
       }, __jsx("div", {
         className: "WC-left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 104
         },
         __self: this
       }, this.renderLeft()), __jsx("div", {
         className: "WC-right",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 105
         },
         __self: this
       }, this.renderRight()));
@@ -958,8 +967,8 @@ function (_Component) {
         },
         __self: this
       }, this.props.title) : '', __jsx("img", {
-        src: // this.props.img
-        '/images/test.png',
+        src: this.props.img // '/images/test.png'
+        ,
         alt: "",
         __source: {
           fileName: _jsxFileName,
@@ -11765,7 +11774,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*************************************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F1990%2Frapid-transit-expansion-program&absolutePagePath=C%3A%5CUsers%5CFarhan%20Mohammed%5CDesktop%5CCancelled-Toronto%5Cpages%5C1990%5Crapid-transit-expansion-program.js ***!
   \*************************************************************************************************************************************************************************************************************************/
@@ -11788,5 +11797,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=rapid-transit-expansion-program.js.map

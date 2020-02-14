@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -723,6 +723,15 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           },
           __self: this
         });
+      } else if (item.type == 'general') {
+        return __jsx("div", {
+          className: "WC-item_gereal",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 81
+          },
+          __self: this
+        }, item.render());
       }
     });
 
@@ -731,7 +740,7 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         className: "WC-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 85
         },
         __self: this
       }, this.renderItem(item)));
@@ -742,7 +751,7 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         className: "WC-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 88
         },
         __self: this
       }, this.renderItem(item)));
@@ -753,7 +762,7 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         className: "WC-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 91
         },
         __self: this
       }, this.renderItem(item)));
@@ -768,14 +777,14 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         className: WC,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 97
         },
         __self: this
       }, __jsx("div", {
         className: "WC-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 98
         },
         __self: this
       }, this.renderCenter()));
@@ -785,21 +794,21 @@ class WebColumn extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: WC,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 101
+        lineNumber: 103
       },
       __self: this
     }, __jsx("div", {
       className: "WC-left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 102
+        lineNumber: 104
       },
       __self: this
     }, this.renderLeft()), __jsx("div", {
       className: "WC-right",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 103
+        lineNumber: 105
       },
       __self: this
     }, this.renderRight()));
@@ -848,8 +857,8 @@ class ImgTextBelow extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       },
       __self: this
     }, this.props.title) : '', __jsx("img", {
-      src: // this.props.img
-      '/images/test.png',
+      src: this.props.img // '/images/test.png'
+      ,
       alt: "",
       __source: {
         fileName: _jsxFileName,
@@ -4121,7 +4130,7 @@ class RapidTransit extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!*************************************************************!*\
   !*** multi ./pages/1990/rapid-transit-expansion-program.js ***!
   \*************************************************************/
