@@ -5,7 +5,7 @@ export default class TransitCity extends Component {
 	render() {
 		return (
 			<WebsiteLayout>
-				<div>transit-city</div>
+				<div>Under Development</div>
 			</WebsiteLayout>
 		);
 	}

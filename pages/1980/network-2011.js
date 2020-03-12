@@ -138,20 +138,31 @@ export default class Year1980 extends Component {
 					//Fix this
 					//Add title - Downtown Rapid Transit Study
 				}
-				<ImgTextBelow
-					img={'/images/1980B.jpg'}
-					text={() => (
-						<span>
-							The routing of the proposed downtown subway was a key concern of the Downtown Rapid Transit
-							Study, a precursor document of Network 2011. The main concern for the downtown subway was to
-							relieve pressure off the Yonge subway line, which would otherwise exceed design capacity if
-							unbuilt.<sup>8</sup> A variety of routings were considered, including a subway along Bay
-							Street from Bay Station on the Bloor-Danforth line to Union Station on the Yonge-University
-							line, but the majority of alignments created a “J” or “U” shape.<sup>9</sup> In the end, a
-							routing along Pape-Eastern-Railway Corridor-Front was recommended, with the western terminus
-							located at approximately Front Street and Spadina Avenue.<sup>10</sup>
-						</span>
-					)}
+				<WebColumn
+					oneColumn={true}
+					center={[
+						{
+							type: 'img',
+							// /images/ already saved
+							src: '1980B.jpg'
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									The routing of the proposed downtown subway was a key concern of the Downtown Rapid
+									Transit Study, a precursor document of Network 2011. The main concern for the
+									downtown subway was to relieve pressure off the Yonge subway line, which would
+									otherwise exceed design capacity if unbuilt.<sup>8</sup> A variety of routings were
+									considered, including a subway along Bay Street from Bay Station on the
+									Bloor-Danforth line to Union Station on the Yonge-University line, but the majority
+									of alignments created a “J” or “U” shape.<sup>9</sup> In the end, a routing along
+									Pape-Eastern-Railway Corridor-Front was recommended, with the western terminus
+									located at approximately Front Street and Spadina Avenue.<sup>10</sup>
+								</span>
+							)
+						}
+					]}
 				/>
 				<WebColumn
 					left={[]}
@@ -202,7 +213,7 @@ export default class Year1980 extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: '1980C.jpg' },
+						{ type: 'img', adjust: { hide: true }, src: '1980C.jpg' },
 						{
 							type: 'quote',
 							text: () => (
@@ -246,7 +257,7 @@ export default class Year1980 extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: '1980D.jpg' },
+						{ type: 'img', adjust: { hide: true }, src: '1980D.jpg' },
 						{
 							type: 'para',
 							text: () => (

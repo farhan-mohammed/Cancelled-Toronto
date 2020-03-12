@@ -238,6 +238,8 @@ export default class ReliefLine extends Component {
 					right={[
 						{
 							type: 'img',
+
+							// adjust: { hide: true },
 							src: 'relief-line/2010-RF_3.jpg'
 						},
 						{
@@ -330,6 +332,8 @@ export default class ReliefLine extends Component {
 					right={[
 						{
 							type: 'img',
+
+							// adjust: { hide: true },
 							src: 'relief-line/2010-RF_4.jpg'
 						},
 						{

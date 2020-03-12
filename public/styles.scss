@@ -9,6 +9,9 @@ $breakpointsh: ('small':600px) !default;
 		}
 	}
 }
+@mixin segoe-font {
+	font-family: 'segoe_ui';
+}
 @mixin subway-font {
 	font-family: 'toronto_subway_bold';
 	letter-spacing: 2px;
@@ -34,8 +37,14 @@ $breakpointsh: ('small':600px) !default;
 }
 @font-face {
 	font-family: 'toronto_subway_bold';
-	src: url('toronto_subway_bold-webfont.woff2') format('woff2'),
-		url('toronto_subway_bold-webfont.woff') format('woff');
+	src: url('fonts/toronto_subway_bold-webfont.woff2') format('woff2'),
+		url('fonts/toronto_subway_bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'segoe_ui';
+	src: url('fonts/Segoe_UI.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -50,7 +59,8 @@ $light: #fffffa;
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: 'Open Sans';
+	// font-family: 'Open Sans';
+	// @include segoe-font;
 	font-family: 'Noto Serif', serif;
 }
 h1,

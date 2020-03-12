@@ -39,10 +39,20 @@ export default class WebColumn extends Component {
 		};
 		// Wide image
 		if (item.type == 'img') {
+			let specClass = 'WC-item_img';
+			let specClassCon = 'WC-item_img-con ';
+			if (item.adjust) {
+				if (item.adjust.width == '2/3') {
+					specClass += ' WC-item_img_23';
+				}
+				if (item.adjust.hide) {
+					specClassCon += ' WC-item_img-con_hide';
+				}
+			}
 			return (
-				<div className="WC-item_img-con">
+				<div className={specClassCon}>
 					<img
-						className="WC-item_img"
+						className={specClass}
 						src={`/images/${item.src}`
 						// '/images/test.png'
 						}
@@ -66,6 +76,20 @@ export default class WebColumn extends Component {
 			return (
 				<div className="WC-item_quote-con">
 					<p className="WC-item_quote">{item.text()}</p>
+				</div>
+			);
+		} else if (item.type == 'img3row') {
+			return (
+				<div className="WC-item_img3row">
+					<div className="WC-item_img3row__img1">
+						<img src={`/images/${item.images[0]}`} />
+					</div>
+					<div className="WC-item_img3row__img2">
+						<img src={`/images/${item.images[1]}`} />
+					</div>
+					<div className="WC-item_img3row__img3">
+						<img src={`/images/${item.images[2]}`} />
+					</div>
 				</div>
 			);
 		} else if (item.type == 'column2') {

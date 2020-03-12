@@ -407,6 +407,7 @@ export default class RapidTransit extends Component {
 					right={[
 						{
 							type: 'img',
+							adjust: { hide: true },
 							// /images/ already saved
 							src: 'RTEPC.jpg'
 						},
@@ -551,118 +552,6 @@ export default class RapidTransit extends Component {
 						}
 					]}
 				/>
-				{/* <WebColumn
-					left={[
-						{
-							type: 'content-title',
-							title: 'Eglinton west'
-						},
-						{
-							type: 'quote',
-							text: () => (
-								<div>
-									The environmental assessment of the Eglinton West subway identified four new
-									stations and an interchange with the existing Spadina line at Eglinton West station,
-									which was planned to be renamed Allen Station. The Terminus would be located
-									adjacent to a new central business district, dubbed York City Centre. That project
-									died shortly afterwards the Eglinton West subway was cancelled in 1995.<sup>8</sup>
-								</div>
-							)
-						}
-					]}
-					right={[
-						{
-							type: 'img',
-							// /images/ already saved
-							src: 'RTEPA.jpg'
-						}
-					]}
-				/>
-				<WebColumn
-					left={[
-						{
-							type: 'content-title',
-							title: 'Sheppard'
-						},
-						{
-							type: 'quote',
-							text: () => (
-								<div>
-									The environmental assessment of the Sheppard subway identified four new stations and
-									an interchange with the existing Yonge lines at Sheppard Station, which was
-									eventually renamed Sheppard-Yonge Station. That project was eventually completed in
-									2002.<sup>9</sup>
-								</div>
-							)
-						}
-					]}
-					right={[
-						{
-							type: 'img',
-							// /images/ already saved
-							src: 'RTEPB.jpg'
-						}
-					]}
-				/>
-				<WebColumn
-					left={[
-						{
-							type: 'content-title',
-							title: 'Yonge-spadina loop'
-						},
-						{
-							type: 'quote',
-							text: () => (
-								<div>
-									The environmental assessment of the Spadina subway extension to York University
-									proposed three new stations following an entirely new alignment compared to the
-									Let’s Move extension plan.
-									<sup>19</sup> Stations were proposed at the C.N.R. subdivision at Finch Avenue West,
-									near the intersection of Finch Avenue West and Kelle Street, and a station
-									terminating at York University. Council was unsupportive of this plan, and it was
-									later cancelled. An extension of the Spadina subway with a slightly different
-									alignment was completed in 2017.
-								</div>
-							)
-						}
-					]}
-					right={[
-						{
-							type: 'img',
-							// /images/ already saved
-							src: 'RTEPE.jpg'
-						}
-					]}
-				/>
-				<WebColumn
-					left={[
-						{
-							type: 'content-title',
-							title: 'Scarborough rapid transit extention'
-						},
-						{
-							type: 'quote',
-							text: () => (
-								<span>
-									The environmental assessment of the Scarborough rapid transit line extension
-									identified four new station locations approximately following the route of Highland
-									Creek.<sup>18</sup> Three stops would be initially built at the intersection of
-									Progress Avenue and Markham Road, the intersection of Milner Avenue and Progress
-									Avenue, and at approximately the intersection of Sheppard Avenue and Markham Road. A
-									station would be built in the future on Bellamy Station adjacent to Highland Creek.
-									Metro Toronto council was unsupportive of the project.
-								</span>
-							)
-						}
-					]}
-					right={[
-						{
-							type: 'img',
-							// /images/ already saved
-							src: 'RTEPD.jpg'
-						}
-					]}
-				/> */}
 				<WebColumn
 					left={[]}
 					rightOnly={true}
@@ -741,6 +630,8 @@ export default class RapidTransit extends Component {
 							left: [
 								{
 									type: 'img',
+
+									adjust: { hide: true },
 									// /images/ already saved
 									src: 'RTEPF.jpg'
 								}

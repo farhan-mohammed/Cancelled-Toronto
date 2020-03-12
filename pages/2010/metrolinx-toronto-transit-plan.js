@@ -113,7 +113,11 @@ export default class MetroLinxTTP extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'metro2.jpg' },
+						{
+							type: 'img',
+							// adjust: { hide: true },
+							src: 'metro2.jpg'
+						},
 						{
 							type: 'para',
 							text: () => (
@@ -183,7 +187,11 @@ export default class MetroLinxTTP extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'metro3.jpg' },
+						{
+							type: 'img',
+							// adjust: { hide: true },
+							src: 'metro3.jpg'
+						},
 						{
 							type: 'para',
 							text: () => (

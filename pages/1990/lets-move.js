@@ -5,7 +5,7 @@ export default class letsMove extends Component {
 	render() {
 		return (
 			<WebsiteLayout>
-				<div>lets-move</div>
+				<div>Under Development!</div>
 			</WebsiteLayout>
 		);
 	}

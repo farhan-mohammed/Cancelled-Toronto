@@ -6,6 +6,17 @@ import Header from '../Header.js';
 
 const NavList = [
 	{
+		decade: '1970',
+		files: [
+			{
+				year: '1973',
+				name: 'Go Urban',
+				// link: '/'
+				link: 'go-urban'
+			}
+		]
+	},
+	{
 		decade: '1980',
 		files: [
 			{
@@ -19,11 +30,11 @@ const NavList = [
 	{
 		decade: '1990',
 		files: [
-			{
-				year: '1990',
-				name: "Let's Move",
-				link: 'lets-move'
-			},
+			// {
+			// 	year: '1990',
+			// 	name: "Let's Move",
+			// 	link: 'lets-move'
+			// },
 			{
 				year: '1993',
 				name: 'Rapid Transit Expansion Program',
@@ -32,17 +43,17 @@ const NavList = [
 			}
 		]
 	},
-	{
-		decade: '2000',
-		files: [
-			{
-				year: '2007',
-				name: 'Transit City',
-				// link: '/'
-				link: 'transit-city'
-			}
-		]
-	},
+	// {
+	// 	decade: '2000',
+	// 	files: [
+	// 		{
+	// 			year: '2007',
+	// 			name: 'Transit City',
+	// 			// link: '/'
+	// 			link: 'transit-city'
+	// 		}
+	// 	]
+	// },
 	{
 		decade: '2010',
 		files: [
@@ -77,6 +88,7 @@ export default class mainSite extends Component {
 				<Head>
 					<link rel="icon" type="image/png" href="/images/thumb.png" />
 					<link href="/styles.css" rel="stylesheet" />
+					<script src="https://www.w3counter.com/tracker.js?id=130470" />
 					<title>Cancelled Toronto</title>
 				</Head>
 				<Header NavList={NavList} toggleHamburger={this.toggleHamburger} activeHam={this.state.hamburger} />

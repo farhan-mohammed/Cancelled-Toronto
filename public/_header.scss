@@ -41,7 +41,7 @@ $header-change: 850px;
 		&_narrow {
 			max-width: 200px;
 			min-width: 40px;
-			height: 20vh;
+			height: 15vh;
 			@include max-height-mixin('small') {
 				height: 15vh;
 			}
@@ -92,7 +92,6 @@ $header-change: 850px;
 		}
 
 		@include max-height-mixin('small') {
-			margin-top: 2px;
 			padding: 1px;
 			height: fit-content;
 		}
@@ -101,12 +100,18 @@ $header-change: 850px;
 		@media (max-width: 850px) {
 			display: none;
 		}
+		color: white;
 		width: 100%;
 		justify-content: stretch;
+		align-items: center;
 		flex: 1;
 		list-style: none;
 		display: flex;
 		flex-direction: row;
+		padding: 6px 0;
+		@include max-width-mixin('large') {
+			padding: 3px 0;
+		}
 		&_li {
 			flex: 1;
 			text-align: center;
