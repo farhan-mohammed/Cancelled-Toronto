@@ -375,18 +375,107 @@ export default class TransitCity extends Component {
 					]}
 				/>
 				<WebColumn
+					oneColumn={true}
+					center={[
+						{
+							type: 'content-title',
+							title: 'Sheppard East LRT'
+						},
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'gourban/CNE-01.png'
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<div>
+									The environmental assessment of the Sheppard East LRT identified 25 new stops and an
+									interchange with the existing Sheppard line at Don Mills Station. It was eventually
+									cancelled in favour of an extension of the Sheppard subway in 2011, although it was
+									later reinstated. However, the line continues to be limbo as of 2020, with long-term
+									plans reverting to intentions for a subway extension.
+								</div>
+							)
+						}
+					]}
+				/>
+				<WebColumn
+					oneColumn={true}
+					center={[
+						{
+							type: 'content-title',
+							title: 'Finch West LRT'
+						},
+						{
+							type: 'img',
+							// /images/ already saved
+							src: 'gourban/CNE-01.png'
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<div>
+									The environmental assessment of the Finch West LRT identified 31 new stops and two
+									interchanges with the Yonge-University subway, one at the existing Finch Station and
+									one at the then-planned Finch West Station on the Toronto-York Spadina Subway
+									Extension. The line saw several changes during the planning process, first with the
+									section between Finch West Station and Finch Station being cut, and later its
+									cancellation following Rob Ford’s election as mayor.
+								</div>
+							)
+						}
+					]}
+				/>
+				<WebColumn
+					left={[]}
+					rightOnly={true}
+					right={[
+						{
+							type: 'para',
+							text: () => (
+								<div>
+									Planning for Transit City routes had also progressed, with TTC planners deciding to
+									extend the Finch West LRT from its eastern terminus at Finch Station on the
+									Yonge-University line to Don Mills Station on the Sheppard line to meet the existing
+									Sheppard subway and proposed Sheppard East LRT.<sup>28</sup> Meanwhile, proposals to
+									extend and refurbish the existing Scarborough rapid transit line to utilise
+									low-floor LRT technology as proposed on other Transit City lines were considered, as
+									was connecting the proposed reconstructed line with the proposed Eglinton LRT.<sup>29</sup>{' '}
+									By mid-2009, two announcements committed funding for the Sheppard East, Finch West,
+									and Eglinton LRTs from the provincial and federal governments totalling $6.8
+									billion, $1 billion for the Sheppard East LRT, planned to begin construction later
+									in the year, and $5.8 billion for the Finch West and Eglinton LRTs, which would see
+									construction start in 2010.<sup>30</sup>
+								</div>
+							)
+						}
+					]}
+				/>
+				<WebColumn
 					left={[
 						{
 							type: 'content-title',
-							title: 'tit'
+							title: 'Don Mills Station'
 						},
 						{
 							type: 'quote',
-							text: () => <span>xd</span>
+							text: () => (
+								<span>
+									At Don Mills, TTC planners considered several options for interfacing the proposed
+									Sheppard East LRT with the existing Sheppard subway line. Eventually, plans to have
+									the LRT meet the existing subway at platform level were finalised, with transfers
+									between the subway and LRT planned to be a walk from one vehicle to another.<sup>31</sup>
+								</span>
+							)
 						},
 						{
 							type: 'quote',
-							text: () => <span>dedo</span>
+							text: () => (
+								<span>
+									“TTC Line 4 Don Mills Station” by The West End is licensed under CC BY-NC-ND 2.0
+								</span>
+							)
 						}
 					]}
 					right={[
@@ -396,7 +485,31 @@ export default class TransitCity extends Component {
 						},
 						{
 							type: 'para',
-							text: () => <div>hehe</div>
+							text: () => (
+								<div>
+									However, setbacks quickly emerged for the plan, beginning with funding issues as
+									work began to ramp up. Starting with the province postponing $4 billion on transit
+									spending in the GTA, detailed estimates of the costs of the funded Transit City
+									projects emerged, showing that the approved plans would cost $2 billion more than
+									originally estimated.<sup>32</sup> While construction on the Sheppard East LRT began
+									in late 2009, Metrolinx revised timelines for the other two projects, delaying the
+									completion date of projects by two years on top of the delays in postponing
+									construction until at least 2013.<sup>33</sup>
+								</div>
+							)
+						},
+						{
+							type: 'para',
+							text: () => (
+								<div>
+									By then, the provincial government was planned to fund the entirety of the approved
+									Transit City projects, except for a $330 million portion from the federal
+									government.<sup>34</sup> Meanwhile, portions of the Sheppard East and Finch West
+									LRTs were delayed for future phases, with the loss of a short section of the
+									Sheppard East LRT from Morningside Avenue to Meadowvale Road, and the elimination of
+									the section between Finch West station and Don Mills Station.<sup>35</sup>
+								</div>
+							)
 						}
 					]}
 				/>
@@ -405,56 +518,122 @@ export default class TransitCity extends Component {
 					center={[
 						{
 							type: 'content-title',
-							title: 'Sheppard east lrt and scarborough rapid transit line extention'
+							title: 'Funded transit lines'
 						},
 						{
-							type: 'img3row',
+							type: 'img',
 							// /images/ already saved
-							images: [ 'gourban/Render8.png', 'gourban/Render9.png', 'gourban/Render10.png' ]
+							src: 'gourban/CNE-01.png'
 						},
 						{
 							type: 'quote',
 							text: () => (
 								<div>
-									The three finalists chosen all followed the people-mover concept of small vehicles
-									running along guideways. From left, prototypes by Krauss-Maffei, Ford, and
-									Hawker-Siddeley. The Krauss-Maffei system was the only one proposed to utilise
-									magnetic attraction, with the other two companies utilising rubber tires.<sup>12</sup>
+									The provincial government moved to fund three of the seven Transit City projects and
+									an extension of the Scarborough Rapid Transit line. However, changing plans and
+									limited funding meant several changes to the plan before construction could start.
+									Eventually, only two of the four projects funded in 2009 began construction.
 								</div>
 							)
-						},
-						{
-							type: 'quote',
-							text: () => <span>© Queen’s Printer for Ontario, 1973. Reproduced with permission.</span>
 						}
 					]}
 				/>
 				<WebColumn
-					oneColumn={true}
-					center={[
+					left={[]}
+					rightOnly={true}
+					right={[
 						{
-							type: 'content-title',
-							title: 'finalists'
-						},
-						{
-							type: 'img3row',
-							// /images/ already saved
-							images: [ 'gourban/Render8.png', 'gourban/Render9.png', 'gourban/Render10.png' ]
-						},
-						{
-							type: 'quote',
+							type: 'para',
 							text: () => (
 								<div>
-									The three finalists chosen all followed the people-mover concept of small vehicles
-									running along guideways. From left, prototypes by Krauss-Maffei, Ford, and
-									Hawker-Siddeley. The Krauss-Maffei system was the only one proposed to utilise
-									magnetic attraction, with the other two companies utilising rubber tires.<sup>12</sup>
+									More worrying, however, was the upcoming 2010 Toronto municipal elections, with
+									front-runner (and eventual mayor-elect) Rob Ford campaigning on ending the “war on
+									the car” by cancelling Transit City, which projects would have run on a dedicated
+									surface right-of-way in the median of roads, removing left-turn lanes found in the
+									centre-median lanes.<sup>36</sup> His election and the eventual cancellation of
+									Transit City projects on the first day of taking office in favour of his transit
+									plan, namely the completion of the Sheppard subway as proposed in Network 2011
+									(Downsview to Scarborough Centre), put the city at odds with the province, which had
+									already spent $130 million on planning and $1.3 billion in contracts related to
+									tunnel-boring machines and light rail vehicles.<sup>37</sup>
 								</div>
 							)
 						},
 						{
+							type: 'para',
+							text: () => (
+								<div>
+									However, work underway on the Sheppard East LRT continued, with the work underway
+									grade-separating the Stouffville GO line tracks from Sheppard Avenue necessary for
+									either an LRT or a subway.<sup>38</sup> Ultimately, negotiations between the city
+									and the province resulted in a revised plan for transit in the city, one that
+									transferred all provincial funding related to Transit City to a new
+									fully-underground Eglinton LRT, along with an extension of the Sheppard subway to be
+									built with municipal and private funding.<sup>39</sup>
+								</div>
+							)
+						},
+						{
+							type: 'para',
+							text: () => (
+								<div>
+									Today, portions of Transit City survive, both in plans and in-reality. Further
+									developments in city council eventually restored the pre-Ford election plans for
+									light rail, and the Eglinton LRT began construction in 2011, with the Finch West LRT
+									delayed several times by the provincial government until preparation work began in
+									2019. A Sheppard East LRT was later put on-hold, and eventually cancelled, with the
+									current provincial government planning for an eventual extension of the Sheppard
+									subway to approximately the intersection of Sheppard Avenue and McCowan Road.<sup>40</sup>
+								</div>
+							)
+						}
+					]}
+				/>
+				<WebColumn
+					left={[
+						{
+							type: 'content-title',
+							title: 'Eglinton Crosstown Construction'
+						},
+						{
 							type: 'quote',
-							text: () => <span>© Queen’s Printer for Ontario, 1973. Reproduced with permission.</span>
+							text: () => (
+								<span>
+									Construction on the Eglinton Crosstown began in 2011 with a total of 25 stations and
+									stops, underground and aboveground. Pictured is the western portal located east of
+									Mount Dennis Station where trains will run elevated over Black Creek Drive.<sup>41</sup>
+								</span>
+							)
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									“working at the western end” by Mary Crandall is licensed under CC BY-NC-ND 2.0
+								</span>
+							)
+						}
+					]}
+					right={[
+						{
+							type: 'img',
+							src: 'relief-line/2010-RF_2.png'
+						},
+						{
+							type: 'para',
+							text: () => (
+								<div>
+									Meanwhile, plans for rapid transit on Don Mills survives as studies for originally,
+									the Relief Line North rapid transit and now the Ontario Line, a proposed rapid
+									transit line that integrates elements of the cancelled Relief Line and the proposed
+									Don Mills LRT. Both Jane Street and the waterfront LRTs remain on TTC and City of
+									Toronto plans for future study, while plans for a Scarborough-Malvern LRT are
+									currently being studied as part of an extension of the Eglinton LRT eastwards. More
+									than ten years on, elements of Transit City have continued to be relevant in transit
+									planning in Toronto, and two lines originally proposed as part of the plan are under
+									construction and planned to open in the near future.
+								</div>
+							)
 						}
 					]}
 				/>
