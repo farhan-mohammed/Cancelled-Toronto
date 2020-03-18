@@ -43,17 +43,17 @@ const NavList = [
 			}
 		]
 	},
-	// {
-	// 	decade: '2000',
-	// 	files: [
-	// 		{
-	// 			year: '2007',
-	// 			name: 'Transit City',
-	// 			// link: '/'
-	// 			link: 'transit-city'
-	// 		}
-	// 	]
-	// },
+	{
+		decade: '2000',
+		files: [
+			{
+				year: '2007',
+				name: 'Transit City',
+				// link: '/'
+				link: 'transit-city'
+			}
+		]
+	},
 	{
 		decade: '2010',
 		files: [

@@ -53,7 +53,7 @@ const ImageList = [
 		href: '/1970/go-urban',
 		title: 'Go Urban (1973)',
 		subtitle: 'Cancelled, evolved into go-alrt',
-		img: '/images/gourban/GO-Urban Map.png'
+		img: '/images/Image8.png'
 	}
 ];
 export default class App extends Component {

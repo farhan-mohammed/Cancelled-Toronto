@@ -45,7 +45,7 @@ export default class WebColumn extends Component {
 				if (item.adjust.width == '2/3') {
 					specClass += ' WC-item_img_23';
 				}
-				if (item.adjust.hide) {
+				if (item.adjust.hide === true) {
 					specClassCon += ' WC-item_img-con_hide';
 				}
 			}
