@@ -8,7 +8,7 @@ import ImgAll from '../../components/templates/ImgAll';
 import WebColumn from '../../components/templates/WebColumn';
 export default class TransitCity extends Component {
 	renderView() {
-		return <ImgAll img="/images/RTEP.png" />;
+		return <ImgAll img="/images/transitcity/TC1.png" />;
 	}
 	renderFootnotes = () => {
 		const footnotes = [
@@ -134,7 +134,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'relief-line/2010-RF_2.png'
+							src: 'transitcity/TC2.jpg'
 						},
 						{
 							type: 'para',
@@ -282,7 +282,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'relief-line/2010-RF_2.png'
+							src: 'transitcity/TC3.jpg'
 						},
 						{
 							type: 'para',
@@ -352,7 +352,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'relief-line/2010-RF_2.png'
+							src: 'transitcity/TC4.jpg'
 						},
 						{
 							type: 'para',
@@ -384,7 +384,7 @@ export default class TransitCity extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'gourban/CNE-01.png'
+							src: 'transitcity/TC5.jpg'
 						},
 						{
 							type: 'quote',
@@ -410,7 +410,7 @@ export default class TransitCity extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'gourban/CNE-01.png'
+							src: 'transitcity/TC6.jpg'
 						},
 						{
 							type: 'quote',
@@ -481,7 +481,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'relief-line/2010-RF_2.png'
+							src: 'transitcity/TC7.jpg'
 						},
 						{
 							type: 'para',
@@ -523,7 +523,7 @@ export default class TransitCity extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'gourban/CNE-01.png'
+							src: 'transitcity/TC8.png'
 						},
 						{
 							type: 'quote',
@@ -617,7 +617,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'relief-line/2010-RF_2.png'
+							src: 'transitcity/TC9.jpg'
 						},
 						{
 							type: 'para',

@@ -18,13 +18,13 @@ const ImageList = [
 		// subtitle: '',
 		img: '/images/Image2.png'
 	},
-	// {
-	// 	// href: '/',
-	// 	href: '/2000/transit-city',
-	// 	title: 'Transit City (2007)',
-	// 	subtitle: 'Cancelled, partially under construction',
-	// 	img: '/images/Image3.png'
-	// },
+	{
+		// href: '/',
+		href: '/2000/transit-city',
+		title: 'Transit City (2007)',
+		subtitle: 'Cancelled, partially under construction',
+		img: '/images/Image3.png'
+	},
 	{
 		// href: '/',
 

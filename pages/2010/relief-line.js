@@ -123,10 +123,15 @@ export default class ReliefLine extends Component {
 					]}
 				/>
 				<WebColumn
-					left={[
+					oneColumn
+					center={[
 						{
 							type: 'content-title',
 							title: 'Approved Alignment'
+						},
+						{
+							type: 'img',
+							src: 'relief-line/2010-RF_2.jpg'
 						},
 						{
 							type: 'quote',
@@ -139,11 +144,11 @@ export default class ReliefLine extends Component {
 							)
 						}
 					]}
+				/>
+				<WebColumn
+					rightOnly
+					left={[]}
 					right={[
-						{
-							type: 'img',
-							src: 'relief-line/2010-RF_2.png'
-						},
 						{
 							type: 'para',
 							text: () => (
@@ -232,6 +237,12 @@ export default class ReliefLine extends Component {
 									improving social equity for historically disadvantaged neighbourhoods including Moss
 									Park and Regent Park.<sup>16</sup>
 								</span>
+							)
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<span>“Moss Park and Regent Park” by Sean Marshall is licensed under CC BY-NC 2.0</span>
 							)
 						}
 					]}
@@ -327,13 +338,16 @@ export default class ReliefLine extends Component {
 									<sup>27</sup>
 								</span>
 							)
+						},
+						{
+							type: 'quote',
+							text: () => <span>"Bloor Subway Station 2" by Raysonho. Public Domain</span>
 						}
 					]}
 					right={[
 						{
 							type: 'img',
 
-							// adjust: { hide: true },
 							src: 'relief-line/2010-RF_4.jpg'
 						},
 						{

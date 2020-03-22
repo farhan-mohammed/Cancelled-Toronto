@@ -30,9 +30,6 @@ body {
 	}
 }
 .body {
-	&-con {
-		padding-bottom: 15vh;
-	}
 	&__img {
 		width: 100%;
 		@include max-height-mixin('small') {
@@ -47,7 +44,7 @@ body {
 			&:first-child {
 				margin: 20px 0;
 				@include max-height-mixin('small') {
-					margin: 2px 0;
+					margin: 10px 0 0 0;
 				}
 			}
 		}

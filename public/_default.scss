@@ -118,3 +118,47 @@ a {
 .subway-font {
 	@include subway-font;
 }
+.ft {
+	max-width: 100%;
+	width: fit-content;
+	padding: 20px 30px 50px;
+
+	color: $dark;
+	&-ptf {
+		max-width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+
+		margin-bottom: 15px;
+		&_image {
+			flex: 0;
+			display: flex;
+			justify-content: center;
+			& > img {
+				height: 3.5em;
+				width: auto;
+				// width: 3em !important;
+				// height: auto;
+			}
+		}
+		&_text {
+			margin-left: 20px;
+			font-family: 'toronto_subway_bold';
+			& > div {
+				font-family: inherit;
+				& > a {
+					font-family: inherit;
+				}
+				&:nth-child(1) {
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+	&-cp {
+		font-family: 'toronto_subway_bold';
+		text-transform: uppercase;
+		width: fit-content;
+	}
+}

@@ -95,6 +95,37 @@ export default class mainSite extends Component {
 				<SideMenu NavList={NavList} toggleHamburger={this.toggleHamburger} open={this.state.hamburger} />
 
 				{this.props.children}
+				<footer className="ft">
+					<div className="ft-ptf">
+						<div className="ft-ptf_image">
+							<img src="/images/footer/danny.png" />
+						</div>
+						<div className="ft-ptf_text">
+							<div>content researched and written by danny xue</div>
+							<div>
+								<a href="https://www.linkedin.com/in/danny-xue/">linkedin.com/in/danny-xue</a>
+							</div>
+							<div>
+								<a href="mailto:danny.xue@edu.uwaterloo.ca">danny.xue@edu.uwaterloo.ca</a>
+							</div>
+						</div>
+					</div>
+					<div className="ft-ptf">
+						<div className="ft-ptf_image">
+							<img src="/images/footer/farhan.png" />
+						</div>
+						<div className="ft-ptf_text">
+							<div>site built by farhan mohammed</div>
+							<div>
+								<a href="https://farhan.site">farhan.site</a>
+							</div>
+							<div>
+								<a href="https://www.linkedin.com/in/farhanmoh/">linkedin.com/in/farhanmoh</a>
+							</div>
+						</div>
+					</div>
+					<div className="ft-cp">copyright © 2020 cancelledtoronto.ca. all rights reserved</div>
+				</footer>
 			</div>
 		);
 	}
