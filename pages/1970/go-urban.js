@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import WebColumn from '../../components/templates/WebColumn';
-import WebsiteLayout from '../../components/wrapper/mainSite';
+import WebsiteLayout from '../../components/WebsiteWrapper.js';
 
 export default class GoUrban extends Component {
 	renderView() {

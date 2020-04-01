@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import WebsiteLayout from '../../components/wrapper/mainSite';
+import WebsiteLayout from '../../components/WebsiteWrapper';
 
-import ImgTextRightBelow from '../../components/templates/imgTextRightBelow';
-import ImgTextBelow from '../../components/templates/imgTextBelow';
-import TwoColumn from '../../components/content/TwoColumn';
-import ImgAll from '../../components/templates/ImgAll';
+import ImgAll from '../../components/templates/MainImage';
 import WebColumn from '../../components/templates/WebColumn';
 export default class RapidTransit extends Component {
 	renderView() {
-		return <ImgAll img="/images/RTEP.png" />;
+		return <ImgAll img="/images/RTEP/RTEP.png" />;
 	}
 	footnotes() {
 		return (
@@ -192,7 +189,7 @@ export default class RapidTransit extends Component {
 							type: 'img',
 							adjust: { hide: true },
 							// /images/ already saved
-							src: 'RTEPC.jpg'
+							src: 'RTEP/RTEPC.jpg'
 						},
 						{
 							type: 'para',
@@ -235,7 +232,7 @@ export default class RapidTransit extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEPA.png'
+							src: 'RTEP/RTEPA.png'
 						},
 						{
 							type: 'quote',
@@ -261,7 +258,7 @@ export default class RapidTransit extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEPB.png'
+							src: 'RTEP/RTEPB.png'
 						},
 						{
 							type: 'quote',
@@ -286,7 +283,7 @@ export default class RapidTransit extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEPE.png'
+							src: 'RTEP/RTEPE.png'
 						},
 						{
 							type: 'quote',
@@ -314,7 +311,7 @@ export default class RapidTransit extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEPD.png'
+							src: 'RTEP/RTEPD.png'
 						},
 						{
 							type: 'quote',
@@ -409,7 +406,7 @@ export default class RapidTransit extends Component {
 							)
 						}
 					]}
-					right={[ { type: 'img', adjust: { hide: true, width: '2/3' }, src: 'RTEPF.jpg' } ]}
+					right={[ { type: 'img', adjust: { hide: true, width: '2/3' }, src: 'RTEP/RTEPF.jpg' } ]}
 				/>
 				<WebColumn
 					left={[]}

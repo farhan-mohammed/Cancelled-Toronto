@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class ImgAll extends Component {
+export default class MainImage extends Component {
 	render() {
 		return (
 			<div className="body__img-con">

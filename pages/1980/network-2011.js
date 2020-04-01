@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import WebsiteLayout from '../../components/wrapper/mainSite';
+import WebsiteLayout from '../../components/WebsiteWrapper';
 
-import ImgTextBelow from '../../components/templates/imgTextBelow';
-import TwoColumn from '../../components/content/TwoColumn';
-import ImgAll from '../../components/templates/ImgAll';
-import ImgTextRightBelow from '../../components/templates/imgTextRightBelow';
 import WebColumn from '../../components/templates/WebColumn';
 
 export default class Year1980 extends Component {
@@ -15,7 +11,7 @@ export default class Year1980 extends Component {
 	renderView() {
 		return (
 			<div className="body__img-con">
-				<img src="/images/1980.png" alt="" className="body__img" style={{ margin: '10px 0' }} />
+				<img src="/images/1980/A.png" alt="" className="body__img" style={{ margin: '10px 0' }} />
 			</div>
 		);
 	}
@@ -144,7 +140,7 @@ export default class Year1980 extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: '1980B.jpg'
+							src: '1980/B.jpg'
 						},
 						{
 							type: 'quote',
@@ -213,7 +209,7 @@ export default class Year1980 extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true }, src: '1980C.jpg' },
+						{ type: 'img', adjust: { hide: true }, src: '1980/C.jpg' },
 						{
 							type: 'quote',
 							text: () => (
@@ -257,7 +253,7 @@ export default class Year1980 extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true }, src: '1980D.jpg' },
+						{ type: 'img', adjust: { hide: true }, src: '1980/D.jpg' },
 						{
 							type: 'para',
 							text: () => (

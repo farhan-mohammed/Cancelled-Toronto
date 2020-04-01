@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import WebsiteLayout from '../../components/wrapper/mainSite';
+import WebsiteLayout from '../../components/WebsiteWrapper.js';
 import WebColumn from '../../components/templates/WebColumn';
 
 const images = [ '/images/2010-RF_1.png', '/images/2010-RF_2.png', '/images/2010-RF_3.jpg', '/images/2010-RF_4.jpg' ];
-import ImgTextRightBelow from '../../components/templates/imgTextRightBelow';
-import TwoColumn from '../../components/content/TwoColumn';
 export default class ReliefLine extends Component {
 	renderView() {
 		return (

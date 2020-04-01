@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import '../components/wrapper/mainSite';
 import Link from 'next/link';
-import WebsiteLayout from '../components/wrapper/mainSite';
+import WebsiteLayout from '../components/WebsiteWrapper';
 const ImageList = [
 	{
 		// href: '/',
 		href: '/2010/relief-line',
 		title: 'Relief Line (2016)',
 		subtitle: <span>Cancelled, replaced with Ontario Line</span>,
-		img: '/images/Image1.png'
+		img: 'Image1.png'
 	},
 	{
 		// href: '/',
@@ -16,14 +15,14 @@ const ImageList = [
 		title: 'Metrolinx/Toronto Transit Plan (2011)',
 		subtitle: 'Cancelled',
 		// subtitle: '',
-		img: '/images/Image2.png'
+		img: 'Image2.png'
 	},
 	{
 		// href: '/',
 		href: '/2000/transit-city',
 		title: 'Transit City (2007)',
 		subtitle: 'Cancelled, partially under construction',
-		img: '/images/Image3.png'
+		img: 'Image3.png'
 	},
 	{
 		// href: '/',
@@ -32,7 +31,7 @@ const ImageList = [
 		title: 'Rapid Transit Expansion Program (1993)',
 		subtitle: 'Cancelled, partially built',
 		// subtitle: '',
-		img: '/images/Image4.png'
+		img: 'Image4.png'
 	},
 	// {
 	// 	// href: '/',
@@ -46,14 +45,14 @@ const ImageList = [
 		href: '/1980/network-2011',
 		title: 'Network 2011 (1985)',
 		subtitle: "Cancelled, replaced with Let's Move",
-		img: '/images/Image6.png'
+		img: 'Image6.png'
 	},
 	{
 		// href: '/',
 		href: '/1970/go-urban',
 		title: 'Go Urban (1973)',
 		subtitle: 'Cancelled, evolved into go-alrt',
-		img: '/images/Image8.png'
+		img: 'Image8.png'
 	}
 ];
 export default class App extends Component {
@@ -64,7 +63,11 @@ export default class App extends Component {
 					<Link href={item.href}>
 						<a className="homepage-item-con">
 							<div className="homepage-item__img-con">
-								<img className="homepage-item__img" src={item.img} alt="" />
+								<img
+									className="homepage-item__img"
+									src={`images/homepage/${item.img}`}
+									alt={item.title}
+								/>
 							</div>
 							<div className="homepage-item__text">
 								<div className="homepage-item__text-title">{item.title}</div>

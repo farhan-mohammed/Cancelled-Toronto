@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
-import SideMenu from '../SideMenu';
+import SideMenu from './SideMenu';
 
-import Header from '../Header.js';
+import Header from './Header.js';
 
 const NavList = [
 	{

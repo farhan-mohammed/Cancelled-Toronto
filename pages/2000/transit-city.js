@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import WebsiteLayout from '../../components/wrapper/mainSite';
+import WebsiteLayout from '../../components/WebsiteWrapper.js';
 
-import ImgTextRightBelow from '../../components/templates/imgTextRightBelow';
-import ImgTextBelow from '../../components/templates/imgTextBelow';
-import TwoColumn from '../../components/content/TwoColumn';
-import ImgAll from '../../components/templates/ImgAll';
+import ImgAll from '../../components/templates/MainImage';
 import WebColumn from '../../components/templates/WebColumn';
 export default class TransitCity extends Component {
 	renderView() {
