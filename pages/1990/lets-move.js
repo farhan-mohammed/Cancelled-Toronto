@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import WebsiteLayout from '../../components/wrapper/mainSite';
+import WebsiteLayout from '../../components/WebsiteWrapper';
 
 export default class letsMove extends Component {
 	render() {
