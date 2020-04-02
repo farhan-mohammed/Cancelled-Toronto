@@ -6,20 +6,20 @@ This is one of the most crucial component of this whole application. It makes ed
 ```json
 [
     {
-        "type":"para",
-        "text":"This is your first paragraph"
+        "type": "para",
+        "text": "This is your first paragraph"
     },
     {
-        "type":"img",
-        "src":"railwaytrack.png"
+        "type": "img",
+        "src": "railwaytrack.png"
     },
     {
-        "type":"para",
-        "text":"This is your second paragraph"
+        "type": "para",
+        "text": "This is your second paragraph"
     },
     {
-        "type":"para",
-        "text":"This is your third paragraph"
+        "type": "para",
+        "text": "This is your third paragraph"
     }
 ]
 ```
@@ -50,7 +50,7 @@ Paragraph and Quote are designed to be used interchangebly, chasing a block from
 
 ```js
 {
-    type:"para",
+    type: "para",
     text: "can be text" || ()=> { 
         const t = "or a function"; 
         return t;
@@ -62,8 +62,8 @@ Paragraph and Quote are designed to be used interchangebly, chasing a block from
 
 ```js
 {
-    type:"para",
-    text: "can be text" || ()=> { 
+    type: "para",
+    text: "can be text" || () => { 
         const t = "or a function"; 
         return t;
     }
@@ -77,8 +77,8 @@ This is a title block that can be used throught the website to give sections tit
 
 ```js
 {
-    type:"content-title",
-    title: "can be text" || ()=> { 
+    type: "content-title",
+    title: "can be text" || () => { 
         const t = "or a function"; 
         return t;
     }
@@ -92,7 +92,7 @@ This is a title block that is used at the very top, usually the title of the who
 
 ```js
 {
-    type:"main-title",
+    type: "main-title",
     title: "can be text" || ()=> { 
         const t = "or a function"; 
         return t;
@@ -107,7 +107,7 @@ This is a subtitletitle block that is used at the very top, usually paired with 
 ```js
 {
     type:"main-subtitle",
-    title: "can be text" || ()=> { 
+    title: "can be text" || () => { 
         const t = "or a function"; 
         return t;
     }
@@ -146,8 +146,8 @@ This is a special block that creates a row of three images
 
 ```js
 {
-    type:'img3row',
-    images['SOURCE1','SOURCE2','SOURCE3']
+    type: 'img3row',
+    images: ['SOURCE1','SOURCE2','SOURCE3']
 }
 ```
 
@@ -158,8 +158,8 @@ tldr; divides the block into columns and renders the list of left and right bloc
 ```js
 {
     type:'column2',
-    left=[...blocks...]
-    right[...blocks...]
+    left: [...blocks...]
+    right: [...blocks...]
 }
 ```
 
@@ -167,8 +167,8 @@ tldr; divides the block into columns and renders the list of left and right bloc
 I made a General block that made it easy to add special blocks if i ever needed to
 ```js
 {
-    type:'general',
-    render:()=>"A function"
+    type: 'general',
+    render: () => <div>"A function"></div>
 }
 ```
 
