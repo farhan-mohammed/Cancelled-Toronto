@@ -1,4 +1,4 @@
-This is a reference to [Webcolumn.js](components/templates/WebColumn.js)
+This is a reference for [Webcolumn.js](WebColumn.js)
 
 This is one of the most crucial component of this whole application. It makes editing and displaying information a website 10 times easier as if I could teach someone who is not a programmer (for example, like Danny, the research and writer on this team). I would just have to teach them what an array is and what formatting they should be using.
 
