@@ -14,7 +14,6 @@ This was my first time using the React framework outside of `create-react-app`. 
 2. Created a Wrapper component where the content of website are wrapped around with the header, sidebar and the footer. This made it easier to create the shape of the website as an edit on this compoenent will create a change on any and every route. More documentation available at [`components/WebsiteWrapper.js`](./components/WebsiteWrapper.js)
 
 
-A few screenshots from the user interface:
 ### Front page
 <img src="https://i.imgur.com/WGm1Y1B.png"/>
 
