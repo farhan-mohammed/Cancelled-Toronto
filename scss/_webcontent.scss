@@ -112,9 +112,9 @@ $section-spacing: 15px;
 		&_ct {
 			@include subway-font;
 			font-size: 22.5px;
-			@media (min-height: 1000px) {
-				font-size: 35px;
-			}
+			// @media (min-height: 1000px) {
+			// 	font-size: 35px;
+			// }
 			letter-spacing: 0.5px;
 			// @include max-height-mixin('small') {
 			// 	font-size: 22.5px;
@@ -130,9 +130,9 @@ $section-spacing: 15px;
 			// @include max-height-mixin('small') {
 			// 	font-size: 22.5px;
 			// }
-			@media (min-height: 1000px) {
-				font-size: 30px;
-			}
+			// @media (min-height: 1000px) {
+			// 	font-size: 30px;
+			// }
 			width: 100%;
 			font-weight: 800;
 		}
@@ -143,9 +143,9 @@ $section-spacing: 15px;
 			// 	font-size: 17.5px;
 			// }
 			margin-top: -5px;
-			@media (min-height: 1000px) {
-				font-size: 25px;
-			}
+			// @media (min-height: 1000px) {
+			// 	font-size: 25px;
+			// }
 			font-weight: 100;
 			letter-spacing: 1px;
 			width: 100%;

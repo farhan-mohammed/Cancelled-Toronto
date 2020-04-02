@@ -1470,12 +1470,6 @@ a {
   letter-spacing: 0.5px;
 }
 
-@media (min-height: 1000px) {
-  .WC-item_ct {
-    font-size: 35px;
-  }
-}
-
 .WC-item_mt {
   font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
@@ -1484,12 +1478,6 @@ a {
   letter-spacing: 0.5px;
   width: 100%;
   font-weight: 800;
-}
-
-@media (min-height: 1000px) {
-  .WC-item_mt {
-    font-size: 30px;
-  }
 }
 
 .WC-item_mst {
@@ -1501,12 +1489,6 @@ a {
   font-weight: 100;
   letter-spacing: 1px;
   width: 100%;
-}
-
-@media (min-height: 1000px) {
-  .WC-item_mst {
-    font-size: 25px;
-  }
 }
 
 .WC-item_quote-con {

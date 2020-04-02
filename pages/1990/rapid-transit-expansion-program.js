@@ -245,12 +245,7 @@ export default class RapidTransit extends Component {
 									died shortly afterwards the Eglinton West subway was cancelled in 1995.<sup>9</sup>
 								</div>
 							)
-						}
-					]}
-				/>
-				<WebColumn
-					oneColumn={true}
-					center={[
+						},
 						{
 							type: 'content-title',
 							title: 'Sheppard'
@@ -270,12 +265,7 @@ export default class RapidTransit extends Component {
 									2002.<sup>10</sup>
 								</div>
 							)
-						}
-					]}
-				/>
-				<WebColumn
-					oneColumn={true}
-					center={[
+						},
 						{
 							type: 'content-title',
 							title: 'Yonge-spadina loop'
@@ -298,12 +288,7 @@ export default class RapidTransit extends Component {
 									Metro Toronto council was unsupportive of the project.
 								</div>
 							)
-						}
-					]}
-				/>
-				<WebColumn
-					oneColumn={true}
-					center={[
+						},
 						{
 							type: 'content-title',
 							title: 'Scarborough rapid transit extention'
@@ -330,7 +315,6 @@ export default class RapidTransit extends Component {
 					]}
 				/>
 				<WebColumn
-					left={[]}
 					rightOnly={true}
 					right={[
 						{
