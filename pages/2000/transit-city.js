@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import WebsiteLayout from '../../components/WebsiteWrapper.js';
+import Head from 'next/head';
 
+import WebsiteLayout from '../../components/WebsiteWrapper.js';
 import ImgAll from '../../components/templates/MainImage';
 import WebColumn from '../../components/templates/WebColumn';
+import Footnotes from '../../components/Footnotes.js';
+
 export default class TransitCity extends Component {
 	renderView() {
 		return <ImgAll img="/images/transitcity/TC1.png" />;
@@ -51,9 +54,7 @@ export default class TransitCity extends Component {
 			`Ben, Spurr. “Federal Funding Shuffle Casts Doubt on Sheppard LRT.” Toronto Star. June 23, 2017. https://www.thestar.com/news/city_hall/2017/06/23/federal-funding-for-finch-lrt-casts-doubt-on-sheppard-project.html.`,
 			`Mary Crandall. working at the western end. 2019, colour digital, Flickr, Toronto, accessed March 17th, 2020, https://www.flickr.com/photos/57340921@N03/47486040332/in/photolist-2fmbnpj-gAuaQA-gAv6bn-2g3ixbF-2g3ivuu-2g3it5n-2g3irmK-2g3irKd-2g3ih5T-2g3ihHG-2g3ii5t-2g3io5y-2g3imr4-2g3inXE-2g3inah-2g3iu2T-2g3ij7U-ebTUWE-2g3ijrB-2g3iunp-2g3itRE-2g3is6D-2g3ivVC-2g3ion8-2g3ipcJ-2g3ixBd-2g3izjr-2g3iptW-2g3ixU2-2g3iz9g-2g3iwFn-2g3iABw-2g3iBK8-2g3iBWa-2g3iBS2-2g3irP2-2g3iqpZ-2g3iqc4-2g3ivyh-2g3ikUr-2g3iv73-2g3iuVS-2g3iu5Z-2g3ioWE-2g3io6w-2g3isf6-2g3irPb-2g3ihcb-2g3ivpu-2g3ip2o/. Creative Commons License (CC BY-NC-ND 2.0), https://creativecommons.org/licenses/by-nc-nd/2.0/`
 		];
-		return (
-			<ol className="footnotes__list">{footnotes.map((text) => <li className="footnotes__item">{text}</li>)}</ol>
-		);
+		return <Footnotes footnotes={footnotes} />;
 	};
 	renderText = () => {
 		return (

@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import WebsiteLayout from '../../components/WebsiteWrapper.js';
+import Head from 'next/head';
 
+import WebsiteLayout from '../../components/WebsiteWrapper.js';
 import ImgAll from '../../components/templates/MainImage';
 import WebColumn from '../../components/templates/WebColumn';
+import Footnotes from '../../components/Footnotes.js';
+
 export default class MetroLinxTTP extends Component {
 	renderView = () => <ImgAll img="/images/metro/metro1.png" />;
 	renderText() {
@@ -37,11 +40,7 @@ export default class MetroLinxTTP extends Component {
 				`Tess, Kalinowski. “Metrolinx to Build Sheppard LRT First: Finch Will Follow, with All Four of Toronto's Light Rail Lines Expected to Be Done by 2020.” Toronto Star, April 25, 2012, sec. GT1.`,
 				`Rhianna, Jackson-Kelso, and Bensadoun Emerald. “How Ford's TTC Overhaul Compares to Toronto City Plans.” Toronto Star, April 11, 2019, sec. GT10.`
 			];
-			return (
-				<ol className="footnotes__list">
-					{footnotes.map((text) => <li className="footnotes__item">{text}</li>)}
-				</ol>
-			);
+			return <Footnotes footnotes={footnotes} />;
 		};
 		return (
 			<div>

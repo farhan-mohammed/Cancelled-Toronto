@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import Head from 'next/head';
+
 import WebColumn from '../../components/templates/WebColumn';
 import WebsiteLayout from '../../components/WebsiteWrapper.js';
+import Footnotes from '../../components/Footnotes';
 
 export default class GoUrban extends Component {
 	renderView() {
@@ -73,13 +76,16 @@ export default class GoUrban extends Component {
 			`Russwurm, Lani and Nathan Baker. SkyTrain. English ed. ed. Toronto: Historica Canada, 2019.`,
 			`Alan Dunlop. Canada - Ontario - Toronto - Transit Commission - Rapid Transit - Scarborough LRT, 1985, colour digital, Toronto Star photo archive, Toronto, accessed February 16, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0115590F&R=DC-TSPA_0115590F`
 		];
-		return (
-			<ol className="footnotes__list">{footnotes.map((text) => <li className="footnotes__item">{text}</li>)}</ol>
-		);
+		return <Footnotes footnotes={footnotes} />;
 	}
 	renderText() {
 		return (
 			<div>
+				<Head>
+					<title>Go Urban (1973)</title>
+					<meta property="og:image" content="/images/gourban/GO-Urban Map.png" />
+					<meta property="og:title" content="Go Urban (1973): Cancelled, evolved into go-arlt" />
+				</Head>
 				<WebColumn
 					left={[
 						{ type: 'main-title', title: 'Go-Urban (1973)' },

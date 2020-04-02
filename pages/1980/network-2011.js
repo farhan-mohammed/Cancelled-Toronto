@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import WebsiteLayout from '../../components/WebsiteWrapper';
+import Head from 'next/head';
 
+import WebsiteLayout from '../../components/WebsiteWrapper';
 import WebColumn from '../../components/templates/WebColumn';
+import Footnotes from '../../components/Footnotes';
 
 export default class Year1980 extends Component {
 	constructor(props) {
@@ -46,9 +48,7 @@ export default class Year1980 extends Component {
 			`Jim Byers. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1.`,
 			`Byers. “Huge Transit Expansion Announced for Metro.” sec. A1]`
 		];
-		return (
-			<ol className="footnotes__list">{footnotes.map((text) => <li className="footnotes__item">{text}</li>)}</ol>
-		);
+		return <Footnotes footnotes={footnotes} />;
 	};
 	renderText = () => {
 		return (

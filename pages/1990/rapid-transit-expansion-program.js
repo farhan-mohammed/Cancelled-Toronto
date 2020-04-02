@@ -1,104 +1,43 @@
 import React, { Component } from 'react';
-import WebsiteLayout from '../../components/WebsiteWrapper';
+import Head from 'next/head';
 
+import WebsiteLayout from '../../components/WebsiteWrapper';
 import ImgAll from '../../components/templates/MainImage';
 import WebColumn from '../../components/templates/WebColumn';
+import Footnotes from '../../components/Footnotes';
+
 export default class RapidTransit extends Component {
 	renderView() {
 		return <ImgAll img="/images/RTEP/RTEP.png" />;
 	}
 	footnotes() {
-		return (
-			<ol className="footnotes__list">
-				<li className="footnotes__item">
-					Nicolaas Van Rijn and Royson James. “Rae Okays New Lines for Subway 'Grand Slam'.” Toronto Star,
-					February 9, 1993, sec. A1.
-				</li>
-				<li className="footnotes__item">
-					Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.
-				</li>
-				<li className="footnotes__item">
-					James Royson. “Attention, Subway Patrons: The TTC Needs More of You.” Toronto Star, December 4,
-					1993, sec. A1; Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.
-				</li>
-				<li className="footnotes__item">
-					Jim Byers. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1; Rijn
-					and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.
-				</li>
-				<li className="footnotes__item">
-					Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.
-				</li>
-				<li className="footnotes__item">
-					David Lewis Stein. “After $45 Million Is That All There Is?” Toronto Star, February 5, 1993, sec.
-					A27.
-				</li>
-				<li className="footnotes__item">
-					Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.
-				</li>
-				<li className="footnotes__item">
-					Toronto Transit Commission. “Toronto Rapid Transit Expansion Program.” Tunnelling and Underground
-					Space Technology 10, no. 1 (1995): 53–63. https://doi.org/10.1016/0886-7798(95)90002-0.
-				</li>
-				<li className="footnotes__item">
-					Toronto Transit Commission. “Toronto Rapid Transit Expansion Program.” 53–63.
-				</li>
-				<li className="footnotes__item">
-					Alan Dunlop. Two proposals: The photo at left shows Yonge St. looking south; intersecting with
-					Sheppard Ave. (at cluster of high-rises); where Mel Lastman wants the proposed subway to run. Others
-					want the line further north; at Finch Ave.; near the Xerox building (partially out of the picture
-					above). That line would parallel the hydro right of way (to the right of where the helicopter is
-					circling), 1990, black and white digital, Toronto Star photo archive, Toronto, accessed January 7,
-					2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0106979F&R=DC-TSPA_0106979F
-				</li>
-				<li className="footnotes__item">
-					Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.
-				</li>
-				<li className="footnotes__item">
-					David Lewis Stein. “Metro Taxpayers Being Taken for a Ride.” Toronto Star, February 21, 1993, sec.
-					B1.
-				</li>
-				<li className="footnotes__item">Stein. “Metro Taxpayers Being Taken for a Ride.” sec. B1.</li>
-				<li className="footnotes__item">
-					James Royson. “Deciding Which Train to Take Metro Council Has to Vote on Subway Expansion. Everyone
-					has a Favorite.” Toronto Star, March 8, 1994, sec. A15.
-				</li>
-				<li className="footnotes__item">
-					James Royson. “Metro Has Final Say on 2 Lines, NDP Says.” Toronto Star, October 5, 1994, sec. A6.
-				</li>
-				<li className="footnotes__item">
-					Gail Swainson. “Transit Lines Halted After Two Days of Debate, Plan Defeated 18-12.” Toronto Star,
-					February 24, 1995, sec. A1.
-				</li>
-				<li className="footnotes__item">
-					Bruce Campion-Smith. “How Province Could Take over the TTC But Potential Political Pitfalls in Store
-					Should Queen's Park Override Metro.” Toronto Star, February 25, 1995, sec. A2.
-				</li>
-				<li className="footnotes__item">
-					Toronto Transit Commission. “Toronto Rapid Transit Expansion Program.” 53–63.
-				</li>
-				<li className="footnotes__item">
-					Toronto Transit Commission. “Toronto Rapid Transit Expansion Program.” 53–63.
-				</li>
-				<li className="footnotes__item">
-					Bruce Campion-Smith. “Eglinton Subway Project under Way $740 Million Line Will Create Thousands of
-					Jobs, Rae Pledges.” Toronto Star, August 26, 1994, sec. A9; James, Royson. “TTC Backs New Transit
-					Lines 1925 Million to Lay Groundwork for 1994 Start.” Toronto Star, February 17, 1993, sec. A6;
-					James, Royson. “Work Begins on Sheppard Subway Line Metro, Province in Fight over Two Other Lines.”
-					Toronto Star, June 23, 1994, sec. A10.
-				</li>
-				<li className="footnotes__item">
-					Bruce Campion-Smith. “Tories Derail Eglinton Subway But $945 Million Sheppard Line Gets Go-Ahead.”
-					Toronto Star, July 22, 1995, sec. A4.
-				</li>
-				<li className="footnotes__item">Campion-Smith. “Tories Derail Eglinton Subway.” sec. A4.</li>
-				<li className="footnotes__item">Ibid.</li>
-				<li className="footnotes__item">
-					Boris Spremo. Canada – Ontario – Toronto – Transit Commission - Subways - Sheppard Subway, 1998,
-					colour digital, Toronto Star photo archive, Toronto, accessed January 7, 2020,
-					https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0115683F&R=DC-TSPA_0115683F
-				</li>
-			</ol>
-		);
+		const footnotes = [
+			`Nicolaas Van Rijn and Royson James. “Rae Okays New Lines for Subway 'Grand Slam'.” Toronto Star, February 9, 1993, sec. A1.`,
+			`Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
+			`James Royson. “Attention, Subway Patrons: The TTC Needs More of You.” Toronto Star, December 4, 1993, sec. A1; Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
+			`Alan Dunlop. Two proposals: The photo at left shows Yonge St. looking south; intersecting with Sheppard Ave. (at cluster of high-rises); where Mel Lastman wants the proposed subway to run. Others want the line further north; at Finch Ave.; near the Xerox building (partially out of the picture above). That line would parallel the hydro right of way (to the right of where the helicopter is circling), 1990, black and white digital, Toronto Star photo archive, Toronto, accessed January 7, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0106979F&R=DC-TSPA_0106979F`,
+			`Jim Byers. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1; Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
+			`Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
+			`David Lewis Stein. “After $45 Million Is That All There Is?” Toronto Star, February 5, 1993, sec. A27.`,
+			`Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
+			`Toronto Transit Commission. “Toronto Rapid Transit Expansion Program.” Tunnelling and Underground Space Technology 10, no. 1 (1995): 53–63. https://doi.org/10.1016/0886-7798(95)90002-0.`,
+			`Toronto Transit Commission. “Toronto Rapid Transit Expansion Program.” 53–63.`,
+			`Toronto Transit Commission. “Toronto Rapid Transit Expansion Program.” 53–63.`,
+			`Toronto Transit Commission. “Toronto Rapid Transit Expansion Program.” 53–63.`,
+			`Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
+			`David Lewis Stein. “Metro Taxpayers Being Taken for a Ride.” Toronto Star, February 21, 1993, sec. B1.`,
+			`Stein. “Metro Taxpayers Being Taken for a Ride.” sec. B1.`,
+			`James Royson. “Deciding Which Train to Take Metro Council Has to Vote on Subway Expansion. Everyone has a Favorite.” Toronto Star, March 8, 1994, sec. A15.`,
+			`James Royson. “Metro Has Final Say on 2 Lines, NDP Says.” Toronto Star, October 5, 1994, sec. A6.`,
+			`Gail Swainson. “Transit Lines Halted After Two Days of Debate, Plan Defeated 18-12.” Toronto Star, February 24, 1995, sec. A1.`,
+			`Bruce Campion-Smith. “How Province Could Take over the TTC But Potential Political Pitfalls in Store Should Queen's Park Override Metro.” Toronto Star, February 25, 1995, sec. A2.`,
+			`Boris Spremo. Canada – Ontario – Toronto – Transit Commission - Subways - Sheppard Subway, 1998, colour digital, Toronto Star photo archive, Toronto, accessed January 7, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0115683F&R=DC-TSPA_0115683F`,
+			`Bruce Campion-Smith. “Eglinton Subway Project under Way $740 Million Line Will Create Thousands of Jobs, Rae Pledges.” Toronto Star, August 26, 1994, sec. A9; James, Royson. “TTC Backs New Transit Lines 1925 Million to Lay Groundwork for 1994 Start.” Toronto Star, February 17, 1993, sec. A6; James, Royson. “Work Begins on Sheppard Subway Line Metro, Province in Fight over Two Other Lines.” Toronto Star, June 23, 1994, sec. A10.`,
+			`Bruce Campion-Smith. “Tories Derail Eglinton Subway But $945 Million Sheppard Line Gets Go-Ahead.” Toronto Star, July 22, 1995, sec. A4.`,
+			`Campion-Smith. “Tories Derail Eglinton Subway.” sec. A4.`,
+			`Ibid.`
+		];
+		return <Footnotes footnotes={footnotes} />;
 	}
 	renderText = () => {
 		return (
