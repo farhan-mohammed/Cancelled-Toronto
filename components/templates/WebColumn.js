@@ -1,3 +1,4 @@
+// To do: document!
 import React, { Component } from 'react';
 
 export default class WebColumn extends Component {
