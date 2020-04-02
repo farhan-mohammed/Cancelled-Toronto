@@ -37,8 +37,8 @@ Pass in these props as `true` values to get that structure
 
 | Prop 	| Definition 	| Example 	|
 |-----------	|-----------------------	|----------	|
-| `rightOnly` 	| You only have to pass in a `right`<br> array of blocks, and it renders an empty left column on larger screens and adjusts accordingly for smaller screens. 	| <img src="https://imgur.com/co29paq.png" width="375"/>	|
-| `oneColumn` 	| Pass in a prop called `center`<br> which is an array of blocks, and it renders the blocks in a single column. Best used for wide maps. 	|   <img src="https://imgur.com/d3xoWzr.png" width="375"/> 	|
+| `rightOnly` 	| You only have to pass in a `right`<br> array of blocks, and it renders an empty left column on larger screens and adjusts accordingly for smaller screens. 	| <img src="https://imgur.com/co29paq.png" width="475"/>	|
+| `oneColumn` 	| Pass in a prop called `center`<br> which is an array of blocks, and it renders the blocks in a single column. Best used for wide maps. 	|   <img src="https://imgur.com/d3xoWzr.png" width="475"/> 	|
 
 # Blocks
 Each array passed through the arrays to be rendered is referred to as a block. Blocks have types which tell the program how they are rendered, if you change the type of the block make sure you change the corresponding properties as well.
@@ -87,6 +87,7 @@ This is a title block that can be used throught the website to give sections tit
 ### Main Title 
 
 This is a title block that is used at the very top, usually the title of the whole page 
+
 <img src="https://imgur.com/I43iwFP.png" width="300" />
 
 ```js
@@ -100,6 +101,7 @@ This is a title block that is used at the very top, usually the title of the who
 ```
 ### Main Subtitle
 This is a subtitletitle block that is used at the very top, usually paired with main title
+
 <img src="https://imgur.com/Khb9QH5.png" width="300" />
 
 ```js
@@ -134,8 +136,8 @@ Self explanatory, this ceates an image block.
 You can add the following properties to adjust the images.
 | Poperty | Value	| Definition 	| Example 	|
 |----------- |-----------	|--------------------------------------	|-------------------------------	|
-| `width` 	| '2/3' | The width of the image is 66% of the width of its parent	| <img src="https://imgur.com/pcJBo2r.png" width="375"/>  	|
-| `hide` | true	| Places the images in the block, but only shows an outline of the image instead of the image. This is used to hide images that have not been licenses for publishing yet 	|  <img src="https://imgur.com/C2tMu13.png" width="375"/>	|
+| `width` 	| '2/3' | The width of the image is 66% of the width of its parent	| <img src="https://imgur.com/pcJBo2r.png" width="475"/>  	|
+| `hide` | true	| Places the images in the block, but only shows an outline of the image instead of the image. This is used to hide images that have not been licenses for publishing yet 	|  <img src="https://imgur.com/C2tMu13.png" width="475"/>	|
 
 
 ### Row of 3 images
