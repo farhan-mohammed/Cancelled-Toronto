@@ -4,8 +4,11 @@
 Cancelled Toronto is an informative website about the cancelled transit plans of Toronto researched for and written by [Danny Xue](https://www.linkedin.com/in/danny-xue/) and built by [Farhan Mohammed](https://www.linkedin.com/in/danny-xue/)
 
 ## Documented Components
+
 [WebColumn](components/templates/WebColumn.md)
+
 [WebsiteWrapper](components/WebsiteWrapper.md)
+
 ## Software 
 This website is built using the [Next.js](https://nextjs.org/) framework, hosted on [Ziet Now](https://zeit.co/). I found Next.js to be the perfect library for this type application as I needed a static website that has multiple static routes. 
 
