@@ -17,7 +17,7 @@ A few screenshots from the user interface:
 <img src="https://i.imgur.com/WGm1Y1B.png"/>
 <img src="https://imgur.com/FjF25b2.png"/>
 <img src="https://imgur.com/5zC5c0J.png">
-![Side menu](https://imgur.com/nyTHm66.gif)
+<img src="https://cdn.discordapp.com/attachments/651230544239132756/695081875668074627/ezgif-4-22db6083f156.gif" width="50%">
 
 ### Setup
 > How to run the application on your own computer
