@@ -1,4 +1,4 @@
-// To do: document!
+// There is documentation available on what the blocks and lists mean in the same directory as this file
 import React, { Component } from 'react';
 
 export default class WebColumn extends Component {
