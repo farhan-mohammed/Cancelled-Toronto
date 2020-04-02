@@ -2,6 +2,18 @@ This is a reference for [Webcolumn.js](WebColumn.js)
 
 This is one of the most crucial component of this whole application. It makes editing and displaying information a website 10 times easier as if I could teach someone who is not a programmer (for example, like Danny, the research and writer on this team). I would just have to teach them what an array is and what formatting they should be using.
 
+# How to use this component to render a Section
+```js
+render(){
+    <Webcolumn 
+        left={[ ...blocks]}
+        right={[...blocks]}
+    />
+}
+```
+Read below for the different types of blocks and the different ways to organize the block on the screen
+
+# Lists of Blocks
 > Let's say this is a compnent I am working with.
 ```json
 [
