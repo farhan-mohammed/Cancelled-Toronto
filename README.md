@@ -13,10 +13,18 @@ This was my first time using the React framework outside of `create-react-app`. 
 1. Created a reuseable modular component for the layout of the website content. Each WebColumn component can be configured to be Two column or one column, and each column can have different types of items on it such as images, quotes, text, special designs, etc. All you do is pass an array with the information and it renders it for you! More documentation available at [`components/templates/WebColumn.js`](./components/templates/Webcolumn.js)
 2. Created a Wrapper component where the content of website are wrapped around with the header, sidebar and the footer. This made it easier to create the shape of the website as an edit on this compoenent will create a change on any and every route. More documentation available at [`components/WebsiteWrapper.js`](./components/WebsiteWrapper.js)
 
+
 A few screenshots from the user interface:
+### Front page
 <img src="https://i.imgur.com/WGm1Y1B.png"/>
+
+### Example of WebColumn Component
 <img src="https://imgur.com/FjF25b2.png"/>
-<img src="https://imgur.com/5zC5c0J.png">
+
+### Mobile View
+<img src="https://imgur.com/5zC5c0J.png"/>
+
+### Made a Hamburger Side Menu from scratch
 <img src="https://cdn.discordapp.com/attachments/651230544239132756/695081875668074627/ezgif-4-22db6083f156.gif" width="50%">
 
 ### Setup
