@@ -168,7 +168,7 @@ I made a General block that made it easy to add special blocks if i ever needed 
 ```js
 {
     type: 'general',
-    render: () => <div>"A function"></div>
+    render: () => <div>"A function"</div>
 }
 ```
 
