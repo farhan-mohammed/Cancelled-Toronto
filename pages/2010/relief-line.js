@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WebsiteLayout from '../../components/WebsiteWrapper.js';
 import WebColumn from '../../components/templates/WebColumn';
+import Footnotes from '../../components/Footnotes.js';
 
 const images = [ '/images/2010-RF_1.png', '/images/2010-RF_2.png', '/images/2010-RF_3.jpg', '/images/2010-RF_4.jpg' ];
 export default class ReliefLine extends Component {
@@ -49,9 +50,7 @@ export default class ReliefLine extends Component {
 			`Ben, Spurr. “Ontario Line Plan Shows New Downtown Route: Path Diverges Further from Relief Line Plans, Casting Doubt on Province's Completion Date.” Toronto Star, July 23, 2019, sec. A1.`,
 			`Ben, Spurr. “Ford Vows to Guarantee Funding for Ambitious Subway, LRT Expansion: Redrawing the Map.” Toronto Star, April 11, 2019, sec. A1.`
 		];
-		return (
-			<ol className="footnotes__list">{footnotes.map((text) => <li className="footnotes__item">{text}</li>)}</ol>
-		);
+		return <Footnotes footnotes={footnotes} />;
 	}
 	renderBody = () => {
 		return (
