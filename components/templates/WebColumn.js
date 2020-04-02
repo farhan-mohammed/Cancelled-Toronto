@@ -29,7 +29,7 @@ export default class WebColumn extends Component {
 		} else if (type === 'para') {
 			return (
 				<div className="WC-item_para-con">
-					<p className="WC-item_para">{typeof item.text == 'function' ? item.text() : item.title}</p>
+					<span className="WC-item_para">{typeof item.text == 'function' ? item.text() : item.title}</span>
 				</div>
 			);
 		} else if (type === 'content-title') {
@@ -41,7 +41,7 @@ export default class WebColumn extends Component {
 		} else if (type === 'quote') {
 			return (
 				<div className="WC-item_quote-con">
-					<p className="WC-item_quote">{typeof item.text == 'function' ? item.text() : item.title}</p>
+					<span className="WC-item_quote">{typeof item.text == 'function' ? item.text() : item.title}</span>
 				</div>
 			);
 		} else if (type === 'img3row') {
@@ -72,7 +72,11 @@ export default class WebColumn extends Component {
 		}
 	};
 	renderList = (list) => {
-		return list.map((item) => <div className="WC-item">{this.renderItem(item)}</div>);
+		return list.map((item, i) => (
+			<div key={i} className="WC-item">
+				{this.renderItem(item)}
+			</div>
+		));
 	};
 	renderRight = () => {
 		let right = this.props.right || [];

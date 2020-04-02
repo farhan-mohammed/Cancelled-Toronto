@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 export default class Header extends Component {
 	renderList = () =>
+		// Uses the List of pages passed through by WebsiteWrapper to render a bar with sections that have dropdowns for the pages that ly in that section
 		this.props.NavList.map(({ decade, files }) => (
 			<li className="header-nav_li  hnv-li" key={decade}>
 				<span>{`${decade}s`}</span>
@@ -22,18 +23,17 @@ export default class Header extends Component {
 		return (
 			<div className="header">
 				<div className="header-top">
+					{/**The title at the top */}
 					<div className="header-top-pic">
 						<Link href="/">
 							<a>
-								{/* <div className="header-pic_wide">
-									<img className="header-pic_widepng" src="/images/header/wide.png" />
-								</div> */}
 								<div className="header-pic_narrow">
 									<img className="header-pic_narrowpng" src="/images/header/narrow.png" />
 								</div>
 							</a>
 						</Link>
 					</div>
+					{/** The hamburger menu that only shows up on mobile*/}
 					<div className="header-top-ham" onClick={this.props.toggleHamburger}>
 						<div className={activeClass}>
 							<div className="HamBurgbar1" />
@@ -42,33 +42,9 @@ export default class Header extends Component {
 						</div>
 					</div>
 				</div>
+				{/** The Header navigation that shows up on longer devices*/}
 				<nav className="header-bar">
-					{/* <div className="header-bar-start">
-						Cancelled Plans<div className="header-bar-starttxt"> of the</div>:
-					</div> */}
-					<ul className="header-nav">
-						{/* <li className="header-nav_li hvr-underline-from-center">
-							<Link href="/Pre1950s">
-								<a>1950s</a>
-							</Link>
-						</li>
-						<li className="header-nav_li">
-							<Link href="/1960s">
-								<a>1960s</a>
-							</Link>
-						</li>
-						<li className="header-nav_li">
-							<Link href="/1970s">
-								<a>1970s</a>
-							</Link>
-						</li> */}
-						{this.renderList()}
-					</ul>
-					{/* <div className="header-bar-end">
-						<Link href="/">
-							<a>About the Site</a>
-						</Link>
-					</div> */}
+					<ul className="header-nav">{this.renderList()}</ul>
 				</nav>
 			</div>
 		);
