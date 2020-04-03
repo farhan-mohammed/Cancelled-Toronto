@@ -1,5 +1,7 @@
 # [CancelledToronto.ca](https://cancelledtoronto.ca/)
 
+<img src="https://imgur.com/x5Q9YUs.png">
+
 ## Introduction
 Cancelled Toronto is an informative website about the cancelled transit plans of Toronto researched for and written by [Danny Xue](https://www.linkedin.com/in/danny-xue/) and built by [Farhan Mohammed](https://www.linkedin.com/in/danny-xue/)
 
