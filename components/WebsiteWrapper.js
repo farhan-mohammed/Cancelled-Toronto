@@ -124,6 +124,7 @@ export default class mainSite extends Component {
 			<div className={containerWrapper}>
 				{/** There are meta properties that are stored in the Head of the page */}
 				<Head>
+					<meta property="og:title" content="Cancelled Toronto" />
 					<meta property="og:image" content="/images/back-min.jpg" />
 					<link rel="icon" type="image/png" href="/images/thumb.png" />
 					<link href="/styles.css" rel="stylesheet" />
