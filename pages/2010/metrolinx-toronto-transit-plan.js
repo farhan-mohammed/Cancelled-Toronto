@@ -189,11 +189,7 @@ export default class MetroLinxTTP extends Component {
 							type: 'quote',
 							text: () => (
 								<span>
-									Meanwhile, $4.2 billion would be spent on extensions east and westwards to the
-									Sheppard subway to Downsview Station in the east and Scarborough Centre Station in
-									the west, set to open in 2019.<sup>10</sup> Remaining provincial funds leftover from
-									the $8.2 billion planned to be spent on the Eglinton LRT would also be diverted to
-									completing the Sheppard subway extensions, anticipated to be up to $650 million.<sup>11</sup>
+									Conceptual alignments of the Sheppard subway’s extension eastwards to Scarborough Town Centre featured six new stations with connections at Scarborough Centre Station to a rebuilt Scarborough Rapid Transit line that would be part of the provinces’ Eglinton-Scarborough Crosstown LRT project.<sup>12</sup> The alignment closely followed plans for a complete Sheppard subway as laid out in the original 1992 environmental assessment for the project studied between the Let’s Move and Rapid Transit Expansion Program eras.<sup>13</sup>
 								</span>
 							)
 						}
