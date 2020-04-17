@@ -84,7 +84,7 @@ export default class GoUrban extends Component {
 				<Head>
 					<title>GO-Urban (1973)</title>
 					<meta property="og:image" content="/images/GO-Urban/GO-Urban Map.png" />
-					<meta property="og:title" content="Go Urban (1973): Cancelled, evolved into go-arlt" />
+					<meta property="og:title" content="Go-Urban (1973): Cancelled, evolved into go-arlt" />
 				</Head>
 				<WebColumn
 					left={[
