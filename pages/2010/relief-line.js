@@ -128,7 +128,7 @@ export default class ReliefLine extends Component {
 						},
 						{
 							type: 'img',
-							src: 'images/Relief-Line/Relief-Line-Alignment.jpg'
+							src: 'Relief-Line/Relief-Line-Alignment.jpg'
 						},
 						{
 							type: 'quote',
@@ -248,7 +248,7 @@ export default class ReliefLine extends Component {
 							type: 'img',
 
 							// adjust: { hide: true },
-							src: 'images/Relief-Line/Moss-Park-and-Regent-Park.jpg'
+							src: 'Relief-Line/Moss-Park-and-Regent-Park.jpg'
 						},
 						{
 							type: 'para',
@@ -345,7 +345,7 @@ export default class ReliefLine extends Component {
 						{
 							type: 'img',
 
-							src: 'images/Relief-Line/Bloor-Yonge-Station.jpg'
+							src: 'Relief-Line/Bloor-Yonge-Station.jpg'
 						},
 						{
 							type: 'para',
