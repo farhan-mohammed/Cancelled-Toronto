@@ -5,18 +5,18 @@ import Header from './Header.js';
 // NavList contains the list of pages and their repesective propers to be displayed on the header and the side menu
 const NavList = [
 	{
-		decade: '1970',
+		decade: '1970s',
 		files: [
 			{
 				year: '1973',
-				name: 'Go Urban',
+				name: 'Go-Urban',
 				// link: '/'
 				link: 'go-urban'
 			}
 		]
 	},
 	{
-		decade: '1980',
+		decade: '1980s',
 		files: [
 			{
 				year: '1985',
@@ -27,7 +27,7 @@ const NavList = [
 		]
 	},
 	{
-		decade: '1990',
+		decade: '1990s',
 		files: [
 			// {
 			// 	year: '1990',
@@ -43,7 +43,7 @@ const NavList = [
 		]
 	},
 	{
-		decade: '2000',
+		decade: '2000s',
 		files: [
 			{
 				year: '2007',
@@ -54,7 +54,7 @@ const NavList = [
 		]
 	},
 	{
-		decade: '2010',
+		decade: '2010s',
 		files: [
 			{
 				year: '2011',
