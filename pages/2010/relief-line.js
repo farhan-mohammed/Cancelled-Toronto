@@ -128,7 +128,7 @@ export default class ReliefLine extends Component {
 						},
 						{
 							type: 'img',
-							src: 'images/Relief-Line/Relief-Line-Alignment'
+							src: 'images/Relief-Line/Relief-Line-Alignment.jpg'
 						},
 						{
 							type: 'quote',
@@ -345,7 +345,7 @@ export default class ReliefLine extends Component {
 						{
 							type: 'img',
 
-							src: 'images/Relief-Line/Bloor-Yonge-Station'
+							src: 'images/Relief-Line/Bloor-Yonge-Station.jpg'
 						},
 						{
 							type: 'para',
