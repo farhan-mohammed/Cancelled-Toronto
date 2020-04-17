@@ -615,7 +615,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'transitcity/TC9.jpg'
+							src: 'Transit-City/Mount-Dennis-Portal.jpg'
 						},
 						{
 							type: 'para',
