@@ -8,7 +8,7 @@ import Footnotes from '../../components/Footnotes';
 
 export default class RapidTransit extends Component {
 	renderView() {
-		return <ImgAll img="/images/RTEP/RTEP.png" />;
+		return <ImgAll img="/images/Rapid-Transit-Expansion-Program/Rapid-Transit-Expansion-Program-Map.png" />;
 	}
 	footnotes() {
 		const footnotes = [
@@ -128,7 +128,7 @@ export default class RapidTransit extends Component {
 							type: 'img',
 							adjust: { hide: true },
 							// /images/ already saved
-							src: 'RTEP/RTEPC.jpg'
+							src: 'Rapid-Transit-Expansion-Program/North-York-Centre.jpg'
 						},
 						{
 							type: 'para',
@@ -171,7 +171,7 @@ export default class RapidTransit extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEP/RTEPA.png'
+							src: 'Rapid-Transit-Expansion-Program/Eglinton-West-Alignment.png'
 						},
 						{
 							type: 'quote',
@@ -192,7 +192,7 @@ export default class RapidTransit extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEP/RTEPB.png'
+							src: 'Rapid-Transit-Expansion-Program/Sheppard-Alignment.png'
 						},
 						{
 							type: 'quote',
@@ -212,7 +212,7 @@ export default class RapidTransit extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEP/RTEPE.png'
+							src: 'Rapid-Transit-Expansion-Program/Yonge-Spadina-Loop-Alignment.png'
 						},
 						{
 							type: 'quote',
@@ -235,7 +235,7 @@ export default class RapidTransit extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'RTEP/RTEPD.png'
+							src: 'Rapid-Transit-Expansion-Program/Scarborough-RT-Extension-Alignment.png'
 						},
 						{
 							type: 'quote',
@@ -329,7 +329,7 @@ export default class RapidTransit extends Component {
 							)
 						}
 					]}
-					right={[ { type: 'img', adjust: { hide: true, width: '2/3' }, src: 'RTEP/RTEPF.jpg' } ]}
+					right={[ { type: 'img', adjust: { hide: true, width: '2/3' }, src: 'Rapid-Transit-Expansion-Program/Sheppard-Subway-Construction.jpg' } ]}
 				/>
 				<WebColumn
 					left={[]}
