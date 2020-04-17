@@ -7,7 +7,7 @@ import WebColumn from '../../components/templates/WebColumn';
 import Footnotes from '../../components/Footnotes.js';
 
 export default class MetroLinxTTP extends Component {
-	renderView = () => <ImgAll img="/images/Metrolinx-Toronto-Transit-Plan/Metrolinx-Toronto-Transit-Plan-Map.png" />;
+	renderView = () => <ImgAll img="/images/Metrolinx-Toronto Transit Plan/Metrolinx-Toronto Transit Plan Map.png" />;
 	renderText() {
 		const renderFootnotes = () => {
 			const footnotes = [
@@ -122,7 +122,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'Metrolinx-Toronto-Transit-Plan/Scarborough-City-Centre.jpg'
+							src: 'Metrolinx-Toronto Transit Plan/Scarborough City Centre.jpg'
 						},
 						{
 							type: 'para',
@@ -183,7 +183,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'Metrolinx-Toronto-Transit-Plan/Sheppard-East-Extension-Alignment.jpg'
+							src: 'Metrolinx-Toronto Transit Plan/Sheppard East Extension Alignment.jpg'
 						},
 						{
 							type: 'quote',
@@ -202,7 +202,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'Metrolinx-Toronto-Transit-Plan/Sheppard-West-Extension-Alignment.jpg'
+							src: 'Metrolinx-Toronto Transit Plan/Sheppard West Extension Alignment.jpg'
 						},
 						{
 							type: 'quote',
@@ -277,7 +277,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'Metrolinx-Toronto-Transit-Plan/Sheppard-Yonge-Station.jpg'
+							src: 'Metrolinx-Toronto Transit Plan/Sheppard-Yonge Station.jpg'
 						},
 
 						{
@@ -332,7 +332,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'Metrolinx-Toronto-Transit-Plan/Funded-Transit-City-Plan.png'
+							src: 'Metrolinx-Toronto Transit Plan/Funded Transit City Map.png'
 						},
 						{
 							type: 'quote',
