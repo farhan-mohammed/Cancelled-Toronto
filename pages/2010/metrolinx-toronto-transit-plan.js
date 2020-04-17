@@ -7,7 +7,7 @@ import WebColumn from '../../components/templates/WebColumn';
 import Footnotes from '../../components/Footnotes.js';
 
 export default class MetroLinxTTP extends Component {
-	renderView = () => <ImgAll img="/images/metro/metro1.png" />;
+	renderView = () => <ImgAll img="/images/Metrolinx-Toronto-Transit-Plan/Metrolinx-Toronto-Transit-Plan-Map.png" />;
 	renderText() {
 		const renderFootnotes = () => {
 			const footnotes = [
@@ -122,7 +122,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'metro/metro2.jpg'
+							src: 'Metrolinx-Toronto-Transit-Plan/Scarborough-City-Centre.jpg'
 						},
 						{
 							type: 'para',
@@ -183,7 +183,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'metro/metro5.jpg'
+							src: 'Metrolinx-Toronto-Transit-Plan/Sheppard-East-Extension-Alignment.jpg'
 						},
 						{
 							type: 'quote',
@@ -202,7 +202,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'metro/metro6.jpg'
+							src: 'Metrolinx-Toronto-Transit-Plan/Sheppard-West-Extension-Alignment.jpg'
 						},
 						{
 							type: 'quote',
@@ -277,7 +277,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'metro/metro3.jpg'
+							src: 'Metrolinx-Toronto-Transit-Plan/Sheppard-Yonge-Station.jpg'
 						},
 
 						{
@@ -332,7 +332,7 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'metro/metro4.png'
+							src: 'Metrolinx-Toronto-Transit-Plan/Funded-Transit-City-Plan.png'
 						},
 						{
 							type: 'quote',
