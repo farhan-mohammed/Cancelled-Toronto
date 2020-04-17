@@ -3,7 +3,7 @@ import WebsiteLayout from '../../components/WebsiteWrapper.js';
 import WebColumn from '../../components/templates/WebColumn';
 import Footnotes from '../../components/Footnotes.js';
 
-const images = [ '/images/Relief-Line/Relief-Line-Map.png', '/images/Relief-Line/Relief-Line-Alignment.png', '/images/Relief-Line/Moss-Park-and-Regent-Park.jpg', '/images/Relief-Line/Bloor-Yonge-Station.jpg' ];
+const images = [ '/images/Relief-Line/Relief-Line-Map.png', '/images/Relief-Line/Relief-Line-Alignment.jpg', '/images/Relief-Line/Moss-Park-and-Regent-Park.jpg', '/images/Relief-Line/Bloor-Yonge-Station.jpg' ];
 export default class ReliefLine extends Component {
 	renderView() {
 		return (
