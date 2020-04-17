@@ -8,7 +8,7 @@ import Footnotes from '../../components/Footnotes.js';
 
 export default class TransitCity extends Component {
 	renderView() {
-		return <ImgAll img="/images/Transit-City/Transit-City-Map.png" />;
+		return <ImgAll img="/images/Transit City/Transit City Map.png" />;
 	}
 	renderFootnotes = () => {
 		const footnotes = [
@@ -132,7 +132,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'Transit-City/St.Clair-Streetcar-ROW.jpg'
+							src: 'Transit City/St.Clair Streetcar ROW.jpg'
 						},
 						{
 							type: 'para',
@@ -280,7 +280,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'Transit-City/Bombardier-Flexity-Freedom-LRV-1.jpg'
+							src: 'Transit City/Bombardier Flexity Freedom LRV 1.jpg'
 						},
 						{
 							type: 'para',
@@ -350,7 +350,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'Transit-City/Bombardier-Flexity-Freedom-LRV-2.jpg'
+							src: 'Transit City/Bombardier Flexity Freedom LRV 2.jpg'
 						},
 						{
 							type: 'para',
@@ -382,7 +382,7 @@ export default class TransitCity extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'Transit-City/Sheppard-East-Alignment.jpg'
+							src: 'Transit City/Sheppard East Alignment.jpg'
 						},
 						{
 							type: 'quote',
@@ -408,7 +408,7 @@ export default class TransitCity extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'Transit-City/Finch-West-Alignment.jpg'
+							src: 'Transit City/Finch West Alignment.jpg'
 						},
 						{
 							type: 'quote',
@@ -479,7 +479,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'Transit-City/Don-Mills-Station.jpg'
+							src: 'Transit City/Don Mills Station.jpg'
 						},
 						{
 							type: 'para',
@@ -521,7 +521,7 @@ export default class TransitCity extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'Transit-City/Funded-Transit-City.png'
+							src: 'Transit City/Funded Transit City Map.png'
 						},
 						{
 							type: 'quote',
@@ -615,7 +615,7 @@ export default class TransitCity extends Component {
 					right={[
 						{
 							type: 'img',
-							src: 'Transit-City/Mount-Dennis-Portal.jpg'
+							src: 'Transit City/Mount Dennis Portal.jpg'
 						},
 						{
 							type: 'para',
