@@ -7,7 +7,7 @@ const ImageList = [
 		href: '/2010/relief-line',
 		title: 'Relief Line (2016)',
 		subtitle: <span>Cancelled, replaced with Ontario Line</span>,
-		img: 'Relief-Line.png'
+		img: 'Relief Line.png'
 	},
 	{
 		// href: '/',
@@ -15,14 +15,14 @@ const ImageList = [
 		title: 'Metrolinx/Toronto Transit Plan (2011)',
 		subtitle: 'Cancelled',
 		// subtitle: '',
-		img: 'Metrolinx-Toronto-Transit-Plan.png'
+		img: 'Metrolinx-Toronto Transit Plan.png'
 	},
 	{
 		// href: '/',
 		href: '/2000/transit-city',
 		title: 'Transit City (2007)',
 		subtitle: 'Cancelled, partially under construction',
-		img: 'Transit-City.png'
+		img: 'Transit City.png'
 	},
 	{
 		// href: '/',
@@ -31,7 +31,7 @@ const ImageList = [
 		title: 'Rapid Transit Expansion Program (1993)',
 		subtitle: 'Cancelled, partially built',
 		// subtitle: '',
-		img: 'Rapid-Transit-Expansion-Program.png'
+		img: 'Rapid Transit Expansion Program.png'
 	},
 	// {
 	// 	// href: '/',
@@ -45,7 +45,7 @@ const ImageList = [
 		href: '/1980/network-2011',
 		title: 'Network 2011 (1985)',
 		subtitle: "Cancelled, replaced with Let's Move",
-		img: 'Network-2011.png'
+		img: 'Network 2011.png'
 	},
 	{
 		// href: '/',
