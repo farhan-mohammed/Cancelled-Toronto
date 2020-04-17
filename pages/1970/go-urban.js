@@ -311,7 +311,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/Ontario Place Station.png', alt:'This image shows the proposed Ontario Place Station. The station would sit across from the artificial islands which Ontario Place is located on.' },
+						{ type: 'img', src: 'GO-Urban/Ontario Place Station.jpg', alt:'This image shows the proposed Ontario Place Station. The station would sit across from the artificial islands which Ontario Place is located on.' },
 						{
 							type: 'para',
 							text: () => (
@@ -408,7 +408,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 2.png', alt:'This image shows the proposed GO-Urban system running elevated along a street.'  },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 2.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a street.'  },
 						{
 							type: 'para',
 							text: () => (
@@ -501,7 +501,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 3.png', alt:'This image shows the proposed GO-Urban system running elevated along a railway right-of-way.'   },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 3.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a railway right-of-way.'   },
 						{
 							type: 'para',
 							text: () => (
