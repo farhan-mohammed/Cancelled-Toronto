@@ -3,7 +3,7 @@ import WebsiteLayout from '../../components/WebsiteWrapper.js';
 import WebColumn from '../../components/templates/WebColumn';
 import Footnotes from '../../components/Footnotes.js';
 
-const images = [ '/images/Relief-Line/Relief-Line-Map.png', '/images/Relief-Line/Relief-Line-Alignment.jpg', '/images/Relief-Line/Moss-Park-and-Regent-Park.jpg', '/images/Relief-Line/Bloor-Yonge-Station.jpg' ];
+const images = [ '/images/Relief Line/Relief Line Map.png', '/images/Relief Line/Relief Line Alignment.jpg', '/images/Relief Line/Moss Park and Regent Park.jpg', '/images/Relief Line/Bloor-Yonge Station.jpg' ];
 export default class ReliefLine extends Component {
 	renderView() {
 		return (
@@ -128,7 +128,7 @@ export default class ReliefLine extends Component {
 						},
 						{
 							type: 'img',
-							src: 'Relief-Line/Relief-Line-Alignment.jpg'
+							src: 'Relief Line/Relief Line Alignment.jpg'
 						},
 						{
 							type: 'quote',
@@ -248,7 +248,7 @@ export default class ReliefLine extends Component {
 							type: 'img',
 
 							// adjust: { hide: true },
-							src: 'Relief-Line/Moss-Park-and-Regent-Park.jpg'
+							src: 'Relief Line/Moss Park and Regent Park.jpg'
 						},
 						{
 							type: 'para',
@@ -345,7 +345,7 @@ export default class ReliefLine extends Component {
 						{
 							type: 'img',
 
-							src: 'Relief-Line/Bloor-Yonge-Station.jpg'
+							src: 'Relief Line/Bloor-Yonge Station.jpg'
 						},
 						{
 							type: 'para',
