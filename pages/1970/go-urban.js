@@ -152,7 +152,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true, width: '2/3' }, src: 'GO-Urban/Allen Road.jpg' },
+						{ type: 'img', adjust: { hide: true, width: '2/3' }, src: 'GO-Urban/Allen Road.jpg', alt: 'This is an image of Allen Road, previously the Spadina Expressway, which work was halted after opposition from local residents. This crucial moment was the end of a comprehensive network of highways planned for Toronto in the 1950s to early 1970s' },
 						{
 							type: 'para',
 							text: () => (
@@ -172,7 +172,7 @@ export default class GoUrban extends Component {
 				/>
 				<WebColumn
 					left={[
-						{ type: 'content-title', title: 'GO-Urban Rendering 1' },
+						{ type: 'content-title', title: 'GO-Urban Along Hydro Right-of-ways' },
 						{
 							type: 'quote',
 							text: () => (
@@ -188,7 +188,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering.png' },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 1.png', alt: 'This image shows the proposed GO-Urban system running elevated in a hydro right-of-way.' },
 						{
 							type: 'para',
 							text: () => (
@@ -219,7 +219,8 @@ export default class GoUrban extends Component {
 						{
 							type: 'img3row',
 							// /images/ already saved
-							images: [ 'GO-Urban/Krauss-Maffei Prototype.png', 'GO-Urban/Ford Prototype.png', 'GO-Urban/Hawker-Siddeley Prototype.png' ]
+							images: [ 'GO-Urban/Krauss-Maffei Prototype.png', 'GO-Urban/Ford Prototype.png', 'GO-Urban/Hawker-Siddeley Prototype.png' ],
+							alt: 'These images show the prototype vehicles created by each of the finalists in the search for a system that the ICTS program would use.'
 						},
 						{
 							type: 'quote',
@@ -273,7 +274,8 @@ export default class GoUrban extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'GO-Urban/CNE Demonstration Track Map.png'
+							src: 'GO-Urban/CNE Demonstration Track Map.png',
+							alt: 'This image shows the proposed demonstration track for the GO-Urban system, which started construction late in 1973. There would be four stations, one at Exhibition GO Station/streetcar loop, one at Dufferin Street, one across Ontario Place, and one at Princes Gate. It was overbudget and was ultimately never completed following the cancellation of GO-Urban.'
 						},
 						{
 							type: 'quote',
@@ -309,7 +311,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/Ontario Place Station.png' },
+						{ type: 'img', src: 'GO-Urban/Ontario Place Station.png', alt:'This image shows the proposed Ontario Place Station. The station would sit across from the artificial islands which Ontario Place is located on.' },
 						{
 							type: 'para',
 							text: () => (
@@ -389,7 +391,7 @@ export default class GoUrban extends Component {
 
 				<WebColumn
 					left={[
-						{ type: 'content-title', title: 'GO-Urban Along Street' },
+						{ type: 'content-title', title: 'GO-Urban Along Street'},
 						{
 							type: 'para',
 							text: () => (
@@ -406,7 +408,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 2.png' },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 2.png', alt:'This image shows the proposed GO-Urban system running elevated along a street.'  },
 						{
 							type: 'para',
 							text: () => (
@@ -458,8 +460,8 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { width: '2/3' }, src: 'GO-Urban/Proposed Hamilton System Map.png' },
-						{ type: 'img', adjust: { width: '2/3' }, src: 'GO-Urban/Proposed Ottawa System Map.png' },
+						{ type: 'img', adjust: { width: '2/3' }, src: 'GO-Urban/Proposed Hamilton System Map.png', alt: 'This image shows the proposed system in Hamilton. Lines would mostly follow right-of-ways of railways and hydro-corridors.' },
+						{ type: 'img', adjust: { width: '2/3' }, src: 'GO-Urban/Proposed Ottawa System Map.png', alt:'This image shows the proposed system in Ottawa. Lines would mostly follow right-of-ways of railways and hydro-corridors.' },
 						{
 							type: 'para',
 							text: () => (
@@ -499,7 +501,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 3.png' },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 3.png', alt:'This image shows the proposed GO-Urban system running elevated along a railway right-of-way.'   },
 						{
 							type: 'para',
 							text: () => (
@@ -588,7 +590,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/CLRV LRV.jpg' },
+						{ type: 'img', src: 'GO-Urban/CLRV LRV.jpg', alt: 'This image shows two CLRV LRV streetcars coupled together.' },
 						{
 							type: 'para',
 							text: () => (
@@ -631,7 +633,7 @@ export default class GoUrban extends Component {
 
 				<WebColumn
 					left={[
-						{ type: 'content-title', title: 'Scarborough Rapid Transit' },
+						{ type: 'content-title', title: 'Scarborough Rapid Transit'},
 						{
 							type: 'quote',
 							text: () => (
@@ -653,7 +655,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true }, src: 'GO-Urban/McCowan Station.jpg' },
+						{ type: 'img', adjust: { hide: true }, src: 'GO-Urban/McCowan Station.jpg', alt:'This image shows McCowan Station of the Scarborough Rapid Transit Line, a sort of successor station to the GO-Urban system.' },
 						{
 							type: 'para',
 							text: () => (
