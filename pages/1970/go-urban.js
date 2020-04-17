@@ -9,7 +9,7 @@ export default class GoUrban extends Component {
 	renderView() {
 		return (
 			<div className="body__img-con">
-				<img src="/images/gourban/GO-Urban Map.png" alt="" className="body__img" style={{ margin: '10px 0' }} />
+				<img src="/images/GO-Urban/GO-Urban Map.png" alt="" className="body__img" style={{ margin: '10px 0' }} />
 			</div>
 		);
 	}
@@ -83,7 +83,7 @@ export default class GoUrban extends Component {
 			<div>
 				<Head>
 					<title>Go Urban (1973)</title>
-					<meta property="og:image" content="/images/gourban/GO-Urban Map.png" />
+					<meta property="og:image" content="/images/GO-Urban/GO-Urban Map.png" />
 					<meta property="og:title" content="Go Urban (1973): Cancelled, evolved into go-arlt" />
 				</Head>
 				<WebColumn
@@ -152,7 +152,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true, width: '2/3' }, src: 'gourban/Allen.jpg' },
+						{ type: 'img', adjust: { hide: true, width: '2/3' }, src: 'GO-Urban/Allen Road.jpg' },
 						{
 							type: 'para',
 							text: () => (
@@ -172,7 +172,7 @@ export default class GoUrban extends Component {
 				/>
 				<WebColumn
 					left={[
-						{ type: 'content-title', title: 'GO-Urban Rendering' },
+						{ type: 'content-title', title: 'GO-Urban Rendering 1' },
 						{
 							type: 'quote',
 							text: () => (
@@ -188,7 +188,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'gourban/Render5.png' },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering.png' },
 						{
 							type: 'para',
 							text: () => (
@@ -219,7 +219,7 @@ export default class GoUrban extends Component {
 						{
 							type: 'img3row',
 							// /images/ already saved
-							images: [ 'gourban/Render8.png', 'gourban/Render9.png', 'gourban/Render10.png' ]
+							images: [ 'GO-Urban/Krauss-Maffei Prototype.png', 'GO-Urban/Ford Prototype.png', 'GO-Urban/Hawker-Siddeley Prototype.png' ]
 						},
 						{
 							type: 'quote',
@@ -273,7 +273,7 @@ export default class GoUrban extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'gourban/CNE-01.png'
+							src: 'GO-Urban/CNE Demonstration Track Map.png'
 						},
 						{
 							type: 'quote',
@@ -309,7 +309,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'gourban/Render3.png' },
+						{ type: 'img', src: 'GO-Urban/Ontario Place Station.png' },
 						{
 							type: 'para',
 							text: () => (
@@ -406,7 +406,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'gourban/Render.png' },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 2.png' },
 						{
 							type: 'para',
 							text: () => (
@@ -458,8 +458,8 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { width: '2/3' }, src: 'gourban/Hamilton-01.png' },
-						{ type: 'img', adjust: { width: '2/3' }, src: 'gourban/Ottawa-01.png' },
+						{ type: 'img', adjust: { width: '2/3' }, src: 'GO-Urban/Proposed Hamilton System Map.png' },
+						{ type: 'img', adjust: { width: '2/3' }, src: 'GO-Urban/Proposed Ottawa System Map.png' },
 						{
 							type: 'para',
 							text: () => (
@@ -499,7 +499,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'gourban/Render2.png' },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 3.png' },
 						{
 							type: 'para',
 							text: () => (
@@ -588,7 +588,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'gourban/LRV.jpg' },
+						{ type: 'img', src: 'GO-Urban/CLRV LRV.jpg' },
 						{
 							type: 'para',
 							text: () => (
@@ -653,7 +653,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true }, src: 'gourban/McCowanStation.jpg' },
+						{ type: 'img', adjust: { hide: true }, src: 'GO-Urban/McCowan Station.jpg' },
 						{
 							type: 'para',
 							text: () => (
