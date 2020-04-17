@@ -7,7 +7,7 @@ const ImageList = [
 		href: '/2010/relief-line',
 		title: 'Relief Line (2016)',
 		subtitle: <span>Cancelled, replaced with Ontario Line</span>,
-		img: 'Image1.png'
+		img: 'Relief-Line.png'
 	},
 	{
 		// href: '/',
@@ -15,14 +15,14 @@ const ImageList = [
 		title: 'Metrolinx/Toronto Transit Plan (2011)',
 		subtitle: 'Cancelled',
 		// subtitle: '',
-		img: 'Image2.png'
+		img: 'Metrolinx-Toronto-Transit-Plan.png'
 	},
 	{
 		// href: '/',
 		href: '/2000/transit-city',
 		title: 'Transit City (2007)',
 		subtitle: 'Cancelled, partially under construction',
-		img: 'Image3.png'
+		img: 'Transit-City.png'
 	},
 	{
 		// href: '/',
@@ -31,28 +31,28 @@ const ImageList = [
 		title: 'Rapid Transit Expansion Program (1993)',
 		subtitle: 'Cancelled, partially built',
 		// subtitle: '',
-		img: 'Image4.png'
+		img: 'Rapid-Transit-Expansion-Program.png'
 	},
 	// {
 	// 	// href: '/',
 	// 	href: '/1990/lets-move',
 	// 	title: "Let's Move (1990)",
 	// 	subtitle: 'Cancelled, replaced with Rapid Transit Expansion Program',
-	// 	img: '/images/Image5.png'
+	// 	img: '/images/Let's-Move.png'
 	// },
 	{
 		// href: '/',
 		href: '/1980/network-2011',
 		title: 'Network 2011 (1985)',
 		subtitle: "Cancelled, replaced with Let's Move",
-		img: 'Image6.png'
+		img: 'Network-2011.png'
 	},
 	{
 		// href: '/',
 		href: '/1970/go-urban',
-		title: 'Go Urban (1973)',
+		title: 'Go-Urban (1973)',
 		subtitle: 'Cancelled, evolved into go-alrt',
-		img: 'Image8.png'
+		img: 'GO-Urban.png'
 	}
 ];
 export default class App extends Component {
