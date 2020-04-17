@@ -13,7 +13,7 @@ export default class Year1980 extends Component {
 	renderView() {
 		return (
 			<div className="body__img-con">
-				<img src="/images/Network-2011/Network-2011-Map.png" alt="" className="body__img" style={{ margin: '10px 0' }} />
+				<img src="/images/Network 2011/Network 2011 Map.png" alt="" className="body__img" style={{ margin: '10px 0' }} />
 			</div>
 		);
 	}
@@ -140,7 +140,7 @@ export default class Year1980 extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'Network-2011/Downtown-Rapid-Transit-Study-Routes.jpg'
+							src: 'Network 2011/Downtown Rapid Transit Study Routes.jpg'
 						},
 						{
 							type: 'quote',
@@ -209,7 +209,7 @@ export default class Year1980 extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true }, src: 'Network-2011/North-York-Centre.jpg' },
+						{ type: 'img', adjust: { hide: true }, src: 'Network 2011/North York Centre.jpg' },
 						{
 							type: 'quote',
 							text: () => (
@@ -253,7 +253,7 @@ export default class Year1980 extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true }, src: 'Network-2011/Scarborough-City-Centre.jpg' },
+						{ type: 'img', adjust: { hide: true }, src: 'Network 2011/Scarborough City Centre.jpg' },
 						{
 							type: 'para',
 							text: () => (
