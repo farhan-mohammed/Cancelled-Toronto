@@ -22,7 +22,7 @@ export default class WebColumn extends Component {
 						src={`/images/${item.src}`
 						// '/images/test.png'
 						}
-						alt=""
+						alt={item.alt || ''}
 					/>
 				</div>
 			);
@@ -48,13 +48,13 @@ export default class WebColumn extends Component {
 			return (
 				<div className="WC-item_img3row">
 					<div className="WC-item_img3row__img1">
-						<img src={`/images/${item.images[0]}`} />
+						<img src={`/images/${item.images[0]}`} alt={item.alt || ''} />
 					</div>
 					<div className="WC-item_img3row__img2">
-						<img src={`/images/${item.images[1]}`} />
+						<img src={`/images/${item.images[1]}`} alt={item.alt || ''} />
 					</div>
 					<div className="WC-item_img3row__img3">
-						<img src={`/images/${item.images[2]}`} />
+						<img src={`/images/${item.images[2]}`} alt={item.alt || ''} />
 					</div>
 				</div>
 			);
