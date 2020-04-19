@@ -201,7 +201,7 @@ export default class GoUrban extends Component {
 									proposal called for small vehicles of only 20 feet long (6.09 metres) by 7.5 feet wide (2.29 metres) holding 20 passengers (12 passengers sitting and
 									8 standing) to operate on elevated guideways at planned frequencies of up to
 									20-seconds.<sup>10</sup> Operations of the system were extremely flexible,
-									with vehicles able to operate singly or coupled together up to six cars, all
+									with vehicles able to operate singly or coupled together in trainsets of up to six cars, all
 									controlled by a central control centre. Stations were also to be automated, with
 									platform screen doors and automated ticketing.<sup>11</sup>
 								</span>
