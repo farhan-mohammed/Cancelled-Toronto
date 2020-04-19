@@ -100,7 +100,7 @@ export default class GoUrban extends Component {
 									GO-Urban was an ambitious plan created by the Province of Ontario towards creating
 									an urban transit network spanning across Metropolitan Toronto and two other large
 									Ontario cities utilising an experimental maglev system powered by linear induction
-									motors. It was projected to fill the niche of intermediate-capacity transit, a gap
+									motors. It was projected to fill the niche of intermediate capacity transit, a gap
 									between low-capacity surface bus routes and high-capacity, high-cost underground
 									subways.
 								</span>
@@ -120,7 +120,7 @@ export default class GoUrban extends Component {
 									transportation policy outlined several steps in combatting growing congestion in the
 									region including subsidises for transit-related facilities, staggered working hour
 									programs, expansion of computerized traffic control systems, and most notably, the
-									introduction of a new six-line urban intermediate-capacity transit system (ICTS),
+									introduction of a new six-line urban Intermediate Capacity Transit System (ICTS),
 									later dubbed GO-Urban.<sup>3</sup>
 								</span>
 							)

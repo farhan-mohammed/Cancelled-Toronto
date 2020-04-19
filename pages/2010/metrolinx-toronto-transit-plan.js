@@ -122,7 +122,8 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'Metrolinx-Toronto Transit Plan/Scarborough City Centre.jpg'
+							src: 'Metrolinx-Toronto Transit Plan/Scarborough City Centre.jpg',
+							alt: 'This image shows the skyline of Scarborough City Centre, a central business district of Toronto and proposed terminus of an extension of the Sheppard subway eastwards'
 						},
 						{
 							type: 'para',
@@ -183,7 +184,8 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'Metrolinx-Toronto Transit Plan/Sheppard East Extension Alignment.jpg'
+							src: 'Metrolinx-Toronto Transit Plan/Sheppard East Extension Alignment.jpg',
+							alt: 'This image shows the proposed extension of the Sheppard subway eastwards, with six new stations at Consumers Road, Victoria Park Avenue, Warden Avenue, Kennedy Road, the CN/CP rail interchange, and Progress Avenue. A new connection to a proposed re-built Scarborough Rapid Transit line in the form of an extension of the proposed Eglinton Crosstown LRT would be made at Scarborough Centre Station.'
 						},
 						{
 							type: 'quote',
@@ -202,7 +204,8 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'Metrolinx-Toronto Transit Plan/Sheppard West Extension Alignment.jpg'
+							src: 'Metrolinx-Toronto Transit Plan/Sheppard West Extension Alignment.jpg',
+							alt: 'This image shows the alignment of the proposed extension of the Sheppard subway westwards, with three new stations at Senlac Road, Bathurst Avenue, and Wilson Heights Boulevard. A new connection to the Spadina segment of the Yonge-University subway would be made at Downsview station.'
 						},
 						{
 							type: 'quote',
@@ -277,7 +280,8 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// adjust: { hide: true },
-							src: 'Metrolinx-Toronto Transit Plan/Sheppard-Yonge Station.jpg'
+							src: 'Metrolinx-Toronto Transit Plan/Sheppard-Yonge Station.jpg',
+							alt: 'This image shows Sheppard-Yonge station at platform-level.'
 						},
 
 						{
@@ -332,7 +336,8 @@ export default class MetroLinxTTP extends Component {
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'Metrolinx-Toronto Transit Plan/Funded Transit City Map.png'
+							src: 'Metrolinx-Toronto Transit Plan/Funded Transit City Map.png',
+							alt: 'This image shows the network of transit lines that were fully funded prior to their cancellation by Rob Ford. It features the Finch West LRT, the Eglinton Crosstown LRT, and the Sheppard East LRT.'
 						},
 						{
 							type: 'quote',
