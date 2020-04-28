@@ -22,6 +22,7 @@ export default class GoUrban extends Component {
 			`Canada. Ontario. Ministry of Transportation and Communications. Urban Transportation Policy for Ontario – A Statement by the Honourable William G. Davis Premier of Ontario.`,
 			`Ibid.`,
 			`Canada. Ontario. Ministry of Transportation and Communications. GO-Urban – A Government of Ontario Project. Toronto: Queen’s Printer for Ontario, 1973.`,
+			`Canada. Ontario. Ministry of Transportation and Communications. GO-Urban – A Government of Ontario Project.`,
 			`Ibid.`,
 			`Ibid.`,
 			`Ibid.`,
@@ -32,7 +33,6 @@ export default class GoUrban extends Component {
 			`Ibid.`,
 			`Robert, Williamson. “Davis Says Multi-Region Board to Run GO, Buses near Metro.” The Globe and Mail. August 24, 1973, sec. 5.`,
 			`Thomas, Coleman. “Germans Back out: Ontario Cancels Plan for Magnetic Trains.” The Globe and Mail. November 14, 1974, page 1.`,
-			`Canada. Ontario. Ministry of Transportation and Communications. GO-Urban – A Government of Ontario Project.`,
 			`Canada. Ontario. Ministry of Transportation and Communications. GO-Urban – A Government of Ontario Project.`,
 			`Ibid.`,
 			`Ibid.`,
@@ -49,16 +49,17 @@ export default class GoUrban extends Component {
 			`Coleman. “Half of GO-Urban Plan Won't Be Built Experts Predict.” page 47.`,
 			`“TTC: 2 Rails Better for GO-Urban.” Toronto Star, November 27, 1973, sec. A4.`,
 			`Thomas, Coleman. “GRO 'Declares War' on Godfrey over Expressway.” The Globe and Mail. September 11, 1973, page 5.`,
+			`Canada. Ontario. Ministry of Transportation and Communications. GO-Urban – A Government of Ontario Project.`,
 			`Thomas, Coleman. “Elevated Train System Called 'Flying Coffin' by Skeptical Audience Members in Scarboro.” The Globe and Mail. September 12, 1973, page 1.`,
 			`“GO-Urban Stations Will Be Huge, Unsightly in Suburbs, Report Says.” The Globe and Mail. April 22, 1974, page 29.`,
 			`Thomas, Coleman. “Group Accuses Queen's Park of Naivete, Extravagance: GO-Urban Stems from Misjudgment of Metro Transit Needs, Street Car Boosters Say.” The Globe and Mail. November 12, 1973, page 5.`,
-			`Canada. Ontario. Ministry of Transportation and Communications. GO-Urban – A Government of Ontario Project.`,
 			`“Delays, Cost Increases Plague GO-Urban Plan.” The Globe and Mail. May 7, 1974, page 5.`,
 			`“GO-Urban's Magnet Malfunction Makes Tories Target of Ridicule.” The Globe and Mail. November 8, 1973, page 3; Peter, Mosher. “Trains Won't Be Ready for the CNE: 'Elegance' of GO-Urban Track to Be Sacrificed for $2 Million Saving.” The Globe and Mail. May 22, 1974, page 31.`,
 			`“Work behind on GO-Urban, Firm Admits.” The Globe and Mail. May 4, 1974, page 4.`,
 			`“Work behind on GO-Urban, Firm Admits.” page 4.`,
 			`Thomas, Coleman. “Breakdown at Munich Test Site: Bugs Halt GO-Urban Train, Ontario Visit Off.” The Globe and Mail. October 29, 1974, page 4.`,
 			`“GO-Urban's Magnet Malfunction Makes Tories Target of Ridicule.” page 3; Thomas, Coleman. “'Would Be like Fire Blowout': GO-Urban Magnetic Train Having Trouble on Curves.” The Globe and Mail. November 7, 1973, page 1.`,
+			`Canada. Ontario. Ministry of Transportation and Communications. GO-Urban – A Government of Ontario Project.`,
 			`Coleman. “Germans Back out: Ontario Cancels Plan for Magnetic Trains.” page 1.`,
 			`Coleman. “Germans Back out: Ontario Cancels Plan for Magnetic Trains.” page 1.`,
 			`Ibid.`,
@@ -479,6 +480,26 @@ export default class GoUrban extends Component {
 									provide the capacity necessary for an ICTS system without such issues.<sup>38</sup>
 								</span>
 							)
+						},
+						{
+							type: 'para',
+							text: () => (
+								<span>
+									Such issues with the system began soon during the testing stage. Beginning with
+									delays to the demonstration line on the CNE, costs of the line soon rose
+									dramatically from a budgeted $17 million to $25 million.<sup>40</sup> Even after
+									cutting “frills” and even one of the four stations from the line, construction was
+									delayed past the 1975 opening date.<sup>41</sup> In West Germany, where development
+									of the technology was taking place, work was delayed as issues towards creating a
+									working prototype continued.<sup>42</sup> A scheduled trip by a provincial
+									delegation was postponed from June 1974 to September 1974.<sup>43</sup> Soon after
+									the September visit, the completed prototype was damaged while testing as bugs
+									continued to plague the system.<sup>44</sup> Then, on November 7th, 1974, it was
+									revealed that the system was incapable of reliably handling curves, cancelling
+									another visit by provincial and municipal officials and dignitaries from Los Angeles
+									and drawing ridicule from opposition parties in the provincial legislature.<sup>45</sup>{' '}
+								</span>
+							)
 						}
 					]}
 				/>
@@ -502,26 +523,6 @@ export default class GoUrban extends Component {
 					]}
 					right={[
 						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 3.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a railway right-of-way.'   },
-						{
-							type: 'para',
-							text: () => (
-								<span>
-									Such issues with the system began soon during the testing stage. Beginning with
-									delays to the demonstration line on the CNE, costs of the line soon rose
-									dramatically from a budgeted $17 million to $25 million.<sup>40</sup> Even after
-									cutting “frills” and even one of the four stations from the line, construction was
-									delayed past the 1975 opening date.<sup>41</sup> In West Germany, where development
-									of the technology was taking place, work was delayed as issues towards creating a
-									working prototype continued.<sup>42</sup> A scheduled trip by a provincial
-									delegation was postponed from June 1974 to September 1974.<sup>43</sup> Soon after
-									the September visit, the completed prototype was damaged while testing as bugs
-									continued to plague the system.<sup>44</sup> Then, on November 7th, 1974, it was
-									revealed that the system was incapable of reliably handling curves, cancelling
-									another visit by provincial and municipal officials and dignitaries from Los Angeles
-									and drawing ridicule from opposition parties in the provincial legislature.<sup>45</sup>{' '}
-								</span>
-							)
-						},
 						{
 							type: 'para',
 							text: () => (
@@ -656,23 +657,6 @@ export default class GoUrban extends Component {
 					]}
 					right={[
 						{ type: 'img', adjust: { hide: true }, src: 'GO-Urban/McCowan Station.jpg', alt:'This image shows McCowan Station of the Scarborough Rapid Transit Line, a sort of successor station to the GO-Urban system.' },
-						{
-							type: 'para',
-							text: () => (
-								<span>
-									The successor system to GO-Urban was eventually completed and marketed as Urban
-									Transportation Development Corporation’s ICTS and was meant to serve the same
-									principle goals of filling a gap in the need for capacity between surface transit
-									options such as buses and costly underground subways.<sup>58</sup> Initially
-									implemented in Toronto (in a section of the originally proposed GO-Urban route
-									serving Scarborough), Vancouver (where it forms the backbone of their rapid transit
-									system), and Detroit, updated versions of the technology continue to be used and
-									implemented in cities across the world after the sale of Urban Transportation
-									Development Corporation by the provincial government to Lavalin (and eventually to
-									Bombardier).<sup>59</sup>
-								</span>
-							)
-						},
 						{
 							type: 'para',
 							text: () => (
