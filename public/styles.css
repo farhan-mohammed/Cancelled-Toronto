@@ -330,8 +330,7 @@ text_bold {
 }
 
 .hnv-li {
-  font-family: 'toronto_subway_bold',
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 20px;
@@ -369,21 +368,6 @@ Helvetica, sans-serif;
 
 .hnv-li:hover .hnv-li-ul, .hnv-li-ul:hover {
   display: unset;
-}
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-  background-color: #f5f5f5;
-}
-
-::-webkit-scrollbar {
-  width: 7.5px;
-  background-color: #f5f5f5;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #2b2b2b;
-  border: 2px solid #555555;
 }
 
 body::-webkit-scrollbar-track {
@@ -534,8 +518,7 @@ body::-webkit-scrollbar-thumb {
 
 .body__text-h1 {
   margin: 0;
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -782,8 +765,7 @@ Helvetica, sans-serif;
 }
 
 .SMI_decade {
-  font-family: 'toronto_subway_bold'
-Helvetica,  sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 20px;
@@ -804,8 +786,7 @@ Helvetica,  sans-serif;
 }
 
 .SMI_scon-list {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   margin: 15px 0;
@@ -833,13 +814,11 @@ Helvetica, sans-serif;
           align-items: center;
   font-size: 10px;
   letter-spacing: 1px;
-  font-family: 'toronto_subway_bold'
- Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
 }
 
 .SMI_scon-list-name {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
 }
 
 .RTEPD1col2 {
@@ -876,8 +855,7 @@ Helvetica, sans-serif;
 }
 
 .RTEPD1col2img_title {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 20px;
@@ -929,8 +907,7 @@ Helvetica, sans-serif;
 }
 
 .RTEPD1col2text_img_title {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 20px;
@@ -1054,8 +1031,7 @@ sup {
 }
 
 .imgLefttextRigtBelow_text-right_h1 {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 20px;
@@ -1128,8 +1104,7 @@ a {
 }
 
 .subway-font {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -1177,8 +1152,7 @@ Helvetica, sans-serif;
 
 .ft-ptf_text {
   margin-left: 20px;
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
 }
 
 .ft-ptf_text > div {
@@ -1194,8 +1168,7 @@ Helvetica, sans-serif;
 }
 
 .ft-cp {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   text-transform: uppercase;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1280,15 +1253,13 @@ Helvetica, sans-serif;
 }
 
 .homepage-item__text-title {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .homepage-item__text-subtitle {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1477,8 +1448,7 @@ Helvetica, sans-serif;
 }
 
 .WC-item_ct {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 22.5px;
@@ -1486,8 +1456,7 @@ Helvetica, sans-serif;
 }
 
 .WC-item_mt {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 22.5px;
@@ -1497,8 +1466,7 @@ Helvetica, sans-serif;
 }
 
 .WC-item_mst {
-  font-family: 'toronto_subway_bold'
-Helvetica, sans-serif;
+  font-family: 'toronto_subway_bold';
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 17.5px;
