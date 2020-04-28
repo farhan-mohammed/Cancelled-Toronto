@@ -320,7 +320,7 @@ export default class GoUrban extends Component {
 									Within Metropolitan Toronto, the five routes proposed to be built first would both
 									provide access to the downtown core and enhance east-west access through the city,
 									with several of the routes roughly following the path of cancelled expressways. A
-									sixth line was outlined but would be built at a future date.<sup>20</sup>
+									sixth line was outlined but would be built at a future date.<sup>19</sup>
 								</span>
 							)
 						},
@@ -332,10 +332,10 @@ export default class GoUrban extends Component {
 									Scarborough in the north-east, following the rail-corridor in the downtown area,
 									then the Don Valley and through the Thorncliffe Park and Flemingdon Park
 									neighbourhoods before utilising the Gatineau hydro corridor to pass through
-									Scarborough.<sup>21</sup> It would connect with the Bloor-Danforth subway at a
+									Scarborough.<sup>20</sup> It would connect with the Bloor-Danforth subway at a
 									station envisioned in the Lawrence Avenue East and Kennedy Road area, the proposed
 									Finch route in the north, as well as existing TTC and GO Transit services downtown
-									at Union Station.<sup>22</sup>
+									at Union Station.<sup>21</sup>
 								</li>
 							)
 						},
@@ -345,7 +345,7 @@ export default class GoUrban extends Component {
 								<li>
 									A Don Mills route would branch off the Malvern route just north of Flemingdon Park
 									to follow Don Mills Road northwards to the vicinity of Finch Avenue and Don Mills
-									Road, where it would connect with the proposed Finch route.<sup>23</sup>
+									Road, where it would connect with the proposed Finch route.<sup>22</sup>
 								</li>
 							)
 						},
@@ -355,7 +355,7 @@ export default class GoUrban extends Component {
 								<li>
 									A Malton/Islington route would begin at Union Station in the south-east and follow
 									the Weston rail subdivision northwards before turning west near Eglinton Avenue West
-									to connect with the then Malton Airport.<sup>24</sup> This route would roughly
+									to connect with the then Malton Airport.<sup>23</sup> This route would roughly
 									follow the cancelled Richview Expressway and proposed southern extension of Highway
 									400.
 								</li>
@@ -365,11 +365,19 @@ export default class GoUrban extends Component {
 							type: 'para',
 							text: () => (
 								<li>
+									•	A Jane route would branch from the Malton/Islington route just north of Eglinton Avenue to follow Jane Street northwards to the vicinity of Finch Avenue West, where it would connect with the proposed Finch route.<sup>24</sup>
+								</li>
+							)
+						},
+						{
+							type: 'para',
+							text: () => (
+								<li>
 									A crosstown route would branch from the Malton/Islington route in the east and the
 									Malvern route in the west to follow Eglinton Avenue, providing an east-west
-									connection through the city.<sup>26</sup> It was proposed to be built underground in
+									connection through the city.<sup>25</sup> It was proposed to be built underground in
 									the urban areas of the route and would connect with the Yonge and then-planned
-									Spadina subway. This route would roughly follow the cancelled Crosstown Expressway.<sup>27</sup>
+									Spadina subway. This route would roughly follow the cancelled Crosstown Expressway.<sup>26</sup>
 								</li>
 							)
 						},
@@ -381,7 +389,7 @@ export default class GoUrban extends Component {
 									would branch from the Malton/Islington route near the airport in the west and follow
 									the Finch hydro corridor to the eastern boundary of Metropolitan Toronto, with
 									possible extension to the never-built satellite city of Cedarwood north of Pickering
-									and adjacent to the planned Pickering international airport.<sup>28</sup> It would
+									and adjacent to the planned Pickering international airport.<sup>27</sup> It would
 									intersect four of the five initially planned lines and provide east-west access in
 									the quickly urbanising areas in the northern part of Metropolitan Toronto.
 								</li>
@@ -399,7 +407,7 @@ export default class GoUrban extends Component {
 								<span>
 									Several of the GO-Urban lines were proposed to run along the streets, either in the
 									median or along the right-of-way. Here, an artist rendering shows what a conceptual
-									line would look like.<sup>29</sup>
+									line would look like.<sup>28</sup>
 								</span>
 							)
 						},
@@ -417,9 +425,9 @@ export default class GoUrban extends Component {
 									Beyond implementation of the system in Ontario, the provincial government received
 									the exclusive rights and licenses for the sale and implementation of similar systems
 									in South and Central America and the European Union, as well as a ten percent
-									royalty for systems sold in the United States.<sup>30</sup> Several urban centres in
+									royalty for systems sold in the United States.<sup>29</sup> Several urban centres in
 									foreign markets were identified as potential markets for the system including Buenos
-									Aires, Caracas, Melbourne, Mexico City, Rio de Janeiro, Sao Paulo, and Sydney.<sup>31</sup>
+									Aires, Caracas, Melbourne, Mexico City, Rio de Janeiro, Sao Paulo, and Sydney.<sup>30</sup>
 								</span>
 							)
 						},
@@ -429,17 +437,17 @@ export default class GoUrban extends Component {
 								<span>
 									From the beginning of the announcement for the system, transportation planners were
 									pessimistic of the plan, with some predicting that half of the network was
-									infeasible and would not be built.<sup>32</sup> Others were critical of the proposed
+									infeasible and would not be built.<sup>31</sup> Others were critical of the proposed
 									routing of one line through Flemingdon Park, with planners adamant that an ICTS
 									system would have insufficient capacity for the projected ridership, and that the
 									proposed Queen subway line, which would roughly follow the same route, would be
-									needed instead.<sup>33</sup> Opposition from Metropolitan Toronto and the TTC was
+									needed instead.<sup>32</sup> Opposition from Metropolitan Toronto and the TTC was
 									also an issue, with TTC planners working on their own ICTS system utilising light
 									rail vehicles, which the province criticised as being noisy and unsuitable for
-									residential areas despite TTC reports saying otherwise.<sup>34</sup> And while
+									residential areas despite TTC reports saying otherwise.<sup>33</sup> And while
 									Metropolitan Toronto planners continued to plan for an extension of the Gardiner
 									Expressway through Scarborough, the province was adamant that the new system would
-									make the expressway unnecessary.<sup>35</sup>
+									make the expressway unnecessary.<sup>34</sup>
 								</span>
 							)
 						}
@@ -455,7 +463,7 @@ export default class GoUrban extends Component {
 									Besides Toronto, both potential lines in Hamilton and Ottawa were identified.
 									Similar to the proposed routings for GO-Urban in Toronto, they were to follow
 									streets, railway right-of-ways, and hydro corridors. In Ottawa, there would be a
-									brief tunnel for the system under Sparks Street.<sup>19</sup>
+									brief tunnel for the system under Sparks Street.<sup>35</sup>
 								</span>
 							)
 						}
@@ -487,17 +495,17 @@ export default class GoUrban extends Component {
 								<span>
 									Such issues with the system began soon during the testing stage. Beginning with
 									delays to the demonstration line on the CNE, costs of the line soon rose
-									dramatically from a budgeted $17 million to $25 million.<sup>40</sup> Even after
+									dramatically from a budgeted $17 million to $25 million.<sup>39</sup> Even after
 									cutting “frills” and even one of the four stations from the line, construction was
-									delayed past the 1975 opening date.<sup>41</sup> In West Germany, where development
+									delayed past the 1975 opening date.<sup>40</sup> In West Germany, where development
 									of the technology was taking place, work was delayed as issues towards creating a
-									working prototype continued.<sup>42</sup> A scheduled trip by a provincial
-									delegation was postponed from June 1974 to September 1974.<sup>43</sup> Soon after
+									working prototype continued.<sup>41</sup> A scheduled trip by a provincial
+									delegation was postponed from June 1974 to September 1974.<sup>42</sup> Soon after
 									the September visit, the completed prototype was damaged while testing as bugs
-									continued to plague the system.<sup>44</sup> Then, on November 7th, 1974, it was
+									continued to plague the system.<sup>43</sup> Then, on November 7th, 1974, it was
 									revealed that the system was incapable of reliably handling curves, cancelling
 									another visit by provincial and municipal officials and dignitaries from Los Angeles
-									and drawing ridicule from opposition parties in the provincial legislature.<sup>45</sup>{' '}
+									and drawing ridicule from opposition parties in the provincial legislature.<sup>44</sup>{' '}
 								</span>
 							)
 						}
@@ -512,7 +520,7 @@ export default class GoUrban extends Component {
 								<span>
 									Besides running along streets and hydro right-of-ways, GO-Urban was planned to
 									utilise railway right-of-ways. Here, an artist rendering shows what a conceptual
-									routing would look like.<sup>39</sup>
+									routing would look like.<sup>45</sup>
 								</span>
 							)
 						},
@@ -572,11 +580,11 @@ export default class GoUrban extends Component {
 								<span>
 									Light rail vehicles developed by the same Crown corporation tasked with research,
 									development, and promotion of GO-Urban in Ontario were planned to be utilised for
-									routes previously set for GO-Urban technology after its cancellation.<sup>50</sup>{' '}
+									routes previously set for GO-Urban technology after its cancellation.<sup>53</sup>{' '}
 									The vehicles, later dubbed the CLRV (Canadian Light Rail Vehicle), were planned to
 									be run in coupled pairs, as pictured, in their own dedicated right-of-ways, although
 									the eventual shift in plans to utilise ICTS technology meant neither ambitious
-									happened.<sup>53</sup> The same vehicles were the workhorse for Toronto’s streetcar
+									happened.<sup>54</sup> The same vehicles were the workhorse for Toronto’s streetcar
 									fleet for over 40 years before their retirement in late 2019.
 								</span>
 							)
@@ -600,15 +608,15 @@ export default class GoUrban extends Component {
 									blow-back with the demise of GO-Urban, development for a system of similar purpose
 									continued. Although magnetic levitation was shelved, the linear induction motor
 									technology used to propel GO-Urban vehicles saw further development – this time with
-									steel wheels to support it.<sup>54</sup> Instead of small vehicles with a capacity
+									steel wheels to support it.<sup>55</sup> Instead of small vehicles with a capacity
 									of 20 passengers, the successor ICTS vehicle would hold 75 to 100 passengers and
-									would run in trainsets of three to four vehicles.<sup>55</sup> Dubious plans for 20
+									would run in trainsets of three to four vehicles.<sup>56</sup> Dubious plans for 20
 									second frequencies for GO-Urban trains were replaced with possible frequencies to as
-									low as 60 seconds a train.<sup>56</sup> The new system was initially called Advanced
+									low as 60 seconds a train.<sup>57</sup> The new system was initially called Advanced
 									Light Guideway Transit – ALGT, and was developed in partnership with a variety of
 									companies including SPAR Aerospace, which constructed a test track for the successor
 									project and Standard Electric Lorenz, a West German firm which was tasked with
-									developing the automated train control system planned to be utilised.<sup>57</sup>
+									developing the automated train control system planned to be utilised.<sup>58</sup>
 								</span>
 							)
 						},
@@ -619,13 +627,13 @@ export default class GoUrban extends Component {
 									The successor system to GO-Urban was eventually completed and marketed as Urban
 									Transportation Development Corporation’s ICTS and was meant to serve the same
 									principle goals of filling a gap in the need for capacity between surface transit
-									options such as buses and costly underground subways.<sup>58</sup> Initially
+									options such as buses and costly underground subways.<sup>59</sup> Initially
 									implemented in Toronto (in a section of the originally proposed GO-Urban route
 									serving Scarborough), Vancouver (where it forms the backbone of their rapid transit
 									system), and Detroit, updated versions of the technology continue to be used and
 									implemented in cities across the world after the sale of Urban Transportation
 									Development Corporation by the provincial government to Lavalin (and eventually to
-									Bombardier).<sup>59</sup>
+									Bombardier).<sup>60</sup>
 								</span>
 							)
 						}
@@ -642,7 +650,7 @@ export default class GoUrban extends Component {
 									GO-Urban’s legacy in Toronto today remains in the Scarborough Rapid Transit Line,
 									which utilises both technologies developed from Krauss-Maffei’s initial work on
 									linear induction motors as well as the route planned for GO-Urban through
-									Scarborough.<sup>60</sup>
+									Scarborough.<sup>61</sup>
 								</span>
 							)
 						},
