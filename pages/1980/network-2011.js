@@ -163,7 +163,7 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 									The planned Sheppard subway, when fully built, was planned to connect two emerging
 									central business districts, North York Centre and Scarborough City Centre. Pictured
 									is North York Centre, with the intersection and western terminus of the first phase
-									of the subway, Sheppard Avenue and Yonge Street, at the lower centre.<sup>16</sup>
+									of the subway, Sheppard Avenue and Yonge Street, at the lower centre.<sup>13</sup>
 								</span>
 							)
 						}
