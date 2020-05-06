@@ -203,7 +203,7 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true }, src: 'Network 2011/Scarborough City Centre.jpg' },
+						{ type: 'img', adjust: { hide: true }, src: 'Network 2011/Scarborough-City-Centre.jpg' },
 						{
 							type: 'para',
 							text: () => (
