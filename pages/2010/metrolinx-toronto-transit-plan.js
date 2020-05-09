@@ -233,7 +233,7 @@ export default class MetroLinxTTP extends Component {
 									extensions could be built using funds from private-public partnerships, it quickly
 									became apparent that other revenue tools would be necessary to raise funds for the
 									project, with Gordon Chong, head of the TTC’s investment division suggesting road
-									tolls, congestion charges, and development fees.<sup>14</sup> By June 2011, further
+									tolls, congestion charges, and development fees.<sup>15</sup> By June 2011, further
 									study into the project found the estimated cost would be $500 million more than
 									originally pegged at, now totalling $4.7 billion.<sup>16</sup>
 								</span>
