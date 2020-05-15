@@ -166,7 +166,15 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 									of the subway, Sheppard Avenue and Yonge Street, at the lower centre.<sup>13</sup>
 								</span>
 							)
-						}
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									(David Cooper / Toronto Star) © Toronto Star, 1979. Reproduced under license.
+								</span>
+							)
+						},
 					]}
 					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/North York Centre.jpg' },
@@ -175,14 +183,6 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 							text: () => (
 								<span>
 									Approved by Metro Toronto council by 1986, the plan was to be implemented in phases according to the Network 2011 plan, with council deciding a subway on Sheppard Avenue from Yonge Street to Victoria Park Avenue as the priority, much to the dismay of municipal officials in Etobicoke, York, and Peel Region who wanted rapid transit on Eglinton Avenue first.<sup>14</sup> Officials from the three municipal bodies were further dismayed at the plan’s commitment to construct only a busway on Eglinton, rather than a light rail line or a subway, with the plan only specifying that it could be replaced with a subway – eventually.<sup>15</sup> The plan saw further opposition from surrounding municipal and regional governments including York, Peel, and Durham Regions who sought funding for their transportation plans centred around the then proposed Highway 407, and who saw Network 2011 as competition for such funding.<sup>16</sup>
-								</span>
-							)
-						},
-						{
-							type: 'quote',
-							text: () => (
-								<span>
-									(David Cooper / Toronto Star) © Toronto Star, 1979. Reproduced under license.
 								</span>
 							)
 						},
