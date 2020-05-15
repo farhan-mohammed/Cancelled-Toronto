@@ -153,7 +153,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true, width: '2/3' }, src: 'GO-Urban/Allen Road.jpg', alt: 'This is an image of Allen Road, previously the Spadina Expressway, which work was halted after opposition from local residents. This crucial moment was the end of a comprehensive network of highways planned for Toronto in the 1950s to early 1970s' },
+						{ type: 'img', adjust: { hide: false, width: '2/3' }, src: 'GO-Urban/Allen Road.jpg', alt: 'This is an image of Allen Road, previously the Spadina Expressway, which work was halted after opposition from local residents. This crucial moment was the end of a comprehensive network of highways planned for Toronto in the 1950s to early 1970s' },
 						{
 							type: 'para',
 							text: () => (
@@ -664,7 +664,7 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: true }, src: 'GO-Urban/McCowan Station.jpg', alt:'This image shows McCowan Station of the Scarborough Rapid Transit Line, a sort of successor station to the GO-Urban system.' },
+						{ type: 'img', adjust: { hide: false }, src: 'GO-Urban/McCowan Station.jpg', alt:'This image shows McCowan Station of the Scarborough Rapid Transit Line, a sort of successor station to the GO-Urban system.' },
 						{
 							type: 'para',
 							text: () => (

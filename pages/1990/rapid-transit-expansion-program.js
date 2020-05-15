@@ -126,7 +126,7 @@ export default class RapidTransit extends Component {
 					right={[
 						{
 							type: 'img',
-							adjust: { hide: true },
+							adjust: { hide: false },
 							// /images/ already saved
 							src: 'Rapid Transit Expansion Program/North York Centre.jpg'
 						},
@@ -329,7 +329,7 @@ export default class RapidTransit extends Component {
 							)
 						}
 					]}
-					right={[ { type: 'img', adjust: { hide: true, width: '2/3' }, src: 'Rapid Transit Expansion Program/Sheppard Subway Construction.jpg' } ]}
+					right={[ { type: 'img', adjust: { hide: false, width: '2/3' }, src: 'Rapid Transit Expansion Program/Sheppard Subway Construction.jpg' } ]}
 				/>
 				<WebColumn
 					left={[]}
