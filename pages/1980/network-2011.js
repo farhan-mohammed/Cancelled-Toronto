@@ -179,6 +179,14 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 							)
 						},
 						{
+							type: 'quote',
+							text: () => (
+								<span>
+									(David Cooper / Toronto Star) © Toronto Star, 1979. Reproduced under license.
+								</span>
+							)
+						},
+						{
 							type: 'para',
 							text: () => (
 								<span>
@@ -198,6 +206,14 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 							text: () => (
 								<span>
 									Scarborough City Centre, pictured, an emerging central business district that would be the planned eventual terminus of the Sheppard subway.<sup>19</sup> Planning in Metro Toronto at the time de-emphasised growth in the downtown, taking action such as restricting office development to protect adjacent communities and reduce the pressure of redevelopment for historic structures within them.<sup>20</sup> New central business districts such as Scarborough City Centre were intended to receive the majority of new office developments, something planners hoped would decrease the pressure of large amounts of commuters headed downtown in the peak direction by encouraging reverse commuting.<sup>21</sup>
+								</span>
+							)
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									(Alan Dunlop / Toronto Star) © Toronto Star, 1985. Reproduced under license.
 								</span>
 							)
 						}
