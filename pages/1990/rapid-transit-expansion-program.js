@@ -207,12 +207,12 @@ export default class RapidTransit extends Component {
 						},
 						{
 							type: 'content-title',
-							title: 'Yonge-spadina loop'
+							title: 'SCARBOROUGH RAPID TRANSIT EXTENSION'
 						},
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'Rapid Transit Expansion Program/Yonge-Spadina Loop Alignment.png'
+							src: 'Rapid Transit Expansion Program/Scarborough RT Extension Alignment.png'
 						},
 						{
 							type: 'quote',
@@ -230,12 +230,12 @@ export default class RapidTransit extends Component {
 						},
 						{
 							type: 'content-title',
-							title: 'Scarborough rapid transit extention'
+							title: 'YONGE-SPADINA LOOP'
 						},
 						{
 							type: 'img',
 							// /images/ already saved
-							src: 'Rapid Transit Expansion Program/Scarborough RT Extension Alignment.png'
+							src: 'Rapid Transit Expansion Program/Yonge-Spadina Loop Alignment.png'
 						},
 						{
 							type: 'quote',
