@@ -300,8 +300,8 @@ export default class RapidTransit extends Component {
 							text: () => (
 								<div>
 									Phase one of the Eglinton West subway was planned to terminate at York City Centre,
-									a large office development planned alongside the subway. In this render produced for
-									the Environmental Assessment of the project, a train pulls into York City Centre
+									a large office development planned alongside the subway. In this 1993 render produced for
+									the environmental assessment of the project, a train pulls into York City Centre
 									station with a final terminus of Pearson Airport seen on the subway destination
 									blind.<sup>17</sup>
 								</div>
