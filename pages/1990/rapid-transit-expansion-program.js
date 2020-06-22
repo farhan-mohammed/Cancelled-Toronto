@@ -29,7 +29,7 @@ export default class RapidTransit extends Component {
 			`Stein. “Metro Taxpayers Being Taken for a Ride.” sec. B1.`,
 			`James Royson. “Deciding Which Train to Take Metro Council Has to Vote on Subway Expansion. Everyone has a Favorite.” Toronto Star, March 8, 1994, sec. A15.`,
 			`James Royson. “Metro Has Final Say on 2 Lines, NDP Says.” Toronto Star, October 5, 1994, sec. A6.`,
-			'Canada. Ontario. Ministry of the Environment. Eglinton West Rapid Transit Environmental Assessment Report. Toronto: Toronto Transit Commission, 1993'
+			'Canada. Ontario. Ministry of the Environment. Eglinton West Rapid Transit Environmental Assessment Report. Toronto: Toronto Transit Commission, 1993',
 			`Gail Swainson. “Transit Lines Halted After Two Days of Debate, Plan Defeated 18-12.” Toronto Star, February 24, 1995, sec. A1.`,
 			`Bruce Campion-Smith. “How Province Could Take over the TTC But Potential Political Pitfalls in Store Should Queen's Park Override Metro.” Toronto Star, February 25, 1995, sec. A2.`,
 			`Bruce Campion-Smith. “Eglinton Subway Project under Way $740 Million Line Will Create Thousands of Jobs, Rae Pledges.” Toronto Star, August 26, 1994, sec. A9; James, Royson. “TTC Backs New Transit Lines 1925 Million to Lay Groundwork for 1994 Start.” Toronto Star, February 17, 1993, sec. A6; James, Royson. “Work Begins on Sheppard Subway Line Metro, Province in Fight over Two Other Lines.” Toronto Star, June 23, 1994, sec. A10.`,
@@ -299,19 +299,29 @@ export default class RapidTransit extends Component {
 							type: 'quote',
 							text: () => (
 								<div>
-									Phase one of the Eglinton West subway was planned to terminate at York City Centre, a large office development planned alongside the subway. In this render produced for the Environmental Assessment of the project, a train pulls into York City Centre station with a final terminus of Pearson Airport seen on the subway destination blind.<sup>17</sup>
+									Phase one of the Eglinton West subway was planned to terminate at York City Centre,
+									a large office development planned alongside the subway. In this render produced for
+									the Environmental Assessment of the project, a train pulls into York City Centre
+									station with a final terminus of Pearson Airport seen on the subway destination
+									blind.<sup>17</sup>
 								</div>
 							)
 						}
 						//},
 						//{
-							//type: 'quote',
-							//text: () => (
-								//<div>(Boris Spremo / Toronto Star) © Toronto Star, 1998. Reproduced under license.</div>
-							//)
+						//type: 'quote',
+						//text: () => (
+						//<div>(Boris Spremo / Toronto Star) © Toronto Star, 1998. Reproduced under license.</div>
+						//)
 						//}
 					]}
-					right={[ { type: 'img', adjust: { hide: false, width: '2/3' }, src: 'Rapid Transit Expansion Program/York City Centre Render.jpg' } ]}
+					right={[
+						{
+							type: 'img',
+							adjust: { hide: false, width: '2/3' },
+							src: 'Rapid Transit Expansion Program/York City Centre Render.jpg'
+						}
+					]}
 				/>
 				<WebColumn
 					rightOnly={true}
@@ -373,7 +383,13 @@ export default class RapidTransit extends Component {
 							)
 						}
 					]}
-					right={[ { type: 'img', adjust: { hide: false, width: '2/3' }, src: 'Rapid Transit Expansion Program/Sheppard Subway Construction.jpg' } ]}
+					right={[
+						{
+							type: 'img',
+							adjust: { hide: false, width: '2/3' },
+							src: 'Rapid Transit Expansion Program/Sheppard Subway Construction.jpg'
+						}
+					]}
 				/>
 				<WebColumn
 					left={[]}
