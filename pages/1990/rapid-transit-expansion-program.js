@@ -29,11 +29,12 @@ export default class RapidTransit extends Component {
 			`Stein. “Metro Taxpayers Being Taken for a Ride.” sec. B1.`,
 			`James Royson. “Deciding Which Train to Take Metro Council Has to Vote on Subway Expansion. Everyone has a Favorite.” Toronto Star, March 8, 1994, sec. A15.`,
 			`James Royson. “Metro Has Final Say on 2 Lines, NDP Says.” Toronto Star, October 5, 1994, sec. A6.`,
+			'Canada. Ontario. Ministry of the Environment. Eglinton West Rapid Transit Environmental Assessment Report. Toronto: Toronto Transit Commission, 1993'
 			`Gail Swainson. “Transit Lines Halted After Two Days of Debate, Plan Defeated 18-12.” Toronto Star, February 24, 1995, sec. A1.`,
 			`Bruce Campion-Smith. “How Province Could Take over the TTC But Potential Political Pitfalls in Store Should Queen's Park Override Metro.” Toronto Star, February 25, 1995, sec. A2.`,
-			`Boris Spremo. Canada – Ontario – Toronto – Transit Commission - Subways - Sheppard Subway, 1998, colour digital, Toronto Star photo archive, Toronto, accessed January 7, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0115683F&R=DC-TSPA_0115683F`,
 			`Bruce Campion-Smith. “Eglinton Subway Project under Way $740 Million Line Will Create Thousands of Jobs, Rae Pledges.” Toronto Star, August 26, 1994, sec. A9; James, Royson. “TTC Backs New Transit Lines 1925 Million to Lay Groundwork for 1994 Start.” Toronto Star, February 17, 1993, sec. A6; James, Royson. “Work Begins on Sheppard Subway Line Metro, Province in Fight over Two Other Lines.” Toronto Star, June 23, 1994, sec. A10.`,
 			`Bruce Campion-Smith. “Tories Derail Eglinton Subway But $945 Million Sheppard Line Gets Go-Ahead.” Toronto Star, July 22, 1995, sec. A4.`,
+			`Boris Spremo. Canada – Ontario – Toronto – Transit Commission - Subways - Sheppard Subway, 1998, colour digital, Toronto Star photo archive, Toronto, accessed January 7, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0115683F&R=DC-TSPA_0115683F`,
 			`Campion-Smith. “Tories Derail Eglinton Subway.” sec. A4.`,
 			`Ibid.`
 		];
@@ -285,21 +286,64 @@ export default class RapidTransit extends Component {
 									of the four projects were approved.<sup>16</sup>
 								</div>
 							)
+						}
+					]}
+				/>
+				<WebColumn
+					left={[
+						{
+							type: 'content-title',
+							title: 'Eglinton West Subway Render'
 						},
+						{
+							type: 'quote',
+							text: () => (
+								<div>
+									Phase one of the Eglinton West subway was planned to terminate at York City Centre, a large office development planned alongside the subway. In this render produced for the Environmental Assessment of the project, a train pulls into York City Centre station with a final terminus of Pearson Airport seen on the subway destination blind.<sup>17</sup>
+								</div>
+							)
+						}
+						//},
+						//{
+							//type: 'quote',
+							//text: () => (
+								//<div>(Boris Spremo / Toronto Star) © Toronto Star, 1998. Reproduced under license.</div>
+							//)
+						//}
+					]}
+					right={[ { type: 'img', adjust: { hide: false, width: '2/3' }, src: 'Rapid Transit Expansion Program/York City Centre Render.jpg' } ]}
+				/>
+				<WebColumn
+					rightOnly={true}
+					right={[
 						{
 							type: 'para',
 							text: () => (
 								<div>
 									In the end, both the Sheppard and Eglinton West subways were approved while the
 									Spadina and Scarborough rapid transit extensions, with little political support,
-									were left in limbo.<sup>17</sup> A municipal election during the midst of the debate
+									were left in limbo.<sup>18</sup> A municipal election during the midst of the debate
 									temporarily paused the discussion but both projects were eventually voted against by
-									Metro Toronto council, leading to calls for the province to take control of the TTC.<sup>18</sup>{' '}
+									Metro Toronto council, leading to calls for the province to take control of the TTC.<sup>19</sup>{' '}
 									Several proposals reportedly investigated by the province included transferring
 									ownership, planning, and day-to-day operation of the subways to GO Transit, leaving
 									the TTC to run only streetcars and buses, taking over just the remaining two
 									projects and funding them through provincial funds only, or taking control of the
-									TTC completely.<sup>19</sup>
+									TTC completely.<sup>20</sup>
+								</div>
+							)
+						},
+						{
+							type: 'para',
+							text: () => (
+								<div>
+									Ultimately, none of the proposals were enacted and by 1994, environmental
+									assessments on the Eglinton West, Sheppard, Scarborough RT extension, and Spadina
+									loop projects had been completed, with construction starting on the former two
+									projects by late summer of 1994.<sup>21</sup> By early 1995, excavation had already
+									progressed for tail tracks on the Eglinton West subway and procurement of tunnel
+									boring machines had been underway for the Sheppard subway, then projected to begin
+									tunnelling in mid-1996.<sup>22</sup>
 								</div>
 							)
 						}
@@ -318,7 +362,7 @@ export default class RapidTransit extends Component {
 									The Sheppard subway was the only project spared cancellation by the Progressive
 									Conservative provincial government, which deferred the other projects. Here,
 									construction on the Sheppard subway progresses at the intersection of Sheppard
-									Avenue and Leslie Street in 1998.<sup>20</sup>
+									Avenue and Leslie Street in 1998.<sup>23</sup>
 								</div>
 							)
 						},
@@ -339,26 +383,12 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<div>
-									Ultimately, none of the proposals were enacted and by 1994, environmental
-									assessments on the Eglinton West, Sheppard, Scarborough RT extension, and Spadina
-									loop projects had been completed, with construction starting on the former two
-									projects by late summer of 1994.<sup>21</sup> By early 1995, excavation had already
-									progressed for tail tracks on the Eglinton West subway and procurement of tunnel
-									boring machines had been underway for the Sheppard subway, then projected to begin
-									tunnelling in mid-1996.<sup>22</sup>
-								</div>
-							)
-						},
-						{
-							type: 'para',
-							text: () => (
-								<div>
 									However, the election of a new Progressive Conservative provincial government
 									running under an austerity platform quickly put an end to three of the four
 									projects, with the Eglinton West subway deferred after their election in June of
 									1995, funding cut for the Scarborough RT and Spadina extensions, leaving only the
-									Sheppard subway left untouched.<sup>23</sup> Construction was halted on the Eglinton
-									West subway and work to revert the street was quickly undertaken.<sup>24</sup> The
+									Sheppard subway left untouched.<sup>24</sup> Construction was halted on the Eglinton
+									West subway and work to revert the street was quickly undertaken.<sup>25</sup> The
 									poor financial status of both the province and Metro Toronto (later reorganized as
 									the City of Toronto by the provincial government) kept the three unbuilt projects
 									deferred for more than a decade before similar plans were explored by later
