@@ -336,8 +336,8 @@ export default class RapidTransit extends Component {
 									temporarily paused the discussion but both projects were eventually voted against by
 									Metro Toronto council, leading to calls for the province to take control of the TTC.<sup>19</sup>{' '}
 									Several proposals reportedly investigated by the province included transferring
-									ownership, planning, and day-to-day operation of the subways to GO Transit, leaving
-									the TTC to run only streetcars and buses, taking over just the remaining two
+									ownership, planning, and day-to-day operation of the subways to GO Transit (leaving
+									the TTC to run only streetcars and buses), taking over just the remaining two
 									projects and funding them through provincial funds only, or taking control of the
 									TTC completely.<sup>20</sup>
 								</div>
