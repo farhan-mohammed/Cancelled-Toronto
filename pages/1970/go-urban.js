@@ -583,8 +583,7 @@ export default class GoUrban extends Component {
 									routes previously set for GO-Urban technology after its cancellation.<sup>53</sup>{' '}
 									The vehicles, later dubbed the CLRV (Canadian Light Rail Vehicle), were planned to
 									be run in coupled pairs, as pictured, in their own dedicated right-of-ways, although
-									the eventual shift in plans to utilise ICTS technology meant neither ambitious
-									happened.<sup>54</sup> The same vehicles were the workhorse for Toronto’s streetcar
+									the eventual shift in plans to utilise ICTS technology saw such plans dissipate.<sup>54</sup> The same vehicles were the workhorse for Toronto’s streetcar
 									fleet for over 40 years before their retirement in late 2019.
 								</span>
 							)
