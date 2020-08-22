@@ -504,8 +504,8 @@ export default class GoUrban extends Component {
 									the September visit, the completed prototype was damaged while testing as bugs
 									continued to plague the system.<sup>43</sup> Then, on November 7th, 1974, it was
 									revealed that the system was incapable of reliably handling curves, cancelling
-									another visit by provincial and municipal officials and dignitaries from Los Angeles
-									and drawing ridicule from opposition parties in the provincial legislature.<sup>44</sup>{' '}
+									another visit by provincial and municipal officials and dignitaries from Los Angeles,
+									drawing ridicule from opposition parties in the provincial legislature.<sup>44</sup>{' '}
 								</span>
 							)
 						}
