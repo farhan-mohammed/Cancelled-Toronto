@@ -556,7 +556,7 @@ export default class GoUrban extends Component {
 									Although provincial officials maintained that GO-Urban was not cancelled, the lines
 									proposed as part of the project quickly faded into obscurity. One proposed line, the
 									Malvern route, had a segment between the proposed Bloor-Danforth subway extension
-									and Scarborough City Centre quickly replaced with plans for a light rail transit
+									and Scarborough City Centre replaced with plans for a light rail transit
 									line using streetcars, similar to what was originally proposed by Metropolitan
 									Toronto and the TTC.<sup>50</sup> The line would utilise new light rail vehicles
 									developed by the same government agency tasked with GO-Urban, the Ontario
