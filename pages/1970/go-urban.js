@@ -365,7 +365,7 @@ export default class GoUrban extends Component {
 							type: 'para',
 							text: () => (
 								<li>
-									•	A Jane route would branch from the Malton/Islington route just north of Eglinton Avenue to follow Jane Street northwards to the vicinity of Finch Avenue West, where it would connect with the proposed Finch route.<sup>24</sup>
+									A Jane route would branch from the Malton/Islington route just north of Eglinton Avenue to follow Jane Street northwards to the vicinity of Finch Avenue West, where it would connect with the proposed Finch route.<sup>24</sup>
 								</li>
 							)
 						},
