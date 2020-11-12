@@ -96,7 +96,7 @@ export default class mainSite extends Component {
 						<a href="https://www.linkedin.com/in/danny-xue/">linkedin.com/in/danny-xue</a>
 					</div>
 					<div>
-						<a href="mailto:danny.xue@edu.uwaterloo.ca">danny.xue@edu.uwaterloo.ca</a>
+						<a href="mailto:danny.xue@uwaterloo.ca">danny.xue@uwaterloo.ca</a>
 					</div>
 				</div>
 			</div>
