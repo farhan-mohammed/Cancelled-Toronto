@@ -475,8 +475,7 @@ export default class GoUrban extends Component {
 							type: 'para',
 							text: () => (
 								<span>
-									The public was even less supportive of GO-Urban, with initial reactions to the
-									proposed system largely negative, with Scarborough residents calling the vehicles
+									The public was even less supportive of GO-Urban, with Scarborough residents calling the vehicles
 									“flying coffins” in initial public consultations.<sup>36</sup> Fears of the
 									aesthetic impact of the system were confirmed when internal government reports
 									revealed that GO-Urban stations would be double to triple the length of a subway
