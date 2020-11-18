@@ -100,8 +100,8 @@ export default class GoUrban extends Component {
 								<span>
 									GO-Urban was an ambitious plan created by the Province of Ontario towards creating
 									an urban transit network spanning across Metropolitan Toronto and two other large
-									Ontario cities utilising an experimental maglev system powered by linear induction
-									motors. It was projected to fill the niche of intermediate capacity transit, a gap
+									Ontario cities. It would utilise an experimental maglev system powered by linear induction
+									motors and cost over $700 million 1973 dollars. The project was projected to fill the niche of intermediate capacity transit, a gap
 									between low-capacity surface bus routes and high-capacity, high-cost underground
 									subways.
 								</span>
