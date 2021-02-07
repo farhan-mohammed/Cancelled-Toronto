@@ -25,12 +25,22 @@ export default class Year1980 extends Component {
 			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011. Toronto: Toronto Transit Commission, 1985.`,
 			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011.`,
 			`Ibid.`,
+			'Ibid.',
 			`Ibid, 14.`,
 			`Ibid, 26.`,
 			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Downtown Rapid Transit Study. Toronto: Toronto Transit Commission, 1985`,
 			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Downtown Rapid Transit Study, 52.`,
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Downtown Rapid Transit Study, 53.`,
 			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 14.`,
-			`Ibid, 59, A.3.`,
+			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Downtown Rapid Transit Study, 50.`,
+			`Ibid.`,
+			`Ibid.`,
+			`Ibid.`,
+			`Ibid.`,
+			'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 59.',
+			'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 50-51.',
+			'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, A2.',
+			'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 34.',
 			`David Cooper. Canada – Ontario – North York - Yonge St, 1979, black and white digital, Toronto Star photo archive, Toronto, accessed January 14, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0107105F&R=DC-TSPA_0107105F`,
 			`Mitchell Smith. “Tonks Makes Pitch to Keep Subway Plan Alive for Eglinton.” Toronto Star, June 24, 1986, sec. A6.`,
 			`Bob Mitchell. “Eglinton Transit Line Gets Top Billing in 2011.” Toronto Star. June 3, 1986, sec. W6.`,
@@ -214,7 +224,7 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 							type: 'para',
 							text: () => (
 								<span>
-									As a result, the proposed Sheppard subway, which would connect two of the identified nodes, Scarborough City Centre and North York Centre, was identified as the priority of the Network 2011 plan.<sup>19</sup> A downtown subway that would relieve the Yonge subway line would be next, followed by rapid transit on Eglinton West, which Network 2011 recommended to be implemented initially as a partially grade-separated busway that could eventually be upgraded to a subway.<sup>20</sup> Varying forms of rapid transit technology were recommended for each of the lines; subway technology was assumed for Sheppard, Intermediate Capacity Transit System (ICTS) technology for the downtown line (although limited changes in alignment geometry could support a subway), and a bus rapid transit corridor for Eglinton West (with eventual upgrade to some form of rail transit).<sup>21</sup> The anticipated growth of the suburban centres of Scarborough City Centre and North York Centre as dictated by Metroplan, the high volumes of bus ridership along Finch and Sheppard Avenues, and a diverse set of alternatives (including GO Transit improvements, the then-proposed “Spadina LRT”, and express buses on streets such as Sherbourne Street) played important roles in placing a proposed subway on Sheppard Avenue a priority ahead of a line through downtown.<sup>22</sup>
+									As a result, the proposed Sheppard subway, which would connect two of the identified nodes, Scarborough City Centre and North York Centre, was identified as the priority of the Network 2011 plan.<sup>19</sup> A downtown subway that would relieve the Yonge subway line would be next, followed by rapid transit on Eglinton West, which Network 2011 recommended to be implemented initially as a partially grade-separated busway that could eventually be upgraded to rail transit.<sup>20</sup> Varying forms of rapid transit technology were recommended for each of the lines; subway technology was assumed for Sheppard, Intermediate Capacity Transit System (ICTS) technology for the downtown line (although limited changes in alignment geometry could support a subway), and a bus rapid transit corridor for Eglinton West (with eventual upgrade to some form of rail transit).<sup>21</sup> The anticipated growth of the suburban centres of Scarborough City Centre and North York Centre as dictated by Metroplan, the high volumes of bus ridership along Finch and Sheppard Avenues, and a diverse set of alternatives (including GO Transit improvements, the then-proposed “Spadina LRT”, and express buses on streets such as Sherbourne Street) played important roles in placing a proposed subway on Sheppard Avenue a priority ahead of a line through downtown.<sup>22</sup>
 								</span>
 							)
 						}
