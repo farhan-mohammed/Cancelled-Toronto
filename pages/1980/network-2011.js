@@ -160,7 +160,7 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 							type: 'quote',
 							text: () => (
 								<span>
-									One of Network 2011’s key proposed additions to Toronto’s rapid transit network was a “J” shaped line studied earlier as part of the TTC’s 1985 Downtown Rapid Transit Study. The study had recommended a “J” shaped alignment along a Pape-Eastern-Railway Corridor-Front alignment using ICTS technology similar to the Scarborough RT, although larger trains similar to ones proposed as part of the GO ALRT proposal from the same era were also a contender.<sup>13</sup> Here, a rendering of the proposed line elevated (underground options were ultimately recommended) along Pape Street near Gerrard Street.<sup>14</sup>   
+									One of Network 2011’s key proposed additions to Toronto’s rapid transit network was a “J” shaped line studied earlier as part of the TTC’s 1985 Downtown Rapid Transit Study. The study had recommended a “J” shaped alignment along a Pape-Eastern-Railway Corridor-Front alignment using ICTS technology similar to the Scarborough RT, although larger trains similar to ones proposed as part of the GO ALRT proposal from the same era were also a contender.<sup>13</sup> Both elevated and underground options of the alignment were considered.<sup>14</sup> Given “serious consideration” as a result of potential savings of $52 million in 1985 dollars, an elevated alignment of the proposed downtown line along Front Street would have caused immense visual impacts and reduced pavement and sidewalk widths in the area.<sup>15</sup> Pedestrian links in the Union Station area would also have been severely impacted.<sup>16</sup> Here, images show the proposed line elevated through the Pape Street at Gerrard Street intersection, past Union Station, and its visual impacts running along Front Street. At Union Station, a large modernist station facility would stand in front of the classical beaux-arts façade of Union Station, with connections with the Yonge-University-Spadina subway made by several stories of stairs. A similar horizontal alignment located underground was eventually recommended.<sup>17</sup> Ultimately, the elevated line’s unsightly visual impacts on existing structures such as Union Station led its rejection in favour of an underground alignment.<sup>18</sup>   
 								</span>
 							)
 						},
@@ -168,50 +168,11 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Gerrard at Pape view.jpg' },
 					]}
-				/>
-				<WebColumn
-					left={[
-						{ type: 'content-title', title: 'Elevated Options Through Downtown' },
-						{
-							type: 'quote',
-							text: () => (
-								<span>
-									Given “serious consideration” as a result of potential savings of $52 million in 1985 dollars, an elevated alignment of the proposed downtown line along Front Street would have caused immense visual impacts and reduced pavement and sidewalk widths in the area.<sup>15</sup> Pedestrian links in the Union Station area would also have been severely impacted.<sup>16</sup> Here, a rendering shows how an elevated alignment would transition from its railway corridor alignment towards its western Front Street alignment. A similar horizontal alignment located underground was eventually recommended.<sup>17</sup> 
-								</span>
-							)
-						},
-					]}
 					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Union Station view 2.jpg' },
 					]}
-				/>
-				<WebColumn
-					left={[
-						{ type: 'content-title', title: 'Connections' },
-						{
-							type: 'quote',
-							text: () => (
-								<span>
-									The proposed downtown subway would have connected with the existing Yonge-University-Spadina and Bloor-Danforth subways at Pape and Union Stations. Here, a rendering of a studied elevated alignment shows what a potential connection with Union Station could have looked like. A large modernist station facility stands in front of the classical beaux-arts façade of Union Station, with connections to the Yonge-University-Spadina subway made through several storeys of stairs.  
-								</span>
-							)
-						},
-					]}
 					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Union Station view.jpg' },
-					]}
-				/>
-				<WebColumn
-					left={[
-						{ type: 'content-title', title: 'Along Front Street' },
-						{
-							type: 'quote',
-							text: () => (
-								<span>
-									An elevated alignment of the proposed downtown line is shown here near the Front Street and Spadina Avenue intersection, its western terminus. The structure’s unsightly visual impacts on the adjacent urban fabric led its rejection in favour of an underground alignment.<sup>18</sup> 
-								</span>
-							)
-						},
 					]}
 					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Convention centre view.jpg' },
