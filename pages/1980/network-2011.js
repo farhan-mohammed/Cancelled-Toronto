@@ -214,7 +214,7 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 						},
 					]}
 					right={[
-						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Convention Centre view.jpg' },
+						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Convention centre view.jpg' },
 					]}
 				/>
 				<WebColumn
