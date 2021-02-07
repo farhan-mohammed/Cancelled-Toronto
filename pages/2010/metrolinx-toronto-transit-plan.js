@@ -57,7 +57,7 @@ export default class MetroLinxTTP extends Component {
 									The Metrolinx / Toronto Transit Plan was a plan spearheaded by Toronto mayor Rob
 									Ford that replaced the funded plan for light rail on Sheppard, Finch, and Eglinton
 									Avenues with extensions of the Sheppard subway east and westwards and a fully
-									grade-separated LRT on Eglinton Avenue.
+									grade-separated LRT on Eglinton Avenue. Although a plan that was announced and began studies, flaws in achieving the funding necessary for completion of large portions of the plan never allowed for it to progress signifcantly before being cancelled.
 								</span>
 							)
 						},
