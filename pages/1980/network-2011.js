@@ -136,6 +136,22 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 					]}
 				/>
 				<WebColumn
+					left={[
+						{ type: 'content-title', title: 'A New Downtown Subway' },
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									One of Network 2011’s key new additions to Toronto’s rapid transit network was a “J” shaped line studied earlier as part of the TTC’s 1985 Downtown Rapid Transit Study. From that study included a proposed alignment, discussion of recommended technologies, and consideration of a number of alternatives. Ultimately, the study had recommended a “J” shaped alignment along a Pape-Eastern-Railway Corridor-Front alignment using Intermediate Capacity Transit System (ICTS) technology similar to the Scarborough RT, although larger trains similar to ones proposed as part of the GO ALRT proposal from the same era were also a contender.<sup>11</sup> Here, a rendering of the proposed line elevated (underground options were ultimately recommended) along Pape Street near Gerrard Street.  
+								</span>
+							)
+						},
+					]}
+					right={[
+						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Gerrard_at_Pape_View.png' },
+					]}
+				/>
+				<WebColumn
 					left={[]}
 					right={[
 						{
@@ -196,7 +212,6 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 						}
 					]}
 				/>
-
 				{/**Ask danny about the first right paragrpah, might be wrong */}
 				<WebColumn
 					left={[
