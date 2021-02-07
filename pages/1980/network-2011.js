@@ -167,14 +167,8 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 					]}
 					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Gerrard at Pape view.jpg' },
-					]}
-					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Union Station view 2.jpg' },
-					]}
-					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Union Station view.jpg' },
-					]}
-					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Convention centre view.jpg' },
 					]}
 				/>
