@@ -165,6 +165,8 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 							)
 						},
 					]}
+				/>
+				<WebColumn
 					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'Network 2011/Gerrard at Pape view.jpg' },
 					]}
