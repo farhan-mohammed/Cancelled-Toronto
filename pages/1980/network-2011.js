@@ -192,7 +192,7 @@ Furthermore, an extension of the Spadina line from Wilson Station to Sheppard Av
 							type: 'quote',
 							text: () => (
 								<span>
-									The proposed downtown subway would have connected with the existing Yonge-University-Spadina and Bloor-Danforth subways at Pape and Union Stations. Here, a rendering of a studied elevated alignment shows what a potential connection with Union Station could have looked like. A large modernist station facility stands in front of the classical beaux-arts façade of Union Station, with connections with the Yonge-University-Spadina subway made by several stories of stairs.  
+									The proposed downtown subway would have connected with the existing Yonge-University-Spadina and Bloor-Danforth subways at Pape and Union Stations. Here, a rendering of a studied elevated alignment shows what a potential connection with Union Station could have looked like. A large modernist station facility stands in front of the classical beaux-arts façade of Union Station, with connections to the Yonge-University-Spadina subway made through several storeys of stairs.  
 								</span>
 							)
 						},
