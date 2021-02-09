@@ -382,12 +382,12 @@ export default class GoUrban extends Component {
 				/>
 				<WebColumn
 					left={[
-						{ type: 'content-title', title: 'A New Downtown Subway' },
+						{ type: 'content-title', title: 'Elevated Maglev Transit' },
 						{
 							type: 'quote',
 							text: () => (
 								<span>
-									One of Network 2011’s key proposed additions to Toronto’s rapid transit network was a “J” shaped line studied earlier as part of the TTC’s 1985 Downtown Rapid Transit Study. The study had recommended an alignment along a Pape-Eastern-Railway Corridor-Front alignment using Intermediate Capacity Transit System (ICTS) technology similar to the Scarborough RT, although larger trains similar to ones proposed as part of the GO ALRT proposal from the same era were also a contender.<sup>17</sup> Both elevated and underground options of the alignment were considered.<sup>18</sup> Given “serious consideration” as a result of potential savings of $52 million in 1985 dollars, an elevated alignment of the proposed downtown line along Front Street would have caused immense visual impacts and reduced pavement and sidewalk widths in the area.<sup>19</sup> Pedestrian links in the Union Station area would also have been severely impacted.<sup>20</sup> Here, images show the proposed line elevated through the Pape Street at Gerrard Street intersection, past Union Station, and its visual impacts running along Front Street. At Union Station, a large modernist station facility would stand in front of the classical beaux-arts façade of Union Station, with connections with the Yonge-University-Spadina subway made by several stories of stairs. A similar horizontal alignment located underground was eventually recommended.<sup>21</sup> Ultimately, the elevated line’s unsightly visual impacts on existing structures such as Union Station led its rejection in favour of an underground alignment.<sup>22</sup>   
+									GO-Urban lines were envisioned to run through a diverse variety of urban landscapes. Several key lines were planned to run along existing railway and hydro right-of-ways on elevated guideways, while the crosstown route along Eglinton would have run underground in some sections. Other lines would have run alongside the street, elevated in the median or along the side. Here, images from a Government of Ontario brochure show renderings of how the GO-Urban system would have fit into Toronto’s urban fabric.
 								</span>
 							)
 						},
