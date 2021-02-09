@@ -506,11 +506,11 @@ export default class GoUrban extends Component {
 					]}
 					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'GO-Urban/Krauss-Maffei-Transurban-Prototype.jpg'},
-						{
-							type: 'img3row',
+						//{
+							//type: 'img3row',
 							// /images/ already saved
-							images: [ 'GO-Urban/GO-Urban-Mockup.jpg', 'GO-Urban/GO-Urban-Mockup-Interior'],
-						},
+							//images: [ 'GO-Urban/GO-Urban-Mockup.jpg', 'GO-Urban/GO-Urban-Mockup-Interior'],
+						//},
 						{
 							type: 'para',
 							text: () => (
