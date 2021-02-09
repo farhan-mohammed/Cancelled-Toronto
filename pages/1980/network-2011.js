@@ -21,6 +21,10 @@ export default class Year1980 extends Component {
 		const footnotes = [
 			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011. Toronto: Toronto Transit Commission, 1985; Mitchell Smith. “TTC Urges $2.7 Billion Expansion.” Toronto Star, October 1, 1985, sec. A19.`,
 			`Smith. “TTC Urges $2.7 Billion Expansion.” sec. A19.`,
+			'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 56.'
+			'Ibid, 57.'
+			'Ibid, 58.'
+			'Ibid, 58.'
 			`Michael Smith. “Province Considering New Subway TTC Says.” Toronto Star, April 5, 1987, sec. A3; Smith. “TTC Urges $2.7 Billion Expansion.” sec. A19.`,
 			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011. Toronto: Toronto Transit Commission, 1985.`,
 			`Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011.`,
@@ -214,7 +218,7 @@ export default class Year1980 extends Component {
 							type: 'para',
 							text: () => (
 								<span>
-									Approved by Metro Toronto council by 1986, the plan was to be implemented in phases according to the Network 2011 plan, with council deciding a subway on Sheppard Avenue from Yonge Street to Victoria Park Avenue as the priority, much to the dismay of municipal officials in Etobicoke, York, and Peel Region who wanted rapid transit on Eglinton Avenue first.<sup>28</sup> Officials from the three municipal bodies were further dismayed at the plan’s commitment to construct only a busway on Eglinton, rather than a light rail line or a subway, with the plan only specifying that it could be replaced with a subway – eventually.<sup>29</sup> The plan saw further opposition from surrounding municipal and regional governments including York, Peel, and Durham Regions who sought funding for their transportation plans centred around the then proposed Highway 407, and who saw Network 2011 as competition for such funding.<sup>30</sup>
+									Approved by Metro Toronto council by 1986, the plan was to be implemented in phases according to the Network 2011 plan, with council agreeing with the plan for a subway on Sheppard Avenue from Yonge Street to Victoria Park Avenue to be the priority, much to the dismay of municipal officials in Etobicoke, York, and Peel Region who wanted rapid transit on Eglinton Avenue first.<sup>28</sup> Officials from the three municipal bodies were further dismayed at the plan’s commitment to construct only a busway on Eglinton, rather than a light rail line or a subway, with the plan only specifying that it could be replaced with a subway – eventually.<sup>29</sup> The plan saw further opposition from surrounding municipal and regional governments including York, Peel, and Durham Regions who sought funding for their transportation plans centred around the then proposed Highway 407, and who saw Network 2011 as competition for such funding.<sup>30</sup>
 								</span>
 							)
 						},
