@@ -367,7 +367,7 @@ export default class GoUrban extends Component {
 									An additional Finch route that was not part of the initial five-line, 56.1-mile plan
 									would branch from the Malton/Islington route near the airport in the west and follow
 									the Finch hydro corridor to the eastern boundary of Metropolitan Toronto, with
-									possible extension to the unbuilt satellite city of Cedarwood north of Pickering
+									possible extension to the unbuilt satellite city of Cedarwood located north of Pickering
 									and adjacent to the planned Pickering international airport.<sup>27</sup> It would
 									intersect four of the five initially planned lines and provide east-west access in
 									the quickly urbanising areas in the northern part of Metropolitan Toronto.
