@@ -264,7 +264,7 @@ export default class GoUrban extends Component {
 									The CNE demonstration track would test the real-world applications of the technology
 									for future implementation across Ontario. What began as a four station, 2.5-mile (4
 									kilometres) line costing $16 million quickly ballooned to over $25 million, with the
-									station adjacent to Exhibition GO cut.<sup>16</sup> The line was cancelled when the West
+									station at Exhibition GO cut.<sup>16</sup> The line was cancelled when the West
 									German government pulled funding for Krauss-Maffei, which forced them to cancel
 									their agreement with the Ontario government.<sup>17</sup>
 								</div>
@@ -367,7 +367,7 @@ export default class GoUrban extends Component {
 									An additional Finch route that was not part of the initial five-line, 56.1-mile plan
 									would branch from the Malton/Islington route near the airport in the west and follow
 									the Finch hydro corridor to the eastern boundary of Metropolitan Toronto, with
-									possible extension to the never-built satellite city of Cedarwood north of Pickering
+									possible extension to the unbuilt satellite city of Cedarwood north of Pickering
 									and adjacent to the planned Pickering international airport.<sup>27</sup> It would
 									intersect four of the five initially planned lines and provide east-west access in
 									the quickly urbanising areas in the northern part of Metropolitan Toronto.
