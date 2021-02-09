@@ -394,10 +394,8 @@ export default class GoUrban extends Component {
 					]}
 					right={[
 						{ type: 'img', adjust: { hide: false }, src: 'GO-Urban/GO-Urban Rendering 2.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a street.'  },
-						{ type: 'img3row',
-						// /images/ already saved
-						images: [ 'GO-Urban/GO-Urban-Mockup.jpg', 'GO-Urban/GO-Urban-Mockup-Interior'],
-					},
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 1.png', alt: 'This image shows the proposed GO-Urban system running elevated in a hydro right-of-way.' },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 3.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a railway right-of-way.'   },
 					]}
 				/>
 				<WebColumn
