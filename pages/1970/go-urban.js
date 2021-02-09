@@ -172,24 +172,7 @@ export default class GoUrban extends Component {
 					]}
 				/>
 				<WebColumn
-					left={[
-						{ type: 'content-title', title: 'GO-Urban Along Hydro Right-of-ways' },
-						{
-							type: 'quote',
-							text: () => (
-								<span>
-									A number of GO-Urban lines were planned to utilise hydro right-of-ways in their
-									routing. Here, an artist rendering shows what a conceptual line would look like.<sup>7</sup>
-								</span>
-							)
-						},
-						{
-							type: 'quote',
-							text: () => <span>© Queen’s Printer for Ontario, 1973. Reproduced with permission.</span>
-						}
-					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 1.png', alt: 'This image shows the proposed GO-Urban system running elevated in a hydro right-of-way.' },
 						{
 							type: 'para',
 							text: () => (
@@ -397,17 +380,14 @@ export default class GoUrban extends Component {
 						}
 					]}
 				/>
-
 				<WebColumn
 					left={[
-						{ type: 'content-title', title: 'GO-Urban Along Street'},
+						{ type: 'content-title', title: 'A New Downtown Subway' },
 						{
-							type: 'para',
+							type: 'quote',
 							text: () => (
 								<span>
-									Several of the GO-Urban lines were proposed to run along the streets, either in the
-									median or along the right-of-way. Here, an artist rendering shows what a conceptual
-									line would look like.<sup>28</sup>
+									One of Network 2011’s key proposed additions to Toronto’s rapid transit network was a “J” shaped line studied earlier as part of the TTC’s 1985 Downtown Rapid Transit Study. The study had recommended an alignment along a Pape-Eastern-Railway Corridor-Front alignment using Intermediate Capacity Transit System (ICTS) technology similar to the Scarborough RT, although larger trains similar to ones proposed as part of the GO ALRT proposal from the same era were also a contender.<sup>17</sup> Both elevated and underground options of the alignment were considered.<sup>18</sup> Given “serious consideration” as a result of potential savings of $52 million in 1985 dollars, an elevated alignment of the proposed downtown line along Front Street would have caused immense visual impacts and reduced pavement and sidewalk widths in the area.<sup>19</sup> Pedestrian links in the Union Station area would also have been severely impacted.<sup>20</sup> Here, images show the proposed line elevated through the Pape Street at Gerrard Street intersection, past Union Station, and its visual impacts running along Front Street. At Union Station, a large modernist station facility would stand in front of the classical beaux-arts façade of Union Station, with connections with the Yonge-University-Spadina subway made by several stories of stairs. A similar horizontal alignment located underground was eventually recommended.<sup>21</sup> Ultimately, the elevated line’s unsightly visual impacts on existing structures such as Union Station led its rejection in favour of an underground alignment.<sup>22</sup>   
 								</span>
 							)
 						},
@@ -417,7 +397,13 @@ export default class GoUrban extends Component {
 						}
 					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 2.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a street.'  },
+						{ type: 'img', adjust: { hide: false }, src: 'GO-Urban/GO-Urban Rendering 2.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a street.'  },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 1.png', alt: 'This image shows the proposed GO-Urban system running elevated in a hydro right-of-way.' },
+						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 3.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a railway right-of-way.'   },
+					]}
+				/>
+				<WebColumn
+					right={[
 						{
 							type: 'para',
 							text: () => (
@@ -511,25 +497,7 @@ export default class GoUrban extends Component {
 					]}
 				/>
 				<WebColumn
-					left={[
-						{ type: 'content-title', title: 'GO-Urban Along Railway' },
-						{
-							type: 'quote',
-							text: () => (
-								<span>
-									Besides running along streets and hydro right-of-ways, GO-Urban was planned to
-									utilise railway right-of-ways. Here, an artist rendering shows what a conceptual
-									routing would look like.<sup>45</sup>
-								</span>
-							)
-						},
-						{
-							type: 'quote',
-							text: () => <span>© Queen’s Printer for Ontario, 1973. Reproduced with permission.</span>
-						}
-					]}
 					right={[
-						{ type: 'img', src: 'GO-Urban/GO-Urban Rendering 3.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a railway right-of-way.'   },
 						{
 							type: 'para',
 							text: () => (
