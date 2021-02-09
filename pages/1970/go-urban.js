@@ -168,11 +168,7 @@ export default class GoUrban extends Component {
 									passengers per hour in the peak direction.<sup>6</sup>
 								</span>
 							)
-						}
-					]}
-				/>
-				<WebColumn
-					right={[
+						},
 						{
 							type: 'para',
 							text: () => (
@@ -497,7 +493,19 @@ export default class GoUrban extends Component {
 					]}
 				/>
 				<WebColumn
+					left={[
+						{ type: 'content-title', title: 'Krauss-Maffei Prototype' },
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									Pictured is the ill-fated prototype system under development by Krauss-Maffei in West Germany. After a series of delays, embarrassing bugs, and eventually a cut in funding, the GO-Urban plan was paused while development of the technology continued in Ontario. Although the maglev technology was unused, the linear induction motor technology was refined and serves as the backbone of several transit systems today.
+								</span>
+							)
+						}
+					]}
 					right={[
+						{ type: 'img', adjust: { hide: false }, src: 'GO-Urban/Krauss-Maffei-Transurban-Prototype.jpg', alt:'This image shows the proposed GO-Urban system running elevated along a street.'  },
 						{
 							type: 'para',
 							text: () => (
