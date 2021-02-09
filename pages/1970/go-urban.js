@@ -420,9 +420,9 @@ export default class GoUrban extends Component {
 									From the beginning of the announcement for the system, transportation planners were
 									pessimistic of the plan, with some predicting that half of the network was
 									infeasible and would not be built.<sup>31</sup> Others were critical of the proposed
-									routing of one line through Flemingdon Park, with planners adamant that an ICTS
+									routing of the line through Flemingdon Park, with planners adamant that an ICTS
 									system would have insufficient capacity for the projected ridership, and that the
-									proposed Queen subway line, which would roughly follow the same route, would be
+									proposed Queen TTC subway line, which would roughly follow the same route, would be
 									needed instead.<sup>32</sup> Opposition from Metropolitan Toronto and the TTC was
 									also an issue, with TTC planners working on their own ICTS system utilising light
 									rail vehicles, which the province criticised as being noisy and unsuitable for
