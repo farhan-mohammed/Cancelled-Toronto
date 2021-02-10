@@ -319,8 +319,8 @@ export default class Year1980 extends Component {
                                     connect two emerging central business districts, North York
                                     Centre and Scarborough City Centre. Pictured is North York
                                     Centre, with the intersection and western terminus of the first
-                                    phase of the subway, Sheppard Avenue and Yonge Street, at the
-                                    lower centre.<sup>27</sup>
+                                    phase of the subway, Sheppard Avenue and Yonge Street at the
+                                    far right.<sup>27</sup>
                                 </span>
                             ),
                         },
