@@ -137,8 +137,7 @@ export default class Year1980 extends Component {
                                 <span>
                                     Planning for what became Network 2011 began in 1982, with the
                                     release of the Accelerated Rapid Transit Study undertaken by
-                                    Metro Toronto and the TTC.<sup>8</sup>
-                                    The report, which studied four corridors for future rapid
+                                    Metro Toronto and the TTC.<sup>8</sup> The report, which studied four corridors for future rapid
                                     transit expansion including Eglinton, “Central Radial” (a route
                                     downtown via existing rail corridors), Sheppard, and the Finch
                                     hydro corridor, identified potential station, yard, and routing
