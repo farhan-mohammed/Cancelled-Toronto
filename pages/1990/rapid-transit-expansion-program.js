@@ -133,7 +133,7 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<div>
-									The plan was well-received by municipal officials within Metro Toronto and seen as a breakthrough in their fight for transit funding for projects. However, the plan, announced in April 1990, was soon back to the drawing board following the Liberal provincial government’s defeat in the September 1990 Ontario general election and the election of an NDP provincial government who quickly halted the Liberals’ transit plans under the reasoning of conducting “value for money” studies of the projects.<sup>7</sup> Ultimately, the Let’s Move plan emerged unscathed from the NDP provincial government’s review of government spending, however was left unfunded as study continued.<sup>8</sup>
+									The plan was well-received by municipal officials within Metro Toronto and seen as a breakthrough in their fight for transit funding for projects. However, the plan, announced in April 1990, was temporarily paused following the Liberal provincial government’s defeat in the September 1990 Ontario general election and the election of an NDP provincial government which quickly paused the previous administration’s plans under the reasoning of conducting “value for money” studies of the projects.<sup>7</sup> Ultimately, the Let’s Move plan emerged unscathed from the NDP provincial government’s review of government spending, however was left unfunded as study continued.<sup>8</sup>
 								</div>
 							)
 						},
