@@ -12,10 +12,18 @@ export default class RapidTransit extends Component {
 	}
 	footnotes() {
 		const footnotes = [
+			'Jim Byers. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1.',
+			'Byers. “Huge Transit Expansion Announced for Metro.” sec. A1; Peter Howell. “\'Finch Loop\' Proposed as Subway Expansion.” Toronto Star, March 6, 1990, sec. A1.',
+			'Byers. “Huge Transit Expansion Announced for Metro.” sec. A1',
+			'Byers. “Huge Transit Expansion Announced for Metro.” sec. A1',
+			'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011. Toronto: Toronto Transit Commission, 1985.',
+			`Alan Dunlop. Two proposals: The photo at left shows Yonge St. looking south; intersecting with Sheppard Ave. (at cluster of high-rises); where Mel Lastman wants the proposed subway to run. Others want the line further north; at Finch Ave.; near the Xerox building (partially out of the picture above). That line would parallel the hydro right of way (to the right of where the helicopter is circling), 1990, black and white digital, Toronto Star photo archive, Toronto, accessed January 7, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0106979F&R=DC-TSPA_0106979F`,
+			'Peter Howell. “NDP Puts Transit Expansion on Hold.” Toronto Star, October 3, 1990, sec. A3.',
+			'Richard, Mackie. “NDP Will Spend $5-Billion to Expand Transit Systems: Government Criticized for Using Plans Initiated by the Liberals.” The Globe and Mail. November 27, 1990, sec. A12.',
+			`James Royson. “Attention, Subway Patrons: The TTC Needs More of You.” Toronto Star, December 4, 1993, sec. A1; Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
 			`Nicolaas Van Rijn and Royson James. “Rae Okays New Lines for Subway 'Grand Slam'.” Toronto Star, February 9, 1993, sec. A1.`,
 			`Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
-			`James Royson. “Attention, Subway Patrons: The TTC Needs More of You.” Toronto Star, December 4, 1993, sec. A1; Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
-			`Alan Dunlop. Two proposals: The photo at left shows Yonge St. looking south; intersecting with Sheppard Ave. (at cluster of high-rises); where Mel Lastman wants the proposed subway to run. Others want the line further north; at Finch Ave.; near the Xerox building (partially out of the picture above). That line would parallel the hydro right of way (to the right of where the helicopter is circling), 1990, black and white digital, Toronto Star photo archive, Toronto, accessed January 7, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0106979F&R=DC-TSPA_0106979F`,
+			'Canada. Ontario. Ministry of the Environment. Eglinton West Rapid Transit Environmental Assessment Report. Toronto: Toronto Transit Commission, 1993.',
 			`Jim Byers. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1; Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
 			`Rijn and James. “Rae Okays New Lines for Subway 'Grand Slam'.” sec. A1.`,
 			`David Lewis Stein. “After $45 Million Is That All There Is?” Toronto Star, February 5, 1993, sec. A27.`,
@@ -28,7 +36,10 @@ export default class RapidTransit extends Component {
 			`David Lewis Stein. “Metro Taxpayers Being Taken for a Ride.” Toronto Star, February 21, 1993, sec. B1.`,
 			`Stein. “Metro Taxpayers Being Taken for a Ride.” sec. B1.`,
 			`James Royson. “Deciding Which Train to Take Metro Council Has to Vote on Subway Expansion. Everyone has a Favorite.” Toronto Star, March 8, 1994, sec. A15.`,
-			'Canada. Ontario. Ministry of the Environment. Eglinton West Rapid Transit Environmental Assessment Report. Toronto: Toronto Transit Commission, 1993',
+			'Canada. Ontario. UMA Engineering Ltd., Metropolitan Toronto Planning Department, Ministry of Transportation, Ministry of the Environment; Environmental Assessment Branch, Toronto Transit Commission. Let’s Move Program Overview Report. Toronto, 1990, 13.',
+			'Canada. Ontario. UMA Engineering Ltd., Metropolitan Toronto Planning Department, Ministry of Transportation, Ministry of the Environment; Environmental Assessment Branch, Toronto Transit Commission. Let’s Move Program Overview Report, 13.',
+			'Ibid.',
+			'Tony Bock Full steam ahead: A GO train crosses a typically busy Don Valley Parkway. The transit system has big plans to increase ridership., Toronto Star photo archive, Toronto, accessed February 10, 2021, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0012693F&R=DC-TSPA_0012693F',
 			`James Royson. “Metro Has Final Say on 2 Lines, NDP Says.” Toronto Star, October 5, 1994, sec. A6.`,
 			`Gail Swainson. “Transit Lines Halted After Two Days of Debate, Plan Defeated 18-12.” Toronto Star, February 24, 1995, sec. A1.`,
 			`Bruce Campion-Smith. “How Province Could Take over the TTC But Potential Political Pitfalls in Store Should Queen's Park Override Metro.” Toronto Star, February 25, 1995, sec. A2.`,
@@ -45,7 +56,7 @@ export default class RapidTransit extends Component {
 			<div className="body__text-con">
 				<WebColumn
 					left={[
-						{ type: 'main-title', title: 'Rapid Transit Expansion Program (1993)' },
+						{ type: 'main-title', title: 'Let\'s Move/Rapid Transit Expansion Program (1990/1993)' },
 						{
 							type: 'main-subtitle',
 							title: () => (
@@ -63,9 +74,7 @@ export default class RapidTransit extends Component {
 							type: 'quote',
 							text: () => (
 								<span>
-									The Rapid Transit Expansion Program put a focus on four projects: An Eglinton West
-									subway, a Sheppard Subway, an extenstion of the Scarborough Rapid Transit Line, and
-									an expansion of the Spadina line to York University
+									The Let’s Move and Rapid Transit Expansion Program plans were two closely related plans that were natural successors to the TTC’s Network 2011 plan. Both the Let’s Move and Rapid Transit Expansion Program plans put a focus on four major projects: An Eglinton West subway, a Sheppard subway, an extension of the Scarborough rapid transit line, and an extension of the Spadina line to York University. Other projects part of both plans included an expanded Wilson yard and light rail transit on the waterfront.
 								</span>
 							)
 						},
@@ -73,13 +82,7 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<span>
-									The 1993 Rapid Transit Expansion Program was the culmination of the NDP provincial
-									government’s study of the previous Liberal government’s Let’s Move transit plan. The
-									highlights for phase one – a Sheppard subway between Yonge Street and Don Mills
-									Road, a subway on Eglinton Avenue West from Eglinton West Station in the east to a
-									new “York City Centre” located at Black Creek Drive in the west, and eventually to
-									Pearson Airport, an extended Spadina subway reaching York University, and an
-									extension to the Scarborough rapid transit line.<sup>1</sup>
+									A natural evolution of the TTC’s Network 2011 plan, the 1990 Let’s Move transit plan by the Liberal provincial government incorporated key elements of Network 2011, including a busway on Eglinton Avenue West between Mississauga and Eglinton West Station and “conditional support” for a Sheppard subway between Yonge Street and Scarborough City Centre – subject to the amount of private investment towards the project.<sup>1</sup> 
 								</span>
 							)
 						},
@@ -87,12 +90,7 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<span>
-									This first phase of the plan would cost $2.5 billion and create 50,000 jobs, with
-									$1.5 billion from the province, $500 million from Metro Toronto, and $500 million
-									from the private sector.
-									<sup>2</sup> The plan, released at the end of the early 1990s recession, was seen as
-									both a jobs creator and a way to rebuild ridership on the TTC subway system, which
-									had fallen over 15 per cent between 1988 to 1993.<sup>3</sup>
+									Beyond that, the plan introduced an ambitious proposal to connect the two ends of the Yonge-University-Spadina subway by creating a loop that would run along the hydro corridor parallel to Finch Avenue, a move that was predicted to increase capacity on the squeezed Yonge-University-Spadina line by 3,000 riders per hour.<sup>2</sup> Meanwhile, extensions to both the Bloor-Danforth subway in the west to Sherway Gardens and the Scarborough rapid transit line in the east to Sheppard Avenue and Markham Road would extend rapid transit to areas currently poorly served.<sup>3</sup> The combined plan along with GO Transit and TTC streetcar projects was to cost over $5 billion dollars and support plans for Toronto’s bid for the 1996 Olympics.<sup>4</sup> And like the Network 2011 plan that preceded it, the construction of subways connecting nodes of development would support long-standing Metropolitan Toronto plans for decentralisation.<sup>5</sup>
 								</span>
 							)
 						}
@@ -111,7 +109,7 @@ export default class RapidTransit extends Component {
 									The Sheppard subway was crucial to the then-city of North York and Metropolitan
 									Toronto’s plan to build a downtown centered along Yonge Street. Road capacity in the
 									area was already strained, and a subway was necessary to ensure development could
-									continue without straining the transportation infrastructure in the area.<sup>4</sup>
+									continue without straining the transportation infrastructure in the area.<sup>6</sup>
 								</span>
 							)
 						},
@@ -135,14 +133,7 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<div>
-									At the core of the NDP’s new plan was many of the same projects found in both the
-									Let’s Move and Network 2011 plans: A Sheppard subway was made a priority in this
-									plan, with provincial funding to match, unlike the previous conditional support for
-									the line under the previous Liberal provincial government.<sup>5</sup> On Eglinton,
-									plans for a busway were upgraded to a subway, pleasing municipal officials in the
-									surrounding area and especially those from the then City of York, where the first
-									phase of the future subway line was to terminate in a new central business district
-									dubbed “York City Centre”.<sup>6</sup>
+									The plan was well-received by municipal officials within Metro Toronto and seen as a breakthrough in their fight for transit funding for projects. However, the plan, announced in April 1990, was soon back to the drawing board following the Liberal provincial government’s defeat in the September 1990 Ontario general election and the election of an NDP provincial government who quickly halted the Liberals’ transit plans under the reasoning of conducting “value for money” studies of the projects.<sup>7</sup> Ultimately, the Let’s Move plan emerged unscathed from the NDP provincial government’s review of government spending, however was left unfunded as study continued.<sup>8</sup>
 								</div>
 							)
 						},
@@ -150,16 +141,50 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<div>
-									Meanwhile, plans for a subway loop connecting the Yonge and Spadina subways were
-									retained but expanded to include proposed stations at York University and with a
-									more northerly alignment on Steeles Avenue rather than through the Finch hydro
-									corridor as originally proposed.<sup>7</sup> Similarly, plans for extensions to the
-									Bloor-Danforth subway and Scarborough rapid transit lines were retained, with an
-									extension to Sherway Gardens on the Bloor-Danforth subway proposed as a second phase
-									of the plan.<sup>8</sup>
+									The Let’s Move plan remained unfunded until 1993, when the NDP provincial government announced refined Let’s Move plans under the new name <i>Rapid Transit Expansion Program</i>. The plan, released at the end of the early 1990s recession, was meant to act as both a jobs creator and a way to rebuild ridership on the TTC subway system, which had fallen over 15 per cent between 1988 to 1993.<sup>9</sup> Phase one of the plan would include a Sheppard subway between Yonge Street and Don Mills Road, a subway on Eglinton Avenue West from Eglinton West Station in the east to a new “York City Centre” located at Black Creek Drive in the west, an extended Spadina subway reaching York University, and an extension to the Scarborough rapid transit line.<sup>10</sup> It would cost $2.5 billion and create 50,000 jobs, with $1.5 billion from the province, $500 million from Metro Toronto, and $500 million from the private sector.<sup>11</sup>
 								</div>
 							)
 						}
+					]}
+				/>
+				<WebColumn
+					left={[
+						{
+							type: 'content-title',
+							title: 'Rapid Transit on Eglinton Avenue West'
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									Phase one of the Eglinton West subway was planned to terminate at York City Centre, a large office development planned alongside the subway. In this 1993 render produced for the environmental assessment of the project, a train pulls into York City Centre station with a final terminus of Pearson Airport seen on the subway destination blind.<sup>12</sup>
+								</span>
+							)
+						}
+					]}
+					right={[
+						{
+							type: 'img',
+							adjust: { hide: false },
+							// /images/ already saved
+							src: 'Rapid Transit Expansion Program/York City Centre Render.jpg'
+						},
+						{
+							type: 'para',
+							text: () => (
+								<div>
+									The Rapid Transit Expansion Program plan continued the same projects found in both the Let’s Move and Network 2011 plans while further building on them: A Sheppard subway was made a priority in this plan, with provincial funding to match, unlike the previous conditional support for the line under the previous Liberal provincial government.<sup>13</sup> On Eglinton, plans for a busway were upgraded to a subway, pleasing municipal officials in the surrounding area and especially those from the then City of York, where the first phase of the future subway line was to terminate in a new central business district dubbed “York City Centre”.<sup>14</sup>
+								</div>
+							)
+						},
+						{
+							type: 'para',
+							text: () => (
+								<div>
+									Meanwhile, plans for a subway loop connecting the Yonge and Spadina subways were retained but expanded to include proposed stations at York University and with a more northerly alignment on Steeles Avenue rather than through the Finch hydro corridor as originally proposed.<sup>15</sup> Similarly, plans for extensions to the Bloor-Danforth subway and Scarborough rapid transit lines were retained, with an extension to Sherway Gardens on the Bloor-Danforth subway proposed as a second phase of the plan.<sup>16</sup>
+								</div>
+							)
+						},
 					]}
 				/>
 				<WebColumn
@@ -182,7 +207,7 @@ export default class RapidTransit extends Component {
 									stations and an interchange with the existing Spadina line at Eglinton West station,
 									which was planned to be renamed Allen Station. The Terminus would be located
 									adjacent to a new central business district, dubbed York City Centre. That project
-									died shortly afterwards the Eglinton West subway was cancelled in 1995.<sup>9</sup>
+									died shortly afterwards the Eglinton West subway was cancelled in 1995.<sup>17</sup>
 								</div>
 							)
 						},
@@ -202,7 +227,7 @@ export default class RapidTransit extends Component {
 									The environmental assessment of the Sheppard subway identified four new stations and
 									an interchange with the existing Yonge lines at Sheppard Station, which was
 									eventually renamed Sheppard-Yonge Station. That project was eventually completed in
-									2002.<sup>10</sup>
+									2002.<sup>18</sup>
 								</div>
 							)
 						},
@@ -221,7 +246,7 @@ export default class RapidTransit extends Component {
 								<div>
 									The environmental assessment of the Scarborough rapid transit line extension
 									identified four new station locations approximately following the route of Highland
-									Creek.<sup>11</sup> Three stops would be initially built at the intersection of
+									Creek.<sup>19</sup> Three stops would be initially built at the intersection of
 									Progress Avenue and Markham Road, the intersection of Milner Avenue and Progress
 									Avenue, and at approximately the intersection of Sheppard Avenue and Markham Road. A
 									station would be built in the future on Bellamy Station adjacent to Highland Creek.
@@ -244,7 +269,7 @@ export default class RapidTransit extends Component {
 								<span>
 									The environmental assessment of the Spadina subway extension to York University
 									proposed three new stations following an entirely new alignment compared to the
-									Let’s Move extension plan.<sup>12</sup> Stations were proposed at the C.N.R.
+									Let’s Move extension plan.<sup>20</sup> Stations were proposed at the C.N.R.
 									subdivision at Finch Avenue West, near the intersection of Finch Avenue West and
 									Kelle Street, and a station terminating at York University. Council was unsupportive
 									of this plan, and it was later cancelled. An extension of the Spadina subway with a
@@ -265,7 +290,7 @@ export default class RapidTransit extends Component {
 									private sector were to be funnelled through a new crown corporation, the Ontario
 									Transportation Corporation, which with a budget separate from the province’s
 									revenues enabled the provincial government to proceed with projects without directly
-									increasing Ontario’s deficit.<sup>13</sup>
+									increasing Ontario’s deficit.<sup>21</sup>
 								</div>
 							)
 						},
@@ -275,15 +300,15 @@ export default class RapidTransit extends Component {
 								<div>
 									Following the recession, the provincial government’s deficit at the time – a record
 									$10 billion was worrying for many and a key issue in the following 1995 provincial
-									elections.<sup>14</sup> Likewise, municipal officials in Metro Toronto were
+									elections.<sup>22</sup> Likewise, municipal officials in Metro Toronto were
 									concerned with the cost associated with the four subway projects proposed and their
 									effect on municipal finances, which would see cost-cutting on municipal programs to
-									support the 25 per cent municipal funding necessary for the projects.<sup>15</sup>{' '}
+									support the 25 per cent municipal funding necessary for the projects.<sup>23</sup>
 									Metro Toronto staff had earlier recommended Metro Toronto council to approve only
 									the Eglinton West subway and Spadina extension to York University, leading to
 									clashes between the province and Toronto municipal officials, with the province
 									threatening to cut their share of funding for other municipal projects if only two
-									of the four projects were approved.<sup>16</sup>
+									of the four projects were approved.<sup>24</sup>
 								</div>
 							)
 						}
@@ -293,33 +318,28 @@ export default class RapidTransit extends Component {
 					left={[
 						{
 							type: 'content-title',
-							title: 'Eglinton West Subway Render'
+							title: 'GO Transit Expansion'
 						},
 						{
 							type: 'quote',
 							text: () => (
 								<div>
-									Phase one of the Eglinton West subway was planned to terminate at York City Centre,
-									a large office development planned alongside the subway. In this 1993 render produced for
-									the environmental assessment of the project, a train pulls into York City Centre
-									station with a final terminus of Pearson Airport seen on the subway destination
-									blind.<sup>17</sup>
+									The Let’s Move plan included a number of GO Transit improvements that were later separated from the subway focused Rapid Transit Expansion Program but still continued by the NDP provincial government.<sup>25</sup> Unlike many of the Rapid Transit Expansion Program’s projects which were cancelled after the election of the Mike Harris Progressive Conservative administration, several GO Transit projects included in the Let’s Move plan were completed or near completion by 1995. Projects such as the extension of the Lakeshore West line to downtown Hamilton, a new station in Burlington, and the extension of the Lakeshore East line to Oshawa were all products of the Let’s Move plan and the NDP provincial government’s investment in GO Transit.<sup>26</sup> Other Let’s Move plan GO Transit initiatives including the extension of the Richmond Hill line to Bloomington Sideroad in York Region were shelved and ultimately delayed, although such extension is currently planned to be completed in 2021, 31 years since the idea was first announced.<sup>27</sup> Pictured is a Richmond Hill line train over the Don Valley Parkway.<sup>28</sup>
 								</div>
 							)
+						},
+						{
+							type: 'quote',
+							text: () => (
+							<div>(Tony Bock / Toronto Star) © Toronto Star, 1990. Reproduced under license.</div>
+						)
 						}
-						//},
-						//{
-						//type: 'quote',
-						//text: () => (
-						//<div>(Boris Spremo / Toronto Star) © Toronto Star, 1998. Reproduced under license.</div>
-						//)
-						//}
 					]}
 					right={[
 						{
 							type: 'img',
 							adjust: { hide: false},
-							src: 'Rapid Transit Expansion Program/York City Centre Render.jpg'
+							src: 'Rapid Transit Expansion Program/GO Transit.jpg'
 						}
 					]}
 				/>
@@ -330,16 +350,7 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<div>
-									In the end, both the Sheppard and Eglinton West subways were approved while the
-									Spadina and Scarborough rapid transit extensions, with little political support,
-									were left in limbo.<sup>18</sup> A municipal election during the midst of the debate
-									temporarily paused the discussion but both projects were eventually voted against by
-									Metro Toronto council, leading to calls for the province to take control of the TTC.<sup>19</sup>{' '}
-									Several proposals reportedly investigated by the province included transferring
-									ownership, planning, and day-to-day operation of the subways to GO Transit (leaving
-									the TTC to run only streetcars and buses), taking over just the remaining two
-									projects and funding them through provincial funds only, or taking control of the
-									TTC completely.<sup>20</sup>
+									In the end, both the Sheppard and Eglinton West subways were approved while the Spadina and Scarborough rapid transit extensions, with little political support, were left in limbo.<sup>28</sup> A municipal election during the midst of the debate temporarily paused the discussion but both projects were eventually voted against by Metro Toronto council, leading to calls for the province to take control of the TTC.<sup>30</sup> Several proposals reportedly investigated by the province included transferring ownership, planning, and day-to-day operation of the subways to GO Transit, leaving the TTC to run only streetcars and buses, taking over just the remaining two projects and funding them through provincial funds only, or taking control of the TTC completely.<sup>31</sup>
 								</div>
 							)
 						},
@@ -347,13 +358,7 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<div>
-									Ultimately, none of the proposals were enacted and by 1994, environmental
-									assessments on the Eglinton West, Sheppard, Scarborough RT extension, and Spadina
-									loop projects had been completed, with construction starting on the former two
-									projects by late summer of 1994.<sup>21</sup> By early 1995, excavation had already
-									progressed for tail tracks on the Eglinton West subway and procurement of tunnel
-									boring machines had been underway for the Sheppard subway, then projected to begin
-									tunnelling in mid-1996.<sup>22</sup>
+									Ultimately, none of the proposals were enacted and by 1994, environmental assessments on the Eglinton West, Sheppard, Scarborough RT extension, and Spadina loop projects had been completed, with construction starting on the former two projects by late summer of 1994, with the other projects expected to start later on.<sup>32</sup> By early 1995, excavation had already progressed for tail tracks on the Eglinton West subway and procurement of tunnel boring machines had been underway for the Sheppard subway, then projected to begin tunnelling in mid-1996.<sup>33</sup>
 								</div>
 							)
 						}
@@ -372,7 +377,7 @@ export default class RapidTransit extends Component {
 									The Sheppard subway was the only project spared cancellation by the Progressive
 									Conservative provincial government, which deferred the other projects. Here,
 									construction on the Sheppard subway progresses at the intersection of Sheppard
-									Avenue and Leslie Street in 1998.<sup>23</sup>
+									Avenue and Leslie Street in 1998.<sup>34</sup>
 								</div>
 							)
 						},
@@ -403,8 +408,8 @@ export default class RapidTransit extends Component {
 									running under an austerity platform quickly put an end to three of the four
 									projects, with the Eglinton West subway deferred after their election in June of
 									1995, funding cut for the Scarborough RT and Spadina extensions, leaving only the
-									Sheppard subway left untouched.<sup>24</sup> Construction was halted on the Eglinton
-									West subway and work to revert the street was quickly undertaken.<sup>25</sup> The
+									Sheppard subway left untouched.<sup>35</sup> Construction was halted on the Eglinton
+									West subway and work to revert the street was quickly undertaken.<sup>36</sup> The
 									poor financial status of both the province and Metro Toronto (later reorganized as
 									the City of Toronto by the provincial government) kept the three unbuilt projects
 									deferred for more than a decade before similar plans were explored by later
@@ -417,9 +422,8 @@ export default class RapidTransit extends Component {
 							text: () => (
 								<div>
 									The Rapid Transit Expansion Program was a crucial point in transit planning for
-									Toronto at its time. Not only did it refine and build upon plans studied for almost
-									a decade, beginning with Network 2011, but it also provided the necessary funding
-									for construction. Although never fully realized, the basis of the planning
+									Toronto at its time. Not only did the plan refine and build upon subway projects studied for almost
+									a decade, it also provided the necessary funding for construction. Although never fully realized, the basis of the planning
 									undertaken through this plan formed the first major extension to the TTC subway
 									system for over two decades, with the Sheppard subway between Yonge Street and Don
 									Mills Road opening in 2003. Meanwhile, key elements of the plan including a subway
