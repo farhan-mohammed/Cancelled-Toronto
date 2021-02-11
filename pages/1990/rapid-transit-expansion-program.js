@@ -340,12 +340,7 @@ export default class RapidTransit extends Component {
 							type: 'img',
 							adjust: { hide: false},
 							src: 'Rapid Transit Expansion Program/GO Transit.jpg'
-						}
-					]}
-				/>
-				<WebColumn
-					rightOnly={true}
-					right={[
+						},
 						{
 							type: 'para',
 							text: () => (
