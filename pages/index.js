@@ -28,7 +28,7 @@ const ImageList = [
 		// href: '/',
 
 		href: '/1990/rapid-transit-expansion-program',
-		title: 'Let\'s Move/Rapid Transit Expansion Program (1990/1993)',
+		title: 'Let\'s Move / Rapid Transit Expansion Program (1990/1993)',
 		subtitle: 'Cancelled, partially built',
 		// subtitle: '',
 		img: 'Rapid Transit Expansion Program.png'
