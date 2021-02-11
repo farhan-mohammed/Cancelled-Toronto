@@ -35,8 +35,8 @@ const NavList = [
 			// 	link: 'lets-move'
 			// },
 			{
-				year: '1993',
-				name: 'Rapid Transit Expansion Program',
+				year: '1990/1993',
+				name: 'Let\'s Move/Rapid Transit Expansion Program',
 				// link: '/'
 				link: 'rapid-transit-expansion-program'
 			}
