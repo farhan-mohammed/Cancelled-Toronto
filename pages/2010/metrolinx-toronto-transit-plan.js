@@ -46,7 +46,7 @@ export default class MetroLinxTTP extends Component {
 			<div>
 				<WebColumn
 					left={[
-						{ type: 'main-title', title: 'Metrolinx / Toronto Transit Plan (2011)' },
+						{ type: 'main-title', title: 'Metrolinx/Toronto Transit Plan (2011)' },
 						{ type: 'main-subtitle', title: 'Cancelled in 2012' }
 					]}
 					right={[

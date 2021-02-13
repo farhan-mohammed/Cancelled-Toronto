@@ -56,7 +56,7 @@ export default class RapidTransit extends Component {
 			<div className="body__text-con">
 				<WebColumn
 					left={[
-						{ type: 'main-title', title: 'Let\'s Move / Rapid Transit Expansion Program (1990/1993)' },
+						{ type: 'main-title', title: 'Let\'s Move/Rapid Transit Expansion Program (1990/1993)' },
 						{
 							type: 'main-subtitle',
 							title: () => (
