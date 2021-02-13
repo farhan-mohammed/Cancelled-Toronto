@@ -14,7 +14,7 @@ export default class RapidTransit extends Component {
 		const footnotes = [
 			'Jim Byers. “Huge Transit Expansion Announced for Metro.” Toronto Star, April 5, 1990, sec. A1.',
 			'Byers. “Huge Transit Expansion Announced for Metro.” sec. A1; Peter Howell. “\'Finch Loop\' Proposed as Subway Expansion.” Toronto Star, March 6, 1990, sec. A1.',
-			'Byers. “Huge Transit Expansion Announced for Metro.” sec. A1',
+			'Byers. “Huge Transit Expansion Announced for Metro.” sec. A1; Canada. Ontario. UMA Engineering Ltd., Metropolitan Toronto Planning Department, Ministry of Transportation, Ministry of the Environment; Environmental Assessment Branch, Toronto Transit Commission. Let’s Move Program Overview Report. Toronto, 1990, 13.',
 			'Byers. “Huge Transit Expansion Announced for Metro.” sec. A1',
 			'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011. Toronto: Toronto Transit Commission, 1985.',
 			`Alan Dunlop. Two proposals: The photo at left shows Yonge St. looking south; intersecting with Sheppard Ave. (at cluster of high-rises); where Mel Lastman wants the proposed subway to run. Others want the line further north; at Finch Ave.; near the Xerox building (partially out of the picture above). That line would parallel the hydro right of way (to the right of where the helicopter is circling), 1990, black and white digital, Toronto Star photo archive, Toronto, accessed January 7, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0106979F&R=DC-TSPA_0106979F`,
@@ -36,8 +36,8 @@ export default class RapidTransit extends Component {
 			`David Lewis Stein. “Metro Taxpayers Being Taken for a Ride.” Toronto Star, February 21, 1993, sec. B1.`,
 			`Stein. “Metro Taxpayers Being Taken for a Ride.” sec. B1.`,
 			`James Royson. “Deciding Which Train to Take Metro Council Has to Vote on Subway Expansion. Everyone has a Favorite.” Toronto Star, March 8, 1994, sec. A15.`,
-			'Canada. Ontario. UMA Engineering Ltd., Metropolitan Toronto Planning Department, Ministry of Transportation, Ministry of the Environment; Environmental Assessment Branch, Toronto Transit Commission. Let’s Move Program Overview Report. Toronto, 1990, 13.',
 			'Canada. Ontario. UMA Engineering Ltd., Metropolitan Toronto Planning Department, Ministry of Transportation, Ministry of the Environment; Environmental Assessment Branch, Toronto Transit Commission. Let’s Move Program Overview Report, 13.',
+			'Ibid.',
 			'Ibid.',
 			'Tony Bock Full steam ahead: A GO train crosses a typically busy Don Valley Parkway. The transit system has big plans to increase ridership., Toronto Star photo archive, Toronto, accessed February 10, 2021, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0012693F&R=DC-TSPA_0012693F',
 			`James Royson. “Metro Has Final Say on 2 Lines, NDP Says.” Toronto Star, October 5, 1994, sec. A6.`,
@@ -90,7 +90,7 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<span>
-									Beyond that, the plan introduced an ambitious proposal to connect the two ends of the Yonge-University-Spadina subway by creating a loop that would run along the hydro corridor parallel to Finch Avenue, a move that was predicted to increase capacity on the squeezed Yonge-University-Spadina line by 3,000 riders per hour.<sup>2</sup> Meanwhile, extensions to both the Bloor-Danforth subway in the west to Sherway Gardens and the Scarborough rapid transit line in the east to Sheppard Avenue and Markham Road would extend rapid transit to areas currently poorly served.<sup>3</sup> The combined plan along with GO Transit and TTC streetcar projects was to cost over $5 billion dollars and support plans for Toronto’s bid for the 1996 Olympics.<sup>4</sup> And like the Network 2011 plan that preceded it, the construction of subways connecting nodes such as North York Centre and Scarborough Centre would support long-standing Metropolitan Toronto plans for decentralisation.<sup>5</sup>
+									Beyond that, the plan introduced an ambitious proposal to connect the two ends of the Yonge-University-Spadina subway by creating a loop that would run along the hydro corridor parallel to Finch Avenue, a move that was predicted to increase capacity on the squeezed Yonge-University-Spadina line by 3,000 riders per hour.<sup>2</sup> Meanwhile, extensions to both the Bloor-Danforth subway in the west to Sherway Gardens (and beyond, in the future) and the Scarborough rapid transit line in the east to Sheppard Avenue and Markham Road would extend rapid transit to areas currently poorly served.<sup>3</sup> The combined plan along with GO Transit and TTC streetcar projects was to cost over $5 billion dollars and support plans for Toronto’s bid for the 1996 Olympics.<sup>4</sup> And like the Network 2011 plan that preceded it, the construction of subways connecting nodes such as North York Centre and Scarborough Centre would support long-standing Metropolitan Toronto plans for decentralisation.<sup>5</sup>
 								</span>
 							)
 						}
