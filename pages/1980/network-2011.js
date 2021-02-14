@@ -33,7 +33,8 @@ export default class Year1980 extends Component {
             `Michael Smith. “Province Considering New Subway TTC Says.” Toronto Star, April 5, 1987, sec. A3; Smith. “TTC Urges $2.7 Billion Expansion.” sec. A19.`,
             `Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011. Toronto: Toronto Transit Commission, 1985.`,
             `Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011.`,
-            `Ibid.`,
+            'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Metro/TTC Rapid Transit Study. Toronto: Toronto Transit Commission, 1982',
+            `Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011.`,
             'Ibid.',
             `Ibid, 14.`,
             `Ibid, 26.`,
@@ -49,7 +50,14 @@ export default class Year1980 extends Component {
             'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 59.',
             'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 50-51.',
             'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, A2.',
+            'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, A3.',
+            'Ibid.',
             'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 34.',
+            'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, A3.',
+            'Ibid.',
+            'Ibid.',
+            'Ibid.',
+            'Pi.1415926535. MBTA route SLW bus approaching World Trade Center station, March 2017. 2017, colour digital, Wikimedia Commons, Boston, accessed February 13, 2021, https://commons.wikimedia.org/wiki/File:MBTA_route_SLW_bus_approaching_World_Trade_Center_station,_March_2017.JPG. Creative Commons License (CC BY-SA 3.0), https://creativecommons.org/licenses/by-sa/3.0/deed.en',
             `David Cooper. Canada – Ontario – North York - Yonge St, 1979, black and white digital, Toronto Star photo archive, Toronto, accessed January 14, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0107105F&R=DC-TSPA_0107105F`,
             `Mitchell Smith. “Tonks Makes Pitch to Keep Subway Plan Alive for Eglinton.” Toronto Star, June 24, 1986, sec. A6.`,
             `Bob Mitchell. “Eglinton Transit Line Gets Top Billing in 2011.” Toronto Star. June 3, 1986, sec. W6.`,
@@ -348,6 +356,8 @@ export default class Year1980 extends Component {
                             src: 'Network 2011/MBTA_route_SLW_bus_approaching_World_Trade_Center_station,_March_2017.jpg',
                         },
                     ]}
+                />
+                <WebColumn
                     left={[
                         { type: 'content-title', title: 'North York Centre' },
                         {
