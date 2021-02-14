@@ -353,7 +353,7 @@ export default class Year1980 extends Component {
                         {
                             type: 'img',
                             adjust: { hide: false },
-                            src: 'Network 2011/MBTA_route_SLW_bus_approaching_World_Trade_Center_station,_March_2017.jpg',
+                            src: 'Network 2011/Silver Line.jpg',
                         },
                     ]}
                 />
