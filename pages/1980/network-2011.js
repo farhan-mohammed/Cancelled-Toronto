@@ -353,7 +353,7 @@ export default class Year1980 extends Component {
                         {
                             type: 'img',
                             adjust: { hide: false },
-                            src: 'Network 2011/Railyards.jpg',
+                            src: 'Network 2011/MBTA-Silver-Line.jpg',
                         },
                     ]}
                 />
