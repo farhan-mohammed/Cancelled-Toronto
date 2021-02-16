@@ -57,7 +57,7 @@ export default class Year1980 extends Component {
             'Ibid.',
             'Ibid.',
             'Ibid.',
-            'Pi.1415926535. MBTA route SLW bus approaching World Trade Center station, March 2017. 2017, colour digital, Wikimedia Commons, Boston, accessed February 13, 2021, https://commons.wikimedia.org/wiki/File:MBTA_route_SLW_bus_approaching_World_Trade_Center_station,_March_2017.JPG. Creative Commons License (CC BY-SA 3.0), https://creativecommons.org/licenses/by-sa/3.0/deed.en',
+            'Pi.1415926535. MBTA route SL2 bus at World Trade Center station. 2017, colour digital, Wikimedia Commons, Boston, accessed February 13, 2021, https://commons.wikimedia.org/wiki/File:MBTA_route_SL2_bus_at_World_Trade_Center_station,_December_2019.JPG. Creative Commons License (CC BY-SA 3.0), https://creativecommons.org/licenses/by-sa/3.0/deed.en',
             `David Cooper. Canada – Ontario – North York - Yonge St, 1979, black and white digital, Toronto Star photo archive, Toronto, accessed January 14, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0107105F&R=DC-TSPA_0107105F`,
             `Mitchell Smith. “Tonks Makes Pitch to Keep Subway Plan Alive for Eglinton.” Toronto Star, June 24, 1986, sec. A6.`,
             `Bob Mitchell. “Eglinton Transit Line Gets Top Billing in 2011.” Toronto Star. June 3, 1986, sec. W6.`,
@@ -344,7 +344,7 @@ export default class Year1980 extends Component {
                             type: 'quote',
                             text: () => (
                                 <span>
-                                    “MBTA route SLW bus approaching World Trade Center station, March 2017” by Pi.1415926535 is licensed under CC BY-SA 3.0
+                                    “MBTA route SL2 bus at World Trade Center station” by Pi.1415926535 is licensed under CC BY-SA 3.0
                                 </span>
                             ),
                         },
