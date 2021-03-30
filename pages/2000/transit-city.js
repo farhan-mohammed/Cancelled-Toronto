@@ -61,7 +61,7 @@ export default class TransitCity extends Component {
 			<div className="body__text-con">
 				<WebColumn
 					left={[
-						{ type: 'main-title', title: 'Transit city (2011)' },
+						{ type: 'main-title', title: 'Transit city (2007)' },
 						{
 							type: 'main-subtitle',
 							title: 'Cancelled'
