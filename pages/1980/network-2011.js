@@ -55,8 +55,6 @@ export default class Year1980 extends Component {
             'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, 34.',
             'Canada. Ontario. Metropolitan Toronto. Metropolitan Toronto Technical Transportation Planning Committee. Network 2011, A3.',
             'Ibid.',
-            'Ibid.',
-            'Ibid.',
             'Pi.1415926535. MBTA route SL2 bus at World Trade Center station. 2017, colour digital, Wikimedia Commons, Boston, accessed February 13, 2021, https://commons.wikimedia.org/wiki/File:MBTA_route_SL2_bus_at_World_Trade_Center_station,_December_2019.JPG. Creative Commons License (CC BY-SA 3.0), https://creativecommons.org/licenses/by-sa/3.0/deed.en',
             `David Cooper. Canada – Ontario – North York - Yonge St, 1979, black and white digital, Toronto Star photo archive, Toronto, accessed January 14, 2020, https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0107105F&R=DC-TSPA_0107105F`,
             `Mitchell Smith. “Tonks Makes Pitch to Keep Subway Plan Alive for Eglinton.” Toronto Star, June 24, 1986, sec. A6.`,
@@ -323,7 +321,7 @@ export default class Year1980 extends Component {
                             type: 'para',
                             text: () => (
                                 <span>
-                                    Varying forms of rapid transit technology were recommended for each of the lines; subway technology was assumed for Sheppard, Intermediate Capacity Transit System (ICTS) technology for the downtown line (although limited changes in alignment geometry could support a subway), and a busway for Eglinton West (with eventual upgrade to some form of rail transit).<sup>29</sup> The envisioned busway corridor on Eglinton Avenue West would run along a surface dedicated transit right-of-way from Renforth Drive to Jane Street, with grade separations located at Kipling Avenue, Islington Avenue, and Royal York Road.<sup>30</sup> From Jane Street to Caledonia Road, the busway would enter a tunnel before surfacing north of Eglinton Avenue to run along the surface on the CN Belt Line right-of-way.<sup>31</sup>
+                                    Varying forms of rapid transit technology were recommended for each of the lines; subway technology was assumed for Sheppard, Intermediate Capacity Transit System (ICTS) technology for the downtown line (although limited changes in alignment geometry could support a subway), and a busway for Eglinton West (with eventual upgrade to some form of rail transit).<sup>29</sup> The wide right-of-way along Eglinton Avenue West – originally planned for the Richview Expressway would allow for a surface dedicated transit right-of-way from Renforth Drive to Jane Street, with grade separations located at Kipling Avenue, Islington Avenue, and Royal York Road.<sup>30</sup> From Jane Street to Caledonia Road, the busway would enter a tunnel before surfacing north of Eglinton Avenue to run along the surface on the CN Belt Line right-of-way, before veering south to meet Eglinton West Station from the north in the station's bus terminal.<sup>31</sup>
                                 </span>
                             ),
                         },
@@ -336,7 +334,7 @@ export default class Year1980 extends Component {
                             type: 'quote',
                             text: () => (
                                 <span>
-                                    The proposed Eglinton West rapid transit line was recommended to be constructed initially as a busway.<sup>32</sup> The wide right-of-way along Eglinton Avenue West – originally planned for the Richview Expressway, would allow buses to run in the median, with grade separations at arterial roads.<sup>33</sup> The limited right-of-way in the east meant a short tunnel would be needed to allow the alignment to veer north-east to the CN Belt Line, where the busway would continue on the surface until reaching Eglinton West Station.<sup>34</sup> Here, images of the MBTA’s Silver Line, a busway running along dedicated right-of-ways on the surface and briefly underground show a system with several similarities to what was proposed along Eglinton, albeit in a much more urban setting.<sup>35</sup>
+                                    The proposed Eglinton West rapid transit line was recommended to be constructed initially as a busway.<sup>32</sup> Here, images of the MBTA’s Silver Line, a busway running along dedicated right-of-ways on the surface and briefly underground show a system with several similarities to what was proposed along Eglinton, albeit in a much more urban setting.<sup>35</sup>
                                 </span>
                             ),
                         },
