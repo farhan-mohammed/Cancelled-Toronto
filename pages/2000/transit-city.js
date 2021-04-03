@@ -31,12 +31,12 @@ export default class TransitCity extends Component {
 			`Ibid.`,
 			`Ibid.`,
 			`Wyliepoon. Eglinton LRT Maintenance & Storage Facility. 2019, colour digital, Flickr, Toronto, accessed March 17th, 2020, https://www.flickr.com/photos/wyliepoon/47940095168/in/photolist-2g3iw5Y-2g3ix4b-2g3itzN-cs9kDj-cs9krm-cs9nDf-cs9mby-2g3iunp-cs9nfq-2g3iBK8-cs9mGq-2g3iqpZ-2g3ipcJ-2g3ip2o-2g3iys1-2g3itRE-2g3itMS-2giTTSs-2giUkk5-2giUk3M-2giUp61-2giU4Zg-2giTXV7-2giTUv4-2giUked-2giU5xR-2giU1PZ-2giU1vY-2giUpg1-2giTUPA-2giUjY8-2giUdEg-2g3iohT-2g3iqc4-cs9kML-cs9nth-cs9n3Y-cs9mjC-2g3iski-cs9mRw-2g3ixkP-cs9kZf-2giTUEs-2giTY2u-2giUjV2-2giUjNZ-2giTRep-2giU1ZP-2giU1WN-2giTREu. Creative Commons License (CC BY-NC-ND 2.0), https://creativecommons.org/licenses/by-nc-nd/2.0/`,
+			'20.	Youngjin. OC Transpo O Train LRV 1107. 2019, colour digital, Wikimedia Commons, Ottawa, accessed April 2nd, 2021, https://commons.wikimedia.org/wiki/File:OC_Transpo_O_Train_LRV_1107.jpg. Creative Commons License (CC BY-SA 3.0), https://creativecommons.org/licenses/by-sa/3.0/deed.en',
 			`Kevin, McGran. “TTC Outlines Plans for Dedicated Bus Lanes; Cheaper to Build than Subways Miller Says Ideas Are Achievable. Plan Puts Buses in Dedicated Lanes.” Toronto Star, January 13, 2005, sec. B01.`,
 			`McGran. “TTC Outlines.” sec. B01.`,
 			`Vincent, Donovan. “Miller Reveals Transit Plan; Favours Streetcars over Underground No Time to Wait for Subways, He Says.” Toronto Star, October 26, 2006, sec. R11.`,
 			`Jeff, Gray. “New Subway about Moving 905 Voters.” The Globe and Mail. March 26, 2007, sec. A13.`,
 			`James, Royson. “Cash-Poor Toronto in Transit Limbo.” Toronto Star, January 14, 2005, sec. B03.`,
-			`Wyliepoon. Eglinton LRT Maintenance & Storage Facility. 2019, colour digital, Flickr, Toronto, accessed March 17th, 2020, https://www.flickr.com/photos/wyliepoon/47940094626/in/photolist-2g3ivVC-2g3ion8-2g3ixBd-2g3izjr-2g3iptW-2g3ixU2-2g3iz9g-2g3iwFn-2g3iABw-2g3iBWa-2g3iBS2-2g3irP2-2g3iqc4-2g3ivyh-2g3ikUr-2g3iv73-2g3iuVS-2g3iu5Z-2g3ip2o-2g3iys1-2g3itMS-WmCVat-bBpWo9-bBpWvW-2g3ioWE-2g3io6w-2g3isf6-2g3irPb-2g3ihcb-2g3ivpu-2g3iohT-2g3itrX-2g3itfz-2g3ipCP-2g3ipzs-2g3izfy-2g3ixuQ-gAuGae-bntiec-ee8j7p-eee3cS-ee8jRn-ee8pxc-eeebmu-ee8st8-eeeaFE-eee45E-ee8qWg-28iNyqZ-ee8oVH. Creative Commons License (CC BY-NC-ND 2.0), https://creativecommons.org/licenses/by-nc-nd/2.0/`,
 			`Tess, Kalinowski. “A $17.5B Transit Promise; Premier's Pre-Election Pledge Will Create Jobs, Ease Congestion, Reduce Greenhouse Emissions.” Toronto Star, June 16, 2007, sec. A6.`,
 			`Tess, Kalinowski. “Transit Plans Run on Separate Tracks; Regional Draft Offers Alternative to TTC's Light Rail Network.” Toronto Star, September 4, 2008, sec. A1.`,
 			`Tess, Kalinowski. “Transit City Full Speed Ahead; Planners Refine Details as First of 7 Proposed Light Rail Lines to Break Ground This Fall.” Toronto Star, March 4, 2009, sec. GT5.`,
@@ -263,7 +263,7 @@ export default class TransitCity extends Component {
 									light rail vehicles.<sup>19</sup> Following delivery concerns of Bombardier’s
 									vehicles, Alstom’s Citidas Spirit was selected to replace Bombardier’s vehicles for
 									use on the Finch West LRT line, with Bombardier’s vehicles to be exclusively used on
-									the Eglinton Crosstown LRT.
+									the Eglinton Crosstown LRT. Shown to the right is Bombardier’s Flexity Freedom LRV originally planned for use on all Transit City and other LRT projects in the Greater Toronto Area, but is now only planned to be used on the Eglinton Crosstown LRT line. Below that is Alstom’s Citidas Spirit LRV utilised by OC Transpo on Line 1 Confederation Line and planned to be used on the Finch West LRT line as well as the Hurontario LRT planned in Mississauga.<sup>20</sup>
 								</span>
 							)
 						},
@@ -273,6 +273,14 @@ export default class TransitCity extends Component {
 								<span>
 									“Eglinton LRT Maintenance & Storage Facility” by wyliepoon is licensed under CC
 									BY-NC-ND 2.0
+								</span>
+							)
+						},
+						{
+							type: 'quote',
+							text: () => (
+								<span>
+									“OC Transpo O Train LRV 1107” by Youngjin is licensed under CC BY-SA 3.0
 								</span>
 							)
 						}
@@ -283,6 +291,10 @@ export default class TransitCity extends Component {
 							src: 'Transit City/Bombardier Flexity Freedom LRV 1.jpg'
 						},
 						{
+							type: 'img',
+							src: 'Transit City/Alstom_Citidas_Spirit.jpg'
+						},
+						{
 							type: 'para',
 							text: () => (
 								<div>
@@ -290,11 +302,11 @@ export default class TransitCity extends Component {
 									Transit City study conducted by the TTC, which called for the construction of rapid
 									transit on key thoroughfares in the city including Eglinton Avenue, Lawrence Avenue,
 									Sheppard Avenue, Kingston Road, King Street, Queen Street, Dundas Avenue West,
-									Bremner Boulevard, Don Mills Road, Lakeshore Boulevard, and Jane Street.<sup>20</sup>{' '}
+									Bremner Boulevard, Don Mills Road, Lakeshore Boulevard, and Jane Street.<sup>21</sup>{' '}
 									The study prioritised lower-cost surface rapid transit options including the
 									creation of dedicated rights-of-ways for buses and light rail transit over costly
 									underground subway lines, crucial for the TTC in an era of both falling modes of
-									transport market share and budgets.<sup>21</sup>
+									transport market share and budgets.<sup>22</sup>
 								</div>
 							)
 						},
@@ -305,68 +317,14 @@ export default class TransitCity extends Component {
 									The outcome of the study was endorsed by the then-mayor of Toronto, David Miller,
 									whose transit plan in the 2006 Toronto municipal election included light rail
 									transit lines on Don Mills Road and along the Waterfront, as well as dedicated bus
-									lanes on Kingston Road and Yonge Street.<sup>22</sup> His victory in those elections
+									lanes on Kingston Road and Yonge Street.<sup>25</sup> His victory in those elections
 									advanced plans of the study towards the Transit City plan announced in 2007, but
 									even with his re-election, plans for light rail and surface rapid transit saw little
 									support outside of the municipality, with the provincial and federal governments
-									funding plans for an extension of the Spadina subway line towards York instead.<sup>23</sup>{' '}
+									funding plans for an extension of the Spadina subway line towards York instead.<sup>26</sup>{' '}
 									And despite the promises of cost-savings by building above-ground, funding for new
 									transit projects was impossible, with the cash-strapped TTC faced with budget cuts
-									of nearly $200 million early in 2005 as a result of cuts from the City of Toronto.<sup>24</sup>
-								</div>
-							)
-						}
-					]}
-				/>
-				<WebColumn
-					left={[
-						{
-							type: 'content-title',
-							title: 'Bombardier Flexity Freedom'
-						},
-						{
-							type: 'quote',
-							text: () => (
-								<span>
-									Transit City lines were to utilise Bombardier Flexity Freedom light rail vehicles,
-									which closely resembled Bombardier’s Flexity Outlook streetcars. While Bombardier
-									Flexity Outlook streetcars only have doors on one side, Bombardier Flexity Freedom
-									light rail vehicles have doors on both sides. Additionally, Bombardier Flexity
-									Outlook streetcars utilise the TTC’s Toronto track rail gauge, while Bombardier
-									Flexity Freedom light rail vehicles utilise a standard track gauge.<sup>25</sup>
-								</span>
-							)
-						},
-						{
-							type: 'quote',
-							text: () => (
-								<span>
-									“Eglinton LRT Maintenance & Storage Facility” by wyliepoon is licensed under CC
-									BY-NC-ND 2.0
-								</span>
-							)
-						}
-					]}
-					right={[
-						{
-							type: 'img',
-							src: 'Transit City/Bombardier Flexity Freedom LRV 2.jpg'
-						},
-						{
-							type: 'para',
-							text: () => (
-								<div>
-									The outcome of the study was endorsed by the then-mayor of Toronto, David Miller,
-									whose transit plan in the 2006 Toronto municipal election included light rail
-									transit lines on Don Mills Road and along the Waterfront, as well as dedicated bus
-									lanes on Kingston Road and Yonge Street.<sup>22</sup> His victory in those elections
-									advanced plans of the study towards the Transit City plan announced in 2007, but
-									even with his re-election, plans for light rail and surface rapid transit saw little
-									support outside of the municipality, with the provincial and federal governments
-									funding plans for an extension of the Spadina subway line towards York instead.<sup>23</sup>{' '}
-									And despite the promises of cost-savings by building above-ground, funding for new
-									transit projects was impossible, with the cash-strapped TTC faced with budget cuts
-									of nearly $200 million early in 2005 as a result of cuts from the City of Toronto.<sup>24</sup>
+									of nearly $200 million early in 2005 as a result of cuts from the City of Toronto.<sup>27</sup>
 								</div>
 							)
 						}
