@@ -193,7 +193,7 @@ export default class RapidTransit extends Component {
 							type: 'para',
 							text: () => (
 								<div>
-									Meanwhile, plans for a subway loop connecting the Yonge and Spadina subways were retained but expanded to include proposed stations at York University and with a more northerly alignment on Steeles Avenue rather than through the Finch hydro corridor as originally proposed.<sup>16</sup> Similarly, plans for extensions to the Bloor-Danforth subway and Scarborough rapid transit lines were retained, with an extension to Sherway Gardens on the Bloor-Danforth subway proposed as a second phase of the plan, with private sector investment possibly bringing it further into Missisauga towards Dixie GO Station.<sup>17</sup>
+									Meanwhile, plans for a subway loop connecting the Yonge and Spadina subways were retained but expanded to include proposed stations at York University and with a more northerly alignment on Steeles Avenue rather than through the Finch hydro corridor as originally proposed.<sup>16</sup> Similarly, plans for extensions to the Bloor-Danforth subway and Scarborough rapid transit lines were retained, with an extension of the Bloor-Danforth line westwards to Sherway Gardens proposed as phase two of the plan. Further extensions westwards into Missisauga towards Dixie GO Station were conceptually examined as well, pending private-sector contribution.<sup>17</sup>
 								</div>
 							)
 						},
