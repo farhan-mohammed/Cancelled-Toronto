@@ -61,6 +61,11 @@ export default class TransitCity extends Component {
 			<div className="body__text-con">
 				<WebColumn
 					left={[
+						{
+							type: 'logo',
+							// /images/ already saved
+							src: 'Transit City/Transit City Logo.png'
+						},
 						{ type: 'main-title', title: 'Transit city (2007)' },
 						{
 							type: 'main-subtitle',
