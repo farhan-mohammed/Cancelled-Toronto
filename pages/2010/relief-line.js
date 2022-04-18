@@ -57,6 +57,11 @@ export default class ReliefLine extends Component {
 			<div>
 				<WebColumn
 					left={[
+						{
+							type: 'logo',
+							// /images/ already saved
+							src: 'Relief Line/Relief Line Logo.png'
+						},
 						{ type: 'main-title', title: 'Relief Line (2016)' },
 						{
 							type: 'main-subtitle',
