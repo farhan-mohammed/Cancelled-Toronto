@@ -57,6 +57,11 @@ export default class RapidTransit extends Component {
 			<div className="body__text-con">
 				<WebColumn
 					left={[
+						{
+							type: 'logo',
+							// /images/ already saved
+							src: 'Rapid Transit Expansion Program/Lets Move Logo.png'
+						},
 						{ type: 'main-title', title: 'Let\'s Move/Rapid Transit Expansion Program (1990/1993)' },
 						{
 							type: 'main-subtitle',

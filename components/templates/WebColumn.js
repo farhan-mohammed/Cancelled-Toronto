@@ -26,6 +26,28 @@ export default class WebColumn extends Component {
 					/>
 				</div>
 			);
+		} else if (type === 'logo') {
+			let specClass = 'WC-item_img';
+			let specClassCon = 'WC-item_img-con ';
+			if (item.adjust) {
+				if (item.adjust.width == '1/3') {
+					specClass += ' WC-item_img_23';
+				}
+				if (item.adjust.hide === true) {
+					specClassCon += ' WC-item_img-con_hide';
+				}
+			}
+			return (
+				<div className={specClassCon}>
+					<img
+						className={specClass}
+						src={`/images/${item.src}`
+						// '/images/test.png'
+						}
+						alt={item.alt || ''}
+					/>
+				</div>
+			);
 		} else if (type === 'para') {
 			return (
 				<div className="WC-item_para-con">
