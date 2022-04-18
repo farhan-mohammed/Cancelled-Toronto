@@ -89,6 +89,11 @@ export default class GoUrban extends Component {
 				</Head>
 				<WebColumn
 					left={[
+						{
+							type: 'logo',
+							// /images/ already saved
+							src: 'GO-Urban/GO URBAN Logo.png'
+						},
 						{ type: 'main-title', title: 'Go-Urban (1973)' },
 						{ type: 'main-subtitle', title: 'cancelled' },
 						{ type: 'main-subtitle', title: `Evolved into go-alrt` }
