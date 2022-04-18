@@ -110,7 +110,7 @@ export default class mainSite extends Component {
 						<a href="https://farhan.site">farhan.site</a>
 					</div>
 					<div>
-						<a href="https://www.linkedin.com/in/farhanmoh/">linkedin.com/in/farhanmoh</a>
+						<a href="https://www.linkedin.com/in/farhanhmd/">linkedin.com/in/farhanhmd</a>
 					</div>
 				</div>
 			</div>
