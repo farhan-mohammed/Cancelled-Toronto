@@ -85,10 +85,9 @@ export default class TransitCity extends Component {
 									City’s vast network of light rail transit lines running across the city was the
 									culmination of a shift towards focusing on intermediate capacity transit systems
 									(ICTS) for transit expansion. Previous attempts utilised then-experimental linear
-									induction motor technology, resulting in the Scarborough rapid transit line, which
-									was ultimately plagued with issues. Light rail vehicles running in their own
+									induction motor technology, resulting in the issue-plagued Scarborough rapid transit line. Light rail vehicles running in their own
 									right-of-ways as proposed by the Transit City plan harkens back to plans for ICTS
-									lines utilising coupled streetcars proposed by the TTC in the early 1970s and 80s.
+									lines utilising coupled streetcars, similar to ideas proposed by the TTC in the early 1970s and 80s.
 								</span>
 							)
 						},
