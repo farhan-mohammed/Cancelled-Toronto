@@ -660,7 +660,7 @@ export default class GoUrban extends Component {
 									critics of the plan pointing out existing technologies such as light rail transit as
 									proven alternatives. Although the province’s persistence in the further development
 									of the technology never resulted in the ambitious network of ICTS lines as
-									originally proposed in GO-Urban (and other ICTS projects such as GO-ALRT), the
+									originally proposed in GO-Urban, the
 									eventual product for such a system first envisioned by GO-Urban has played a
 									significant role in fulfilling the transit needs of other cities worldwide.
 								</span>
