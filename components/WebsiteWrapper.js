@@ -58,7 +58,7 @@ const NavList = [
 		files: [
 			{
 				year: '2011',
-				name: 'Metrolinx/Toronto Transit Plan',
+				name: 'Metrolinx/ Toronto Transit Plan',
 				// link: '/'
 
 				link: 'metrolinx-toronto-transit-plan'
