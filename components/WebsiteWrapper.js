@@ -19,6 +19,12 @@ const NavList = [
 		decade: '1980',
 		files: [
 			{
+				year: '1982',
+				name: 'GO-ALRT',
+				// link: '/'
+				link: 'go-alrt'
+			},
+			{
 				year: '1985',
 				name: 'Network 2011',
 				// link: '/'
@@ -114,7 +120,7 @@ export default class mainSite extends Component {
 					</div>
 				</div>
 			</div>
-			<div className="ft-cp">Last updated: April 2022</div>
+			<div className="ft-cp">Last updated: August 2022</div>
 			<div className="ft-cp">Copyright © 2022 cancelledtoronto.ca. all rights reserved</div>
 		</footer>
 	);
