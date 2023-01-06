@@ -121,7 +121,7 @@ export default class mainSite extends Component {
 				</div>
 			</div>
 			<div className="ft-cp">Last updated: August 2022</div>
-			<div className="ft-cp">Copyright © 2022 cancelledtoronto.ca. all rights reserved</div>
+			<div className="ft-cp">Copyright © 2023 cancelledtoronto.ca. all rights reserved</div>
 		</footer>
 	);
 
