@@ -1,44 +1,36 @@
-# [CancelledToronto.ca](https://cancelledtoronto.ca/)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<img src="https://imgur.com/hFStFne.png">
+## Getting Started
 
-## Introduction
-Cancelled Toronto is an informative website about the cancelled transit plans of Toronto researched for and written by [Danny Xue](https://www.linkedin.com/in/danny-xue/) and built by [Farhan Mohammed](https://www.linkedin.com/in/danny-xue/)
+First, run the development server:
 
-## Documented Components
-
-[WebColumn](components/templates/WebColumn.md)
-
-[WebsiteWrapper](components/WebsiteWrapper.js)
-
-## Software 
-This website is built using the [Next.js](https://nextjs.org/) framework, hosted on [Ziet Now](https://zeit.co/). I found Next.js to be the perfect library for this type application as I needed a static website that has multiple static routes. 
-
-This was my first time using the React framework outside of `create-react-app`. Since that framework was built for dynamic routing, implementing static routing required a lot of work arounds, and even after that it required me to import each page into `App.js` and specify a route for it. `Next.js` made it much easier, as any directories inside the pages folder automatically specify themselves as routes.
-
-## Special things about this website
-1. Created a reuseable modular component for the layout of the website content. Each WebColumn component can be configured to be one or two columns, and each column can have different types of items on it such as images, quotes, text, special designs, etc. All you do is pass an array with the information and it renders it for you! More documentation available at [`components/templates/WebColumn.js`](./components/templates/Webcolumn.js)
-2. Created a wrapper component where the contents of the website are wrapped around with the header, sidebar, and the footer. This made it easier to create the shape of the website as an edit on this compoenent will create a change on any and every route. More documentation available at [`components/WebsiteWrapper.js`](./components/WebsiteWrapper.js)
-
-
-### Front page
-<img src="https://i.imgur.com/WGm1Y1B.png"/>
-
-### Example of WebColumn Component
-<img src="https://imgur.com/FjF25b2.png"/>
-
-### Mobile View
-<img src="https://imgur.com/5zC5c0J.png"/>
-
-### Made a Hamburger Side Menu from scratch
-<img src="https://cdn.discordapp.com/attachments/651230544239132756/695081875668074627/ezgif-4-22db6083f156.gif" width="50%">
-
-### Setup
-> How to run the application on your own computer
-```
-$ npm i
-$ npm run dev
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-# License
-Please note that most if not all images in this reposistory are licensed, and you are not allowed use them without permission from the original owner of the image. The underlying source code used to format and display that content is licensed under the MIT license.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
