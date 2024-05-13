@@ -6,7 +6,7 @@ import MainImage from '@/images/headerimages/GO-Urban Map.png';
 import WebColumn from '@/components/WebColumn';
 import FootNotes from '@/components/FootNotes';
 import footnotes from './footnotes';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { ItemType } from '@/types/WebColumn/Item';
 
 export const metadata: Metadata = {

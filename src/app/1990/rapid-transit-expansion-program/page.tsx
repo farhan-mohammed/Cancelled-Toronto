@@ -3,7 +3,7 @@ import WebColumn from '@/components/WebColumn';
 import React from 'react';
 import footnotes from './footnotes';
 import { ItemType } from '@/types/WebColumn/Item';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import MainImage from '@/images/headerimages/Rapid Transit Expansion Program Map.png';
 import type { Metadata } from 'next';
 

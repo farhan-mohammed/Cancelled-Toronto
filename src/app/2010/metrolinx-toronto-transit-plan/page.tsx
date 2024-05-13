@@ -4,7 +4,7 @@ import FootNotes from '@/components/FootNotes';
 import footnotes from './footnotes';
 import WebColumn from '@/components/WebColumn';
 import { ItemType } from '@/types/WebColumn/Item';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
