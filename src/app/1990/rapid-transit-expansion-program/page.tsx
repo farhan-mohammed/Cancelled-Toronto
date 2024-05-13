@@ -4,7 +4,7 @@ import React from 'react';
 import footnotes from './footnotes';
 import { ItemType } from '@/types/WebColumn/Item';
 import Image from 'next/image';
-
+import MainImage from '@/images/headerimages/Rapid Transit Expansion Program Map.png';
 export default function Page() {
     function render_footnotes() {
         return <FootNotes footnotes={footnotes} />;
@@ -573,7 +573,7 @@ export default function Page() {
     return (
         <div className="body-con">
             <Image
-                src="/images/Rapid Transit Expansion Program/Rapid Transit Expansion Program Map.png"
+                src={MainImage}
                 alt=""
                 className=" mb-6"
                 layout="responsive"

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
-import type { Metadata } from 'next';
+// import Metadata from 'next';
+
+import MainImage from '@/images/headerimages/GO-Urban Map.png';
 
 import WebColumn from '@/components/WebColumn';
 import FootNotes from '@/components/FootNotes';
@@ -8,14 +10,14 @@ import footnotes from './footnotes';
 import Image from 'next/image';
 import { ItemType } from '@/types/WebColumn/Item';
 
-export const metadata: Metadata = {
-    title: 'Go-Urban (1973): Cancelled, evolved into go-arlt',
-    description: '...',
-    openGraph: {
-        images: ['/images/GO-Urban/GO-Urban Map.png'],
-        title: 'Go-Urban (1973): Cancelled, evolved into go-arlt',
-    },
-};
+// export const metadata: Metadata = {
+//     title: 'Go-Urban (1973): Cancelled, evolved into go-arlt',
+//     description: '...',
+//     openGraph: {
+//         images: ['/images/GO-Urban/GO-Urban Map.png'],
+//         title: 'Go-Urban (1973): Cancelled, evolved into go-arlt',
+//     },
+// };
 export default function GoUrban() {
     function renderFootnotes() {
         return <FootNotes footnotes={footnotes} />;
@@ -781,14 +783,13 @@ export default function GoUrban() {
     return (
         <div className="body-con">
             <Image
-                src="/images/GO-Urban/GO-Urban Map.png"
+                src={MainImage}
                 alt="Go Urban Map"
                 className="flex w-90 h-90 my-8"
                 width={1500}
                 height={300}
                 layout="interactive"
                 priority
-                placeholder="blur"
             />
             {renderText()}
         </div>

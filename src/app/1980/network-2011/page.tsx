@@ -4,6 +4,7 @@ import FootNotes from '@/components/FootNotes';
 import WebColumn from '@/components/WebColumn';
 import footnotes from './footnotes';
 import { ItemType } from '@/types/WebColumn/Item';
+import MainImage from '@/images/headerimages/Network 2011 Map.png';
 import Image from 'next/image';
 export default function Page() {
     const renderFootnotes = () => {
@@ -571,7 +572,7 @@ export default function Page() {
     return (
         <div className="body-con">
             <Image
-                src="/images/Network 2011/Network 2011 Map.png"
+                src={MainImage}
                 alt=""
                 className="my-3"
                 layout="responsive"

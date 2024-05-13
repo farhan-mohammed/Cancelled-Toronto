@@ -4,6 +4,7 @@ import FootNotes from '@/components/FootNotes';
 import WebColumn from '@/components/WebColumn';
 import { ItemType } from '@/types/WebColumn/Item';
 import Image from 'next/image';
+import MainImage from '@/images/headerimages/Relief Line Map.png';
 const images = [
     '/images/Relief Line/Relief Line Map.png',
     '/images/Relief Line/Relief Line Alignment.jpg',
@@ -446,7 +447,7 @@ export default function Page() {
     return (
         <div className="body-con">
             <Image
-                src={images[0]}
+                src={MainImage}
                 alt=""
                 className=" py-2"
                 layout="responsive"

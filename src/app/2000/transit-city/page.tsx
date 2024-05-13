@@ -1,10 +1,12 @@
-import WebColumn from '@/components/WebColumn';
 import React from 'react';
-import footnotes from './footnotes';
-import FootNotes from '@/components/FootNotes';
-import { ItemType } from '@/types/WebColumn/Item';
 import Image from 'next/image';
+import footnotes from './footnotes';
 
+import FootNotes from '@/components/FootNotes';
+import WebColumn from '@/components/WebColumn';
+import { ItemType } from '@/types/WebColumn/Item';
+
+import MainImage from '@/images/headerimages/Transit City Map.png';
 export default function Page() {
     const renderFootnotes = () => {
         return <FootNotes footnotes={footnotes} />;
@@ -646,7 +648,7 @@ export default function Page() {
     return (
         <div className="body-con">
             <Image
-                src="/images/Transit City/Transit City Map.png"
+                src={MainImage}
                 alt=""
                 className=" my-6"
                 layout="responsive"

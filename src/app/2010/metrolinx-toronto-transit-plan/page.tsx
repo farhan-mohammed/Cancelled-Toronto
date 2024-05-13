@@ -1,5 +1,5 @@
 import React from 'react';
-
+import MainImage from '@/images/headerimages/Metrolinx-Toronto Transit Plan Map.png';
 import FootNotes from '@/components/FootNotes';
 import footnotes from './footnotes';
 import WebColumn from '@/components/WebColumn';
@@ -441,7 +441,7 @@ export default function Page() {
     return (
         <div className="body-con">
             <Image
-                src="/images/Metrolinx-Toronto Transit Plan/Metrolinx-Toronto Transit Plan Map.png"
+                src={MainImage}
                 alt=""
                 className="px-12 py-2"
                 layout="responsive"
