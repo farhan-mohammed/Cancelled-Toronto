@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import NavList, { NavListItem, File } from '@/store/navList';
 export default function Header() {
     const [hamburgOpen, setHamburgOpen] = useState(false);
@@ -32,10 +32,13 @@ export default function Header() {
                     alt="Cancelled Toront Transit Plans"
                     className="relative"
                     src="/images/header/narrow.png"
-                    layout="responsive"
                     width={200}
                     height={150}
-                />
+                    sizes="100vw"
+                    style={{
+                        width: "100%",
+                        height: "auto"
+                    }} />
             </Link>
             {/** The hamburger menu that only shows up on mobile*/}
             <div className="flex sm:hidden justify-between items-center p-10">
@@ -79,7 +82,10 @@ function SideMenu({ hamburgOpen, closeHamburg }: SideMenuProps) {
                         height={25}
                         alt="X"
                         onClick={closeHamburg}
-                    />
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto"
+                        }} />
                 </div>
                 {NavList.map((item) => (
                     <div className="sideMenu_row" key={item.decade}>
@@ -124,7 +130,10 @@ function SideMenuItem({ item, closeHamburg, hamburgStatus }: SideMenuItemProps) 
                         width={25}
                         height={18}
                         alt=""
-                    />
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto"
+                        }} />
                 </div>
             </div>
             {/**This div holds the pages renders in this section */}

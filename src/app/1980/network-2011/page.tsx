@@ -6,7 +6,7 @@ import WebColumn from '@/components/WebColumn';
 import footnotes from './footnotes';
 import { ItemType } from '@/types/WebColumn/Item';
 import MainImage from '@/images/headerimages/Network 2011 Map.png';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export const metadata: Metadata = {
     title: "Network 2011 (1985): Cancelled, Evolved into Let's Move",
@@ -584,12 +584,15 @@ export default function Page() {
                 src={MainImage}
                 alt=""
                 className="my-3"
-                layout="responsive"
                 width={1000}
                 height={500}
                 priority
                 placeholder="blur"
-            />
+                sizes="100vw"
+                style={{
+                    width: "100%",
+                    height: "auto"
+                }} />
             {renderText()}
         </div>
     );

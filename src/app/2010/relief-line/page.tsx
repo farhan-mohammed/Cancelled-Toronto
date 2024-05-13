@@ -3,7 +3,7 @@ import footnotes from './footnotes';
 import FootNotes from '@/components/FootNotes';
 import WebColumn from '@/components/WebColumn';
 import { ItemType } from '@/types/WebColumn/Item';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import MainImage from '@/images/headerimages/Relief Line Map.png';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
@@ -458,12 +458,15 @@ export default function Page() {
                 src={MainImage}
                 alt=""
                 className=" py-2"
-                layout="responsive"
                 width={1000}
                 height={500}
                 priority
                 placeholder="blur"
-            />
+                sizes="100vw"
+                style={{
+                    width: "100%",
+                    height: "auto"
+                }} />
             {renderBody()}
         </div>
     );

@@ -6,7 +6,7 @@ import MainImage from '@/images/headerimages/GO-Urban Map.png';
 import WebColumn from '@/components/WebColumn';
 import FootNotes from '@/components/FootNotes';
 import footnotes from './footnotes';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { ItemType } from '@/types/WebColumn/Item';
 
 export const metadata: Metadata = {
@@ -780,9 +780,7 @@ export default function GoUrban() {
                 className="flex w-90 h-90 my-8"
                 width={1500}
                 height={300}
-                layout="interactive"
-                priority
-            />
+                priority />
             {renderText()}
         </div>
     );

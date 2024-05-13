@@ -3,7 +3,7 @@ import WebColumn from '@/components/WebColumn';
 import React from 'react';
 import footnotes from './footnotes';
 import { ItemType } from '@/types/WebColumn/Item';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import MainImage from '@/images/headerimages/Rapid Transit Expansion Program Map.png';
 import type { Metadata } from 'next';
 
@@ -586,12 +586,15 @@ export default function Page() {
                 src={MainImage}
                 alt=""
                 className=" mb-6"
-                layout="responsive"
                 width={1000}
                 height={500}
                 priority
                 placeholder="blur"
-            />
+                sizes="100vw"
+                style={{
+                    width: "100%",
+                    height: "auto"
+                }} />
             <div>{renderText()}</div>
         </div>
     );

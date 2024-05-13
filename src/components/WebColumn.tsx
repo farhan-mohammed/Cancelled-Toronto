@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React from 'react';
 import { Item, ItemType } from '@/types/WebColumn/Item';
 
@@ -37,11 +37,14 @@ export default function WebColumn({
                                 `/images/${item.src}`
                                 // '/images/test.png'
                             }
-                            layout="responsive"
                             width={1000}
                             height={500}
                             alt={item.alt || ''}
-                        />
+                            sizes="100vw"
+                            style={{
+                                width: "100%",
+                                height: "auto"
+                            }} />
                     </div>
                 );
             }
@@ -67,7 +70,10 @@ export default function WebColumn({
                             width={300}
                             height={300}
                             alt={item.alt || ''}
-                        />
+                            style={{
+                                maxWidth: "100%",
+                                height: "auto"
+                            }} />
                     </div>
                 );
             }
@@ -107,26 +113,35 @@ export default function WebColumn({
                                 alt={item.alt || ''}
                                 width={500}
                                 height={500}
-                                layout="responsive"
-                            />
+                                sizes="100vw"
+                                style={{
+                                    width: "100%",
+                                    height: "auto"
+                                }} />
                         </div>
                         <div className="md:mr-4 flex-1  relative ">
                             <Image
                                 src={`/images/${item.images[1]}`}
                                 alt={item.alt || ''}
                                 width={500}
-                                layout="responsive"
                                 height={500}
-                            />
+                                sizes="100vw"
+                                style={{
+                                    width: "100%",
+                                    height: "auto"
+                                }} />
                         </div>
                         <div className="flex-1 relative ">
                             <Image
                                 src={`/images/${item.images[2]}`}
                                 alt={item.alt || ''}
-                                layout="responsive"
                                 width={500}
                                 height={500}
-                            />
+                                sizes="100vw"
+                                style={{
+                                    width: "100%",
+                                    height: "auto"
+                                }} />
                         </div>
                     </div>
                 );

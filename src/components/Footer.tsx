@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React from 'react';
 
 export default function Footer() {
@@ -6,7 +6,15 @@ export default function Footer() {
         <footer className="w-full px-4 py-10 text-gray-700 uppercase font-ttc">
             <div className="max-w-full flex items-center flex-row mb-4">
                 <div className="flex-none flex items-center justify-center">
-                    <Image src="/images/footer/danny.png" alt="" width={56} height={56} />
+                    <Image
+                        src="/images/footer/danny.png"
+                        alt=""
+                        width={56}
+                        height={56}
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto"
+                        }} />
                 </div>
                 <div className="ml-5">
                     <div>content researched and written by danny xue</div>
@@ -24,7 +32,15 @@ export default function Footer() {
             </div>
             <div className="max-w-full flex items-center flex-row mb-4">
                 <div className="flex-none flex items-center justify-center">
-                    <Image src="/images/footer/farhan.png" alt="" width={56} height={56} />
+                    <Image
+                        src="/images/footer/farhan.png"
+                        alt=""
+                        width={56}
+                        height={56}
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto"
+                        }} />
                 </div>
                 <div className="ml-5">
                     <div>site built by farhan mohammed</div>

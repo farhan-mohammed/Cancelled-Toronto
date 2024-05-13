@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from 'next/link';
 export default function Home() {
     const IMAGE_LIST = [
@@ -72,9 +72,12 @@ export default function Home() {
                                         alt={item.title}
                                         width={300}
                                         height={300}
-                                        layout="responsive"
                                         priority
-                                    />
+                                        sizes="100vw"
+                                        style={{
+                                            width: "100%",
+                                            height: "auto"
+                                        }} />
                                 </div>
                                 <div
                                     className="flex-1 w-full min-h-65px p-2  box-border"

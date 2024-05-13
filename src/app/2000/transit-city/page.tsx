@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import footnotes from './footnotes';
 
 import FootNotes from '@/components/FootNotes';
@@ -657,12 +657,15 @@ export default function Page() {
                 src={MainImage}
                 alt=""
                 className=" my-6"
-                layout="responsive"
                 width={1000}
                 height={500}
                 priority
                 placeholder="blur"
-            />
+                sizes="100vw"
+                style={{
+                    width: "100%",
+                    height: "auto"
+                }} />
             ;<div>{renderText()}</div>
         </div>
     );
