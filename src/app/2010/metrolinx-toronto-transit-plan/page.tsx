@@ -5,7 +5,15 @@ import footnotes from './footnotes';
 import WebColumn from '@/components/WebColumn';
 import { ItemType } from '@/types/WebColumn/Item';
 import Image from 'next/image';
+import type { Metadata } from 'next';
 
+export const metadata: Metadata = {
+    title: 'Metrolinx/Toronto Transit Plan (2011): Cancelled in 2012.',
+    openGraph: {
+        images: ['/images/Relief Line/Relief Line Map.png'],
+        title: 'Metrolinx/Toronto Transit Plan (2011): Cancelled in 2012.',
+    },
+};
 export default function Page() {
     const renderFootnotes = () => {
         return <FootNotes footnotes={footnotes} />;

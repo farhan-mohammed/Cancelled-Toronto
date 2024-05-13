@@ -5,6 +5,14 @@ import WebColumn from '@/components/WebColumn';
 import { ItemType } from '@/types/WebColumn/Item';
 import Image from 'next/image';
 import MainImage from '@/images/headerimages/Relief Line Map.png';
+import type { Metadata } from 'next';
+export const metadata: Metadata = {
+    title: 'Relief Line (2016): Cancelled in 2019, Evolved into Ontario Line.',
+    openGraph: {
+        images: ['/images/Relief Line/Relief Line Map.png'],
+        title: 'Relief Line (2016): Cancelled in 2019, Evolved into Ontario Line.',
+    },
+};
 const images = [
     '/images/Relief Line/Relief Line Map.png',
     '/images/Relief Line/Relief Line Alignment.jpg',

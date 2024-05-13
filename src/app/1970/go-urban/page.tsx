@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import Head from 'next/head';
-// import Metadata from 'next';
+import React from 'react';
+import type { Metadata } from 'next';
 
 import MainImage from '@/images/headerimages/GO-Urban Map.png';
 
@@ -10,14 +9,15 @@ import footnotes from './footnotes';
 import Image from 'next/image';
 import { ItemType } from '@/types/WebColumn/Item';
 
-// export const metadata: Metadata = {
-//     title: 'Go-Urban (1973): Cancelled, evolved into go-arlt',
-//     description: '...',
-//     openGraph: {
-//         images: ['/images/GO-Urban/GO-Urban Map.png'],
-//         title: 'Go-Urban (1973): Cancelled, evolved into go-arlt',
-//     },
-// };
+export const metadata: Metadata = {
+    title: 'Go-Urban (1973): Cancelled, evolved into go-arlt',
+    description: '...',
+    openGraph: {
+        images: ['/images/GO-Urban/GO-Urban Map.png'],
+        title: 'Go-Urban (1973): Cancelled, evolved into go-arlt',
+    },
+};
+
 export default function GoUrban() {
     function renderFootnotes() {
         return <FootNotes footnotes={footnotes} />;
@@ -25,14 +25,6 @@ export default function GoUrban() {
     function renderText() {
         return (
             <div>
-                <Head>
-                    <title>GO-Urban (1973)</title>
-                    <meta property="og:image" content="/images/GO-Urban/GO-Urban Map.png" />
-                    <meta
-                        property="og:title"
-                        content="Go-Urban (1973): Cancelled, evolved into go-arlt"
-                    />
-                </Head>
                 <WebColumn
                     left={[
                         {

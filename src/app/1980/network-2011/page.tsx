@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 
 import FootNotes from '@/components/FootNotes';
 import WebColumn from '@/components/WebColumn';
@@ -6,6 +7,14 @@ import footnotes from './footnotes';
 import { ItemType } from '@/types/WebColumn/Item';
 import MainImage from '@/images/headerimages/Network 2011 Map.png';
 import Image from 'next/image';
+
+export const metadata: Metadata = {
+    title: "Network 2011 (1985): Cancelled, Evolved into Let's Move",
+    openGraph: {
+        images: ['/images/Network 2011/Network 2011 Map.png'],
+        title: "Network 2011 (1985): Cancelled, Evolved into Let's Move",
+    },
+};
 export default function Page() {
     const renderFootnotes = () => {
         return <FootNotes footnotes={footnotes} />;

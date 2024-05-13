@@ -5,7 +5,13 @@ import footnotes from './footnotes';
 import FootNotes from '@/components/FootNotes';
 import WebColumn from '@/components/WebColumn';
 import { ItemType } from '@/types/WebColumn/Item';
-
+import type { Metadata } from 'next';
+export const metadata: Metadata = {
+    title: 'Transit city (2007): Cancelled.',
+    openGraph: {
+        title: 'Transit city (2007): Cancelled',
+    },
+};
 import MainImage from '@/images/headerimages/Transit City Map.png';
 export default function Page() {
     const renderFootnotes = () => {

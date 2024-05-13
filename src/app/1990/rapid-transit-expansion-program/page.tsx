@@ -5,6 +5,16 @@ import footnotes from './footnotes';
 import { ItemType } from '@/types/WebColumn/Item';
 import Image from 'next/image';
 import MainImage from '@/images/headerimages/Rapid Transit Expansion Program Map.png';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Let's Move/Rapid Transit Expansion Program (1990/1993): Cancelled in 1995, Partially Built.",
+    openGraph: {
+        images: ['/images/Rapid Transit Expansion Program/Rapid Transit Expansion Program Map.png'],
+        title: "Let's Move/Rapid Transit Expansion Program (1990/1993): Cancelled in 1995, Partially Built.",
+    },
+};
+
 export default function Page() {
     function render_footnotes() {
         return <FootNotes footnotes={footnotes} />;
