@@ -578,6 +578,7 @@ export default function Page() {
                 width={1000}
                 height={500}
                 priority
+                placeholder="blur"
             />
             {renderText()}
         </div>

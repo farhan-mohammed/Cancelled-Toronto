@@ -788,6 +788,7 @@ export default function GoUrban() {
                 height={300}
                 layout="interactive"
                 priority
+                placeholder="blur"
             />
             {renderText()}
         </div>
