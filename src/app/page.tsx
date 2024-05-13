@@ -73,7 +73,7 @@ export default function Home() {
                                         priority
                                     />
                                 </div>
-                                <div className="flex-1 w-full min-h-65px p-4 box-border bg-white text-black">
+                                <div className="flex-1 w-full min-h-65px p-4 box-border text-black">
                                     <div className=" uppercase text-2xl font-ttc leading-tight mt-0">
                                         {item.title}
                                     </div>
