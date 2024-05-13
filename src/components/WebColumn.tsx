@@ -23,7 +23,7 @@ export default function WebColumn({
                 let specClassCon = 'WC-item_img-con ';
                 if (item.adjust) {
                     if (item.adjust.width == '2/3') {
-                        specClassCon += ' sm:w-2/3';
+                        specClassCon += ' md:w-2/3';
                     }
                     if (item.adjust.hide) {
                         specClassCon += ' WC-item_img-con_hide';
@@ -100,8 +100,8 @@ export default function WebColumn({
                 );
             case ItemType.ThreeImageInRow:
                 return (
-                    <div className="flex flex-col sm:flex-row w-full">
-                        <div className="sm:mr-4 flex-1 relative ">
+                    <div className="flex flex-col md:flex-row w-full">
+                        <div className="md:mr-4 flex-1 relative ">
                             <Image
                                 src={`/images/${item.images[0]}`}
                                 alt={item.alt || ''}
@@ -110,7 +110,7 @@ export default function WebColumn({
                                 layout="responsive"
                             />
                         </div>
-                        <div className="sm:mr-4 flex-1  relative ">
+                        <div className="md:mr-4 flex-1  relative ">
                             <Image
                                 src={`/images/${item.images[1]}`}
                                 alt={item.alt || ''}
@@ -158,7 +158,7 @@ export default function WebColumn({
     const renderCenter = () => renderList(center);
 
     // oneColumn , rightOnly are properties that can be passed through to format how the component is goingt to look like
-    const WC = `${oneColumn ? 'WC-center' : ''} flex flex-col sm:flex-row w-full max-w-full mt-2 ${
+    const WC = `${oneColumn ? 'WC-center' : ''} flex flex-col md:flex-row w-full max-w-full mt-2 ${
         rightOnly ? 'WC-rightOnly' : ''
     }`;
     if (oneColumn) {
@@ -171,7 +171,7 @@ export default function WebColumn({
     return (
         <div className={WC}>
             <div className="flex-1 box-border px-2">{renderLeft()}</div>
-            <div className="flex-2 box-border px-2 w-full sm:w-max-66">{renderRight()}</div>
+            <div className="flex-2 box-border px-2 w-full md:w-max-66">{renderRight()}</div>
         </div>
     );
 }

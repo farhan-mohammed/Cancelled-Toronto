@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ttcBold } from '@/fonts';
+import Script from 'next/script';
 
 const noto = Noto_Serif({
     subsets: ['latin'],
@@ -11,6 +12,7 @@ const noto = Noto_Serif({
 });
 
 export const metadata: Metadata = {
+    metadataBase: new URL('https://cancelledtoronto.ca/'),
     title: 'Cancelled Toronto',
     openGraph: {
         images: ['/images/Relief Line/Relief Line Map.png'],
@@ -24,6 +26,19 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className={`${ttcBold.variable} ${noto.variable}`}>
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-7H6CBTHEEP"
+                strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-7H6CBTHEEP');
+                `}
+            </Script>
             <link rel="icon" href="/images/thumb.png" type="image/png" sizes="any" />
             <link rel="apple-touch-icon" href="/images/thumb.png" type="image/png" sizes="any" />
             <body className={noto.className}>

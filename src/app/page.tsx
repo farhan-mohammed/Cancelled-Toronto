@@ -59,10 +59,13 @@ export default function Home() {
         <div className="sm:p-2 flex flex-col sm:flex-row  flex-wrap justify-around items-stretch w-full">
             {IMAGE_LIST.map((item) => {
                 return (
-                    <div key={item.href} className="w-full sm:w-1/2 my-10 sm:mb-0">
+                    <div key={item.href} className="w-full sm:w-1/2  my-4  px-2 box-border">
                         <Link href={item.href} legacyBehavior>
                             <a className="flex flex-col h-full">
-                                <div className="flex-none w-full">
+                                <div
+                                    className="flex-none w-full border"
+                                    style={{ borderColor: '#2b2b2b' }}
+                                >
                                     <Image
                                         className=" min-h-175px flex flex-col p-4"
                                         src={`/images/homepage/${item.img}`}
@@ -73,7 +76,13 @@ export default function Home() {
                                         priority
                                     />
                                 </div>
-                                <div className="flex-1 w-full min-h-65px p-4 box-border text-black">
+                                <div
+                                    className="flex-1 w-full min-h-65px p-2  box-border"
+                                    style={{
+                                        color: '#fffffa',
+                                        backgroundColor: '#2b2b2b',
+                                    }}
+                                >
                                     <div className=" uppercase text-2xl font-ttc leading-tight mt-0">
                                         {item.title}
                                     </div>
