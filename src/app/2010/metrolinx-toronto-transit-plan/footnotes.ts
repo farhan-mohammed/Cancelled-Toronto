@@ -1,0 +1,32 @@
+const footnotes: string[] = [
+    `Kristin, Rushowy, and Kalinowski Tess. “Sheppard Not a Priority - Yet: Despite Ford's Comments, Transit Plan Won't Be Set until the New Year.” Toronto Star, December 22, 2010, sec. GT2.`,
+    `Tess, Kalinowski, and Rider David. “'War on the Car Is over': Ford Scraps Transit City: Move Could Leave Toronto on Hook for Millions in Penalties, Wasted Work.” Toronto Star, December 2, 2010, sec. A1.`,
+    `David, Rider. “Eglinton Rail Back on Table in Ford's New Transit Plan: Signs Point to Compromise with Metrolinx, TTC That Would Save LRT Line.” Toronto Star, January 4, 2011, sec. A1.`,
+    `Eric Sehr. Scarborough Town Centre (DSC_0387), 2013, colour digital, Flickr, Toronto, accessed January 21, 2020, https://www.flickr.com/photos/ericvery/9417961445/. Creative Commons License (CC BY-NC-ND 2.0), https://creativecommons.org/licenses/by-nc-nd/2.0/`,
+    `Rider. “Eglinton Rail Back on Table.” sec. A1; Tess, Kalinowski. “Ford Pitches Private-Public Partnership for Subway: Metrolinx Would Still Build Eglinton Light Rail, at Least to Kennedy Station.” Toronto Star, February 17, 2011, sec. A3.`,
+    `Rider. “Eglinton Rail Back on Table.” sec. A1`,
+    `Rider. “Eglinton Rail Back on Table.” sec. A1`,
+    `Kalinowski. “Ford Pitches Private-Public Partnership for Subway.” sec. A3.`,
+    `Tess, Kalinowski. “It's Full Steam Ahead for Eglinton LRT: Province and City Agree to Underground Rail Plan.” Toronto Star, April 1, 2011, sec. GT3.`,
+    `Robert, Benzies, and Kalinowski Tess. “$12.4 Billion TTC Deal 'Close': Queen's Park, City Agree to Extend Sheppard Subway, Build Underground Eglinton Light Rail Line.” Toronto Star, March 31, 2011, sec. GT1.`,
+    `Kalinowski. “It's Full Steam Ahead for Eglinton LRT” sec. GT3.`,
+    `David, Crombie, Miller Eric, Chong Gordon, Hunter Mitzie, Khosla Prabha, Ahmed Israt, and McCullough Ernie. “Report of the Expert Advisory Panel Regarding Transit on Sheppard Avenue East.” Toronto, 2012; “Ontario And Toronto Moving Forward On Public Transit.” Ontario And Toronto Moving Forward On Public Transit. Office of the Premier, March 31, 2011. https://news.ontario.ca/opo/en/2011/03/ontario-and-toronto-moving-forward-on-public-transit.html.`,
+    `Canada. Ontario. Ministry of the Environment. Review of the environmental assessment Sheppard Subway. Toronto: Ontario Ministry of the Environment, 1993`,
+    `“Sheppard Subway Extensions Analysis of Funding Options for Toronto Transit Infrastructure Limited and the City of Toronto.” Toronto: KPMG, 2011.`,
+    `James, Royson. “Caution: Road Tolls Ahead: Ford's Transit Guru Predicts Drivers Will Pay the Price for Subway Expansion.” Toronto Star, May 28, 2011, sec. A1.`,
+    `Paul, Moloney. “Sheppard Subway Cost Soars.” Toronto Star, June 25, 2011, sec. GT4.`,
+    `Elizabeth, Church. “TTC Chief Fired as Province Runs out of Patience.” The Globe and Mail. February 22, 2012, sec. A1; Tess, Kalinowski. “Ford Plots to Oust TTC Chief: Shakeup Likely as General Manager's Opposition to Sheppard Subway Extension Puts Job at Risk.” Toronto Star, July 22, 2011, sec. A1.`,
+    `Tess, Kalinowski. “New Eglinton LRT Plan Could Be a Step Closer.” Toronto Star, January 24, 2012, sec. GT1.`,
+    `Wyliepoon. IMG_4538, 2009, colour digital, Flickr, Toronto, accessed January 21, 2020, https://www.flickr.com/photos/wyliepoon/4077118456/. Creative Commons License (CC BY-NC-ND 2.0), https://creativecommons.org/licenses/by-nc-nd/2.0/`,
+    `Daniel, Dale, and David Rider. “Ford's TTC Plans Lack Support: More Councillors Back Vision of Transit Chair Karen Stintz.” Toronto Star, January 28, 2012, sec. GT2.`,
+    `Dale, and Rider. “Ford's TTC Plans Lack Support.” sec. GT2.`,
+    `Tess, Kalinowski, and Dale Daniel. “Ford Trounced in Transit Vote: Mayor Calls Council Defeat 'Irrelevant' as Stintz Wins Vote to Restore Above-Ground LRT Plan.” Toronto Star, February 9, 2012, sec. A1.`,
+    `James, Royson. “Ford Fumbles as City Staff Pan Subway.” Toronto Star, March 1, 2012, sec. A1.`,
+    `James, Royson. “Ford's Last Subway Lifeline.” Toronto Star, March 17, 2012, sec. GT2; James, Royson. “Ford Refuses to Accept Subway Loss: Council Votes 24-19 for Light Rail, but Combative Mayor Wants to Turn down Province's $8.4B Cheque.” Toronto Star, March 23, 2012, sec. A1.`,
+    `James, Royson. “Ford Refuses to Accept Subway Loss.” sec. A1.`,
+    `Tess, Kalinowski, Dale Daniel, and Benzie Robert. “Detailed LRT Plan Few Months Away: Metrolinx Ponders Scheduling and Cash, Ford Eyes Referendum.” Toronto Star, March 24, 2012, sec. GT2; Tess, Kalinowski. “Ford Fails to Delay LRT Master Plan.” Toronto Star, November 2, 2012, sec. GT3; Tess, Kalinowski. “Province Takes Lead on LRT Project: TTC Differs on Timeline for Eglinton Line Work.” Toronto Star, May 31, 2012, sec. GT2.`,
+    `Tess, Kalinowski. “Metrolinx to Build Sheppard LRT First: Finch Will Follow, with All Four of Toronto's Light Rail Lines Expected to Be Done by 2020.” Toronto Star, April 25, 2012, sec. GT1.`,
+    `Rhianna, Jackson-Kelso, and Bensadoun Emerald. “How Ford's TTC Overhaul Compares to Toronto City Plans.” Toronto Star, April 11, 2019, sec. GT10.`
+];
+
+export default footnotes;
