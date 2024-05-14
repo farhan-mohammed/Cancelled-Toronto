@@ -7,9 +7,9 @@ Cancelled Toronto is an informative website about the cancelled transit plans of
 
 ## Documented Components
 
-[WebColumn](components/templates/WebColumn.md)
+[WebColumn](src/components/WebColumn.md)
 
-[WebsiteWrapper](components/WebsiteWrapper.js)
+~~[WebsiteWrapper](components/WebsiteWrapper.js)~~
 
 ## Software 
 This website is built using the [Next.js](https://nextjs.org/) framework, hosted on [Ziet Now](https://zeit.co/). I found Next.js to be the perfect library for this type application as I needed a static website that has multiple static routes. 
